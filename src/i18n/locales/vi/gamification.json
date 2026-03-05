@@ -1,0 +1,53 @@
+{
+  "teams": {
+    "hero": {
+      "badge": "Guilds & Communities",
+      "title": "Đội nhóm &",
+      "titleHighlight": "Bang hội",
+      "subtitle": "Xây dựng đế chế riêng của bạn hoặc gia nhập các đội nhóm hàng đầu để chinh phục mọi thử thách.",
+      "leaderboard": "Bảng xếp hạng Đội",
+      "create": "Tạo đội mới"
+    },
+    "dashboard": {
+      "level": "Cấp độ {{level}}",
+      "region": "Hạng #{{rank}} Việt Nam",
+      "members": "{{count}}/{{max}} Thành viên",
+      "rating": "Rating Đội",
+      "trophies": "Cúp Vô Địch",
+      "coins": "Tổng LearnCoins",
+      "thisWeek": "Tuần này",
+      "battle": "Giao chiến (Battle)",
+      "chat": "Chat Bang hội"
+    },
+    "explore": {
+      "title": "Khám phá các Đội nhóm",
+      "searchPlaceholder": "Tìm kiếm theo tên hoặc tag...",
+      "tabs": {
+        "popular": "Phổ biến",
+        "new": "Mới lập",
+        "friends": "Có bạn bè tham gia"
+      }
+    },
+    "card": {
+      "rank": "Hạng #{{rank}}",
+      "members": "Thành viên ({{count}}/{{max}})",
+      "details": "Chi tiết",
+      "type": {
+        "public": "Công khai",
+        "private": "Riêng tư"
+      }
+    },
+    "event": {
+      "badge": "Sự kiện đặc biệt",
+      "title": "Đại chiến Bang Hội mùa xuân",
+      "prize": "Tổng giải thưởng lên đến 50.000.000 VNĐ và danh hiệu Epic.",
+      "join": "Tham gia ngay!"
+    },
+    "mock": {
+      "t1": "Đội ngũ chuyên giải các bài toán khó nhất thế giới.",
+      "t2": "Học hỏi và phát triển cùng nhau. Beginner friendly!",
+      "t3": "Huyền thoại của đấu trường LearnWell.",
+      "t4": "Biến code thành vàng."
+    }
+  }
+}

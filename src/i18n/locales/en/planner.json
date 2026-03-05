@@ -1,0 +1,39 @@
+{
+  "title": "Study Planner",
+  "subtitle": "Track your goals and tasks every day",
+  "actions": {
+    "newGoal": "Add new goal"
+  },
+  "calendar": {
+    "title": "Weekly Schedule",
+    "day": "Day"
+  },
+  "goals": {
+    "title": "Long-term Goals",
+    "mockup": {
+      "math": "Complete 10 Math exercises",
+      "english": "Learn 50 English vocabulary",
+      "physics": "Finish reading 2 Physics chapters"
+    }
+  },
+  "streak": {
+    "title": "Weekend Grind",
+    "message": "You are on a 7-day study streak. Complete tomorrow's task to receive a treasure chest!",
+    "action": "Get new task"
+  },
+  "tips": {
+    "title": "Study Tips",
+    "pomodoro": "Studying for 25 minutes and resting for 5 minutes using the Pomodoro method will help you stay focused longer."
+  },
+  "mockup": {
+    "tasks": {
+      "math": "Review Math 10",
+      "english": "Learn English Unit 6 vocabulary",
+      "physics": "Do Physics exercises",
+      "literature": "Read medieval literature",
+      "chemistry": "Chemistry group project",
+      "biology": "15m Biology test",
+      "summary": "Weekly summary"
+    }
+  }
+}

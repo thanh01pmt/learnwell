@@ -1,0 +1,143 @@
+{
+  "title": "Assignments",
+  "subtitle": "Track and manage your leaning progress through assignments and exams",
+  "stats": {
+    "pending": "Pending",
+    "submitted": "Submitted",
+    "graded": "Graded",
+    "avgScore": "Average Score"
+  },
+  "tabs": {
+    "all": "All",
+    "pending": "Pending",
+    "submitted": "Submitted",
+    "graded": "Graded"
+  },
+  "filters": {
+    "searchPlaceholder": "Search assignments...",
+    "subjectDefault": "All subjects",
+    "allSubjects": "All subjects"
+  },
+  "status": {
+    "pending": "Pending",
+    "in_progress": "In Progress",
+    "submitted": "Submitted",
+    "graded": "Graded",
+    "late": "Late"
+  },
+  "actions": {
+    "submit": "Submit now",
+    "continue": "Continue",
+    "viewWork": "View work",
+    "viewResult": "View result",
+    "overdue": "Overdue"
+  },
+  "details": {
+    "duration": "Duration: {{count}} minutes",
+    "questions": "{{count}} questions",
+    "dueDate": "Due: {{date}}",
+    "progress": "Progress",
+    "score": "Score"
+  },
+  "emptyState": {
+    "title": "No assignments found",
+    "description": "Adjust your filters or check back later for new assignments."
+  },
+  "submission": {
+    "title": "Submit Assignment",
+    "submit": "Submit Assignment",
+    "submitting": "Submitting...",
+    "cancel": "Cancel",
+    "errorNoFiles": "Please attach at least one file",
+    "successTitle": "Submission successful!",
+    "successDescription": "Your work for \"{{assignmentTitle}}\" has been recorded.",
+    "autoSaving": "Auto-saving...",
+    "autoSaveTime": "Last auto-saved at: {{time}}",
+    "uploadOrWrite": "Upload documents or write directly here.",
+    "lateSubmission": "Late Submission",
+    "attachFile": "Attach file",
+    "writeDirectly": "Write directly",
+    "dropzone": {
+      "title": "Drag & drop files here",
+      "description": "Or click to select files from computer"
+    },
+    "fileList": "File list ({{count}})",
+    "uploadComplete": "{{size}} KB • Upload complete",
+    "placeholderWrite": "Write your response here...",
+    "noteToTeacher": "Note to teacher",
+    "notePlaceholder": "Enter any notes or explanations for your submission..."
+  },
+  "grading": {
+    "criteria": {
+      "accuracy": "Accuracy",
+      "presentation": "Presentation",
+      "effort": "Effort",
+      "labels": {
+        "poor": "Poor",
+        "average": "Average",
+        "good": "Good",
+        "scant": "Scant",
+        "clear": "Clear",
+        "excellent": "Excellent",
+        "low": "Low",
+        "full": "Full",
+        "exceeds": "Exceeds Expectations"
+      },
+      "descriptions": {
+        "accuracyPoor": "Serious errors in knowledge.",
+        "accuracyAverage": "Contains errors but still captures main points.",
+        "accuracyGood": "Completely accurate, no knowledge errors.",
+        "presentationScant": "Hard to read, lacks clear structure.",
+        "presentationClear": "Easy to follow, stable structure.",
+        "presentationExcellent": "Creative, professional presentation.",
+        "effortLow": "Superficial effort, lacks investment.",
+        "effortFull": "Meets minimum requirements.",
+        "effortExceeds": "Clear investment of time and heart."
+      }
+    },
+    "feedback": {
+      "title": "Comments & Feedback",
+      "placeholder": "Write detailed feedback for the student...",
+      "chips": {
+        "wellDone": "Well done!",
+        "careful": "Work more carefully",
+        "improvePresentation": "Needs visual improvement",
+        "creative": "Creative"
+      },
+      "multimedia": {
+        "title": "Multimedia Feedback",
+        "audio": {
+          "start": "Record Audio",
+          "stop": "Stop recording..."
+        },
+        "video": {
+          "start": "Record Video",
+          "stop": "Stop recording..."
+        },
+        "description": "Audio/video feedback helps students learn better.",
+        "saveSuccess": "Saved {{type}} recording!",
+        "saveDescription": "Multimedia feedback has been attached to the grading.",
+        "typeAudio": "audio",
+        "typeVideo": "video"
+      }
+    },
+    "actions": {
+      "cancel": "Cancel",
+      "saving": "Saving...",
+      "completeAndSave": "Complete & Save",
+      "openNewTab": "Open in new tab"
+    },
+    "messages": {
+      "errorCriteria": "Please complete all grading criteria",
+      "successTitle": "Grading completed!",
+      "successDescription": "Submission for {{name}} has been updated with score {{score}}."
+    },
+    "previews": {
+      "submissionPreview": "Submission Preview",
+      "gradingCriteria": "Grading Criteria",
+      "weight": "Weight: {{weight}}%",
+      "autoSaving": "Auto-saving...",
+      "totalScore": "Total: {{score}}"
+    }
+  }
+}

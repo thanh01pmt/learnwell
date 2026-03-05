@@ -1,0 +1,47 @@
+{
+  "title": "Sơ đồ Tư duy Tương tác",
+  "subtitle": "Hình ảnh hóa kiến thức, tối ưu hóa việc ghi nhớ và tư duy hệ thống.",
+  "actions": {
+    "exportPdf": "Xuất PDF",
+    "createNew": "Tạo sơ đồ mới",
+    "invite": "Mời bạn bè",
+    "exportJson": "Xuất JSON"
+  },
+  "viewer": {
+    "info": "Môn học: {{subject}} • {{count}} Nút kiến thức",
+    "subject": "Môn học",
+    "nodes": "Nút kiến thức",
+    "summary": "Tóm tắt nội dung",
+    "collaboration": "Cộng tác & Chia sẻ",
+    "legend": {
+      "root": "Gốc rễ",
+      "detail": "Chi tiết",
+      "hint": "Click đúp vào nút để mở rộng"
+    }
+  },
+  "sidebar": {
+    "library": "Thư viện sơ đồ"
+  },
+  "mockup": {
+    "concepts": {
+      "a": "Khái niệm A",
+      "b": "Khái niệm B",
+      "c": "Khái niệm C",
+      "d": "Khái niệm D"
+    },
+    "maps": {
+      "python": {
+        "title": "Kiến trúc Python OOP",
+        "summary": "Sơ đồ chi tiết về các khái niệm Lập trình hướng đối tượng trong Python: Class, Inheritance, Polymorphism."
+      },
+      "history": {
+        "title": "Trình tự Lịch sử Việt Nam (1945-1975)",
+        "summary": "Tái hiện các mốc son lịch sử chói lọi trong cuộc đấu tranh giành độc lập dân tộc."
+      },
+      "business": {
+        "title": "Hệ sinh thái Chiến lược Kinh doanh",
+        "summary": "Tổng hợp các mô hình chiến lược kinh doanh hiện đại: Porter's 5 Forces, SWOT, Blue Ocean."
+      }
+    }
+  }
+}

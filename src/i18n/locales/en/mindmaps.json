@@ -1,0 +1,47 @@
+{
+  "title": "Interactive Mind Maps",
+  "subtitle": "Visualize knowledge, optimize memory and systematic thinking.",
+  "actions": {
+    "exportPdf": "Export PDF",
+    "createNew": "Create New Map",
+    "invite": "Invite Friends",
+    "exportJson": "Export JSON"
+  },
+  "viewer": {
+    "info": "Subject: {{subject}} • {{count}} Knowledge Nodes",
+    "subject": "Subject",
+    "nodes": "Knowledge Nodes",
+    "summary": "Content Summary",
+    "collaboration": "Collaboration & Sharing",
+    "legend": {
+      "root": "Root",
+      "detail": "Detail",
+      "hint": "Double click node to expand"
+    }
+  },
+  "sidebar": {
+    "library": "Mind Map Library"
+  },
+  "mockup": {
+    "concepts": {
+      "a": "Concept A",
+      "b": "Concept B",
+      "c": "Concept C",
+      "d": "Concept D"
+    },
+    "maps": {
+      "python": {
+        "title": "Python OOP Architecture",
+        "summary": "Detailed diagram of Object-Oriented Programming concepts in Python: Class, Inheritance, Polymorphism."
+      },
+      "history": {
+        "title": "Vietnam History Timeline (1945-1975)",
+        "summary": "Recreating glorious historical milestones in the struggle for national independence."
+      },
+      "business": {
+        "title": "Business Strategy Ecosystem",
+        "summary": "Synthesis of modern business strategy models: Porter's 5 Forces, SWOT, Blue Ocean."
+      }
+    }
+  }
+}

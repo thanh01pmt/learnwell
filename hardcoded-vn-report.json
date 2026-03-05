@@ -1,0 +1,3138 @@
+{
+  "src/components/LanguageSwitcher.tsx": [
+    {
+      "file": "src/components/LanguageSwitcher.tsx",
+      "line": 12,
+      "content": "{ code: 'vi', label: 'Tiếng Việt', flag: '🇻🇳' },"
+    }
+  ],
+  "src/components/classes/SeatingChart.tsx": [
+    {
+      "file": "src/components/classes/SeatingChart.tsx",
+      "line": 17,
+      "content": "{ id: \"1\", name: \"Nguyễn Minh Anh\", avatar: \"minhanh\", position: 0 },"
+    },
+    {
+      "file": "src/components/classes/SeatingChart.tsx",
+      "line": 18,
+      "content": "{ id: \"2\", name: \"Trần Tuấn Kiệt\", avatar: \"tuankiet\", position: 1 },"
+    },
+    {
+      "file": "src/components/classes/SeatingChart.tsx",
+      "line": 19,
+      "content": "{ id: \"3\", name: \"Lê Mỹ Linh\", avatar: \"mylinh\", position: 2 },"
+    },
+    {
+      "file": "src/components/classes/SeatingChart.tsx",
+      "line": 20,
+      "content": "{ id: \"4\", name: \"Phạm Gia Bảo\", avatar: \"giabao\", position: 3 },"
+    },
+    {
+      "file": "src/components/classes/SeatingChart.tsx",
+      "line": 21,
+      "content": "{ id: \"5\", name: \"Hoàng Minh Đức\", avatar: \"minhduc\", position: 4 },"
+    },
+    {
+      "file": "src/components/classes/SeatingChart.tsx",
+      "line": 22,
+      "content": "{ id: \"6\", name: \"Vũ Phương Thảo\", avatar: \"phuongthao\", position: 5 },"
+    },
+    {
+      "file": "src/components/classes/SeatingChart.tsx",
+      "line": 23,
+      "content": "{ id: \"7\", name: \"Đặng Tiến Dũng\", avatar: \"tiendung\", position: 6 },"
+    },
+    {
+      "file": "src/components/classes/SeatingChart.tsx",
+      "line": 24,
+      "content": "{ id: \"8\", name: \"Bùi Khánh Huyền\", avatar: \"khanhhuyen\", position: 7 },"
+    },
+    {
+      "file": "src/components/classes/SeatingChart.tsx",
+      "line": 25,
+      "content": "{ id: \"9\", name: \"Ngô Quốc Anh\", avatar: \"quocanh\", position: 8 },"
+    },
+    {
+      "file": "src/components/classes/SeatingChart.tsx",
+      "line": 26,
+      "content": "{ id: \"10\", name: \"Trịnh Thu Hà\", avatar: \"thuha\", position: 9 },"
+    },
+    {
+      "file": "src/components/classes/SeatingChart.tsx",
+      "line": 27,
+      "content": "{ id: \"11\", name: \"Lý Hải Nam\", avatar: \"hainam\", position: 10 },"
+    },
+    {
+      "file": "src/components/classes/SeatingChart.tsx",
+      "line": 28,
+      "content": "{ id: \"12\", name: \"Phan Tuyết Mai\", avatar: \"tuyetmai\", position: 11 },"
+    },
+    {
+      "file": "src/components/classes/SeatingChart.tsx",
+      "line": 35,
+      "content": "toast.success(\"Đã lưu sơ đồ lớp học!\", {"
+    },
+    {
+      "file": "src/components/classes/SeatingChart.tsx",
+      "line": 36,
+      "content": "description: \"Vị trí học sinh đã được cập nhật thành công (Mock).\","
+    },
+    {
+      "file": "src/components/classes/SeatingChart.tsx",
+      "line": 42,
+      "content": "toast.info(\"Đã xáo trộn chỗ ngồi!\");"
+    },
+    {
+      "file": "src/components/classes/SeatingChart.tsx",
+      "line": 51,
+      "content": "Sơ đồ chỗ ngồi"
+    },
+    {
+      "file": "src/components/classes/SeatingChart.tsx",
+      "line": 53,
+      "content": "<p className=\"text-sm text-muted-foreground\">Kéo thả để sắp xếp vị trí học sinh trong lớp</p>"
+    },
+    {
+      "file": "src/components/classes/SeatingChart.tsx",
+      "line": 58,
+      "content": "Xáo trộn"
+    },
+    {
+      "file": "src/components/classes/SeatingChart.tsx",
+      "line": 62,
+      "content": "Lưu sơ đồ"
+    },
+    {
+      "file": "src/components/classes/SeatingChart.tsx",
+      "line": 71,
+      "content": "<span className=\"text-xs font-semibold text-primary uppercase tracking-wider\">Bàn Giáo Viên</span>"
+    },
+    {
+      "file": "src/components/classes/SeatingChart.tsx",
+      "line": 101,
+      "content": "<p className=\"text-[10px] text-muted-foreground uppercase opacity-70\">Vị trí {items.indexOf(student) + 1}</p>"
+    },
+    {
+      "file": "src/components/classes/SeatingChart.tsx",
+      "line": 111,
+      "content": "Cửa ra vào"
+    }
+  ],
+  "src/contexts/FeatureFlagContext.tsx": [
+    {
+      "file": "src/contexts/FeatureFlagContext.tsx",
+      "line": 44,
+      "content": "name: \"Lớp 10A1\","
+    },
+    {
+      "file": "src/contexts/FeatureFlagContext.tsx",
+      "line": 118,
+      "content": "toast.error(\"Không thể tắt quyền truy cập của Admin\");"
+    },
+    {
+      "file": "src/contexts/FeatureFlagContext.tsx",
+      "line": 161,
+      "content": "toast.success(\"Đã khôi phục cài đặt mặc định\");"
+    },
+    {
+      "file": "src/contexts/FeatureFlagContext.tsx",
+      "line": 170,
+      "content": "toast.success(\"Nhập cấu hình thành công\");"
+    },
+    {
+      "file": "src/contexts/FeatureFlagContext.tsx",
+      "line": 175,
+      "content": "toast.error(\"Lỗi khi nhập cấu hình: \" + (e as Error).message);"
+    }
+  ],
+  "src/pages/Competency.tsx": [
+    {
+      "file": "src/pages/Competency.tsx",
+      "line": 45,
+      "content": "{t(\"competencies:subtitle\", \"Phân tích và đánh giá năng lực học tập chi tiết\")}"
+    }
+  ],
+  "src/pages/Demo.tsx": [
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 127,
+      "content": "title: 'Yêu cầu tham gia lớp học',"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 128,
+      "content": "description: 'Nguyễn Văn An muốn tham gia lớp Toán 12A1',"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 129,
+      "content": "time: '5 phút trước',"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 130,
+      "content": "user: { name: 'Nguyễn Văn An', initials: 'NA' },"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 136,
+      "content": "title: 'Bài tập đã nộp',"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 137,
+      "content": "description: 'Trần Thị Bình đã nộp bài kiểm tra Chương 3',"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 138,
+      "content": "time: '15 phút trước',"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 139,
+      "content": "user: { name: 'Trần Thị Bình', initials: 'TB' }"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 144,
+      "content": "title: 'Cảnh báo tiến độ',"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 145,
+      "content": "description: '5 học sinh chưa hoàn thành bài tập tuần này',"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 146,
+      "content": "time: '1 giờ trước'"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 151,
+      "content": "title: 'Bình luận mới',"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 152,
+      "content": "description: 'Lê Minh Châu đã bình luận về bài giảng Đại số',"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 153,
+      "content": "time: '2 giờ trước',"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 154,
+      "content": "user: { name: 'Lê Minh Châu', initials: 'LC' }"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 160,
+      "content": "{ id: 1, name: 'Nguyễn Văn An', email: 'an.nguyen@school.edu', class: 'Toán 12A1', progress: 85, status: 'active', avatar: 'NA' },"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 161,
+      "content": "{ id: 2, name: 'Trần Thị Bình', email: 'binh.tran@school.edu', class: 'Toán 12A1', progress: 92, status: 'active', avatar: 'TB' },"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 162,
+      "content": "{ id: 3, name: 'Lê Minh Châu', email: 'chau.le@school.edu', class: 'Vật Lý 11B2', progress: 67, status: 'warning', avatar: 'LC' },"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 163,
+      "content": "{ id: 4, name: 'Phạm Đức Dũng', email: 'dung.pham@school.edu', class: 'Hoá Học 10A3', progress: 45, status: 'danger', avatar: 'PD' },"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 164,
+      "content": "{ id: 5, name: 'Hoàng Thị Em', email: 'em.hoang@school.edu', class: 'Toán 12A1', progress: 78, status: 'active', avatar: 'HE' },"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 169,
+      "content": "{ id: 1, title: 'Bài tập Chương 3: Hàm số', class: 'Toán 12A1', dueDate: '2024-02-15', submitted: 28, total: 32, status: 'active' },"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 170,
+      "content": "{ id: 2, title: 'Kiểm tra giữa kỳ', class: 'Vật Lý 11B2', dueDate: '2024-02-10', submitted: 30, total: 30, status: 'completed' },"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 171,
+      "content": "{ id: 3, title: 'Thực hành: Phản ứng oxi hoá', class: 'Hoá Học 10A3', dueDate: '2024-02-18', submitted: 15, total: 35, status: 'active' },"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 172,
+      "content": "{ id: 4, title: 'Bài luận: Tác phẩm văn học', class: 'Ngữ Văn 12A1', dueDate: '2024-02-08', submitted: 25, total: 32, status: 'overdue' },"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 207,
+      "content": "{ id: 1, label: \"Toán học\", value: \"85%\", color: \"bg-primary\" },"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 208,
+      "content": "{ id: 2, label: \"Vật lý\", value: \"72%\", color: \"bg-success\" },"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 209,
+      "content": "{ id: 3, label: \"Hoá học\", value: \"90%\", color: \"bg-info\" },"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 210,
+      "content": "{ id: 4, label: \"Sinh học\", value: \"68%\", color: \"bg-warning\" },"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 254,
+      "content": "{ id: 1, text: \"Nguyễn Văn An đã nộp bài\", type: \"success\" },"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 255,
+      "content": "{ id: 2, text: \"Deadline bài tập sắp hết\", type: \"warning\" },"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 262,
+      "content": "\"Học sinh mới đăng ký\","
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 263,
+      "content": "\"Bài tập đã được chấm\","
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 264,
+      "content": "\"Có câu hỏi mới\","
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 265,
+      "content": "\"Hệ thống cập nhật\","
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 417,
+      "content": "Sử dụng CSS variable <code className=\"bg-muted px-2 py-0.5 rounded\">var(--gradient-page)</code> cho background trang"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 430,
+      "content": "Tiếng Việt có nhiều dấu (hỏi, ngã, nặng, sắc, huyền) và các ký tự đặc biệt (ư, ơ, â, ă)."
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 431,
+      "content": "Khi sử dụng line-height quá thấp (như <code className=\"bg-muted px-1.5 py-0.5 rounded\">leading-none</code>),"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 432,
+      "content": "các dấu này dễ bị cắt mất bởi khung bao của phần tử."
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 439,
+      "content": "Học tập Vượt mọi giới hạn"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 446,
+      "content": "Học tập Vượt mọi giới hạn"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 455,
+      "content": "Khi sử dụng <code className=\"bg-muted px-1.5 py-0.5 rounded\">bg-clip-text</code> với font chữ in nghiêng (italic),"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 456,
+      "content": "phần đuôi của các ký tự (như chữ N, H, M) thường bị cắt mất do vượt quá bounding box mặc định."
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 464,
+      "content": "VƯỢT MỌI GIỚI HẠN"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 473,
+      "content": "VƯỢT MỌI GIỚI HẠN"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 479,
+      "content": "<h4 className=\"text-sm font-bold mb-2\">Kỹ thuật \"Safe Area\":</h4>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 481,
+      "content": "<li>Sử dụng <code className=\"font-mono text-primary\">inline-block</code></li>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 482,
+      "content": "<li>Thêm <code className=\"font-mono text-primary\">px-6 py-4</code> (hoặc lớn hơn) để mở rộng vùng vẽ.</li>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 483,
+      "content": "<li>Sử dụng margin âm tương ứng <code className=\"font-mono text-primary\">-mx-6 -my-4</code> để không làm ảnh hưởng layout.</li>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 499,
+      "content": "Quy chuẩn về khoảng cách dọc và căn lề cho các trang Dashboard và Landing Page."
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 506,
+      "content": "Nội dung Dashboard"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 512,
+      "content": "Nội dung Landing Page"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 554,
+      "content": "<p className=\"text-xs text-muted-foreground mt-2\">Sử dụng shadow với màu primary và độ mờ cao để tạo hiệu ứng phát sáng.</p>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 561,
+      "content": "<p className=\"text-xs text-muted-foreground mt-2\">Sử dụng backdrop-blur-xl kết hợp với border mờ để tạo cảm giác kính dày.</p>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 568,
+      "content": "<p className=\"text-xs text-muted-foreground mt-2\">Kết hợp shadow mạnh, scale và transition mượt mà cho các tương tác premium.</p>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 640,
+      "content": "Card cơ bản với bo góc 16px, shadow nhẹ, background trắng."
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 641,
+      "content": "Sử dụng class <code className=\"bg-muted px-1.5 py-0.5 rounded\">card-modern</code>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 642,
+      "content": "hoặc shadcn Card component."
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 649,
+      "content": "<CardDescription>Card component từ shadcn/ui</CardDescription>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 653,
+      "content": "Sử dụng Card, CardHeader, CardContent, CardTitle, CardDescription."
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 713,
+      "content": "<strong>Usage:</strong> Sử dụng class <code className=\"bg-muted px-1.5 py-0.5 rounded\">stat-card</code>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 716,
+      "content": "và <code className=\"bg-muted px-1.5 py-0.5 rounded\">trend-up</code> /"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 730,
+      "content": "<h3 className=\"font-semibold\">Hoạt động gần đây</h3>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 732,
+      "content": "Xem tất cả"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 769,
+      "content": "Từ chối"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 772,
+      "content": "Chấp nhận"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 795,
+      "content": "<p className=\"text-xs text-muted-foreground\">Sử dụng màu theo loại activity: primary (join), success (submission), warning (alert), secondary (comment)</p>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 804,
+      "content": "<p className=\"text-xs text-muted-foreground\">Title (font-medium), description (text-muted-foreground), timestamp với icon Clock</p>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 813,
+      "content": "<p className=\"text-xs text-muted-foreground\">Avatar bên phải nếu có user, action buttons nếu actionable</p>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 821,
+      "content": "<strong>Styling:</strong> Sử dụng <code className=\"bg-muted px-1.5 py-0.5 rounded\">rounded-2xl border-2 border-border/60</code>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 822,
+      "content": "cho container, <code className=\"bg-muted px-1.5 py-0.5 rounded\">space-y-4</code> cho khoảng cách giữa các items."
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 835,
+      "content": "<TabsTrigger value=\"students\">Danh sách học sinh</TabsTrigger>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 836,
+      "content": "<TabsTrigger value=\"assignments\">Bài tập</TabsTrigger>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 843,
+      "content": "<h3 className=\"font-semibold\">Học sinh</h3>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 844,
+      "content": "<p className=\"text-sm text-muted-foreground\">Quản lý danh sách học sinh trong lớp</p>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 849,
+      "content": "<Input placeholder=\"Tìm kiếm...\" className=\"pl-10 w-64 rounded-xl\" />"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 853,
+      "content": "Thêm học sinh"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 862,
+      "content": "<TableHead className=\"font-semibold\">Học sinh</TableHead>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 863,
+      "content": "<TableHead className=\"font-semibold\">Lớp</TableHead>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 864,
+      "content": "<TableHead className=\"font-semibold\">Tiến độ</TableHead>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 865,
+      "content": "<TableHead className=\"font-semibold\">Trạng thái</TableHead>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 911,
+      "content": "{student.status === 'active' ? 'Đang học' :"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 912,
+      "content": "student.status === 'warning' ? 'Cảnh báo' : 'Cần hỗ trợ'}"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 932,
+      "content": "<h3 className=\"font-semibold\">Bài tập</h3>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 933,
+      "content": "<p className=\"text-sm text-muted-foreground\">Quản lý bài tập và deadline</p>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 937,
+      "content": "Tạo bài tập"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 945,
+      "content": "<TableHead className=\"font-semibold\">Bài tập</TableHead>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 946,
+      "content": "<TableHead className=\"font-semibold\">Lớp</TableHead>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 947,
+      "content": "<TableHead className=\"font-semibold\">Hạn nộp</TableHead>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 948,
+      "content": "<TableHead className=\"font-semibold\">Đã nộp</TableHead>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 949,
+      "content": "<TableHead className=\"font-semibold\">Trạng thái</TableHead>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 985,
+      "content": "{assignment.status === 'completed' ? 'Hoàn thành' :"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 986,
+      "content": "assignment.status === 'active' ? 'Đang mở' : 'Quá hạn'}"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1005,
+      "content": "<strong>Table Styling:</strong> Sử dụng <code className=\"bg-muted px-1.5 py-0.5 rounded\">rounded-xl border-2 border-border</code>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1007,
+      "content": "và <code className=\"bg-muted px-1.5 py-0.5 rounded\">hover:bg-muted/30</code> cho body rows."
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1021,
+      "content": "Phân trang cơ bản với các nút Previous/Next và số trang"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1057,
+      "content": "Phiên bản thu gọn cho mobile hoặc không gian hạn chế"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1064,
+      "content": "Trước"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1082,
+      "content": "Ví dụ pagination được tích hợp vào bảng danh sách học sinh"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1089,
+      "content": "<TableHead className=\"font-semibold\">Học sinh</TableHead>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1090,
+      "content": "<TableHead className=\"font-semibold\">Lớp</TableHead>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1091,
+      "content": "<TableHead className=\"font-semibold\">Tiến độ</TableHead>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1092,
+      "content": "<TableHead className=\"font-semibold\">Trạng thái</TableHead>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1123,
+      "content": "{student.status === 'active' ? 'Đang học' :"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1124,
+      "content": "student.status === 'warning' ? 'Cảnh báo' : 'Cần hỗ trợ'}"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1135,
+      "content": "Hiển thị <span className=\"font-medium\">1-3</span> trong <span className=\"font-medium\">50</span> học sinh"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1165,
+      "content": "<strong>Usage:</strong> Import từ <code className=\"bg-muted px-1.5 py-0.5 rounded\">@/components/ui/pagination</code>."
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1166,
+      "content": "Sử dụng <code className=\"bg-muted px-1.5 py-0.5 rounded\">isActive</code> prop để highlight trang hiện tại."
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1167,
+      "content": "Đặt pagination trong footer của table với <code className=\"bg-muted px-1.5 py-0.5 rounded\">border-t border-border bg-muted/30</code>."
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1181,
+      "content": "Dialog cơ bản cho form tạo mới, chỉnh sửa thông tin"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1188,
+      "content": "Tạo bài tập mới"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1193,
+      "content": "<DialogTitle>Tạo bài tập mới</DialogTitle>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1195,
+      "content": "Điền thông tin để tạo bài tập cho lớp học của bạn."
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1200,
+      "content": "<label className=\"text-sm font-medium\">Tiêu đề bài tập</label>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1201,
+      "content": "<Input placeholder=\"Ví dụ: Bài tập Chương 4\" className=\"rounded-xl\" />"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1204,
+      "content": "<label className=\"text-sm font-medium\">Lớp</label>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1205,
+      "content": "<Input placeholder=\"Chọn lớp học\" className=\"rounded-xl\" />"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1208,
+      "content": "<label className=\"text-sm font-medium\">Hạn nộp</label>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1213,
+      "content": "<Button variant=\"outline\" className=\"rounded-xl\">Huỷ</Button>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1214,
+      "content": "<Button className=\"rounded-xl\">Tạo bài tập</Button>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1224,
+      "content": "Dialog xác nhận cho các hành động nguy hiểm như xoá"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1231,
+      "content": "Xoá học sinh"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1236,
+      "content": "<AlertDialogTitle>Xác nhận xoá học sinh?</AlertDialogTitle>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1238,
+      "content": "Hành động này không thể hoàn tác. Dữ liệu học sinh <span className=\"font-medium text-foreground\">Nguyễn Văn An</span> sẽ bị xoá vĩnh viễn khỏi hệ thống."
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1242,
+      "content": "<AlertDialogCancel className=\"rounded-xl\">Huỷ</AlertDialogCancel>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1244,
+      "content": "Xoá học sinh"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1261,
+      "content": "Chỉnh sửa thông tin"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1266,
+      "content": "<DialogTitle>Chỉnh sửa học sinh</DialogTitle>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1268,
+      "content": "Cập nhật thông tin học sinh trong lớp."
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1277,
+      "content": "<Input defaultValue=\"Nguyễn Văn An\" className=\"rounded-xl mb-2\" />"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1283,
+      "content": "<Button variant=\"outline\" className=\"rounded-xl\">Huỷ</Button>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1284,
+      "content": "<Button className=\"rounded-xl\">Lưu thay đổi</Button>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1297,
+      "content": "Khoá tài khoản"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1302,
+      "content": "<AlertDialogTitle>Khoá tài khoản học sinh?</AlertDialogTitle>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1304,
+      "content": "Học sinh sẽ không thể đăng nhập và truy cập lớp học. Bạn có thể mở khoá sau."
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1308,
+      "content": "<AlertDialogCancel className=\"rounded-xl\">Huỷ</AlertDialogCancel>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1310,
+      "content": "Khoá tài khoản"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1324,
+      "content": "Xem chi tiết"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1329,
+      "content": "<DialogTitle>Chi tiết bài tập</DialogTitle>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1331,
+      "content": "Thông tin về bài tập Chương 3: Hàm số"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1336,
+      "content": "<span className=\"text-muted-foreground\">Lớp</span>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1337,
+      "content": "<Badge variant=\"secondary\" className=\"rounded-lg\">Toán 12A1</Badge>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1340,
+      "content": "<span className=\"text-muted-foreground\">Hạn nộp</span>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1344,
+      "content": "<span className=\"text-muted-foreground\">Đã nộp</span>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1348,
+      "content": "<span className=\"text-muted-foreground\">Trạng thái</span>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1349,
+      "content": "<Badge className=\"rounded-lg bg-info/10 text-info\">Đang mở</Badge>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1353,
+      "content": "<Button variant=\"outline\" className=\"rounded-xl\">Đóng</Button>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1354,
+      "content": "<Button className=\"rounded-xl\">Chấm bài</Button>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1363,
+      "content": "<strong>Usage:</strong> Sử dụng <code className=\"bg-muted px-1.5 py-0.5 rounded\">Dialog</code> cho form và thông tin,"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1364,
+      "content": "<code className=\"bg-muted px-1.5 py-0.5 rounded\">AlertDialog</code> cho xác nhận hành động."
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1365,
+      "content": "Thêm <code className=\"bg-muted px-1.5 py-0.5 rounded\">rounded-xl</code> cho các buttons trong dialog."
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1366,
+      "content": "Sử dụng <code className=\"bg-muted px-1.5 py-0.5 rounded\">bg-destructive</code> cho action nguy hiểm,"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1367,
+      "content": "<code className=\"bg-muted px-1.5 py-0.5 rounded\">bg-warning</code> cho cảnh báo."
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1381,
+      "content": "Sử dụng <code className=\"bg-muted px-1.5 py-0.5 rounded\">SkeletonCard</code> với variants: stat, class, activity"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1404,
+      "content": "Sử dụng <code className=\"bg-muted px-1.5 py-0.5 rounded\">Skeleton</code> component cho các phần tử cơ bản"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1452,
+      "content": "Hiển thị khi không có dữ liệu để hướng dẫn người dùng"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1460,
+      "content": "<h4 className=\"font-semibold mb-2\">Chưa có học sinh</h4>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1462,
+      "content": "Thêm học sinh vào lớp để bắt đầu theo dõi tiến độ"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1466,
+      "content": "Thêm học sinh"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1474,
+      "content": "<h4 className=\"font-semibold mb-2\">Không có bài tập</h4>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1476,
+      "content": "Tạo bài tập đầu tiên để giao cho học sinh"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1479,
+      "content": "Tạo bài tập"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1492,
+      "content": "<TableHead>Học sinh</TableHead>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1493,
+      "content": "<TableHead>Lớp</TableHead>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1494,
+      "content": "<TableHead>Tiến độ</TableHead>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1528,
+      "content": "Sử dụng <code className=\"bg-muted px-1.5 py-0.5 rounded\">toast()</code> từ Sonner để hiển thị thông báo phản hồi"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1535,
+      "content": "onClick={() => toast.success(\"Thành công!\", { description: \"Đã lưu thay đổi thành công\" })}"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1544,
+      "content": "onClick={() => toast.error(\"Lỗi!\", { description: \"Có lỗi xảy ra, vui lòng thử lại\" })}"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1553,
+      "content": "onClick={() => toast.warning(\"Cảnh báo!\", { description: \"Hành động này không thể hoàn tác\" })}"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1562,
+      "content": "onClick={() => toast.info(\"Thông tin\", { description: \"Có 3 học sinh mới đăng ký\" })}"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1579,
+      "content": "loading: \"Đang lưu...\","
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1580,
+      "content": "success: \"Đã lưu thành công!\","
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1581,
+      "content": "error: \"Có lỗi xảy ra\","
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1594,
+      "content": "toast(\"Xoá học sinh?\", {"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1595,
+      "content": "description: \"Nguyễn Văn An sẽ bị xoá khỏi lớp\","
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1597,
+      "content": "label: \"Xoá\","
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1598,
+      "content": "onClick: () => toast.success(\"Đã xoá học sinh\"),"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1601,
+      "content": "label: \"Huỷ\","
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1618,
+      "content": "toast.success(\"Thành công!\");"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1619,
+      "content": "toast.error(\"Lỗi!\");"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1620,
+      "content": "toast.warning(\"Cảnh báo!\");"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1621,
+      "content": "toast.info(\"Thông tin\");"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1624,
+      "content": "toast.success(\"Thành công!\", {"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1625,
+      "content": "description: \"Đã lưu thay đổi\""
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1630,
+      "content": "loading: \"Đang lưu...\","
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1631,
+      "content": "success: \"Đã lưu!\","
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1632,
+      "content": "error: \"Lỗi!\""
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1648,
+      "content": "Sử dụng <code className=\"bg-muted px-1.5 py-0.5 rounded\">motion</code> components với whileHover/whileTap"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1707,
+      "content": "Hiệu ứng xuất hiện tuần tự cho danh sách items"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1717,
+      "content": "Animate items khi thêm/xoá khỏi DOM"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 1939,
+      "content": "<strong>Usage:</strong> Sử dụng class <code className=\"bg-muted px-1.5 py-0.5 rounded\">icon-box-*</code>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 2014,
+      "content": "Lỗi nhập liệu"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 2017,
+      "content": "value=\"Email không hợp lệ\""
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 2021,
+      "content": "<p className=\"text-xs text-destructive\">Vui lòng nhập định dạng email chính xác (ví dụ: name@example.com)</p>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 2027,
+      "content": "Hợp lệ"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 2034,
+      "content": "<p className=\"text-xs text-success\">Email này có thể sử dụng.</p>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 2040,
+      "content": "<label className=\"text-sm font-medium text-muted-foreground\">Đang tải xử lý</label>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 2043,
+      "content": "placeholder=\"Đang kiểm tra dữ liệu...\""
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 2052,
+      "content": "<label className=\"text-sm font-medium text-muted-foreground\">Vô hiệu hoá (Disabled)</label>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 2054,
+      "content": "value=\"Dữ liệu không được phép sửa\""
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 2065,
+      "content": "<li>Sử dụng <code className=\"text-primary font-mono\">destructive</code> token cho các lỗi và cảnh báo quan trọng.</li>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 2066,
+      "content": "<li>Luôn đi kèm icon và text giải thích để hỗ trợ Accessibility (A11y).</li>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 2067,
+      "content": "<li>Sử dụng <code className=\"text-primary font-mono\">animate-spin</code> với Loader2 cho cảm giác phản hồi tức thì.</li>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 2115,
+      "content": "<li>• Sử dụng semantic color tokens (bg-primary, text-muted-foreground, ...)</li>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 2116,
+      "content": "<li>• Bo góc cards với rounded-2xl (16px) hoặc rounded-xl (12px)</li>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 2117,
+      "content": "<li>• Sử dụng class .card-modern hoặc .stat-card cho cards</li>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 2118,
+      "content": "<li>• Sử dụng icon-box-* cho icon wrappers</li>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 2119,
+      "content": "<li>• Giữ spacing consistent (gap-4, gap-6, p-4, p-6)</li>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 2120,
+      "content": "<li>• Sử dụng font weights: 400 (normal), 500 (medium), 600 (semibold), 700 (bold)</li>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 2130,
+      "content": "<li>• KHÔNG sử dụng màu trực tiếp (text-white, bg-blue-500, ...)</li>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 2131,
+      "content": "<li>• KHÔNG sử dụng inline styles cho colors</li>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 2132,
+      "content": "<li>• KHÔNG mix rounded values (giữ consistent)</li>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 2133,
+      "content": "<li>• KHÔNG sử dụng quá nhiều gradient borders</li>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 2134,
+      "content": "<li>• KHÔNG để spacing quá nhỏ (&lt; gap-2)</li>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 2135,
+      "content": "<li>• KHÔNG sử dụng font weight quá nhẹ (&lt; 400)</li>"
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 2156,
+      "content": "title=\"Chưa có khóa học nào\""
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 2157,
+      "content": "description=\"Bắt đầu hành trình bằng cách tạo khóa học đầu tiên của bạn.\""
+    },
+    {
+      "file": "src/pages/Demo.tsx",
+      "line": 2158,
+      "content": "actionLabel=\"Tạo khóa học\""
+    }
+  ],
+  "src/pages/Forum.tsx": [
+    {
+      "file": "src/pages/Forum.tsx",
+      "line": 148,
+      "content": "createdAt: \"15 phút trước\","
+    },
+    {
+      "file": "src/pages/Forum.tsx",
+      "line": 154,
+      "content": "tags: [\"Toán lớp 6\", \"Số học\"],"
+    },
+    {
+      "file": "src/pages/Forum.tsx",
+      "line": 162,
+      "content": "name: \"Tuấn Kiệt\","
+    },
+    {
+      "file": "src/pages/Forum.tsx",
+      "line": 169,
+      "content": "createdAt: \"1 giờ trước\","
+    },
+    {
+      "file": "src/pages/Forum.tsx",
+      "line": 181,
+      "content": "name: \"Hà My\","
+    },
+    {
+      "file": "src/pages/Forum.tsx",
+      "line": 188,
+      "content": "createdAt: \"2 giờ trước\","
+    },
+    {
+      "file": "src/pages/Forum.tsx",
+      "line": 193,
+      "content": "tags: [\"Tiếng Anh\", \"Học tập\"],"
+    },
+    {
+      "file": "src/pages/Forum.tsx",
+      "line": 201,
+      "content": "name: \"Đức Anh\","
+    },
+    {
+      "file": "src/pages/Forum.tsx",
+      "line": 207,
+      "content": "createdAt: \"3 giờ trước\","
+    },
+    {
+      "file": "src/pages/Forum.tsx",
+      "line": 211,
+      "content": "tags: [\"Scratch\", \"Sách\"],"
+    },
+    {
+      "file": "src/pages/Forum.tsx",
+      "line": 219,
+      "content": "name: \"Thanh Hà\","
+    },
+    {
+      "file": "src/pages/Forum.tsx",
+      "line": 226,
+      "content": "createdAt: \"5 giờ trước\","
+    },
+    {
+      "file": "src/pages/Forum.tsx",
+      "line": 230,
+      "content": "tags: [\"Thử thách\", \"Toán\"],"
+    },
+    {
+      "file": "src/pages/Forum.tsx",
+      "line": 383,
+      "content": "general: [\"Thảo luận\", \"Chia sẻ\", \"Hỏi đáp\", \"Thử thách\", \"Cuộc sống\"],"
+    },
+    {
+      "file": "src/pages/Forum.tsx",
+      "line": 384,
+      "content": "homework: [\"Toán\", \"Văn\", \"Tiếng Anh\", \"Vật lý\", \"Hóa học\", \"Sinh học\", \"Lịch sử\", \"Địa lý\", \"Lớp 6\", \"Lớp 7\", \"Lớp 8\", \"Lớp 9\"],"
+    },
+    {
+      "file": "src/pages/Forum.tsx",
+      "line": 385,
+      "content": "coding: [\"Python\", \"JavaScript\", \"Scratch\", \"HTML\", \"CSS\", \"Game\", \"Thuật toán\", \"Beginner\", \"Project\"],"
+    },
+    {
+      "file": "src/pages/Forum.tsx",
+      "line": 386,
+      "content": "tips: [\"Học tập\", \"Ôn thi\", \"Ghi nhớ\", \"Tập trung\", \"Quản lý thời gian\", \"Kinh nghiệm\"],"
+    },
+    {
+      "file": "src/pages/Forum.tsx",
+      "line": 387,
+      "content": "books: [\"Sách\", \"Tài liệu\", \"Đề thi\", \"Video\", \"Khóa học\", \"Review\"],"
+    },
+    {
+      "file": "src/pages/Forum.tsx",
+      "line": 390,
+      "content": "const popularTags = [\"Toán\", \"Tiếng Anh\", \"Python\", \"Học tập\", \"Lớp 6\", \"Lớp 7\", \"Thử thách\", \"Game\", \"Beginner\", \"Chia sẻ\"];"
+    },
+    {
+      "file": "src/pages/Forum.tsx",
+      "line": 616,
+      "content": "const allTags = [\"Toán lớp 6\", \"Số học\", \"Python\", \"Game\", \"Beginner\", \"Tiếng Anh\", \"Học tập\", \"Scratch\", \"Sách\", \"Thử thách\", \"Toán\"];"
+    },
+    {
+      "file": "src/pages/Forum.tsx",
+      "line": 1041,
+      "content": "{ name: \"Tuấn Kiệt\", points: 450, avatar: \"tuankiet\", rank: 1 },"
+    },
+    {
+      "file": "src/pages/Forum.tsx",
+      "line": 1042,
+      "content": "{ name: \"Thanh Hà\", points: 380, avatar: \"thanhha\", rank: 2 },"
+    },
+    {
+      "file": "src/pages/Forum.tsx",
+      "line": 1043,
+      "content": "{ name: \"Hà My\", points: 325, avatar: \"hamy\", rank: 3 },"
+    },
+    {
+      "file": "src/pages/Forum.tsx",
+      "line": 1045,
+      "content": "{ name: \"Đức Anh\", points: 210, avatar: \"ducanh\", rank: 5 },"
+    },
+    {
+      "file": "src/pages/Forum.tsx",
+      "line": 1074,
+      "content": "{user.points} điểm"
+    }
+  ],
+  "src/pages/ForumPost.tsx": [
+    {
+      "file": "src/pages/ForumPost.tsx",
+      "line": 78,
+      "content": "title: \"Làm sao để giải bài toán chia hết lớp 6 ạ? 🤔\","
+    },
+    {
+      "file": "src/pages/ForumPost.tsx",
+      "line": 79,
+      "content": "content: `Em không hiểu cách tìm số chia hết cho cả 3 và 5. Ai giúp em với!"
+    },
+    {
+      "file": "src/pages/ForumPost.tsx",
+      "line": 81,
+      "content": "Cụ thể là bài toán như sau:"
+    },
+    {
+      "file": "src/pages/ForumPost.tsx",
+      "line": 82,
+      "content": "- Tìm tất cả các số có 3 chữ số chia hết cho cả 3 và 5"
+    },
+    {
+      "file": "src/pages/ForumPost.tsx",
+      "line": 84,
+      "content": "Em đã thử liệt kê từ 100 nhưng thấy rất lâu. Có cách nào nhanh hơn không ạ?"
+    },
+    {
+      "file": "src/pages/ForumPost.tsx",
+      "line": 86,
+      "content": "Cảm ơn mọi người! 🙏`,"
+    },
+    {
+      "file": "src/pages/ForumPost.tsx",
+      "line": 88,
+      "content": "categoryName: \"Hỏi bài tập\","
+    },
+    {
+      "file": "src/pages/ForumPost.tsx",
+      "line": 95,
+      "content": "badge: \"🌟 Học sinh chăm chỉ\","
+    },
+    {
+      "file": "src/pages/ForumPost.tsx",
+      "line": 97,
+      "content": "createdAt: \"15 phút trước\","
+    },
+    {
+      "file": "src/pages/ForumPost.tsx",
+      "line": 103,
+      "content": "tags: [\"Toán lớp 6\", \"Số học\"],"
+    },
+    {
+      "file": "src/pages/ForumPost.tsx",
+      "line": 107,
+      "content": "content: `Chào em! Đây là một bài toán về chia hết rất hay. Để giải nhanh, em cần nhớ:"
+    },
+    {
+      "file": "src/pages/ForumPost.tsx",
+      "line": 109,
+      "content": "1. **Số chia hết cho 3**: Tổng các chữ số chia hết cho 3"
+    },
+    {
+      "file": "src/pages/ForumPost.tsx",
+      "line": 110,
+      "content": "2. **Số chia hết cho 5**: Chữ số tận cùng là 0 hoặc 5"
+    },
+    {
+      "file": "src/pages/ForumPost.tsx",
+      "line": 112,
+      "content": "Vì số phải chia hết cho **cả 3 và 5**, nên nó phải chia hết cho **15** (BCNN của 3 và 5)."
+    },
+    {
+      "file": "src/pages/ForumPost.tsx",
+      "line": 115,
+      "content": "- Số có 3 chữ số nhỏ nhất chia hết cho 15: 105"
+    },
+    {
+      "file": "src/pages/ForumPost.tsx",
+      "line": 116,
+      "content": "- Số có 3 chữ số lớn nhất chia hết cho 15: 990"
+    },
+    {
+      "file": "src/pages/ForumPost.tsx",
+      "line": 117,
+      "content": "- Các số cần tìm: 105, 120, 135, ..., 990"
+    },
+    {
+      "file": "src/pages/ForumPost.tsx",
+      "line": 119,
+      "content": "Số lượng = (990 - 105) / 15 + 1 = **60 số**"
+    },
+    {
+      "file": "src/pages/ForumPost.tsx",
+      "line": 121,
+      "content": "Chúc em học tốt! 📚`,"
+    },
+    {
+      "file": "src/pages/ForumPost.tsx",
+      "line": 123,
+      "content": "name: \"Cô Hương\","
+    },
+    {
+      "file": "src/pages/ForumPost.tsx",
+      "line": 128,
+      "content": "badge: \"👩‍🏫 Giáo viên\","
+    },
+    {
+      "file": "src/pages/ForumPost.tsx",
+      "line": 130,
+      "content": "createdAt: \"10 phút trước\","
+    },
+    {
+      "file": "src/pages/ForumPost.tsx",
+      "line": 136,
+      "content": "content: \"Cảm ơn cô ạ! Em hiểu rồi. Vậy là mình dùng BCNN để gộp điều kiện lại phải không ạ? 😊\","
+    },
+    {
+      "file": "src/pages/ForumPost.tsx",
+      "line": 143,
+      "content": "badge: \"🌟 Học sinh chăm chỉ\","
+    },
+    {
+      "file": "src/pages/ForumPost.tsx",
+      "line": 145,
+      "content": "createdAt: \"8 phút trước\","
+    },
+    {
+      "file": "src/pages/ForumPost.tsx",
+      "line": 150,
+      "content": "content: \"Đúng rồi em! BCNN giúp gộp nhiều điều kiện chia hết thành một. Cố gắng lên nhé! 💪\","
+    },
+    {
+      "file": "src/pages/ForumPost.tsx",
+      "line": 152,
+      "content": "name: \"Cô Hương\","
+    },
+    {
+      "file": "src/pages/ForumPost.tsx",
+      "line": 157,
+      "content": "badge: \"👩‍🏫 Giáo viên\","
+    },
+    {
+      "file": "src/pages/ForumPost.tsx",
+      "line": 159,
+      "content": "createdAt: \"5 phút trước\","
+    },
+    {
+      "file": "src/pages/ForumPost.tsx",
+      "line": 166,
+      "content": "title: \"Share code game đoán số bằng Python 🐍\","
+    },
+    {
+      "file": "src/pages/ForumPost.tsx",
+      "line": 167,
+      "content": "content: `Mình vừa làm xong game đoán số, code đơn giản lắm! Ai muốn học thì vào xem nha."
+    },
+    {
+      "file": "src/pages/ForumPost.tsx",
+      "line": 176,
+      "content": "print(\"🎮 Chào mừng đến với game đoán số!\")"
+    },
+    {
+      "file": "src/pages/ForumPost.tsx",
+      "line": 177,
+      "content": "print(\"Mình đang nghĩ một số từ 1 đến 100...\")"
+    },
+    {
+      "file": "src/pages/ForumPost.tsx",
+      "line": 180,
+      "content": "guess = int(input(\"Bạn đoán số: \"))"
+    },
+    {
+      "file": "src/pages/ForumPost.tsx",
+      "line": 184,
+      "content": "print(\"📈 Số cần đoán lớn hơn!\")"
+    },
+    {
+      "file": "src/pages/ForumPost.tsx",
+      "line": 186,
+      "content": "print(\"📉 Số cần đoán nhỏ hơn!\")"
+    },
+    {
+      "file": "src/pages/ForumPost.tsx",
+      "line": 188,
+      "content": "print(f\"🎉 Chính xác! Bạn đã đoán đúng sau {attempts} lần thử!\")"
+    },
+    {
+      "file": "src/pages/ForumPost.tsx",
+      "line": 194,
+      "content": "Mọi người có thể thử và cải tiến thêm nhé! Ví dụ thêm giới hạn số lần đoán, tính điểm, v.v.`,"
+    },
+    {
+      "file": "src/pages/ForumPost.tsx",
+      "line": 196,
+      "content": "categoryName: \"Lập trình\","
+    },
+    {
+      "file": "src/pages/ForumPost.tsx",
+      "line": 198,
+      "content": "name: \"Tuấn Kiệt\","
+    },
+    {
+      "file": "src/pages/ForumPost.tsx",
+      "line": 203,
+      "content": "badge: \"💻 Cao thủ code\","
+    },
+    {
+      "file": "src/pages/ForumPost.tsx",
+      "line": 205,
+      "content": "createdAt: \"1 giờ trước\","
+    },
+    {
+      "file": "src/pages/ForumPost.tsx",
+      "line": 213,
+      "content": "content: \"Hay quá! Mình sẽ thử thêm tính năng lưu high score vào file nhé 🏆\","
+    },
+    {
+      "file": "src/pages/ForumPost.tsx",
+      "line": 215,
+      "content": "name: \"Hà My\","
+    },
+    {
+      "file": "src/pages/ForumPost.tsx",
+      "line": 220,
+      "content": "badge: \"📚 Mọt sách\","
+    },
+    {
+      "file": "src/pages/ForumPost.tsx",
+      "line": 222,
+      "content": "createdAt: \"45 phút trước\","
+    },
+    {
+      "file": "src/pages/ForumPost.tsx",
+      "line": 227,
+      "content": "content: \"Mình mới học Python, code này dễ hiểu quá! Cảm ơn bạn nhiều 🙏\","
+    },
+    {
+      "file": "src/pages/ForumPost.tsx",
+      "line": 229,
+      "content": "name: \"Đức Anh\","
+    },
+    {
+      "file": "src/pages/ForumPost.tsx",
+      "line": 235,
+      "content": "createdAt: \"30 phút trước\","
+    },
+    {
+      "file": "src/pages/ForumPost.tsx",
+      "line": 281,
+      "content": "Câu trả lời hay nhất"
+    },
+    {
+      "file": "src/pages/ForumPost.tsx",
+      "line": 305,
+      "content": "Đánh dấu hay nhất"
+    },
+    {
+      "file": "src/pages/ForumPost.tsx",
+      "line": 370,
+      "content": "Quay lại diễn đàn"
+    },
+    {
+      "file": "src/pages/ForumPost.tsx",
+      "line": 405,
+      "content": "{post.views} lượt xem"
+    },
+    {
+      "file": "src/pages/ForumPost.tsx",
+      "line": 419,
+      "content": "Chia sẻ"
+    },
+    {
+      "file": "src/pages/ForumPost.tsx",
+      "line": 423,
+      "content": "Báo cáo"
+    },
+    {
+      "file": "src/pages/ForumPost.tsx",
+      "line": 438,
+      "content": "✓ Đã giải quyết"
+    },
+    {
+      "file": "src/pages/ForumPost.tsx",
+      "line": 495,
+      "content": "Lưu"
+    },
+    {
+      "file": "src/pages/ForumPost.tsx",
+      "line": 499,
+      "content": "Chia sẻ"
+    },
+    {
+      "file": "src/pages/ForumPost.tsx",
+      "line": 508,
+      "content": "Bình luận ({post.comments.length})"
+    },
+    {
+      "file": "src/pages/ForumPost.tsx",
+      "line": 519,
+      "content": "placeholder=\"Viết bình luận của bạn...\""
+    },
+    {
+      "file": "src/pages/ForumPost.tsx",
+      "line": 531,
+      "content": "Gửi bình luận"
+    },
+    {
+      "file": "src/pages/ForumPost.tsx",
+      "line": 553,
+      "content": "<p>Chưa có bình luận nào. Hãy là người đầu tiên!</p>"
+    }
+  ],
+  "src/pages/OfficeHours.tsx": [
+    {
+      "file": "src/pages/OfficeHours.tsx",
+      "line": 47,
+      "content": "{isTeacher ? \"Quản lý lịch tư vấn và hỗ trợ học sinh\" : \"Đặt lịch tư vấn 1:1 với giáo viên của bạn\"}"
+    },
+    {
+      "file": "src/pages/OfficeHours.tsx",
+      "line": 52,
+      "content": "<Plus className=\"h-4 w-4\" /> Cài đặt khung giờ trống"
+    },
+    {
+      "file": "src/pages/OfficeHours.tsx",
+      "line": 63,
+      "content": "<CardTitle className=\"text-lg\">Chọn giáo viên</CardTitle>"
+    },
+    {
+      "file": "src/pages/OfficeHours.tsx",
+      "line": 104,
+      "content": "Lịch trình khả dụng"
+    },
+    {
+      "file": "src/pages/OfficeHours.tsx",
+      "line": 106,
+      "content": "<CardDescription>Chọn khung giờ trống để đặt lịch hẹn</CardDescription>"
+    },
+    {
+      "file": "src/pages/OfficeHours.tsx",
+      "line": 110,
+      "content": "{[\"Thứ 2\", \"Thứ 3\", \"Thứ 4\", \"Thứ 5\", \"Thứ 6\"].map((day) => ("
+    },
+    {
+      "file": "src/pages/OfficeHours.tsx",
+      "line": 130,
+      "content": "<DialogTitle>Xác nhận đặt lịch</DialogTitle>"
+    },
+    {
+      "file": "src/pages/OfficeHours.tsx",
+      "line": 143,
+      "content": "<label className=\"text-sm font-medium\">Bạn cần hỗ trợ về chủ đề gì?</label>"
+    },
+    {
+      "file": "src/pages/OfficeHours.tsx",
+      "line": 144,
+      "content": "<Textarea placeholder=\"Mô tả ngắn gọn thắc mắc của bạn...\" />"
+    },
+    {
+      "file": "src/pages/OfficeHours.tsx",
+      "line": 149,
+      "content": "<CheckCircle2 className=\"h-4 w-4\" /> Xác nhận đặt lịch"
+    },
+    {
+      "file": "src/pages/OfficeHours.tsx",
+      "line": 168,
+      "content": "<CardTitle className=\"text-lg\">Buổi hẹn sắp tới</CardTitle>"
+    },
+    {
+      "file": "src/pages/OfficeHours.tsx",
+      "line": 176,
+      "content": "{s.status === 'confirmed' ? 'Đã xác nhận' : 'Chờ duyệt'}"
+    },
+    {
+      "file": "src/pages/OfficeHours.tsx",
+      "line": 203,
+      "content": "<p className=\"text-xs text-muted-foreground\">Chưa có buổi hẹn nào</p>"
+    },
+    {
+      "file": "src/pages/OfficeHours.tsx",
+      "line": 213,
+      "content": "Vui lòng chuẩn bị trước các câu hỏi cụ thể để tối ưu hóa thời gian tư vấn (thường kéo dài 15-20 phút/buổi)."
+    }
+  ],
+  "src/pages/Progress.tsx": [
+    {
+      "file": "src/pages/Progress.tsx",
+      "line": 35,
+      "content": "{ week: \"Tuần 1\", score: 72 },"
+    },
+    {
+      "file": "src/pages/Progress.tsx",
+      "line": 36,
+      "content": "{ week: \"Tuần 2\", score: 75 },"
+    },
+    {
+      "file": "src/pages/Progress.tsx",
+      "line": 37,
+      "content": "{ week: \"Tuần 3\", score: 78 },"
+    },
+    {
+      "file": "src/pages/Progress.tsx",
+      "line": 38,
+      "content": "{ week: \"Tuần 4\", score: 82 },"
+    },
+    {
+      "file": "src/pages/Progress.tsx",
+      "line": 42,
+      "content": "{ id: \"1\", title: \"Hoàn thành bài kiểm tra Toán\", type: \"exam\", score: 9.0, time: \"2 giờ trước\" },"
+    },
+    {
+      "file": "src/pages/Progress.tsx",
+      "line": 43,
+      "content": "{ id: \"2\", title: \"Bài học: Phương trình bậc hai\", type: \"lesson\", duration: \"25 phút\", time: \"5 giờ trước\" },"
+    },
+    {
+      "file": "src/pages/Progress.tsx",
+      "line": 44,
+      "content": "{ id: \"3\", title: \"Luyện tập Grammar - Tenses\", type: \"practice\", accuracy: 85, time: \"1 ngày trước\" },"
+    },
+    {
+      "file": "src/pages/Progress.tsx",
+      "line": 45,
+      "content": "{ id: \"4\", title: \"Hoàn thành bài tập Văn\", type: \"assignment\", score: 8.5, time: \"1 ngày trước\" },"
+    },
+    {
+      "file": "src/pages/Progress.tsx",
+      "line": 46,
+      "content": "{ id: \"5\", title: \"Bài học: Cơ học Newton\", type: \"lesson\", duration: \"30 phút\", time: \"2 ngày trước\" },"
+    },
+    {
+      "file": "src/pages/Progress.tsx",
+      "line": 50,
+      "content": "{ subject: \"Toán học\", progress: 78, trend: \"+5%\" },"
+    },
+    {
+      "file": "src/pages/Progress.tsx",
+      "line": 51,
+      "content": "{ subject: \"Ngữ văn\", progress: 65, trend: \"+3%\" },"
+    },
+    {
+      "file": "src/pages/Progress.tsx",
+      "line": 52,
+      "content": "{ subject: \"Tiếng Anh\", progress: 85, trend: \"+8%\" },"
+    },
+    {
+      "file": "src/pages/Progress.tsx",
+      "line": 53,
+      "content": "{ subject: \"Vật lý\", progress: 52, trend: \"+2%\" },"
+    },
+    {
+      "file": "src/pages/Progress.tsx",
+      "line": 78,
+      "content": "<h1 className=\"text-2xl lg:text-3xl font-bold\">Tiến độ học tập</h1>"
+    },
+    {
+      "file": "src/pages/Progress.tsx",
+      "line": 80,
+      "content": "Theo dõi hoạt động và sự tiến bộ của bạn"
+    },
+    {
+      "file": "src/pages/Progress.tsx",
+      "line": 85,
+      "content": "Tháng 1, 2026"
+    },
+    {
+      "file": "src/pages/Progress.tsx",
+      "line": 97,
+      "content": "<p className=\"text-sm text-muted-foreground\">Thời gian học</p>"
+    },
+    {
+      "file": "src/pages/Progress.tsx",
+      "line": 108,
+      "content": "<p className=\"text-sm text-muted-foreground\">Bài học</p>"
+    },
+    {
+      "file": "src/pages/Progress.tsx",
+      "line": 119,
+      "content": "<p className=\"text-sm text-muted-foreground\">Bài tập</p>"
+    },
+    {
+      "file": "src/pages/Progress.tsx",
+      "line": 130,
+      "content": "<p className=\"text-sm text-muted-foreground\">Điểm TB</p>"
+    },
+    {
+      "file": "src/pages/Progress.tsx",
+      "line": 141,
+      "content": "<h2 className=\"text-xl font-semibold mb-4\">Hoạt động tuần này</h2>"
+    },
+    {
+      "file": "src/pages/Progress.tsx",
+      "line": 155,
+      "content": "<Bar dataKey=\"minutes\" fill=\"hsl(var(--primary))\" radius={[4, 4, 0, 0]} name=\"Phút học\" />"
+    },
+    {
+      "file": "src/pages/Progress.tsx",
+      "line": 163,
+      "content": "<h2 className=\"text-xl font-semibold mb-4\">Xu hướng điểm số</h2>"
+    },
+    {
+      "file": "src/pages/Progress.tsx",
+      "line": 189,
+      "content": "name=\"Điểm TB\""
+    },
+    {
+      "file": "src/pages/Progress.tsx",
+      "line": 201,
+      "content": "<h2 className=\"text-xl font-semibold mb-4\">Tiến độ theo môn</h2>"
+    },
+    {
+      "file": "src/pages/Progress.tsx",
+      "line": 223,
+      "content": "<h2 className=\"text-xl font-semibold mb-4\">Hoạt động gần đây</h2>"
+    }
+  ],
+  "src/pages/Reports.tsx": [
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 46,
+      "content": "{ name: \"Toán 6A\", avgScore: 82, students: 35 },"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 47,
+      "content": "{ name: \"Toán 7B\", avgScore: 78, students: 32 },"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 48,
+      "content": "{ name: \"Toán 8A\", avgScore: 85, students: 30 },"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 49,
+      "content": "{ name: \"Toán 9C\", avgScore: 76, students: 28 },"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 50,
+      "content": "{ name: \"Toán 6B\", avgScore: 80, students: 33 },"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 54,
+      "content": "{ subject: \"Số học\", value: 85 },"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 55,
+      "content": "{ subject: \"Đại số\", value: 78 },"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 56,
+      "content": "{ subject: \"Hình học\", value: 72 },"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 57,
+      "content": "{ subject: \"Thống kê\", value: 88 },"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 58,
+      "content": "{ subject: \"Xác suất\", value: 65 },"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 59,
+      "content": "{ subject: \"Lượng giác\", value: 70 },"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 63,
+      "content": "{ name: \"Xuất sắc (9-10)\", value: 25, color: \"hsl(var(--success))\" },"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 64,
+      "content": "{ name: \"Giỏi (8-9)\", value: 35, color: \"hsl(var(--primary))\" },"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 65,
+      "content": "{ name: \"Khá (6.5-8)\", value: 28, color: \"hsl(var(--accent))\" },"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 66,
+      "content": "{ name: \"Trung bình (5-6.5)\", value: 10, color: \"hsl(var(--warning))\" },"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 67,
+      "content": "{ name: \"Yếu (<5)\", value: 2, color: \"hsl(var(--destructive))\" },"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 90,
+      "content": "{ period: \"Tháng 1\", cohort2023: 85, cohort2024: 78, cohort2025: 70 },"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 91,
+      "content": "{ period: \"Tháng 2\", cohort2023: 82, cohort2024: 80, cohort2025: 75 },"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 92,
+      "content": "{ period: \"Tháng 3\", cohort2023: 88, cohort2024: 85, cohort2025: 82 },"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 93,
+      "content": "{ period: \"Tháng 4\", cohort2023: 84, cohort2024: 82, cohort2025: 80 },"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 94,
+      "content": "{ period: \"Tháng 5\", cohort2023: 90, cohort2024: 88, cohort2025: 85 },"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 95,
+      "content": "{ period: \"Tháng 6\", cohort2023: 92, cohort2024: 90, cohort2025: 88 },"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 99,
+      "content": "{ name: \"Chương 1: Số hữu tỉ\", completion: 92, avgTime: 45, engagement: 88 },"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 100,
+      "content": "{ name: \"Chương 2: Số thực\", completion: 85, avgTime: 55, engagement: 82 },"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 101,
+      "content": "{ name: \"Chương 3: Hình học phẳng\", completion: 78, avgTime: 65, engagement: 75 },"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 102,
+      "content": "{ name: \"Chương 4: Thống kê\", completion: 95, avgTime: 35, engagement: 92 },"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 103,
+      "content": "{ name: \"Ôn tập giữa kỳ\", completion: 88, avgTime: 90, engagement: 95 },"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 137,
+      "content": "<span>{Math.abs(change)}% so với tháng trước</span>"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 156,
+      "content": "<h1 className=\"text-2xl font-bold\">Báo cáo & Thống kê</h1>"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 157,
+      "content": "<p className=\"text-muted-foreground\">Theo dõi hiệu suất và tiến độ học tập</p>"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 162,
+      "content": "<SelectValue placeholder=\"Chọn thời gian\" />"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 165,
+      "content": "<SelectItem value=\"week\">Tuần này</SelectItem>"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 166,
+      "content": "<SelectItem value=\"month\">Tháng này</SelectItem>"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 167,
+      "content": "<SelectItem value=\"quarter\">Quý này</SelectItem>"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 168,
+      "content": "<SelectItem value=\"year\">Năm nay</SelectItem>"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 173,
+      "content": "Xuất báo cáo"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 180,
+      "content": "<ReportStatCard title=\"Điểm trung bình\" value=\"8.2\" change={5.3} icon={Trophy} />"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 181,
+      "content": "<ReportStatCard title=\"Tổng học sinh\" value=\"158\" change={12} icon={Users} />"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 182,
+      "content": "<ReportStatCard title=\"Bài nộp\" value=\"1,247\" change={8.7} icon={BookOpen} />"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 183,
+      "content": "<ReportStatCard title=\"Tỷ lệ hoàn thành\" value=\"94%\" change={-2.1} icon={Target} />"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 189,
+      "content": "<TabsTrigger value=\"overview\">Tổng quan</TabsTrigger>"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 190,
+      "content": "<TabsTrigger value=\"performance\">Hiệu suất</TabsTrigger>"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 191,
+      "content": "<TabsTrigger value=\"competency\">Năng lực</TabsTrigger>"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 192,
+      "content": "<TabsTrigger value=\"engagement\">Tương tác</TabsTrigger>"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 193,
+      "content": "<TabsTrigger value=\"cohorts\">Phân nhóm</TabsTrigger>"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 194,
+      "content": "<TabsTrigger value=\"activity\">Hoạt động</TabsTrigger>"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 202,
+      "content": "<CardTitle className=\"text-lg\">Xu hướng điểm số</CardTitle>"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 203,
+      "content": "<CardDescription>Điểm trung bình theo tháng</CardDescription>"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 232,
+      "content": "name=\"Điểm TB\""
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 243,
+      "content": "<CardTitle className=\"text-lg\">Phân bố điểm số</CardTitle>"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 244,
+      "content": "<CardDescription>Tỷ lệ học sinh theo xếp loại</CardDescription>"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 269,
+      "content": "formatter={(value: number) => [`${value}%`, 'Tỷ lệ']}"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 289,
+      "content": "<CardTitle className=\"text-lg\">So sánh lớp học</CardTitle>"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 290,
+      "content": "<CardDescription>Điểm trung bình theo lớp</CardDescription>"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 306,
+      "content": "<Bar dataKey=\"avgScore\" fill=\"hsl(var(--primary))\" radius={[0, 8, 8, 0]} name=\"Điểm TB\" />"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 316,
+      "content": "<CardTitle className=\"text-lg\">Bài nộp & Điểm danh</CardTitle>"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 317,
+      "content": "<CardDescription>Theo dõi hoạt động hàng tháng</CardDescription>"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 340,
+      "content": "name=\"Bài nộp\""
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 348,
+      "content": "name=\"Điểm danh (%)\""
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 363,
+      "content": "<CardTitle className=\"text-lg\">Bản đồ năng lực</CardTitle>"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 364,
+      "content": "<CardDescription>Đánh giá theo chủ đề</CardDescription>"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 374,
+      "content": "name=\"Năng lực\""
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 396,
+      "content": "<CardTitle className=\"text-lg\">Chi tiết năng lực</CardTitle>"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 397,
+      "content": "<CardDescription>Điểm số theo từng lĩnh vực</CardDescription>"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 425,
+      "content": "<CardTitle className=\"text-lg\">Hoạt động tuần này</CardTitle>"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 426,
+      "content": "<CardDescription>Bài học, bài tập và kiểm tra theo ngày</CardDescription>"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 443,
+      "content": "<Bar dataKey=\"lessons\" fill=\"hsl(var(--primary))\" radius={[4, 4, 0, 0]} name=\"Bài học\" />"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 444,
+      "content": "<Bar dataKey=\"exercises\" fill=\"hsl(var(--accent))\" radius={[4, 4, 0, 0]} name=\"Bài tập\" />"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 445,
+      "content": "<Bar dataKey=\"exams\" fill=\"hsl(var(--warning))\" radius={[4, 4, 0, 0]} name=\"Kiểm tra\" />"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 455,
+      "content": "<CardTitle className=\"text-lg\">Hiệu quả nội dung</CardTitle>"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 456,
+      "content": "<CardDescription>Metrics theo chương học</CardDescription>"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 464,
+      "content": "<Badge variant=\"outline\" className=\"text-[10px]\">{chapter.engagement}% tương tác</Badge>"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 469,
+      "content": "{chapter.completion}% hoàn thành"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 473,
+      "content": "{chapter.avgTime} phút TB"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 486,
+      "content": "<CardTitle className=\"text-lg\">Tương quan: Thời gian vs Điểm số</CardTitle>"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 487,
+      "content": "<CardDescription>Mối liên hệ giữa nỗ lực học tập và kết quả đạt được</CardDescription>"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 497,
+      "content": "name=\"Thời gian\""
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 498,
+      "content": "unit=\"phút\""
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 499,
+      "content": "label={{ value: 'Phút học tập', position: 'bottom', fill: 'hsl(var(--muted-foreground))', fontSize: 12 }}"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 505,
+      "content": "name=\"Điểm số\""
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 507,
+      "content": "label={{ value: 'Điểm số', angle: -90, position: 'left', fill: 'hsl(var(--muted-foreground))', fontSize: 12 }}"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 519,
+      "content": "<Scatter name=\"Học sinh\" data={correlationData} fill=\"hsl(var(--primary))\">"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 530,
+      "content": "<strong>Phân tích:</strong> Có mối tương quan thuận mạnh mẽ giữa thời gian học tập và điểm số. Học sinh dành trên 80 phút thường đạt điểm trên 9.0."
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 544,
+      "content": "<CardTitle className=\"text-lg\">Mật độ tương tác (Heatmap)</CardTitle>"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 545,
+      "content": "<CardDescription>Tần suất học tập theo giờ trong tuần</CardDescription>"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 548,
+      "content": "<span className=\"text-muted-foreground\">Thấp</span>"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 587,
+      "content": "<p className=\"text-xs\">{day}, {hourIndex}:00: <strong>{val} lượt tương tác</strong></p>"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 605,
+      "content": "<CardTitle className=\"text-lg\">Phân tích nhóm học sinh (Cohorts)</CardTitle>"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 606,
+      "content": "<CardDescription>So sánh tiến độ học tập giữa các niên khóa</CardDescription>"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 628,
+      "content": "name=\"Khóa 2023 (Lớp 9)\""
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 636,
+      "content": "name=\"Khóa 2024 (Lớp 8)\""
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 644,
+      "content": "name=\"Khóa 2025 (Lớp 7)\""
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 652,
+      "content": "<p className=\"text-xs text-muted-foreground mb-1\">Tỷ lệ thăng tiến Khóa 2023</p>"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 656,
+      "content": "<p className=\"text-xs text-muted-foreground mb-1\">Tỷ lệ thăng tiến Khóa 2024</p>"
+    },
+    {
+      "file": "src/pages/Reports.tsx",
+      "line": 660,
+      "content": "<p className=\"text-xs text-muted-foreground mb-1\">Tỷ lệ thăng tiến Khóa 2025</p>"
+    }
+  ],
+  "src/pages/Settings.tsx": [
+    {
+      "file": "src/pages/Settings.tsx",
+      "line": 100,
+      "content": "<Input id=\"fullName\" defaultValue=\"Nguyễn Thị Minh\" />"
+    },
+    {
+      "file": "src/pages/Settings.tsx",
+      "line": 117,
+      "content": "<SelectItem value=\"math\">Toán học</SelectItem>"
+    },
+    {
+      "file": "src/pages/Settings.tsx",
+      "line": 118,
+      "content": "<SelectItem value=\"literature\">Ngữ văn</SelectItem>"
+    },
+    {
+      "file": "src/pages/Settings.tsx",
+      "line": 119,
+      "content": "<SelectItem value=\"english\">Tiếng Anh</SelectItem>"
+    },
+    {
+      "file": "src/pages/Settings.tsx",
+      "line": 120,
+      "content": "<SelectItem value=\"physics\">Vật lý</SelectItem>"
+    },
+    {
+      "file": "src/pages/Settings.tsx",
+      "line": 255,
+      "content": "<SelectItem value=\"vi\">Tiếng Việt</SelectItem>"
+    },
+    {
+      "file": "src/pages/Settings.tsx",
+      "line": 306,
+      "content": "<p className=\"font-medium\">Chrome trên Windows</p>"
+    },
+    {
+      "file": "src/pages/Settings.tsx",
+      "line": 307,
+      "content": "<p className=\"text-sm text-muted-foreground\">{t(\"settings:settings.security.sessions.active\")} • Hà Nội, Việt Nam</p>"
+    },
+    {
+      "file": "src/pages/Settings.tsx",
+      "line": 313,
+      "content": "<p className=\"font-medium\">Safari trên iPhone</p>"
+    },
+    {
+      "file": "src/pages/Settings.tsx",
+      "line": 314,
+      "content": "<p className=\"text-sm text-muted-foreground\">2 ngày trước • TP.HCM, Việt Nam</p>"
+    }
+  ],
+  "src/pages/admin/AdminClasses.tsx": [
+    {
+      "file": "src/pages/admin/AdminClasses.tsx",
+      "line": 36,
+      "content": "{ id: 1, name: \"dashboard:mockup.teacher.classes.math6A\", teacher: \"Nguyễn Văn A\", subject: \"dashboard:mockup.subjects.math\", students: 42, progress: 78, status: \"active\", grade: \"10\" },"
+    },
+    {
+      "file": "src/pages/admin/AdminClasses.tsx",
+      "line": 37,
+      "content": "{ id: 2, name: \"dashboard:mockup.teacher.classes.van7B\", teacher: \"Trần Thị B\", subject: \"dashboard:mockup.subjects.literature\", students: 40, progress: 65, status: \"active\", grade: \"10\" },"
+    },
+    {
+      "file": "src/pages/admin/AdminClasses.tsx",
+      "line": 38,
+      "content": "{ id: 3, name: \"dashboard:mockup.teacher.classes.math6A\", teacher: \"Lê Văn C\", subject: \"dashboard:mockup.subjects.physics\", students: 38, progress: 82, status: \"active\", grade: \"11\" },"
+    },
+    {
+      "file": "src/pages/admin/AdminClasses.tsx",
+      "line": 39,
+      "content": "{ id: 4, name: \"dashboard:mockup.teacher.classes.van7B\", teacher: \"Phạm Thị D\", subject: \"dashboard:mockup.subjects.chemistry\", students: 41, progress: 45, status: \"warning\", grade: \"11\" },"
+    },
+    {
+      "file": "src/pages/admin/AdminClasses.tsx",
+      "line": 40,
+      "content": "{ id: 5, name: \"dashboard:mockup.teacher.classes.math6A\", teacher: \"Hoàng Văn E\", subject: \"dashboard:mockup.subjects.biology\", students: 35, progress: 91, status: \"active\", grade: \"12\" },"
+    },
+    {
+      "file": "src/pages/admin/AdminClasses.tsx",
+      "line": 41,
+      "content": "{ id: 6, name: \"dashboard:mockup.teacher.classes.van7B\", teacher: \"Vũ Thị F\", subject: \"dashboard:mockup.subjects.english\", students: 38, progress: 73, status: \"active\", grade: \"12\" },"
+    },
+    {
+      "file": "src/pages/admin/AdminClasses.tsx",
+      "line": 42,
+      "content": "{ id: 7, name: \"dashboard:mockup.teacher.classes.math6A\", teacher: \"Đỗ Văn G\", subject: \"dashboard:mockup.subjects.history\", students: 40, progress: 58, status: \"active\", grade: \"10\" },"
+    },
+    {
+      "file": "src/pages/admin/AdminClasses.tsx",
+      "line": 43,
+      "content": "{ id: 8, name: \"dashboard:mockup.teacher.classes.van7B\", teacher: \"Ngô Thị H\", subject: \"dashboard:mockup.subjects.math\", students: 37, progress: 69, status: \"active\", grade: \"11\" },"
+    }
+  ],
+  "src/pages/admin/AdminUsers.tsx": [
+    {
+      "file": "src/pages/admin/AdminUsers.tsx",
+      "line": 54,
+      "content": "{ id: 1, name: \"Nguyễn Văn A\", email: \"nguyenvana@school.edu.vn\", avatar: null, role: \"teacher\", status: \"active\", lastActive: \"2024-01-15 10:30\", createdAt: \"2022-08-15\" },"
+    },
+    {
+      "file": "src/pages/admin/AdminUsers.tsx",
+      "line": 55,
+      "content": "{ id: 2, name: \"Trần Thị B\", email: \"tranthib@school.edu.vn\", avatar: null, role: \"student\", status: \"active\", lastActive: \"2024-01-15 09:45\", createdAt: \"2023-09-01\" },"
+    },
+    {
+      "file": "src/pages/admin/AdminUsers.tsx",
+      "line": 56,
+      "content": "{ id: 3, name: \"Lê Văn C\", email: \"levanc@school.edu.vn\", avatar: null, role: \"student\", status: \"active\", lastActive: \"2024-01-14 16:20\", createdAt: \"2023-09-01\" },"
+    },
+    {
+      "file": "src/pages/admin/AdminUsers.tsx",
+      "line": 57,
+      "content": "{ id: 4, name: \"Phạm Thị D\", email: \"phamthid@school.edu.vn\", avatar: null, role: \"teacher\", status: \"inactive\", lastActive: \"2024-01-10 08:00\", createdAt: \"2020-08-20\" },"
+    },
+    {
+      "file": "src/pages/admin/AdminUsers.tsx",
+      "line": 58,
+      "content": "{ id: 5, name: \"Hoàng Văn E\", email: \"hoangvane@school.edu.vn\", avatar: null, role: \"admin\", status: \"active\", lastActive: \"2024-01-15 11:00\", createdAt: \"2019-01-01\" },"
+    },
+    {
+      "file": "src/pages/admin/AdminUsers.tsx",
+      "line": 59,
+      "content": "{ id: 6, name: \"Vũ Thị F\", email: \"vuthif@school.edu.vn\", avatar: null, role: \"student\", status: \"pending\", lastActive: \"-\", createdAt: \"2024-01-14\" },"
+    },
+    {
+      "file": "src/pages/admin/AdminUsers.tsx",
+      "line": 60,
+      "content": "{ id: 7, name: \"Đỗ Văn G\", email: \"dovang@school.edu.vn\", avatar: null, role: \"student\", status: \"active\", lastActive: \"2024-01-15 08:30\", createdAt: \"2023-09-01\" },"
+    },
+    {
+      "file": "src/pages/admin/AdminUsers.tsx",
+      "line": 61,
+      "content": "{ id: 8, name: \"Ngô Thị H\", email: \"ngothih@school.edu.vn\", avatar: null, role: \"teacher\", status: \"active\", lastActive: \"2024-01-15 10:00\", createdAt: \"2021-08-15\" },"
+    }
+  ],
+  "src/pages/admin/CohortTracking.tsx": [
+    {
+      "file": "src/pages/admin/CohortTracking.tsx",
+      "line": 36,
+      "content": "name: \"Khóa 2022-2026\","
+    },
+    {
+      "file": "src/pages/admin/CohortTracking.tsx",
+      "line": 46,
+      "content": "name: \"Khóa 2023-2027\","
+    },
+    {
+      "file": "src/pages/admin/CohortTracking.tsx",
+      "line": 56,
+      "content": "name: \"Khóa 2024-2028 (Mới)\","
+    },
+    {
+      "file": "src/pages/admin/CohortTracking.tsx",
+      "line": 67,
+      "content": "{ label: \"Tiến độ học tập\", color: \"bg-blue-500\", value: \"85%\" },"
+    },
+    {
+      "file": "src/pages/admin/CohortTracking.tsx",
+      "line": 68,
+      "content": "{ label: \"Tỷ lệ chuyên cần\", color: \"bg-primary\", value: \"94%\" },"
+    },
+    {
+      "file": "src/pages/admin/CohortTracking.tsx",
+      "line": 69,
+      "content": "{ label: \"Tham gia ngoại khóa\", color: \"bg-amber-500\", value: \"62%\" }"
+    },
+    {
+      "file": "src/pages/admin/CohortTracking.tsx",
+      "line": 82,
+      "content": "Theo dõi Khóa học (Cohort Tracking)"
+    },
+    {
+      "file": "src/pages/admin/CohortTracking.tsx",
+      "line": 85,
+      "content": "Phân tích dữ liệu học tập dài hạn (Longitudinal Data) để tối ưu hóa chiến lược giáo dục toàn khóa."
+    },
+    {
+      "file": "src/pages/admin/CohortTracking.tsx",
+      "line": 91,
+      "content": "Xuất báo cáo Board"
+    },
+    {
+      "file": "src/pages/admin/CohortTracking.tsx",
+      "line": 95,
+      "content": "Tạo Cohort mới"
+    },
+    {
+      "file": "src/pages/admin/CohortTracking.tsx",
+      "line": 108,
+      "content": "<p className=\"text-xs text-muted-foreground font-bold uppercase tracking-widest\">Học viên hệ thống</p>"
+    },
+    {
+      "file": "src/pages/admin/CohortTracking.tsx",
+      "line": 120,
+      "content": "<p className=\"text-xs text-muted-foreground font-bold uppercase tracking-widest\">GPA trung bình</p>"
+    },
+    {
+      "file": "src/pages/admin/CohortTracking.tsx",
+      "line": 132,
+      "content": "<p className=\"text-xs text-muted-foreground font-bold uppercase tracking-widest\">Tỷ lệ duy trì (Retention)</p>"
+    },
+    {
+      "file": "src/pages/admin/CohortTracking.tsx",
+      "line": 144,
+      "content": "<p className=\"text-xs text-muted-foreground font-bold uppercase tracking-widest\">Chỉ số đầu ra</p>"
+    },
+    {
+      "file": "src/pages/admin/CohortTracking.tsx",
+      "line": 161,
+      "content": "Phân tích Tiến trình Dài hạn (Cohort Drift Analysis)"
+    },
+    {
+      "file": "src/pages/admin/CohortTracking.tsx",
+      "line": 163,
+      "content": "<CardDescription>So sánh hiệu suất giữa các khóa học theo thời gian</CardDescription>"
+    },
+    {
+      "file": "src/pages/admin/CohortTracking.tsx",
+      "line": 201,
+      "content": "<p className=\"font-bold border-b border-white/20 pb-1 mb-1\">Dữ liệu chi tiết {i * 2}</p>"
+    },
+    {
+      "file": "src/pages/admin/CohortTracking.tsx",
+      "line": 202,
+      "content": "<p>Tiến độ: {(40 + i * 8).toFixed(1)}%</p>"
+    },
+    {
+      "file": "src/pages/admin/CohortTracking.tsx",
+      "line": 203,
+      "content": "<p>Chuyên cần: {(50 + i * 5).toFixed(1)}%</p>"
+    },
+    {
+      "file": "src/pages/admin/CohortTracking.tsx",
+      "line": 226,
+      "content": "Phân bổ chuyên ngành (Career Path Interest)"
+    },
+    {
+      "file": "src/pages/admin/CohortTracking.tsx",
+      "line": 250,
+      "content": "Chỉ số Hài lòng & Gắn kết (Pulse)"
+    },
+    {
+      "file": "src/pages/admin/CohortTracking.tsx",
+      "line": 256,
+      "content": "<span className=\"text-muted-foreground\">Mức độ hài lòng của học viên</span>"
+    },
+    {
+      "file": "src/pages/admin/CohortTracking.tsx",
+      "line": 263,
+      "content": "<span className=\"text-muted-foreground\">Chỉ số gắn kết (NPS)</span>"
+    },
+    {
+      "file": "src/pages/admin/CohortTracking.tsx",
+      "line": 271,
+      "content": "\"Dấu hiệu tích cực: Tỷ lệ khảo sát 'Hài lòng' tăng 15% sau khi triển khai hệ thống <b>Study Buddy Matching</b>.\""
+    },
+    {
+      "file": "src/pages/admin/CohortTracking.tsx",
+      "line": 286,
+      "content": "Danh sách Cohort"
+    },
+    {
+      "file": "src/pages/admin/CohortTracking.tsx",
+      "line": 305,
+      "content": "<p className=\"text-[10px] text-muted-foreground\">{cohort.students} sinh viên</p>"
+    },
+    {
+      "file": "src/pages/admin/CohortTracking.tsx",
+      "line": 314,
+      "content": "{cohort.status === 'healthy' ? 'Ổn định' : 'Cần chú ý'}"
+    },
+    {
+      "file": "src/pages/admin/CohortTracking.tsx",
+      "line": 347,
+      "content": "{ title: \"Review Báo cáo Năm học\", date: \"Jan 15, 2026\", icon: FileText },"
+    },
+    {
+      "file": "src/pages/admin/CohortTracking.tsx",
+      "line": 348,
+      "content": "{ title: \"Họp Board Chiến lược 2026\", date: \"Feb 02, 2026\", icon: Target }"
+    },
+    {
+      "file": "src/pages/admin/CohortTracking.tsx",
+      "line": 361,
+      "content": "Đặt lời nhắc Board Report"
+    },
+    {
+      "file": "src/pages/admin/CohortTracking.tsx",
+      "line": 372,
+      "content": "\"Dự báo cho thấy nếu cải thiện tỷ lệ <b>Retention học viên</b> thêm 2%, ROI của khóa học 2024 sẽ tăng trưởng vượt bậc 8%.\""
+    }
+  ],
+  "src/pages/admin/EnrollmentManager.tsx": [
+    {
+      "file": "src/pages/admin/EnrollmentManager.tsx",
+      "line": 52,
+      "content": "{ id: \"APP001\", name: \"Nguyễn Minh Anh\", grade: \"10\", date: \"2026-02-05\", status: \"new\", email: \"minhanh@gmail.com\", phone: \"0901234567\" },"
+    },
+    {
+      "file": "src/pages/admin/EnrollmentManager.tsx",
+      "line": 53,
+      "content": "{ id: \"APP002\", name: \"Lê Văn Tùng\", grade: \"11\", date: \"2026-02-04\", status: \"interview\", email: \"tunglevan@gmail.com\", phone: \"0912345678\" },"
+    },
+    {
+      "file": "src/pages/admin/EnrollmentManager.tsx",
+      "line": 54,
+      "content": "{ id: \"APP003\", name: \"Trần Thị Bé\", grade: \"10\", date: \"2026-02-03\", status: \"pending\", email: \"betran@gmail.com\", phone: \"0923456789\" },"
+    },
+    {
+      "file": "src/pages/admin/EnrollmentManager.tsx",
+      "line": 55,
+      "content": "{ id: \"APP004\", name: \"Phạm Hồng Quang\", grade: \"12\", date: \"2026-02-02\", status: \"enrolled\", email: \"quangpham@gmail.com\", phone: \"0934567890\" },"
+    },
+    {
+      "file": "src/pages/admin/EnrollmentManager.tsx",
+      "line": 56,
+      "content": "{ id: \"APP005\", name: \"Đặng Thu Thảo\", grade: \"10\", date: \"2026-02-01\", status: \"rejected\", email: \"thaodang@gmail.com\", phone: \"0945678901\" },"
+    }
+  ],
+  "src/pages/admin/ResourceOptimization.tsx": [
+    {
+      "file": "src/pages/admin/ResourceOptimization.tsx",
+      "line": 46,
+      "content": "<h1 className=\"text-3xl font-bold tracking-tight\">Tối ưu hóa Nguồn lực</h1>"
+    },
+    {
+      "file": "src/pages/admin/ResourceOptimization.tsx",
+      "line": 47,
+      "content": "<p className=\"text-muted-foreground\">Giám sát và phân bổ tài nguyên kỹ thuật hiệu quả.</p>"
+    },
+    {
+      "file": "src/pages/admin/ResourceOptimization.tsx",
+      "line": 52,
+      "content": "Làm mới dữ liệu"
+    },
+    {
+      "file": "src/pages/admin/ResourceOptimization.tsx",
+      "line": 56,
+      "content": "Cấu hình thêm Cluster"
+    },
+    {
+      "file": "src/pages/admin/ResourceOptimization.tsx",
+      "line": 121,
+      "content": "<CardTitle>Hạn ngạch Nguồn lực</CardTitle>"
+    },
+    {
+      "file": "src/pages/admin/ResourceOptimization.tsx",
+      "line": 122,
+      "content": "<CardDescription>Theo dõi các giới hạn gói dịch vụ hạ tầng</CardDescription>"
+    },
+    {
+      "file": "src/pages/admin/ResourceOptimization.tsx",
+      "line": 136,
+      "content": "<Button variant=\"ghost\" size=\"sm\" className=\"text-xs text-primary font-bold\">Xác hình tự động thu nhỏ/mở rộng</Button>"
+    },
+    {
+      "file": "src/pages/admin/ResourceOptimization.tsx",
+      "line": 144,
+      "content": "<span className=\"text-xs font-bold uppercase tracking-wider\">Khuyến nghị từ AI</span>"
+    },
+    {
+      "file": "src/pages/admin/ResourceOptimization.tsx",
+      "line": 146,
+      "content": "<CardTitle>Chiến lược tối ưu tuần này</CardTitle>"
+    },
+    {
+      "file": "src/pages/admin/ResourceOptimization.tsx",
+      "line": 150,
+      "content": "<h5 className=\"font-bold text-sm\">Nén dữ liệu CDN</h5>"
+    },
+    {
+      "file": "src/pages/admin/ResourceOptimization.tsx",
+      "line": 152,
+      "content": "Có thể tiết kiệm <strong>15%</strong> lưu lượng CDN bằng cách nén thêm 2 cấp độ cho các video bài giảng cũ (trên 6 tháng)."
+    },
+    {
+      "file": "src/pages/admin/ResourceOptimization.tsx",
+      "line": 154,
+      "content": "<Button size=\"sm\" className=\"mt-2 h-8 text-[10px] uppercase font-bold\">Thực thi ngay</Button>"
+    },
+    {
+      "file": "src/pages/admin/ResourceOptimization.tsx",
+      "line": 157,
+      "content": "<h5 className=\"font-bold text-sm\">Di chuyển Cold Storage</h5>"
+    },
+    {
+      "file": "src/pages/admin/ResourceOptimization.tsx",
+      "line": 159,
+      "content": "Di chuyển 400GB tệp đính kèm không được truy cập trong 90 ngày sang Deep Archive."
+    },
+    {
+      "file": "src/pages/admin/ResourceOptimization.tsx",
+      "line": 161,
+      "content": "<Button size=\"sm\" variant=\"outline\" className=\"mt-2 h-8 text-[10px] uppercase font-bold\">Hẹn lịch</Button>"
+    },
+    {
+      "file": "src/pages/admin/ResourceOptimization.tsx",
+      "line": 171,
+      "content": "Chi phí Hạ tầng dự kiến"
+    }
+  ],
+  "src/pages/admin/TimetableBuilder.tsx": [
+    {
+      "file": "src/pages/admin/TimetableBuilder.tsx",
+      "line": 204,
+      "content": "{ name: \"Toán 12C1\", key: \"math\" },"
+    },
+    {
+      "file": "src/pages/admin/TimetableBuilder.tsx",
+      "line": 205,
+      "content": "{ name: \"Lý 11B3\", key: \"physics\" },"
+    },
+    {
+      "file": "src/pages/admin/TimetableBuilder.tsx",
+      "line": 206,
+      "content": "{ name: \"Hóa 10A5\", key: \"chemistry\" },"
+    }
+  ],
+  "src/pages/gamification/LearnCoinShop.tsx": [
+    {
+      "file": "src/pages/gamification/LearnCoinShop.tsx",
+      "line": 32,
+      "content": "description: \"Bảo vệ chuỗi học tập của bạn nếu bạn lỡ quên học một ngày.\","
+    },
+    {
+      "file": "src/pages/gamification/LearnCoinShop.tsx",
+      "line": 42,
+      "content": "description: \"Khung đại diện lấp lánh khẳng định đẳng cấp Chuyên gia.\","
+    },
+    {
+      "file": "src/pages/gamification/LearnCoinShop.tsx",
+      "line": 52,
+      "content": "description: \"Gợi ý cho những bài tập thuật toán cực khó.\","
+    },
+    {
+      "file": "src/pages/gamification/LearnCoinShop.tsx",
+      "line": 62,
+      "content": "description: \"Nhân đôi kinh nghiệm nhận được trong vòng 24 giờ tới.\","
+    },
+    {
+      "file": "src/pages/gamification/LearnCoinShop.tsx",
+      "line": 72,
+      "content": "description: \"Hình nền rực rỡ cho trang thông tin đội nhóm của bạn.\","
+    },
+    {
+      "file": "src/pages/gamification/LearnCoinShop.tsx",
+      "line": 82,
+      "content": "description: \"Huy hiệu đặc biệt hiển thị cạnh tên người dùng.\","
+    },
+    {
+      "file": "src/pages/gamification/LearnCoinShop.tsx",
+      "line": 92,
+      "content": "description: \"Giao diện cao cấp cho Code IDE của bạn.\","
+    },
+    {
+      "file": "src/pages/gamification/LearnCoinShop.tsx",
+      "line": 103,
+      "content": "description: \"Phân tích mã nguồn chuyên sâu bằng AI (10 lần).\","
+    },
+    {
+      "file": "src/pages/gamification/LearnCoinShop.tsx",
+      "line": 114,
+      "content": "description: \"Bàn phím cơ thực tế (vận chuyển tận nơi).\","
+    },
+    {
+      "file": "src/pages/gamification/LearnCoinShop.tsx",
+      "line": 135,
+      "content": "title: \"Đổi Gem thành công!\","
+    },
+    {
+      "file": "src/pages/gamification/LearnCoinShop.tsx",
+      "line": 136,
+      "content": "description: \"Bạn đã đổi 100 LearnCoins lấy 1 Gem.\","
+    },
+    {
+      "file": "src/pages/gamification/LearnCoinShop.tsx",
+      "line": 140,
+      "content": "title: \"Không đủ số dư\","
+    },
+    {
+      "file": "src/pages/gamification/LearnCoinShop.tsx",
+      "line": 141,
+      "content": "description: \"Cần tối thiểu 100 LearnCoins để đổi Gem.\","
+    },
+    {
+      "file": "src/pages/gamification/LearnCoinShop.tsx",
+      "line": 152,
+      "content": "title: \"Thanh toán thành công!\","
+    },
+    {
+      "file": "src/pages/gamification/LearnCoinShop.tsx",
+      "line": 153,
+      "content": "description: `Bạn đã mua ${item.name} với giá ${item.price} LearnCoins.`,"
+    },
+    {
+      "file": "src/pages/gamification/LearnCoinShop.tsx",
+      "line": 157,
+      "content": "title: \"Không đủ số dư\","
+    },
+    {
+      "file": "src/pages/gamification/LearnCoinShop.tsx",
+      "line": 158,
+      "content": "description: \"Hãy giải thêm bài tập để kiếm thêm LearnCoins!\","
+    },
+    {
+      "file": "src/pages/gamification/LearnCoinShop.tsx",
+      "line": 190,
+      "content": "Đã sở hữu"
+    },
+    {
+      "file": "src/pages/gamification/LearnCoinShop.tsx",
+      "line": 202,
+      "content": "title: \"Thanh toán thành công!\","
+    },
+    {
+      "file": "src/pages/gamification/LearnCoinShop.tsx",
+      "line": 203,
+      "content": "description: `Bạn đã mua ${item.name} với giá ${item.price} ${item.currency || 'LearnCoins'}.`,"
+    },
+    {
+      "file": "src/pages/gamification/LearnCoinShop.tsx",
+      "line": 207,
+      "content": "title: \"Không đủ số dư\","
+    },
+    {
+      "file": "src/pages/gamification/LearnCoinShop.tsx",
+      "line": 208,
+      "content": "description: `Bạn cần thêm ${item.currency === \"Gems\" ? \"Gems\" : \"LearnCoins\"} để mua vật phẩm này!`,"
+    },
+    {
+      "file": "src/pages/gamification/LearnCoinShop.tsx",
+      "line": 232,
+      "content": "<p className=\"text-muted-foreground\">Sử dụng LearnCoins để nâng cấp trải nghiệm học tập.</p>"
+    },
+    {
+      "file": "src/pages/gamification/LearnCoinShop.tsx",
+      "line": 260,
+      "content": "Đổi 100 LC → 1 Gem"
+    },
+    {
+      "file": "src/pages/gamification/LearnCoinShop.tsx",
+      "line": 268,
+      "content": "<TabsTrigger value=\"all\" className=\"rounded-lg px-6 data-[state=active]:bg-primary\">Tất cả</TabsTrigger>"
+    },
+    {
+      "file": "src/pages/gamification/LearnCoinShop.tsx",
+      "line": 269,
+      "content": "<TabsTrigger value=\"Cosmetics\" className=\"rounded-lg px-6 data-[state=active]:bg-primary\">Trang trí</TabsTrigger>"
+    },
+    {
+      "file": "src/pages/gamification/LearnCoinShop.tsx",
+      "line": 270,
+      "content": "<TabsTrigger value=\"Consumables\" className=\"rounded-lg px-6 data-[state=active]:bg-primary\">Hỗ trợ</TabsTrigger>"
+    },
+    {
+      "file": "src/pages/gamification/LearnCoinShop.tsx",
+      "line": 271,
+      "content": "<TabsTrigger value=\"Themes\" className=\"rounded-lg px-6 data-[state=active]:bg-primary\">👨‍💻 Giao diện IDE</TabsTrigger>"
+    },
+    {
+      "file": "src/pages/gamification/LearnCoinShop.tsx",
+      "line": 273,
+      "content": "<TabsTrigger value=\"Real Rewards\" className=\"rounded-lg px-6 data-[state=active]:bg-primary\">🎁 Quà tặng</TabsTrigger>"
+    },
+    {
+      "file": "src/pages/gamification/LearnCoinShop.tsx",
+      "line": 300,
+      "content": "<Badge className=\"bg-primary text-primary-foreground italic\">Giới hạn thời gian</Badge>"
+    },
+    {
+      "file": "src/pages/gamification/LearnCoinShop.tsx",
+      "line": 301,
+      "content": "<h2 className=\"text-4xl font-extrabold tracking-tight\">Gói Siêu Cấp: <span className=\"text-primary\">Tech Titan</span></h2>"
+    },
+    {
+      "file": "src/pages/gamification/LearnCoinShop.tsx",
+      "line": 302,
+      "content": "<p className=\"text-muted-foreground text-lg max-w-lg\">Nhận ngay bộ vật phẩm độc quyền cho team, 5000 LearnCoins và danh hiệu Tech Titan vĩnh viễn.</p>"
+    },
+    {
+      "file": "src/pages/gamification/LearnCoinShop.tsx",
+      "line": 306,
+      "content": "Mở khóa ngay"
+    }
+  ],
+  "src/pages/parent/TeacherContact.tsx": [
+    {
+      "file": "src/pages/parent/TeacherContact.tsx",
+      "line": 329,
+      "content": "<SelectItem value=\"Tuấn Kiệt\">{t(\"parent:mocks.children.child2\")}</SelectItem>"
+    }
+  ],
+  "src/pages/projects/ProjectDetail.tsx": [
+    {
+      "file": "src/pages/projects/ProjectDetail.tsx",
+      "line": 131,
+      "content": "<p className=\"text-xs font-bold italic leading-tight\">\"{t(\"projects:detail.author.mockGoal\", { defaultValue: \"Xây dựng các công cụ hỗ trợ giáo dục dễ tiếp cận cho mọi người.\" })}\"</p>"
+    }
+  ],
+  "src/pages/social/SocialFeed.tsx": [
+    {
+      "file": "src/pages/social/SocialFeed.tsx",
+      "line": 62,
+      "content": "name: \"Tuấn Kiệt\","
+    },
+    {
+      "file": "src/pages/social/SocialFeed.tsx",
+      "line": 78,
+      "content": "name: \"Hà My\","
+    },
+    {
+      "file": "src/pages/social/SocialFeed.tsx",
+      "line": 214,
+      "content": "{ name: \"Đức Anh\", level: 3, avatar: \"ducanh\" },"
+    },
+    {
+      "file": "src/pages/social/SocialFeed.tsx",
+      "line": 215,
+      "content": "{ name: \"Thanh Hà\", level: 18, avatar: \"thanhha\" },"
+    },
+    {
+      "file": "src/pages/social/SocialFeed.tsx",
+      "line": 216,
+      "content": "{ name: \"Việt Hùng\", level: 9, avatar: \"viethung\" },"
+    }
+  ],
+  "src/pages/student/AudioLessons.tsx": [
+    {
+      "file": "src/pages/student/AudioLessons.tsx",
+      "line": 34,
+      "content": "tags: [\"Python\", \"Nơ-ron\", \"Cơ bản\"],"
+    },
+    {
+      "file": "src/pages/student/AudioLessons.tsx",
+      "line": 52,
+      "content": "tags: [\"Lịch sử\", \"Công nghiệp\", \"Xã hội\"],"
+    },
+    {
+      "file": "src/pages/student/AudioLessons.tsx",
+      "line": 68,
+      "content": "narrator: \"Thầy Hưng\","
+    },
+    {
+      "file": "src/pages/student/AudioLessons.tsx",
+      "line": 69,
+      "content": "tags: [\"Toán học\", \"Thiên nhiên\", \"Hình học\"],"
+    }
+  ],
+  "src/pages/student/Leaderboard.tsx": [
+    {
+      "file": "src/pages/student/Leaderboard.tsx",
+      "line": 23,
+      "content": "{ rank: 1, name: \"Nguyễn Văn A\", xp: 12500, level: 25, avatar: \"https://api.dicebear.com/7.x/avataaars/svg?seed=an\", trend: \"up\" },"
+    },
+    {
+      "file": "src/pages/student/Leaderboard.tsx",
+      "line": 24,
+      "content": "{ rank: 2, name: \"Trần Thị B\", xp: 11800, level: 24, avatar: \"https://api.dicebear.com/7.x/avataaars/svg?seed=binh\", trend: \"stable\" },"
+    },
+    {
+      "file": "src/pages/student/Leaderboard.tsx",
+      "line": 25,
+      "content": "{ rank: 3, name: \"Lê Hoàng C\", xp: 11200, level: 23, avatar: \"https://api.dicebear.com/7.x/avataaars/svg?seed=cuong\", trend: \"up\" },"
+    },
+    {
+      "file": "src/pages/student/Leaderboard.tsx",
+      "line": 26,
+      "content": "{ rank: 4, name: \"Phạm Thị D\", xp: 10500, level: 22, avatar: \"https://api.dicebear.com/7.x/avataaars/svg?seed=dung\", trend: \"down\" },"
+    },
+    {
+      "file": "src/pages/student/Leaderboard.tsx",
+      "line": 28,
+      "content": "{ rank: 6, name: \"Vũ Thị F\", xp: 9800, level: 20, avatar: \"https://api.dicebear.com/7.x/avataaars/svg?seed=f\", trend: \"stable\" },"
+    },
+    {
+      "file": "src/pages/student/Leaderboard.tsx",
+      "line": 29,
+      "content": "{ rank: 7, name: \"Đặng Văn G\", xp: 9500, level: 19, avatar: \"https://api.dicebear.com/7.x/avataaars/svg?seed=g\", trend: \"down\" },"
+    },
+    {
+      "file": "src/pages/student/Leaderboard.tsx",
+      "line": 30,
+      "content": "{ rank: 8, name: \"Bùi Thị H\", xp: 9200, level: 18, avatar: \"https://api.dicebear.com/7.x/avataaars/svg?seed=h\", trend: \"up\" },"
+    }
+  ],
+  "src/pages/student/MindMaps.tsx": [
+    {
+      "file": "src/pages/student/MindMaps.tsx",
+      "line": 47,
+      "content": "tags: [\"Lịch sử\", \"Việt Nam\"],"
+    }
+  ],
+  "src/pages/student/PersonalizedRoadmap.tsx": [
+    {
+      "file": "src/pages/student/PersonalizedRoadmap.tsx",
+      "line": 415,
+      "content": "{t('student:roadmap.peers.completedNote', { name: 'Hải Anh', week: 'Week 4' }) as any}"
+    }
+  ],
+  "src/pages/student/SkillGapDashboard.tsx": [
+    {
+      "file": "src/pages/student/SkillGapDashboard.tsx",
+      "line": 40,
+      "content": "impact: t('student:skills.gap.benefit', { impact: 'Giảm 40% thời gian thực thi code' } as any),"
+    },
+    {
+      "file": "src/pages/student/SkillGapDashboard.tsx",
+      "line": 41,
+      "content": "suggestion: t('student:skills.gap.aiSuggestion', { suggestion: 'Thực hành bài tập \"Matrix Traversals\" và \"Dynamic Programming Basics\".' } as any)"
+    },
+    {
+      "file": "src/pages/student/SkillGapDashboard.tsx",
+      "line": 47,
+      "content": "impact: t('student:skills.gap.benefit', { impact: 'Cải thiện UX khi load dữ liệu' } as any),"
+    },
+    {
+      "file": "src/pages/student/SkillGapDashboard.tsx",
+      "line": 48,
+      "content": "suggestion: t('student:skills.gap.aiSuggestion', { suggestion: 'Hoàn thành lab \"Advanced Promises\" trong chương 4.' } as any)"
+    },
+    {
+      "file": "src/pages/student/SkillGapDashboard.tsx",
+      "line": 199,
+      "content": "<p className=\"text-[10px] text-muted-foreground\">Hiệu suất code của bạn cao nhất vào tối Thứ 3 & Thứ 5 (20:00 - 22:00).</p>"
+    },
+    {
+      "file": "src/pages/student/SkillGapDashboard.tsx",
+      "line": 208,
+      "content": "<p className=\"text-[10px] text-muted-foreground\">Bạn có xu hướng chạy code thử nghiệm rất nhiều trước khi hoàn tất logic.</p>"
+    }
+  ],
+  "src/pages/student/StudyBuddies.tsx": [
+    {
+      "file": "src/pages/student/StudyBuddies.tsx",
+      "line": 35,
+      "content": "name: \"Lê Minh Tâm\","
+    },
+    {
+      "file": "src/pages/student/StudyBuddies.tsx",
+      "line": 46,
+      "content": "name: \"Trần Bảo Ngọc\","
+    },
+    {
+      "file": "src/pages/student/StudyBuddies.tsx",
+      "line": 57,
+      "content": "name: \"Hoàng Gia Huy\","
+    }
+  ],
+  "src/pages/teacher/TeacherDashboard.tsx": [
+    {
+      "file": "src/pages/teacher/TeacherDashboard.tsx",
+      "line": 158,
+      "content": "<p className=\"text-xs font-semibold\">Chào mừng trở lại!</p>"
+    },
+    {
+      "file": "src/pages/teacher/TeacherDashboard.tsx",
+      "line": 159,
+      "content": "<p className=\"text-[10px] text-muted-foreground\">Hôm nay có 2 yêu cầu học sinh mới cần phê duyệt.</p>"
+    },
+    {
+      "file": "src/pages/teacher/TeacherDashboard.tsx",
+      "line": 175,
+      "content": "<p className=\"text-sm font-bold\">Nguyễn Văn An</p>"
+    },
+    {
+      "file": "src/pages/teacher/TeacherDashboard.tsx",
+      "line": 176,
+      "content": "<p className=\"text-[10px] text-muted-foreground\">Lớp Toán 6A</p>"
+    },
+    {
+      "file": "src/pages/teacher/TeacherDashboard.tsx",
+      "line": 179,
+      "content": "<Badge variant=\"outline\" className=\"text-[10px]\">Chờ duyệt</Badge>"
+    }
+  ]
+}

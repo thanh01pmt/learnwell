@@ -1,0 +1,69 @@
+{
+  "title": "Tài liệu học tập",
+  "subtitle": "Truy cập bài giảng, video và tài liệu từ giáo viên",
+  "stats": {
+    "totalLessons": "Tổng bài học",
+    "completed": "Đã hoàn thành",
+    "duration": "Thời lượng",
+    "materials": "Tài liệu"
+  },
+  "tabs": {
+    "lessons": "Bài giảng",
+    "resources": "Tài liệu"
+  },
+  "filters": {
+    "searchPlaceholder": "Tìm kiếm khóa học, bài học...",
+    "subjectDefault": "Môn học",
+    "allSubjects": "Tất cả môn học"
+  },
+  "lessonTypes": {
+    "video": "Video",
+    "reading": "Bài đọc",
+    "quiz": "Kiểm tra",
+    "practice": "Luyện tập"
+  },
+  "actions": {
+    "review": "Xem lại",
+    "learnNow": "Học ngay",
+    "loginToLearn": "Đăng nhập để học",
+    "download": "Tải về",
+    "loginToDownload": "Đăng nhập để tải"
+  },
+  "chapterInfo": {
+    "lessonsCount": "{{count}} bài học",
+    "completedCount": "{{count}} hoàn thành"
+  },
+  "mockup": {
+    "chapters": {
+      "ch1": "Chương 1: Số học cơ bản",
+      "ch2": "Chương 2: Phân số",
+      "ch3": "Unit 5: Daily Routines",
+      "ch4": "Văn học hiện đại Việt Nam"
+    },
+    "lessons": {
+      "l1_1": "Số tự nhiên và các phép tính",
+      "l1_2": "Ước và bội",
+      "l1_3": "Số nguyên tố",
+      "l1_4": "Luyện tập số học",
+      "l1_5": "Bài kiểm tra chương 1",
+      "l2_1": "Khái niệm phân số",
+      "l2_2": "Rút gọn phân số",
+      "l2_3": "So sánh phân số",
+      "l2_4": "Phép cộng trừ phân số",
+      "l2_5": "Luyện tập phân số",
+      "l3_1": "Vocabulary - Daily Activities",
+      "l3_2": "Grammar - Present Simple",
+      "l3_3": "Listening Practice",
+      "l3_4": "Speaking Exercise",
+      "l4_1": "Giới thiệu văn học hiện đại",
+      "l4_2": "Tác phẩm 'Lão Hạc' - Nam Cao",
+      "l4_3": "Phân tích nhân vật"
+    },
+    "resources": {
+      "r1": "Công thức Toán lớp 6",
+      "r2": "Từ vựng Unit 1-5",
+      "r3": "Tóm tắt văn học kỳ 1",
+      "r4": "Bài tập bổ sung - Phân số"
+    }
+  }
+}

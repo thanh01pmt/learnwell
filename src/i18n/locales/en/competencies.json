@@ -1,0 +1,36 @@
+{
+  "skills": {
+    "equations": "Solving Equations",
+    "literaryAnalysis": "Literary Analysis",
+    "reading": "Reading Comprehension",
+    "grammar": "Grammar",
+    "geometry": "Spatial Geometry"
+  },
+  "achievements": {
+    "beginner": {
+      "title": "Beginner",
+      "description": "Complete the first 10 exercises"
+    },
+    "streakMaster": {
+      "title": "Streak Master",
+      "description": "Maintain a streak for 7 consecutive days"
+    },
+    "perfect": {
+      "title": "Perfect",
+      "description": "Achieve 100% in a test"
+    },
+    "lightSpeed": {
+      "title": "Light Speed",
+      "description": "Complete a test in 50% of the time"
+    },
+    "scholar": {
+      "title": "Scholar",
+      "description": "Achieve level 5 in a skill"
+    },
+    "multiTalented": {
+      "title": "Multi-talented",
+      "description": "Achieve level 3+ in all subjects"
+    }
+  },
+  "subtitle": "Subtitle"
+}

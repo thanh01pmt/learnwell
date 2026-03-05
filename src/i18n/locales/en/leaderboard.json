@@ -1,0 +1,45 @@
+{
+  "title": "Leaderboard",
+  "subtitle": "Compete and accumulate XP",
+  "rank": "Rank",
+  "player": "Player",
+  "xp": "XP",
+  "level": "Level",
+  "yourRank": "Your Rank",
+  "rankOfTotal": "# {{rank}} / {{total}}",
+  "crown": "CHAMPION",
+  "viewProfile": "View Profile",
+  "tabs": {
+    "class": "Class",
+    "school": "School",
+    "global": "Global"
+  },
+  "actions": {
+    "viewTrend": "View Trends"
+  },
+  "mockup": {
+    "accumulatedFrom": "Accumulated from Week 1, Semester 2",
+    "trend": {
+      "up": "+{{count}} ranks",
+      "down": "-{{count}} ranks",
+      "stable": "Hold rank"
+    },
+    "players": {
+      "duc": "Minh Duc Tran",
+      "huong": "Thi Huong Le",
+      "a": "Van A Nguyen",
+      "nam": "Hoang Nam Pham",
+      "mai": "Thi Mai Vu"
+    },
+    "cta": {
+      "howToEarn": {
+        "title": "How to earn more XP?",
+        "description": "Complete assignments on time and achieve max score to receive XP x2 rewards."
+      },
+      "unlockBadges": {
+        "title": "Unlock Badges",
+        "description": "You only need {{count}} more XP to receive the \"Diligent Student\" badge."
+      }
+    }
+  }
+}

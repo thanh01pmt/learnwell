@@ -1,0 +1,45 @@
+{
+  "title": "Bảng xếp hạng",
+  "subtitle": "Thi đua học tập và tích lũy XP",
+  "rank": "Hạng",
+  "player": "Người chơi",
+  "xp": "XP",
+  "level": "Cấp độ",
+  "yourRank": "Hạng của bạn",
+  "rankOfTotal": "# {{rank}} / {{total}}",
+  "crown": "QUÁN QUÂN",
+  "viewProfile": "Xem hồ sơ",
+  "tabs": {
+    "class": "Lớp",
+    "school": "Trường",
+    "global": "Toàn cầu"
+  },
+  "actions": {
+    "viewTrend": "Xem xu hướng"
+  },
+  "mockup": {
+    "accumulatedFrom": "Tích lũy từ tuần 1, kỳ 2",
+    "trend": {
+      "up": "+{{count}} hạng",
+      "down": "-{{count}} hạng",
+      "stable": "Giữ hạng"
+    },
+    "players": {
+      "duc": "Trần Minh Đức",
+      "huong": "Lê Thị Hương",
+      "a": "Nguyễn Văn A",
+      "nam": "Phạm Hoàng Nam",
+      "mai": "Vũ Thị Mai"
+    },
+    "cta": {
+      "howToEarn": {
+        "title": "Cách nhận thêm XP?",
+        "description": "Hoàn thành bài tập đúng hạn và đạt điểm tối đa để nhận thưởng XP x2."
+      },
+      "unlockBadges": {
+        "title": "Mở khóa huy hiệu",
+        "description": "Bạn chỉ cần còn {{count}} XP nữa để nhận huy hiệu \"Học sinh chuyên cần\"."
+      }
+    }
+  }
+}

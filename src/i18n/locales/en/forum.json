@@ -1,0 +1,139 @@
+{
+  "breadcrumbs": "Forum",
+  "title": "Discussion Forum",
+  "subtitle": "Share, ask, and learn with friends!",
+  "loginToPost": "Log in to post",
+  "categories": "Categories",
+  "posts": "posts",
+  "searchPlaceholder": "Search by title, content or tags...",
+  "filterByCategory": "Category",
+  "allCategories": "All Categories",
+  "timeRange": "Time Range",
+  "allTime": "All time",
+  "today": "Today",
+  "thisWeek": "This week",
+  "thisMonth": "This month",
+  "sortBy": "Sort by",
+  "latest": "Latest",
+  "mostLiked": "Most Liked",
+  "mostViewed": "Most Viewed",
+  "mostReplied": "Most Replied",
+  "newPost": "New Discussion",
+  "pinned": "Pinned",
+  "solved": "Solved",
+  "lastBy": "Last by",
+  "reputation": "Reputation",
+  "level": "Level",
+  "unanswered": "Unanswered",
+  "emptyState": {
+    "title": "No discussions found",
+    "description": "Try adjusting your filters or search query.",
+    "noPinned": "No pinned posts yet.",
+    "allAnswered": "Great! All questions have been answered! 🎉"
+  },
+  "dialog": {
+    "title": "Create New Discussion",
+    "subject": "Subject",
+    "category": "Category",
+    "selectCategory": "Select category",
+    "content": "Content",
+    "contentPlaceholder": "Write your post content here...",
+    "tags": "Tags",
+    "tagPlaceholder": "Enter tags or select from suggestions...",
+    "limitTags": "Tag limit of {{count}} reached",
+    "suggestions": "Suggestions",
+    "cancel": "Cancel",
+    "submit": "Post",
+    "titleLabel": "Title",
+    "titlePlaceholder": "Enter discussion title...",
+    "categoryLabel": "Category",
+    "categoryPlaceholder": "Select category",
+    "contentLabel": "Content",
+    "tagsLabel": "Tags",
+    "tagLimit": "Tag limit of {{count}} reached",
+    "quickSuggest": "Quick suggest:",
+    "categorySuggestions": "Category Suggestions",
+    "popularTags": "Popular Tags",
+    "searchResults": "Search Results"
+  },
+  "filters": {
+    "advanced": "Advanced Filters",
+    "clearAll": "Clear All",
+    "minLikes": "Min {{count}} likes",
+    "minReplies": "Min {{count}} replies",
+    "onlySolved": "Only solved",
+    "onlyPinned": "Only pinned",
+    "byTag": "Filter by tag"
+  },
+  "mockup": {
+    "categories": {
+      "general": {
+        "name": "General Discussion",
+        "description": "Discuss any learning topics"
+      },
+      "homework": {
+        "name": "Homework Help",
+        "description": "Get help with difficult exercises"
+      },
+      "coding": {
+        "name": "Programming",
+        "description": "Discuss code and algorithms"
+      },
+      "tips": {
+        "name": "Study Tips",
+        "description": "Share effective learning experiences"
+      },
+      "books": {
+        "name": "Books & Materials",
+        "description": "Introduce good books and materials"
+      }
+    },
+    "posts": {
+      "q1": {
+        "title": "How to solve year 6 divisibility problems? 🤔",
+        "content": "I don't understand how to find numbers divisible by both 3 and 5. Help!",
+        "badge": "🌟 Diligent Student",
+        "tags": [
+          "Year 6 Math",
+          "Arithmetic"
+        ]
+      },
+      "q2": {
+        "title": "Share Python number guessing game code 🐍",
+        "content": "I just finished a number guessing game, the code is simple! Check it out.",
+        "badge": "💻 Code Master",
+        "tags": [
+          "Python",
+          "Game",
+          "Beginner"
+        ]
+      },
+      "q3": {
+        "title": "Tips for fast English vocabulary learning! ⚡",
+        "content": "I learn 50 words a day with this method, sharing with everyone!",
+        "badge": "📚 Bookworm",
+        "tags": [
+          "English",
+          "Learning"
+        ]
+      },
+      "q4": {
+        "title": "Anyone know Scratch books for beginners?",
+        "content": "I want to learn game development with Scratch but don't know where to start.",
+        "tags": [
+          "Scratch",
+          "Books"
+        ]
+      },
+      "q5": {
+        "title": "Challenge: Solve 10 math problems in a week! 🏆",
+        "content": "Anyone want to join me in solving 10 hard math problems this week?",
+        "badge": "🏆 Top learner",
+        "tags": [
+          "Challenge",
+          "Math"
+        ]
+      }
+    }
+  }
+}

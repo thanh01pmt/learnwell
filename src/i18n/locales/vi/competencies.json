@@ -1,0 +1,36 @@
+{
+  "skills": {
+    "equations": "Giải phương trình",
+    "literaryAnalysis": "Phân tích văn học",
+    "reading": "Đọc hiểu",
+    "grammar": "Ngữ pháp",
+    "geometry": "Hình học không gian"
+  },
+  "achievements": {
+    "beginner": {
+      "title": "Người mới bắt đầu",
+      "description": "Hoàn thành 10 bài tập đầu tiên"
+    },
+    "streakMaster": {
+      "title": "Streak Master",
+      "description": "Duy trì streak 7 ngày liên tiếp"
+    },
+    "perfect": {
+      "title": "Hoàn hảo",
+      "description": "Đạt 100% trong một bài kiểm tra"
+    },
+    "lightSpeed": {
+      "title": "Tốc độ ánh sáng",
+      "description": "Hoàn thành bài kiểm tra trong 50% thời gian"
+    },
+    "scholar": {
+      "title": "Học giả",
+      "description": "Đạt level 5 ở một kỹ năng"
+    },
+    "multiTalented": {
+      "title": "Đa tài",
+      "description": "Đạt level 3+ ở tất cả môn học"
+    }
+  },
+  "subtitle": "Phụ đề"
+}

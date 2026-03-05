@@ -1,0 +1,76 @@
+{
+  "title": "Audio Lessons",
+  "subtitle": "Learn anytime, anywhere through high-quality audio.",
+  "actions": {
+    "downloadAll": "Download All",
+    "myPlaylist": "My Playlist",
+    "speed": "{{speed}}x Speed",
+    "transcript": "Transcript",
+    "viewAll": "View all audio lessons",
+    "listenNow": "Listen now"
+  },
+  "player": {
+    "narrator": "Instructor: {{name}}",
+    "about": "About this lesson",
+    "tabs": {
+      "overview": "Overview",
+      "chapters": "Chapters",
+      "resources": "Attachments"
+    }
+  },
+  "sidebar": {
+    "related": "Related Lessons",
+    "relatedDesc": "Continue your learning path",
+    "recommendation": "Suggested for you",
+    "recommendationText": "Based on your morning learning performance, we suggest you listen to more lectures on <b>Data Structures</b> to reinforce your Python knowledge."
+  },
+  "mockup": {
+    "lessons": {
+      "python": {
+        "title": "Python Basics: Variables & Data Types",
+        "description": "Learn how computers store information and basic data types in Python through practical examples.",
+        "tags": [
+          "Python",
+          "Neurons",
+          "Basic"
+        ],
+        "chapters": {
+          "intro": "Introduction",
+          "what": "What are variables?",
+          "numbers": "Numeric types",
+          "strings": "String types",
+          "summary": "Summary & Exercises"
+        }
+      },
+      "industrial": {
+        "title": "World History: The Industrial Revolution",
+        "description": "A journey back to the 18th century to understand the changes that shaped the modern world.",
+        "tags": [
+          "History",
+          "Industrial",
+          "Social"
+        ],
+        "chapters": {
+          "context": "18th century British context",
+          "steam": "Steam Engine & James Watt",
+          "production": "Changes in production",
+          "consequences": "Social consequences"
+        }
+      },
+      "goldenRatio": {
+        "title": "Fun Mathematics: The Golden Ratio in Nature",
+        "description": "Discover the magical number Phi (Φ) appearing from snail shells to galaxies.",
+        "tags": [
+          "Mathematics",
+          "Nature",
+          "Geometry"
+        ],
+        "chapters": {
+          "fibonacci": "Fibonacci sequence",
+          "definition": "Golden Ratio definition",
+          "arts": "Applications in arts"
+        }
+      }
+    }
+  }
+}

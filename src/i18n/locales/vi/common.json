@@ -1,0 +1,248 @@
+{
+  "locale": "vi-VN",
+  "common": {
+    "me": "Minh",
+    "streak": "Chuỗi",
+    "day": "ngày",
+    "new": "mới",
+    "date": "Ngày"
+  },
+  "save": "Lưu",
+  "minutes": "{{count}} phút",
+  "minutesShort": "phút",
+  "daysCount": "{{count}} ngày",
+  "weeksCount": "{{count}} tuần",
+  "cancel": "Hủy",
+  "loading": "Đang tải...",
+  "search": "Tìm kiếm...",
+  "notifications": "Thông báo",
+  "profile": "Trang cá nhân",
+  "settings": "Cài đặt",
+  "logout": "Đăng xuất",
+  "login": "Đăng nhập",
+  "signup": "Đăng ký",
+  "back": "Quay lại",
+  "noNotifications": "Không có thông báo mới",
+  "viewAll": "Xem tất cả",
+  "themeSwitcher": "Chuyển đổi chủ đề",
+  "languageSwitcher": "Chuyển đổi ngôn ngữ",
+  "new": "mới",
+  "day": "ngày",
+  "switchRole": "Chuyển vai trò",
+  "streak": "Chuỗi",
+  "you": "Bạn",
+  "time": {
+    "justNow": "Vừa xong",
+    "today": "Hôm nay",
+    "yesterday": "Hôm qua",
+    "am": "SA",
+    "pm": "CH",
+    "minutesAgo": "{{count}} phút trước",
+    "hoursAgo": "{{count}} giờ trước",
+    "daysAgo": "{{count}} ngày trước",
+    "minutes": "{{count}} phút",
+    "hours": "{{count}} giờ",
+    "days": "{{count}} ngày",
+    "3hours": "3 giờ"
+  },
+  "days": {
+    "monday": "Thứ Hai",
+    "tuesday": "Thứ Ba",
+    "wednesday": "Thứ Tư",
+    "thursday": "Thứ Năm",
+    "friday": "Thứ Sáu",
+    "saturday": "Thứ Bảy",
+    "sunday": "Chủ Nhật"
+  },
+  "daysShort": {
+    "mon": "Thứ 2",
+    "tue": "Thứ 3",
+    "wed": "Thứ 4",
+    "thu": "Thứ 5",
+    "fri": "Thứ 6",
+    "sat": "Thứ 7",
+    "sun": "CN"
+  },
+  "roles": {
+    "student": "Học sinh",
+    "teacher": "Giáo viên",
+    "admin": "Quản trị viên",
+    "parent": "Phụ huynh",
+    "subjects": {
+      "math": "Toán học",
+      "math_intensive": "Ôn thi Đại học",
+      "literature": "Ngữ văn",
+      "english": "Tiếng Anh",
+      "physics": "Vật lý",
+      "chemistry": "Hóa học",
+      "python": "Lập trình Python"
+    }
+  },
+  "levels": {
+    "beginner": "Cơ bản",
+    "intermediate": "Trung cấp",
+    "advanced": "Nâng cao"
+  },
+  "lessons": "bài học",
+  "assignments": "bài tập",
+  "assignment": "bài tập",
+  "grade": "điểm",
+  "share": "Chia sẻ",
+  "edit": "Chỉnh sửa",
+  "stats": {
+    "courses": "Khóa học",
+    "projects": "Dự án",
+    "badges": "Huy hiệu",
+    "points": "Điểm",
+    "students": "Học sinh"
+  },
+  "tabs": {
+    "all": "Tất cả"
+  },
+  "pagination": {
+    "prev": "Trước",
+    "next": "Tiếp",
+    "showing": "Hiển thị {{count}} trên {{total}}"
+  },
+  "months": {
+    "jan": "Tháng 1",
+    "feb": "Tháng 2",
+    "mar": "Tháng 3",
+    "apr": "Tháng 4",
+    "may": "Tháng 5",
+    "jun": "Tháng 6",
+    "jul": "Tháng 7",
+    "aug": "Tháng 8",
+    "sep": "Tháng 9",
+    "oct": "Tháng 10",
+    "nov": "Tháng 11",
+    "dec": "Tháng 12",
+    "week1": "Tuần 1",
+    "week2": "Tuần 2",
+    "week3": "Tuần 3",
+    "week4": "Tuần 4",
+    "week5": "Tuần 5",
+    "janShort": "T1",
+    "febShort": "T2",
+    "marShort": "T3",
+    "aprShort": "T4",
+    "mayShort": "T5",
+    "junShort": "T6",
+    "julShort": "T7",
+    "augShort": "T8",
+    "sepShort": "T9",
+    "octShort": "T10",
+    "novShort": "T11",
+    "decShort": "T12",
+    "february": "Tháng 2",
+    "january": "Tháng 1"
+  },
+  "scoreUnit": "{{count}}đ",
+  "countUnit": "{{count}} bài",
+  "labels": {
+    "completionProgress": "Tiến độ hoàn thành",
+    "gradingNeeded": "Cần chấm điểm",
+    "todaySchedule": "Lịch dạy hôm nay",
+    "inProgress": "Đang thực hiện"
+  },
+  "mockData": {
+    "studentAbbr": "BN"
+  },
+  "announcements": {
+    "statsTitle": "Thống kê thông báo",
+    "total": "Tổng cộng",
+    "today": "Hôm nay",
+    "important": "Quan trọng",
+    "newCount": "{{count}} mới",
+    "mainTitle": "Trung tâm thông báo",
+    "mainSubtitle": "Cập nhật tin tức mới nhất từ hệ thống LearnWell",
+    "mock": {
+      "item1Title": "Thay đổi lịch thi học kỳ 1",
+      "item1Content": "Lịch thi môn Toán lớp 6A1, 6A2 được dời sang ngày 15/02 thay vì 12/02. Đề nghị các em cập nhật lại lịch học tập.",
+      "item1Target": "Khối 6",
+      "item1Author": "Tổ chuyên môn Toán",
+      "item2Title": "Khởi động cuộc thi STEM LearnWell 2026",
+      "item2Content": "Cuộc thi sáng tạo STEM chính thức nhận đơn đăng ký. Tổng giá trị giải thưởng lên đến 50 triệu đồng.",
+      "item2Target": "Tất cả",
+      "item2Author": "Phòng Công tác học sinh",
+      "surveyTitle": "Hạn cuối khảo sát học tập",
+      "surveyDesc": "Còn {{count}} ngày để hoàn thành",
+      "pblTitle": "Nộp bài tập PBL khối 10",
+      "deadlineToday": "Hạn chót: {{time}} hôm nay",
+      "viewDetails": "Xem chi tiết",
+      "sorting": {
+        "newest": "Mới nhất",
+        "oldest": "Cũ nhất",
+        "priority": "Độ ưu tiên"
+      },
+      "details": {
+        "target": "Đối tượng",
+        "author": "Bởi",
+        "reminders": "Nhắc nhở quan trọng"
+      },
+      "create": {
+        "title": "Tạo thông báo mới",
+        "label": "Tiêu đề",
+        "placeholder": "Nhập tiêu đề...",
+        "targetLabel": "Đối tượng nhận",
+        "contentLabel": "Nội dung",
+        "contentPlaceholder": "Viết chi tiết thông báo...",
+        "saveDraft": "Lưu nháp",
+        "publish": "Đăng thông báo"
+      },
+      "search": {
+        "placeholder": "Tìm kiếm thông báo..."
+      },
+      "filter": "Lọc",
+      "sortingTitle": "Sắp xếp"
+    }
+  },
+  "editor": {
+    "placeholder": "Bắt đầu viết nội dung của bạn tại đây...",
+    "tableFeature": "Tính năng chèn bảng sẽ có trong bản cập nhật sau",
+    "stats": {
+      "characters": "ký tự",
+      "words": "từ"
+    }
+  },
+  "actions": {
+    "accept": "Chấp nhận",
+    "reject": "Từ chối",
+    "tryAgain": "Thử lại",
+    "advanced": "Nâng cao",
+    "cancel": "Hủy",
+    "configure": "Cấu hình",
+    "default": "Mặc định",
+    "delete": "Xóa",
+    "save": "Lưu",
+    "saveChanges": "Lưu thay đổi",
+    "submit": "Gửi"
+  },
+  "status": {
+    "noData": "Không có dữ liệu",
+    "noDataDesc": "Hiện chưa có thông tin nào để hiển thị ở đây.",
+    "loading": "Đang tải dữ liệu...",
+    "loadingDesc": "Vui lòng chờ trong giây lát.",
+    "error": "Đã có lỗi xảy ra",
+    "errorDesc": "Không thể kết nối tới máy chủ. Vui lòng thử lại sau.",
+    "noActivity": "Không có hoạt động nào"
+  },
+  "roadmap": {
+    "nodes": {
+      "quarter": "Quý"
+    }
+  },
+  "saveSuccess": "Lưu thành công",
+  "schoolYear": "Năm học",
+  "semester2": "Học kỳ 2",
+  "sort": "Sắp xếp",
+  "subjects": {
+    "math": "Toán học",
+    "math_intensive": "Toán chuyên sâu"
+  },
+  "terms": {
+    "semester2": "Học kỳ 2"
+  },
+  "verified": "Đã xác minh",
+  "weight": "Trọng số"
+}

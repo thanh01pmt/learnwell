@@ -1,0 +1,33 @@
+{
+  "title": "Thẻ ghi nhớ",
+  "decks": "bộ thẻ",
+  "cards": "thẻ",
+  "progress": "Tiến độ học tập",
+  "front": "MẶT TRƯỚC",
+  "back": "MẶT SAU",
+  "tapToSeeBack": "Nhấn để xem đáp án",
+  "known": "Đã thuộc",
+  "unknown": "Chưa thuộc",
+  "addCard": "Thêm thẻ",
+  "resetDeck": "Học lại",
+  "otherDecks": "Bộ thẻ khác",
+  "excellent": "Tuyệt vời!",
+  "completedDescription": "Bạn đã hoàn thành bộ thẻ ghi nhớ này.",
+  "toReview": "Cần ôn lại",
+  "mockup": {
+    "deckName": "Thuật toán cơ bản",
+    "deckDescription": "Các thuật toán sắp xếp và tìm kiếm thông dụng",
+    "cards": {
+      "q1": "Độ phức tạp của QuickSort trường hợp trung bình?",
+      "a1": "O(n log n)",
+      "q2": "Cấu trúc dữ liệu nào hoạt động theo nguyên tắc LIFO?",
+      "a2": "Stack (Ngăn xếp)",
+      "q3": "Thuật toán nào tìm kiếm trên mảng đã sắp xếp với O(log n)?",
+      "a3": "Binary Search (Tìm kiếm nhị phân)",
+      "q4": "Độ phức tạp của Bubble Sort?",
+      "a4": "O(n^2)",
+      "q5": "BFS sử dụng cấu trúc dữ liệu gì?",
+      "a5": "Queue (Hàng đợi)"
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "title": "Luyện tập",
+  "description": "Rèn luyện kỹ năng với các bài tập tương tác",
+  "stats": {
+    "done": "Câu đã làm",
+    "accuracy": "Độ chính xác",
+    "streak": "Streak",
+    "totalXp": "XP tổng",
+    "streakDetail": "{{count}} ngày 🔥"
+  },
+  "analytics": {
+    "accuracyTrend": "Xu hướng chính xác",
+    "accuracyTrendDesc": "Tỉ lệ trả lời đúng trong 7 ngày qua",
+    "todayTrend": "+12% hôm nay",
+    "avgTime": "Thời gian trung bình",
+    "avgTimeDesc": "Thời gian hoàn thành mỗi câu hỏi (giây)",
+    "fasterBadge": "-15s nhanh hơn",
+    "days": {
+      "T2": "T2",
+      "T3": "T3",
+      "T4": "T4",
+      "T5": "T5",
+      "T6": "T6",
+      "T7": "T7",
+      "CN": "CN"
+    }
+  },
+  "challenges": {
+    "title": "Thử thách hàng ngày",
+    "mode": "Chế độ Thử thách",
+    "toastInfo": "Chế độ Thử thách: AI sẽ ưu tiên các bài tập độ khó cao!",
+    "unlimited": "Không giới hạn",
+    "questions": "{{count}} câu hỏi",
+    "items": {
+      "i1": "Thử thách 5 phút",
+      "i2": "Marathon câu hỏi",
+      "i3": "Chế độ không giới hạn"
+    }
+  },
+  "aiTutor": {
+    "title": "Gợi ý từ AI Tutor",
+    "quote": "\"Dựa trên dữ liệu 7 ngày qua, bạn đang gặp khó khăn ở các bài toán **Hình học không gian**. Tôi đã chuẩn bị một danh sách bài tập ôn tập riêng cho bạn!\"",
+    "viewRoadmap": "Xem lộ trình ôn tập"
+  },
+  "quiz": {
+    "exit": "Thoát",
+    "submitEarly": "Nộp bài sớm",
+    "progress": "Câu {{current}} / {{total}}",
+    "timeLeft": "Thời gian còn lại",
+    "timesUp": "Hết giờ! Kết quả của bạn đang được xử lý.",
+    "mockQuestion": {
+      "text": "Nếu một tam giác có các cạnh dài 3, 4, 5, thì đó là loại tam giác nào?",
+      "options": [
+        "Tam giác đều",
+        "Tam giác cân",
+        "Tam giác vuông",
+        "Tam giác tù"
+      ]
+    }
+  },
+  "sections": {
+    "searchPlaceholder": "Tìm kiếm chủ đề luyện tập...",
+    "topicsTitle": "Chủ đề luyện tập",
+    "progress": "Tiến độ",
+    "accuracy": "{{percent}}% chính xác",
+    "continue": "Tiếp tục"
+  },
+  "mockTopics": {
+    "t1": {
+      "title": "Số học cơ bản",
+      "subject": "Toán học"
+    },
+    "t2": {
+      "title": "Phương trình bậc nhất",
+      "subject": "Toán học"
+    },
+    "t3": {
+      "title": "Văn học trung đại",
+      "subject": "Ngữ văn"
+    },
+    "t4": {
+      "title": "Grammar - Tenses",
+      "subject": "Tiếng Anh"
+    },
+    "t5": {
+      "title": "Vocabulary - Daily Life",
+      "subject": "Tiếng Anh"
+    }
+  },
+  "difficulty": {
+    "easy": "Dễ",
+    "medium": "Trung bình",
+    "hard": "Khó"
+  }
+}

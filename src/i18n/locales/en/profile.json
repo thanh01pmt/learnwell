@@ -1,0 +1,62 @@
+{
+  "labels": {
+    "class": "Class",
+    "rating": "Rating",
+    "userType": "User",
+    "school": "School"
+  },
+  "tabs": {
+    "info": "Information",
+    "skills": "Skills",
+    "achievements": "Achievements"
+  },
+  "sections": {
+    "personalInfo": "Personal Information",
+    "contactInfo": "Contact Information",
+    "codingSkills": "Coding Skills",
+    "recentAchievements": "Recent Achievements"
+  },
+  "fields": {
+    "fullName": "Full Name",
+    "bio": "Bio",
+    "phone": "Phone Number",
+    "address": "Address",
+    "joinDate": "Join Date",
+    "email": "Email"
+  },
+  "subtitle": "Manage your account information and settings",
+  "mock": {
+    "student": {
+      "bio": "Sophomore in IT, passionate about web development and AI.",
+      "role": "Student",
+      "location": "Hanoi, Vietnam",
+      "joinDate": "September 2023"
+    },
+    "teacher": {
+      "bio": "Computer Science teacher with 10 years of experience, specialized in teaching programming to high school students.",
+      "role": "Teacher",
+      "location": "Hanoi, Vietnam",
+      "joinDate": "January 2020"
+    },
+    "admin": {
+      "bio": "LMS System Administrator, in charge of operations and technical support.",
+      "role": "Administrator",
+      "location": "Hanoi, Vietnam",
+      "joinDate": "January 2019"
+    },
+    "achievements": {
+      "codeMaster": {
+        "title": "Code Master",
+        "desc": "Completed 100 exercises"
+      },
+      "perfectScore": {
+        "title": "Perfect Score",
+        "desc": "Reached 100% in a test"
+      },
+      "earlyBird": {
+        "title": "Early Bird",
+        "desc": "Submitted 7 days before deadline"
+      }
+    }
+  }
+}

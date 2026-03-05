@@ -1,0 +1,26 @@
+{
+  "title": "Notes",
+  "searchPlaceholder": "Search notes...",
+  "noNotes": "No notes found",
+  "lastUpdated": "Last updated at {{time}}",
+  "editorPlaceholder": "Start taking notes here...",
+  "emptyState": {
+    "title": "Select a note to start",
+    "description": "Organize your knowledge, save important points from lectures, and review more effectively.",
+    "createButton": "Create new note"
+  },
+  "mockNotes": {
+    "n1": {
+      "title": "Note 1: Derivatives",
+      "content": "# Key Content\n- Basic rules\n- Common exercise types\n- Notes on differentiability conditions."
+    },
+    "n2": {
+      "title": "Unit 7 Vocabulary - Technology",
+      "content": "## Key vocabulary\n- Innovation\n- Breakthrough\n- Cutting-edge"
+    },
+    "n3": {
+      "title": "Optics Experiment",
+      "content": "Equipment: Converging lens, light source, screen..."
+    }
+  }
+}

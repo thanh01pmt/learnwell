@@ -1,0 +1,202 @@
+{
+  "roadmap": {
+    "generating": {
+      "title": "AI đang xây dựng lộ trình của bạn...",
+      "subtitle": "Phân tích mục tiêu, trình độ và sở thích của bạn để tối ưu hóa việc học.",
+      "analyzing": "Phân tích Mục tiêu"
+    },
+    "builder": {
+      "version": "Personalization Engine v4.0",
+      "welcome": "Chào mừng đến với Cá nhân hóa Học tập",
+      "desc": "Hãy giúp AI hiểu bạn hơn để tạo ra lộ trình học tập hiệu quả nhất dành riêng cho bạn.",
+      "config": "Cấu hình Lộ trình",
+      "step": "Bước {{current}} / {{total}}",
+      "back": "Quay lại",
+      "continue": "Tiếp tục",
+      "generate": "Tạo Lộ trình 🚀",
+      "goals": {
+        "title": "Mục tiêu chính của bạn là gì?",
+        "web": "Lập trình Web",
+        "ds": "Cấu trúc dữ liệu & Thuật toán",
+        "ai": "Trí tuệ nhân tạo (AI)",
+        "app": "Lập trình Ứng dụng"
+      },
+      "level": {
+        "title": "Trình độ hiện tại của bạn?",
+        "beginner": "Beginner",
+        "beginnerDesc": "Chưa từng lập trình",
+        "intermediate": "Intermediate",
+        "intermediateDesc": "Đã biết cơ bản & cú pháp",
+        "advanced": "Advanced",
+        "advancedDesc": "Đã xây dựng dự án thực tế"
+      },
+      "time": {
+        "title": "Bạn có thể dành bao nhiêu thời gian mỗi tuần?",
+        "low": "Dành ít (2h)",
+        "optimal": "Tối ưu: {{count}}h/tuần",
+        "fast": "Học nhanh (20h)",
+        "estimate": "Với {{hours}}h/tuần, AI dự kiến bạn sẽ hoàn thành lộ trình cơ bản trong khoảng <0>{{weeks}} tuần</0>."
+      }
+    },
+    "header": {
+      "title": "Lộ trình Cá nhân hóa",
+      "duration": "Dự kiến: {{count}} tuần",
+      "target": "Mục tiêu: {{goal}}",
+      "refresh": "Làm mới Lộ trình",
+      "viewMap": "Xem bản đồ kỹ năng"
+    },
+    "stats": {
+      "overall": "Hoàn thành tổng thể",
+      "lessonsDone": "Bài học đã xong",
+      "currentPhase": "Giai đoạn hiện tại",
+      "studySpeed": "Tốc độ học tập",
+      "breakthrough": "Bứt phá: Top {{percent}}% tuần này ⚡"
+    },
+    "path": {
+      "title": "Lộ trình của tôi",
+      "desc": "Kéo thả để tương tác với các mốc học tập",
+      "week": "Tuần {{count}}",
+      "lesson": "Bài học",
+      "project": "Dự án",
+      "practice": "Thực hành"
+    },
+    "focus": {
+      "title": "Tiêu điểm Tuần này",
+      "startNow": "Bắt đầu học ngay 🚀"
+    },
+    "insights": {
+      "title": "AI Insights",
+      "gapDetected": "Phát hiện Lỗ hổng Trình độ",
+      "priority": "Priority",
+      "viewSupplemental": "Xem bài học bổ sung →",
+      "forecast": "Dự đoán hoàn thành",
+      "early": "Sớm hơn {{count}} ngày",
+      "habitNote": "Dựa trên thói quen học tập của bạn vào buổi tối."
+    },
+    "peers": {
+      "title": "Bạn bè cùng lộ trình",
+      "completedNote": "<strong>{{name}}</strong> vừa hoàn thành '{{week}}' với số điểm tuyệt đối."
+    },
+    "mock": {
+      "title": "Lập trình Web Fundamentals",
+      "phaseHighlight": "Nâng cao: DOM & Async",
+      "task1": {
+        "title": "DOM Events & Handling",
+        "desc": "Sâu hơn về tương tác người dùng"
+      },
+      "task2": {
+        "title": "Local Storage Lab",
+        "desc": "Bắt đầu dự án Todo List"
+      },
+      "task3": {
+        "title": "Quick Quiz: Async Wait",
+        "desc": "Kiểm tra kiến thức tuần trước"
+      },
+      "insightGap": "Dữ liệu bài tập 'Arrays' gần đây của bạn cho thấy sự lúng túng trong <strong>Nested Loops</strong>."
+    }
+  },
+  "autonomy": {
+    "title": "Learning Autonomy",
+    "subtitle": "Kiểm soát hành trình học tập của bạn với thông tin chi tiết dựa trên dữ liệu.",
+    "actions": {
+      "newGoal": "Mục tiêu mới",
+      "startSession": "Bắt đầu phiên học"
+    },
+    "tabs": {
+      "analytics": "Phân tích",
+      "goals": "Mục tiêu SMART",
+      "optimizer": "Tối ưu AI"
+    },
+    "analytics": {
+      "timeDistribution": "Phân phối thời gian học",
+      "focusTrends": "Xu hướng chất lượng tập trung",
+      "keyInsight": "Thông tin chính",
+      "optimalWindow": "Sự tập trung của bạn cao nhất từ {{start}} - {{end}}",
+      "optimalAdvise": "Hãy thử sắp xếp các bài tập {{subject}} phức tạp trong khung giờ này để có độ chính xác tốt hơn {{percent}}%.",
+      "monthlyScore": "Điểm tập trung hàng tháng"
+    },
+    "goals": {
+      "overall": "Tiến độ tổng thể",
+      "milestones": "Các mốc quan trọng",
+      "update": "Cập nhật tiến độ",
+      "addNew": "Thêm mục tiêu SMART mới",
+      "smartDesc": "Cụ thể, Có thể đo lường, Có thể đạt được, Phù hợp và Có thời hạn."
+    },
+    "optimizer": {
+      "recommendation": "Gợi ý AI",
+      "windowStart": "Khung giờ học tối ưu cho {{subject}} của bạn bắt đầu sau {{count}} giờ nữa",
+      "pastPerform": "Dựa trên hiệu suất trong quá khứ của bạn, {{time}} là lúc bạn giải thuật toán nhanh hơn {{multiplier}} lần.",
+      "accept": "Chấp nhận & Lên lịch",
+      "protop": "Mẹo năng suất",
+      "topicSuggest": "Gợi ý chủ đề",
+      "readiness": "Độ sẵn sàng trong tuần",
+      "prepStatus": "Trạng thái chuẩn bị cho kỳ thi cuối kỳ",
+      "generatePlan": "Tạo kế hoạch học tập"
+    }
+  },
+  "skills": {
+    "title": "Skill Gap Analytics",
+    "header": "Phân tích Năng lực Cá nhân",
+    "aiAnalysis": "AI đã phân tích {{count}} bài tập của bạn tuần này.",
+    "last30Days": "30 Ngày qua",
+    "export": "Xuất báo cáo",
+    "radar": {
+      "title": "Hồ sơ Kỹ năng (Radar)",
+      "desc": "Phân tích 5 trụ cột năng lực cốt lõi",
+      "labels": {
+        "technical": "Kỹ thuật",
+        "logic": "Logic",
+        "creative": "Sáng tạo"
+      }
+    },
+    "gap": {
+      "title": "Phát hiện Lỗ hổng",
+      "urgency": "{{level}} Priority",
+      "benefit": "Lợi ích: {{impact}}",
+      "aiSuggestion": "Gợi ý AI: {{suggestion}}",
+      "startPractice": "BẮT ĐẦU ÔN TẬP NGAY"
+    },
+    "patterns": {
+      "title": "Learning Patterns",
+      "primeTime": "Sự tập trung \"Giờ vàng\"",
+      "bias": "Xu hướng Thử & Sai",
+      "adaptive": "Độ khó thích ứng (Adaptive)",
+      "aiAdvise": "AI đề xuất tăng độ khó lên {{percent}}% cho tuần tới 📈"
+    }
+  },
+  "materials": {
+    "header": {
+      "title": "Học liệu Đa phương tiện",
+      "subtitle": "Khám phá bài giảng qua video tương tác, podcast và phòng thí nghiệm ảo.",
+      "totalTime": "Tổng thời gian: {{time}}"
+    },
+    "video": {
+      "quiz": "Quiz Tương tác",
+      "quizQuestion": "\"Khai báo biến nào dưới đây là đúng trong JavaScript?\"",
+      "jumpTo": "Chuyển đến: {{label}}",
+      "correct": "Đúng rồi!",
+      "checkpoints": {
+        "variables": "Kiểm tra nhanh: Biến",
+        "scope": "Khái niệm Scope",
+        "loop": "Thử thách Build-a-Loop"
+      }
+    },
+    "ai": {
+      "notes": "Ghi chú AI",
+      "summary": "\"AI tóm tắt: Phần này giải thích cách JS quản lý bộ nhớ thông qua việc gán giá trị cho biến...\"",
+      "related": "Học liệu liên quan"
+    },
+    "playlist": {
+      "title": "Playlist khóa học",
+      "progress": "Tiến độ hoàn thành",
+      "badgeNote": "Chỉ còn 2 bài nữa để nhận huy hiệu 'Beginner Master'!",
+      "items": {
+        "intro": "1. Giới thiệu khóa học",
+        "setup": "2. Cài đặt môi trường",
+        "variables": "3. Biến & Kiểu dữ liệu",
+        "logic": "4. Cơ bản về Logic",
+        "practice": "5. Lab: First Game"
+      }
+    }
+  }
+}

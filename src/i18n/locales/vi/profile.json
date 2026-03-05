@@ -1,0 +1,62 @@
+{
+  "labels": {
+    "class": "Lớp học",
+    "rating": "Đánh giá",
+    "userType": "Người dùng",
+    "school": "Trường"
+  },
+  "tabs": {
+    "info": "Thông tin",
+    "skills": "Kỹ năng",
+    "achievements": "Thành tựu"
+  },
+  "sections": {
+    "personalInfo": "Thông tin cá nhân",
+    "contactInfo": "Thông tin liên hệ",
+    "codingSkills": "Kỹ năng lập trình",
+    "recentAchievements": "Thành tựu gần đây"
+  },
+  "fields": {
+    "fullName": "Họ và tên",
+    "bio": "Giới thiệu",
+    "phone": "Số điện thoại",
+    "address": "Địa chỉ",
+    "joinDate": "Ngày tham gia",
+    "email": "Địa chỉ Email"
+  },
+  "mock": {
+    "student": {
+      "bio": "Sinh viên năm 2 ngành Công nghệ thông tin, đam mê lập trình web và AI.",
+      "role": "Học sinh",
+      "location": "Hà Nội, Việt Nam",
+      "joinDate": "Tháng 9, 2023"
+    },
+    "teacher": {
+      "bio": "Giáo viên Tin học với 10 năm kinh nghiệm, chuyên về dạy lập trình cho học sinh THPT.",
+      "role": "Giáo viên",
+      "location": "Hà Nội, Việt Nam",
+      "joinDate": "Tháng 1, 2020"
+    },
+    "admin": {
+      "bio": "Quản trị viên hệ thống LMS, phụ trách vận hành và hỗ trợ kỹ thuật.",
+      "role": "Quản trị viên",
+      "location": "Hà Nội, Việt Nam",
+      "joinDate": "Tháng 1, 2019"
+    },
+    "achievements": {
+      "codeMaster": {
+        "title": "Bậc thầy Code",
+        "desc": "Hoàn thành 100 bài tập"
+      },
+      "perfectScore": {
+        "title": "Điểm Tuyệt đối",
+        "desc": "Đạt 10/10 trong kỳ thi"
+      },
+      "earlyBird": {
+        "title": "Chim sớm",
+        "desc": "Thành viên gia nhập sớm"
+      }
+    }
+  },
+  "subtitle": "Quản lý thông tin cá nhân của bạn"
+}

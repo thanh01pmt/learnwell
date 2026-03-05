@@ -1,0 +1,231 @@
+{
+  "attendance": {
+    "title": "Attendance Tracking",
+    "studentInfo": "Student: {{name}} • Class {{class}}",
+    "stats": {
+      "present": "Present",
+      "late": "Late",
+      "absent": "Absent"
+    },
+    "calendar": {
+      "mon": "Mon",
+      "tue": "Tue",
+      "wed": "Wed",
+      "thu": "Thu",
+      "fri": "Fri",
+      "sat": "Sat",
+      "sun": "Sun"
+    },
+    "status": {
+      "present": "Present",
+      "late": "Late",
+      "absent": "Absent",
+      "excused": "Excused Absence",
+      "unexcused": "Unexcused Absence"
+    },
+    "legend": {
+      "present": "Present",
+      "late": "Late",
+      "excused": "Excused",
+      "unexcused": "Unexcused"
+    },
+    "info": "Attendance is automatically recorded. Please contact the teacher if there are any discrepancies."
+  },
+  "schedule": {
+    "title": "Learning Schedule",
+    "subtitle": "Track your child's timetable and events",
+    "selectChild": "Select Child",
+    "all": "All",
+    "dailyTitle": "Schedule for {{date}}",
+    "activitiesCount": "{{count}} activities today",
+    "empty": "No activities scheduled for this day",
+    "upcoming": "Upcoming",
+    "upcomingDesc": "Important events to note",
+    "legendTitle": "Legend",
+    "types": {
+      "class": "Class",
+      "exam": "Exam",
+      "event": "Event",
+      "meeting": "Meeting",
+      "meetingEnd": "Term-end Meeting",
+      "sportsDay": "Sports Day",
+      "stemDay": "STEM Day"
+    },
+    "duration": "{{count}} mins",
+    "hours": "{{count}} hours"
+  },
+  "dashboard": {
+    "stats": {
+      "children": "Children",
+      "achievements": "Achievements",
+      "pendingAssignments": "Pending Tasks",
+      "upcomingEvents": "Upcoming Events"
+    },
+    "progress": {
+      "subtitle": "Detailed analysis of your child's learning process."
+    },
+    "comparison": {
+      "title": "Learning Progress Comparison",
+      "desc": "Child's score compared to class average",
+      "legend": {
+        "classAvg": "Class Avg"
+      }
+    },
+    "sections": {
+      "myChildren": "Your Children",
+      "notifications": "Notifications",
+      "upcomingLịch": "Upcoming Schedule",
+      "recentAssignments": "Recent Assignments",
+      "upcomingEvents": "Upcoming"
+    },
+    "actions": {
+      "contactTeacher": "Contact Teacher",
+      "bookMeeting": "Book Meeting",
+      "buildPortfolio": "Build Portfolio",
+      "viewProgress": "Progress",
+      "viewAttendance": "Attendance",
+      "viewReport": "Report",
+      "viewAllNotifications": "View all notifications",
+      "viewFullSchedule": "View full schedule",
+      "viewAllAchievements": "All Achievements"
+    },
+    "labels": {
+      "averageScore": "Avg Score",
+      "attendance": "Attendance",
+      "new": "new"
+    },
+    "achievements": {
+      "mathStar": "Math Star",
+      "taskMaster": "Task Master",
+      "englishPerfect": "English Perfect",
+      "streak7": "7-Day Streak"
+    }
+  },
+  "communication": {
+    "chat": {
+      "online": "Online",
+      "inputPlaceholder": "Type a message...",
+      "sendSuccess": "Message sent!"
+    },
+    "mock": {
+      "contacts": {
+        "hoa": "Ms. Nguyen Thi Hoa",
+        "nam": "Mr. Tran Van Nam",
+        "mai": "Ms. Le Thi Mai",
+        "duc": "Mr. Pham Minh Đức",
+        "subjects": {
+          "homeroomMath": "Homeroom • Math",
+          "english": "English",
+          "it": "IT"
+        }
+      },
+      "chat": {
+        "m1": "Hi, I'd like to update on my child's progress.",
+        "m2": "Hello, I'm happy to help.",
+        "m3": "Is the child doing well in Math recently?",
+        "m4": "Child is progressing very well, especially in geometry."
+      },
+      "logs": {
+        "academicUpdate": "Academic Update",
+        "homeworkReminder": "Homework Reminder",
+        "praise": "Praise",
+        "summary1": "Updated midterm math test results.",
+        "summary2": "Reminder to submit English Unit 5 homework.",
+        "summary3": "Praise for positive participation in IT class."
+      }
+    }
+  },
+  "scheduling": {
+    "mock": {
+      "topics": {
+        "calculusQ": "Calculus Questions Q&A",
+        "essayUnit5": "Review Essay Unit 5"
+      }
+    }
+  },
+  "parentName": "Tony",
+  "mocks": {
+    "parentName": "Tony",
+    "children": {
+      "child1": "Nguyen Minh Anh",
+      "child2": "Nguyen Tuan Kiet"
+    }
+  },
+  "teacherContact": {
+    "title": "Teacher Contact",
+    "subtitle": "Connect with your child's teachers for direct support.",
+    "sections": {
+      "subject": "Subject Teachers",
+      "logs": "Communication History"
+    },
+    "actions": {
+      "message": "Message",
+      "bookMeeting": "Book Meeting"
+    },
+    "fields": {
+      "selectTeacher": "Select Teacher",
+      "meetingContent": "Meeting Content"
+    },
+    "placeholders": {
+      "selectTeacher": "Please select a teacher...",
+      "selectTime": "Select time slot...",
+      "meetingContent": "Describe the issue you want to discuss...",
+      "searchPlaceholder": "Search teachers..."
+    },
+    "history": {
+      "title": "Communication History",
+      "desc": "List of your recent communications with the school"
+    },
+    "noTeachersFound": "No matching teachers found"
+  },
+  "curriculum": {
+    "title": "Learning Curriculum",
+    "subtitle": "Track the learning path and academic goals of your child.",
+    "actions": {
+      "downloadPdf": "Download PDF",
+      "shareProgress": "Share Progress"
+    },
+    "roadmap": {
+      "title": "Learning Roadmap",
+      "desc": "Key academic milestones for the school year",
+      "completion": "{{count}}% completed"
+    },
+    "details": {
+      "title": "Topic Details",
+      "inProgress": "In Progress",
+      "skills": "Key Skills",
+      "howToHelp": "How Parents Can Help",
+      "summaryDoc": "Lesson Summary Document",
+      "summaryDocDesc": "Quickly view core knowledge your child is learning.",
+      "quizSuggestions": "Quiz Suggestions",
+      "quizSuggestionsDesc": "Use these to review with your child at home.",
+      "lastUpdated": "Updated {{time}} ago",
+      "askTeacher": "Ask teacher about this topic"
+    },
+    "weeklyDigest": {
+      "badge": "AI Analysis",
+      "title": "Weekly Learning Digest",
+      "desc": "Automatic summary based on your child's learning results.",
+      "summary": "This week your child spent {{hours}} hours learning with an impressive average score of {{score}}. They are doing great in Geometry.",
+      "viewDraft": "View Report Draft"
+    },
+    "mocks": {
+      "milestone1": {
+        "title": "Thinking Foundation & Logic",
+        "howToHelp": "Encourage child to solve logic puzzles or play strategy games with the family."
+      },
+      "milestone2": {
+        "title": "Object-Oriented Programming",
+        "howToHelp": "Ask child how real-life objects can be described with 'properties' and 'actions'."
+      },
+      "milestone3": {
+        "title": "Automation & Data",
+        "howToHelp": "Discuss how phone apps store personal information securely."
+      },
+      "milestone4": {
+        "title": "Final Creative Project",
+        "howToHelp": "Take time to watch child's project presentation and give positive feedback."
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "title": "Learning Artifacts",
+  "subtitle": "Your personal repository of evidence-based learning. Documentation of your growth over time.",
+  "actions": {
+    "add": "Add Artifact",
+    "viewDetails": "View Details"
+  },
+  "filters": {
+    "title": "Filters",
+    "searchPlaceholder": "Search artifacts...",
+    "categories": "Categories",
+    "fileTypes": "File Types"
+  },
+  "types": {
+    "video": "Video",
+    "photo": "Photos",
+    "document": "Docs",
+    "link": "Links"
+  },
+  "credentials": {
+    "title": "Micro-Credentials",
+    "viewAll": "View All Credentials"
+  },
+  "quickUpload": {
+    "title": "Quick Upload",
+    "subtitle": "Capture learning as it happens. Snap a photo or record a thought."
+  },
+  "stats": {
+    "stars": "{{count}} stars",
+    "feedback": "{{count}} feedback"
+  },
+  "timeline": {
+    "end": "End of current archive",
+    "subtitle": "View your full learning timeline from previous years.",
+    "browse": "Browse Timeline"
+  },
+  "mockup": {
+    "artifacts": {
+      "city": {
+        "title": "Eco-Friendly City Design",
+        "category": "Science Project",
+        "reflection": "This group project taught me about sustainable urban planning and collaborative CAD design."
+      },
+      "code": {
+        "title": "Python Snake Game Evolution",
+        "category": "Computer Science",
+        "reflection": "Reflecting on how I optimized the collision detection algorithm using spatial partitioning."
+      },
+      "history": {
+        "title": "History Essay: Industrial Revolution",
+        "category": "History",
+        "reflection": "Analyzing the socio-economic impact of textile machinery in 19th century Britain."
+      }
+    },
+    "credentials": {
+      "data": "Data Structures Master",
+      "method": "Scientific Method",
+      "web": "Web Dev Basics"
+    }
+  }
+}

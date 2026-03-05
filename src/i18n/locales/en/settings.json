@@ -1,0 +1,86 @@
+{
+  "settings": {
+    "title": "Settings",
+    "subtitle": "Manage your account and customize your experience",
+    "tabs": {
+      "profile": "Profile",
+      "notifications": "Notifications",
+      "appearance": "Appearance",
+      "security": "Security"
+    },
+    "profile": {
+      "title": "Personal Information",
+      "avatar": {
+        "title": "Avatar",
+        "description": "JPG, PNG. Max 2MB"
+      },
+      "form": {
+        "fullName": "Full Name",
+        "email": "Email",
+        "phone": "Phone Number",
+        "subject": "Department",
+        "save": "Save Changes"
+      }
+    },
+    "notifications": {
+      "channels": {
+        "title": "Notification Methods",
+        "email": {
+          "title": "Email",
+          "description": "Receive notifications via email"
+        },
+        "push": {
+          "title": "Push Notifications",
+          "description": "Receive browser notifications"
+        },
+        "sms": {
+          "title": "SMS",
+          "description": "Receive notifications via text message"
+        }
+      },
+      "types": {
+        "title": "Notification Types",
+        "newSubmission": {
+          "title": "New Submission",
+          "description": "When a student submits work"
+        },
+        "joinRequest": {
+          "title": "Join Request",
+          "description": "When a student wants to join your class"
+        },
+        "weeklyReport": {
+          "title": "Weekly Report",
+          "description": "Summary of activities each week"
+        }
+      }
+    },
+    "appearance": {
+      "title": "Appearance",
+      "theme": {
+        "title": "Color Mode",
+        "light": "Light",
+        "dark": "Dark",
+        "system": "System"
+      },
+      "regional": {
+        "title": "Language & Region",
+        "language": "Language",
+        "timezone": "Timezone"
+      }
+    },
+    "security": {
+      "changePassword": {
+        "title": "Change Password",
+        "current": "Current Password",
+        "new": "New Password",
+        "confirm": "Confirm New Password",
+        "submit": "Update Password"
+      },
+      "sessions": {
+        "title": "Login Sessions",
+        "active": "Current",
+        "logout": "Logout"
+      }
+    }
+  }
+}

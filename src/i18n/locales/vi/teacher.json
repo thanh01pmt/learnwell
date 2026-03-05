@@ -1,0 +1,884 @@
+{
+  "dashboard": {
+    "teacherTony": "Thầy Tony",
+    "greeting": "Xin chào, {{name}}",
+    "todayDate": "Hôm nay là {{date}}",
+    "quickActions": {
+      "title": "Thao tác nhanh",
+      "createClass": "Tạo lớp học",
+      "createClassDesc": "Tạo lớp học mới",
+      "createExam": "Tạo bài kiểm tra",
+      "createExamDesc": "Tạo đề kiểm tra",
+      "addStudent": "Thêm học sinh",
+      "addStudentDesc": "Mời học sinh vào lớp",
+      "createLesson": "Tạo bài giảng",
+      "createLessonDesc": "Soạn nội dung mới",
+      "exitTickets": "Exit Tickets",
+      "exitTicketsDesc": "Đánh giá buổi học",
+      "pathTemplates": "Lộ trình mẫu",
+      "pathTemplatesDesc": "Mẫu lộ trình chuẩn",
+      "manageIEP": "Quản lý IEP",
+      "manageIEPDesc": "Hỗ trợ học sinh",
+      "skillGrouping": "Phân nhóm học sinh",
+      "skillGroupingDesc": "Cá nhân hóa giảng dạy",
+      "attendance": "Điểm danh",
+      "createAssignment": "Tạo bài tập"
+    },
+    "stats": {
+      "totalStudents": "Tổng học sinh",
+      "totalClasses": "Tổng số lớp",
+      "gradingPending": "Bài chờ chấm",
+      "urgentRequests": "Yêu cầu khẩn cấp",
+      "absentToday": "Vắng hôm nay",
+      "avgGrade": "Điểm trung bình",
+      "pendingAssignments": "Bài chờ chấm"
+    },
+    "actions": {
+      "seeAll": "Xem tất cả",
+      "filter": "Lọc",
+      "createNew": "Tạo mới",
+      "approveAll": "Phê duyệt tất cả"
+    },
+    "sections": {
+      "myClasses": "Lớp học của tôi",
+      "recentActivity": "Hoạt động gần đây",
+      "notifications": "Thông báo",
+      "newStudents": "Yêu cầu học sinh mới"
+    },
+    "activity": {
+      "title": "Hoạt động gần đây",
+      "submitted": "{{name}} đã nộp bài tập",
+      "late": "{{name}} đã vào lớp muộn",
+      "noActivity": "Không có hoạt động mới"
+    }
+  },
+  "iepManager": {
+    "title": "Quản lý IEP",
+    "subtitle": "Số hóa và quản lý Kế hoạch Giáo dục Cá nhân nhằm hỗ trợ tốt nhất cho học sinh đặc biệt.",
+    "actions": {
+      "summaryReport": "Báo cáo tổng hợp",
+      "create": "Khởi tạo IEP mới",
+      "history": "Lịch sử",
+      "update": "Cập nhật"
+    },
+    "filters": {
+      "searchPlaceholder": "Tìm học sinh theo tên, mã số...",
+      "sortBy": "Sắp xếp",
+      "lastReview": "Ngày review gần nhất"
+    },
+    "tabs": {
+      "overview": "Tổng quan",
+      "goals": "Mục tiêu",
+      "accommodations": "Hỗ trợ",
+      "meetings": "Hội chẩn"
+    },
+    "stats": {
+      "progress": "Tiến độ IEP",
+      "nextReview": "Review tiếp theo",
+      "interventions": "Số lần can thiệp tháng này",
+      "criticalObservation": "Thông tin quan trọng"
+    },
+    "labels": {
+      "generalInfo": "Thông tin chung",
+      "diagnosis": "Chẩn đoán",
+      "startDate": "Ngày bắt đầu",
+      "assignedTeacher": "Giảng viên phụ trách",
+      "mainMetrics": "Số liệu chính",
+      "teamSupport": "Đồng đội hỗ trợ",
+      "interventionResults": "Kết quả can thiệp",
+      "skillGrowth": "Tăng trưởng kỹ năng",
+      "lastMonth": "Tháng trước",
+      "detail": "Detail",
+      "need": "Need"
+    },
+    "mock": {
+      "caseManager": "Người quản lý hồ sơ",
+      "iepTeamDesc": "Bao gồm: Tâm lý học đường, Giáo viên giáo dục đặc biệt, Phụ huynh và 2 chuyên gia tư vấn.",
+      "strategyNote": "Học sinh phản hồi rất tốt với các tài liệu trực quan (infographics). Ưu tiên chuyển đổi các bài tập viết sang sơ đồ trong giai đoạn này.",
+      "accommodations": {
+        "extraTime": "Thêm thời gian làm bài",
+        "speechToText": "Phần mềm chuyển lời nói thành văn bản",
+        "quietRoom": "Phòng thi yên tĩnh",
+        "frequentBreaks": "Nghỉ giải lao thường xuyên",
+        "visualSchedule": "Lịch trình trực quan",
+        "preferentialSeating": "Chỗ ngồi ưu tiên"
+      },
+      "meetingTypes": {
+        "annualReview": "Đánh giá định kỳ hàng năm",
+        "quarterlyUpdate": "Cập nhật hàng quý"
+      },
+      "priorities": {
+        "high": "Cao",
+        "medium": "Trung bình",
+        "low": "Thấp"
+      }
+    }
+  },
+  "skillGrouping": {
+    "title": "Phân nhóm theo kỹ năng",
+    "subtitle": "Tự động phân nhóm học sinh dựa trên hiệu suất thực tế để tối ưu hóa giảng dạy phân hóa.",
+    "actions": {
+      "configure": "Cấu hình Nhóm",
+      "reassign": "Tự động tái phân nhóm",
+      "assignMaterial": "Giao ngay",
+      "createSession": "Tạo phiên hỗ trợ nhóm"
+    },
+    "stats": {
+      "overallProgress": "Tiến trình chung",
+      "needSupport": "Cần hỗ trợ gấp",
+      "improvementRate": "Tỷ lệ tiến bộ",
+      "groupProgress": "Tiến trình nhóm",
+      "aiProjection": "Dự báo AI",
+      "trend": "Xu hướng",
+      "improvingSlowly": "Đang cải thiện chậm"
+    },
+    "labels": {
+      "detail": "Chi tiết",
+      "basedOn": "Dựa trên dữ liệu từ",
+      "strategies": "Chiến lược can thiệp đề xuất",
+      "materials": "Tài liệu bổ trợ khuyến nghị",
+      "prediction": "Dự báo kết quả học tập",
+      "studentList": "Danh sách học sinh trong nhóm",
+      "weeklyGoal": "Mục tiêu tuần {{week}}",
+      "targetProgress": "Tiến độ mục tiêu",
+      "newAnalysis": "Phân tích học sinh mới",
+      "interventionPlan": "Kế hoạch can thiệp trực tiếp"
+    }
+  },
+  "rubricBuilder": {
+    "title": "Trình xây dựng Rubric",
+    "subtitle": "Thiết kế tiêu chí chấm điểm chuyên nghiệp",
+    "actions": {
+      "useTemplate": "Dùng mẫu có sẵn",
+      "save": "Lưu Rubric",
+      "addCriterion": "Thêm tiêu chí mới",
+      "preview": "Xem preview"
+    },
+    "labels": {
+      "rubricName": "Tên Rubric",
+      "totalWeight": "Tổng trọng số",
+      "weight": "Trọng số (%)",
+      "criterionName": "Tên tiêu chí",
+      "description": "Mô tả",
+      "previewTitle": "Xem trước bảng chấm điểm",
+      "previewDesc": "Rubric này sẽ được áp dụng cho bài tập Essay."
+    },
+    "levels": {
+      "excellent": "Xuất sắc",
+      "good": "Tốt",
+      "average": "Trung bình",
+      "poor": "Yếu"
+    },
+    "messages": {
+      "saveSuccess": "Đã lưu Rubric thành công",
+      "weightError": "Tổng trọng số phải bằng 100%"
+    },
+    "mock": {
+      "presentationSkill": "Kỹ năng trình bày",
+      "descLevel4": "Bố cục hoàn hảo, ngôn từ trau chuốt, không mắc lỗi chính tả.",
+      "descLevel3": "Bố cục rõ ràng, diễn đạt tốt, mắc ít lỗi nhỏ.",
+      "descLevel2": "Bố cục tạm ổn, diễn đạt còn lủng củng ở vài chỗ.",
+      "descLevel1": "Bố cục lộn xộn, mắc nhiều lỗi chính tả và ngữ pháp.",
+      "newCriterion": "Tiêu chí mới",
+      "essayTitle": "Rubric bài luận văn học",
+      "contentQuality": "Chất lượng nội dung",
+      "contentLevel4": "Phân tích sâu sắc, lập luận chặt chẽ và có tính sáng tạo cao.",
+      "contentLevel3": "Hiểu rõ vấn đề, lập luận rõ ràng nhưng chưa có nhiều đột phá.",
+      "contentLevel2": "Nội dung cơ bản, còn thiếu sót trong một số khía cạnh quan trọng.",
+      "contentLevel1": "Chưa hiểu vấn đề, nội dung hời hợt hoặc lạc đề."
+    }
+  },
+  "attendance": {
+    "title": "Quản lý điểm danh",
+    "subtitle": "Theo dõi và quản lý sự hiện diện của học sinh",
+    "takeAttendance": "Điểm danh ngay",
+    "qrManual": "Thủ công / Mã QR",
+    "statLabels": {
+      "onTime": "Đúng giờ",
+      "late": "Muộn",
+      "absent": "Vắng",
+      "total": "Tổng số"
+    },
+    "table": {
+      "studentName": "Học sinh",
+      "id": "Mã số",
+      "status": "Trạng thái",
+      "checkIn": "Giờ vào",
+      "notes": "Ghi chú",
+      "action": "Thao tác",
+      "student": "Tên học sinh",
+      "time": "Thời gian",
+      "note": "Ghi chú"
+    },
+    "status": {
+      "present": "Có mặt",
+      "late": "Muộn",
+      "absent": "Vắng",
+      "excused": "Có phép"
+    },
+    "chart": {
+      "title": "Tỷ lệ chuyên cần",
+      "week": "Trong tuần"
+    },
+    "sections": {
+      "list": "Danh sách điểm danh",
+      "listDesc": "Quản lý sự hiện diện của học sinh theo thời gian thực",
+      "weeklyTrend": "Xu hướng chuyên cần hàng tuần",
+      "history": "Lịch sử chuyên cần",
+      "historyDesc": "Phân tích 30 ngày gần nhất",
+      "weeklyTrendShort": "Xu hướng tuần"
+    },
+    "skillGrouping": {
+      "mock": {
+        "anonymousStudent": "Học sinh ẩn danh",
+        "supportGoal": "Đưa nhóm <b>Hỗ trợ</b> đạt mức hiểu bài <b>65%</b> trước bài kiểm tra định kỳ.",
+        "regressionTitle": "Có dấu hiệu tụt lùi",
+        "regressionDesc": "Học sinh A & B giảm 15% tương tác tuần qua. Thêm vào nhóm can thiệp?",
+        "actNow": "Thực hiện ngay",
+        "tutoring10A1": "Phụ đạo 10A1",
+        "workshopAdvanced": "Workshop Nâng cao",
+        "ecosystemNote": "Hệ thống phân nhóm đang kết nối trực tiếp với <b>IEP Manager</b> và <b>Differentiated Materials</b> để tạo trải nghiệm học tập liền mạch.",
+        "ecosystemDetail": "Chi tiết hệ sinh thái",
+        "groupRemedial": "Nhóm Hỗ trợ (Remedial)",
+        "categoryKnowledgeGap": "Lỗ hổng kiến thức",
+        "reasonLoops": "Thấp hơn 60% ở bài kiểm tra Vòng lặp",
+        "groupCore": "Nhóm Cốt lõi (Core)",
+        "categoryStandard": "Trình độ tiêu chuẩn",
+        "reasonCore": "Đạt 60-85% mục tiêu bài học",
+        "groupEnrichment": "Nhóm Nâng cao (Enrichment)",
+        "categoryTalent": "Phát triển năng khiếu",
+        "reasonEnrichment": "Hoàn thành sớm, đạt trên 90%",
+        "examMidtermCS": "Kiểm tra giữa kỳ Tin học 10",
+        "assignSpecial": "Giao bài tập riêng",
+        "logicStrategy": "Nhóm này đang gặp khó khăn trong việc hiểu 'Logic lồng nhau'. Hãy sử dụng tài liệu trực quan và ví dụ thực tế về 'Cửa hàng tự động' để giải thích trước khi quay lại code.",
+        "ecosystemLink": "Kết nối hệ sinh thái",
+        "materials": {
+          "videoLoops": "Video: Cơ bản về vòng lặp For",
+          "whileGame": "Tương tác: Trò chơi vòng lặp While",
+          "codeArrays": "Thử thách Code: Mảng nâng cao",
+          "logicQuiz": "Quiz: Luồng logic",
+          "erpProject": "Dự án thực tế: Hệ thống Mini ERP",
+          "mentorSession": "Phiên hướng dẫn (Mentor session)"
+        }
+      }
+    },
+    "stats": {
+      "totalStudents": "Tổng học sinh",
+      "present": "Có mặt hôm nay",
+      "absent": "Vắng mặt hôm nay",
+      "late": "Đi muộn hôm nay",
+      "avgRate": "Tỷ lệ chuyên cần TB"
+    },
+    "filters": {
+      "all": "Tất cả",
+      "present": "Có mặt",
+      "absent": "Vắng",
+      "late": "Muộn"
+    },
+    "actions": {
+      "qrScan": "Quét mã QR",
+      "export": "Xuất Excel",
+      "search": "Tìm kiếm học sinh...",
+      "contactParent": "Liên hệ phụ huynh"
+    },
+    "legend": {
+      "low": "Thấp",
+      "high": "Cao"
+    },
+    "alerts": {
+      "absenteeismTitle": "Cảnh báo vắng học nhiều",
+      "absenteeismDesc": "{{name}} đã vắng mặt {{count}} lần trong tháng này."
+    }
+  },
+  "analytics": {
+    "title": "Phân tích điểm số",
+    "subtitle": "Phân tích chi tiết kết quả học tập của lớp",
+    "statLabels": {
+      "highest": "Cao nhất",
+      "average": "Trung bình",
+      "lowest": "Thấp nhất",
+      "passRate": "Tỉ lệ đạt"
+    },
+    "charts": {
+      "gradeDistribution": "Phân bổ điểm số",
+      "performanceTrend": "Xu hướng năng lực",
+      "subjectComparison": "So sánh môn học",
+      "classAvg": "Trung bình lớp",
+      "topGroup": "Nhóm dẫn đầu",
+      "average": "Trung bình"
+    },
+    "actions": {
+      "semester": "Học kỳ",
+      "viewAllAtRisk": "Xem tất cả học sinh yếu"
+    },
+    "atRisk": {
+      "action": "Hành động",
+      "attendance": "Chuyên cần",
+      "score": "Điểm số",
+      "statusDown": "Giảm sút",
+      "statusStable": "Ổn định",
+      "viewAll": "Xem tất cả học sinh yếu"
+    },
+    "sections": {
+      "atRisk": "Học sinh cần hỗ trợ",
+      "atRiskDesc": "Mô tả",
+      "competency": "Năng lực",
+      "competencyDesc": "Mô tả",
+      "performanceTrend": "Xu hướng học tập",
+      "performanceTrendDesc": "Mô tả",
+      "scoreDistribution": "Phân bổ điểm số",
+      "scoreDistributionDesc": "Mô tả"
+    },
+    "stats": {
+      "atRisk": "Học sinh yếu",
+      "avgGrade": "Điểm TB",
+      "passRate": "Tỉ lệ đạt",
+      "studentCount": "Số học sinh"
+    },
+    "mock": {
+      "studentX": "Phạm Gia An",
+      "studentY": "Lê Thanh Bình",
+      "studentZ": "Trần Mạnh Cường"
+    }
+  },
+  "exitTickets": {
+    "title": "Exit Tickets",
+    "subtitle": "Đánh giá mức độ hiểu bài tức thì để điều chỉnh giảng dạy kịp thời.",
+    "actions": {
+      "history": "Lịch sử",
+      "create": "Tạo Exit Ticket mới",
+      "close": "Đóng phiếu",
+      "viewResponses": "Xem tất cả phản hồi",
+      "search": "Tìm phiếu khảo sát...",
+      "viewAISuggestion": "Xem gợi ý tự động từ AI"
+    },
+    "stats": {
+      "responding": "Đang phản hồi",
+      "understandingRate": "Tỷ lệ hiểu bài",
+      "needSupport": "Cần hỗ trợ",
+      "completion": "Hoàn thành"
+    },
+    "tabs": {
+      "active": "Đang mở",
+      "completed": "Đã đóng"
+    },
+    "list": {
+      "responses": "Phản hồi",
+      "students": "sinh viên",
+      "emptyCompleted": "Xem lại các Exit Tickets trước đó trong hệ thống lưu trữ."
+    },
+    "summary": {
+      "confident": "Tự tin",
+      "okay": "Tạm ổn",
+      "confused": "Bối rối",
+      "latestResponses": "Phản hồi mới nhất"
+    },
+    "aiTips": {
+      "title": "Mẹo can thiệp nhanh",
+      "prefix": "Có {{count}} học sinh bối rối về \"{{topic}}\". Bạn có thể:",
+      "tip1": "Tổ chức nhóm nhỏ hỗ trợ sau giờ",
+      "tip2": "Gửi video ôn tập"
+    }
+  },
+  "gradebook": {
+    "title": "Bảng điểm Nâng cao",
+    "subtitle": "Lớp {{class}} • {{term}} • Năm học {{year}}",
+    "actions": {
+      "simulating": "Đang giả lập",
+      "simulate": "Giả lập điểm (What-if)",
+      "save": "Lưu thay đổi",
+      "customize": "Tùy chỉnh",
+      "export": "Xuất PDF",
+      "filter": "Lọc danh mục",
+      "viewDetail": "Xem chi tiết cá nhân",
+      "editHistory": "Lịch sử thay đổi",
+      "markViolation": "Đánh dấu vi phạm",
+      "search": "Tìm kiếm học sinh theo tên..."
+    },
+    "stats": {
+      "weight": "Trọng số"
+    },
+    "categories": {
+      "homework": "BTVN",
+      "quiz": "Kiểm tra 15p",
+      "exam": "Thi học kỳ"
+    },
+    "filters": {
+      "all": "Tất cả",
+      "show": "Hiển thị",
+      "onlyHomework": "Chỉ hiện BTVN",
+      "onlyQuiz": "Chỉ hiện Kiểm tra",
+      "onlyExam": "Chỉ hiện Thi học kỳ"
+    },
+    "table": {
+      "student": "Học sinh",
+      "average": "Điểm TB",
+      "max": "Tối đa",
+      "type": "Loại"
+    },
+    "insights": {
+      "prediction": "Dự đoán kết quả học kỳ",
+      "predictionDesc": "Dựa trên điểm số hiện tại và trọng số các bài thi chưa diễn ra.",
+      "targetDiff": "{{diff}} so với mục tiêu",
+      "editLog": "Nhật ký chỉnh sửa",
+      "lastUpdate": "Lần cuối cập nhật",
+      "performer": "Người thực hiện",
+      "viewFullHistory": "Xem toàn bộ lịch sử thay đổi"
+    },
+    "messages": {
+      "updateSuccess": "Thành công"
+    },
+    "mock": {
+      "teacherB": "Giáo viên B"
+    }
+  },
+  "seatingChart": {
+    "title": "Sơ đồ lớp học",
+    "subtitle": "Quản lý vị trí chỗ ngồi tương tác • Lớp {{class}}",
+    "actions": {
+      "autoArrange": "Tự động sắp xếp",
+      "saveLayout": "Lưu sơ đồ",
+      "search": "Tìm học sinh...",
+      "unassign": "Gỡ chỗ",
+      "info": "Thông tin học sinh"
+    },
+    "grid": {
+      "label": "Lưới",
+      "podium": "BÀN GIÁO VIÊN / BẢNG",
+      "empty": "TRỐNG"
+    },
+    "legend": {
+      "present": "Hiện diện",
+      "absent": "Vắng mặt",
+      "late": "Muộn"
+    },
+    "list": {
+      "unassigned": "Danh sách chưa xếp",
+      "allAssigned": "Tất cả đã có chỗ!",
+      "noStudents": "Không tìm thấy học sinh"
+    },
+    "stats": {
+      "totalSeats": "Tổng số ghế",
+      "assigned": "Đã xếp",
+      "empty": "Trống"
+    },
+    "templates": {
+      "title": "Bố cục mẫu",
+      "default": "Mặc định (6x4)",
+      "vertical": "Dọc (4x6)"
+    },
+    "messages": {
+      "assignSuccess": "Đã xếp chỗ thành công",
+      "unassignSuccess": "Đã gỡ học sinh khỏi chỗ ngồi",
+      "updateSuccess": "Cập nhật sơ đồ thành công"
+    },
+    "mock": {
+      "teacherB": "Thầy Bình"
+    }
+  },
+  "dashboardWidgets": {
+    "title": "Tùy biến Dashboard",
+    "subtitle": "Cá nhân hóa không gian làm việc của bạn",
+    "actions": {
+      "addWidget": "Thêm Widget",
+      "arrange": "Sắp xếp",
+      "finish": "Hoàn tất"
+    },
+    "dropdown": {
+      "selectType": "Chọn loại widget"
+    },
+    "types": {
+      "stats": "Thông số nhanh",
+      "chart": "Biểu đồ hiệu suất",
+      "todo": "Việc cần làm",
+      "calendar": "Lịch biểu",
+      "chat": "Tin nhắn gần đây",
+      "alerts": "Cảnh báo học tập"
+    },
+    "widgetActions": {
+      "edit": "Chỉnh sửa",
+      "maximize": "Phóng to",
+      "remove": "Gỡ bỏ"
+    },
+    "placeholders": {
+      "addNode": "Nhấn để thêm widget mới"
+    },
+    "templates": {
+      "title": "Sử dụng Layout mẫu",
+      "subtitle": "Chọn giữa các cấu hình Dashboard tối ưu cho từng mục tiêu giảng dạy.",
+      "homeroom": "Dành cho chủ nhiệm",
+      "subject": "Dành cho bộ môn",
+      "viewAll": "Xem tất cả"
+    },
+    "content": {
+      "updating": "Nội dung đang được cập nhật..."
+    },
+    "mock": {
+      "physics10B2": "Lý 10B2",
+      "labA": "Phòng Lab A",
+      "average10A1": "TB Lớp 10A1",
+      "essayGrading": "Chấm bài Tự luận T10",
+      "midtermDraft": "Soạn đề thi giữa kỳ",
+      "math12A1": "Toán 12A1",
+      "scoreDiff": "+{{count}} đ"
+    }
+  },
+  "formativeAssessment": {
+    "title": "Formative Assessment",
+    "subtitle": "Công cụ đánh giá nhanh và thu thập phản hồi lớp học tức thì.",
+    "tabs": {
+      "live": "Phản hồi Trực tiếp",
+      "builder": "Tạo Bài kiểm tra",
+      "insights": "Phân tích"
+    },
+    "actions": {
+      "settings": "Cài đặt",
+      "startLive": "Bắt đầu Trực tiếp",
+      "stopLive": "Dừng Trực tiếp",
+      "editSend": "Chỉnh sửa / Gửi"
+    },
+    "builder": {
+      "createNew": "Tạo Bài mới",
+      "exitTicket": "Exit Ticket",
+      "exitTicketDesc": "Tạo nhanh phiếu thu hoạch cuối giờ để kiểm tra hiểu biết.",
+      "questionsCount": "{{count}} câu hỏi",
+      "editSend": "Chỉnh sửa / Gửi"
+    },
+    "live": {
+      "confidenceTitle": "Độ tự tin thời gian thực",
+      "confidenceDesc": "Mức độ hiểu bài học sinh tự đánh giá (Green/Yellow/Red)",
+      "liveNow": "LIVE NOW",
+      "muddyPoints": "Muddy Points",
+      "muddyPointsDesc": "Những điểm học sinh thấy khó hiểu nhất",
+      "aiSuggestions": "gợi ý giải thích từ AI",
+      "detailedFeedback": "Phản hồi chi tiết",
+      "responding": "Phản hồi",
+      "justNow": "Vừa xong",
+      "confidence": {
+        "confident": "Tự tin",
+        "okay": "Phân vân",
+        "confused": "Khó hiểu"
+      }
+    },
+    "insights": {
+      "loUnderstanding": "Hiểu biết theo Học liệu (LO)",
+      "loDesc": "Phân tích tỷ lệ trả lời đúng/sai theo từng khái niệm",
+      "aiSuggestions": "Gợi ý từ AI",
+      "aiAnalysis": "Dựa trên dữ liệu live, {{percent}}% học sinh đang gặp khó khăn với khái niệm <strong>\"{{concept}}\"</strong>.",
+      "solutionTitle": "Cách khắc phục đề xuất:",
+      "solutionItem1": "Sử dụng ví dụ \"{{example}}\" để minh họa {{concept}}.",
+      "solutionItem2": "Giao thêm 1 bài thực hành trực quan trong 10 phút.",
+      "peerTutoring": "Phân nhóm học tập",
+      "peerTutoringDesc": "Tự động phân nhóm để học sinh hỗ trợ lẫn nhau (Peer Tutoring).",
+      "createGroup": "Tạo Nhóm"
+    },
+    "mock": {
+      "concept": {
+        "types": "Biến & Kiểu dữ liệu",
+        "loops": "Vòng lặp For",
+        "functions": "Hàm & Tham số",
+        "arrays": "Mảng (Array)"
+      },
+      "points": {
+        "nestedLoops": "Vòng lặp lồng nhau",
+        "functions": "Tham số hàm",
+        "scope": "Phạm vi biến (Scope)",
+        "boolean": "Kiểu dữ liệu Boolean",
+        "ifElse": "Cấu trúc IF/ELSE",
+        "arrays": "Mảng đa chiều"
+      },
+      "conceptConfidence": "Độ tự tin về Hàm",
+      "conceptQuestion": "\"Câu hỏi: Bạn tự tin bao nhiêu điểm trên thang 10 về phần tham số hàm?\"",
+      "arrayConcept": "Mảng đa chiều",
+      "arrayExample": "Bảng xếp hàng",
+      "confident": "Tự tin",
+      "uncertain": "Phân vân",
+      "confused": "Khó hiểu",
+      "feedback1": "Em đã hiểu cách khai báo biến.",
+      "feedback2": "Em cần thêm ví dụ về hàm có trả về giá trị.",
+      "feedback3": "Phần vòng lặp trong vòng lặp vẫn chưa rõ ạ.",
+      "loopQuiz": "Kiểm tra Vòng lặp For",
+      "loopQuestion": "\"Câu hỏi: Kết quả in ra của vòng lặp i từ 1 tới 5 là gì?\"",
+      "logicTag": "Logic Lập trình",
+      "group1": "Nhóm 1 ({{s1}} + {{s2}})",
+      "group2": "Nhóm 2 ({{s1}} + {{s2}})"
+    },
+    "messages": {
+      "liveStarted": "Phiên đánh giá trực tiếp đã bắt đầu!",
+      "liveEnded": "Đã kết thúc phiên đánh giá."
+    },
+    "peerTutoringDesc": "Tự động phân nhóm để học sinh hỗ trợ lẫn nhau (Peer Tutoring).",
+    "tagPrefix": "Nhãn:",
+    "conceptPoll": "Khảo sát Khái niệm"
+  },
+  "intervention": {
+    "title": "Intervention Dashboard",
+    "subtitle": "Hệ thống cảnh báo sớm và quản lý can thiệp cho học sinh cần hỗ trợ.",
+    "actions": {
+      "history": "Lịch sử hỗ trợ",
+      "aiInsights": "AI Insights"
+    },
+    "stats": {
+      "critical": "Cần can thiệp gấp",
+      "monitoring": "Đang theo dõi",
+      "resolved": "Đã giải quyết tuần này"
+    },
+    "search": {
+      "placeholder": "Tìm kiếm học sinh hoặc lớp học..."
+    },
+    "filters": {
+      "all": "Tất cả",
+      "critical": "Nguy cấp",
+      "highRisk": "Rủi ro cao",
+      "monitoring": "Theo dõi",
+      "resolved": "Đã giải quyết"
+    },
+    "alerts": {
+      "lastActivity": "Hoạt động cuối",
+      "actions": {
+        "schedule1on1": "Hẹn gặp 1-on-1",
+        "parentNotify": "Gửi thông báo phụ huynh",
+        "supplementalExercise": "Giao bài tập bổ trợ",
+        "ignore": "Bỏ qua cảnh báo",
+        "markResolved": "Đánh dấu hoàn tất",
+        "mainAction": "Hành động"
+      },
+      "tooltips": {
+        "schedule": "Lên lịch gặp mặt",
+        "mail": "Gửi mail/SMS phụ huynh",
+        "exercise": "Giao bài tập bổ trợ"
+      }
+    },
+    "messages": {
+      "initiated": "Đã khởi tạo: {{action}} cho {{name}}"
+    },
+    "empty": {
+      "title": "Chưa có cuộc họp nào",
+      "desc": "Tất cả các bản cập nhật IEP đều đang đúng tiến độ."
+    },
+    "mock": {
+      "iepTeamDesc": "Gồm: Tâm lý học đường, Giáo viên đặc biệt, Phụ huynh và 2 chuyên gia tư vấn.",
+      "goal1": "Tự điền được bảng 10 số",
+      "goal2": "Xác định được 80% âm vị ghép",
+      "goal3": "Viết câu đơn không sai chính tả",
+      "goal4": "Tự hoàn thành 3/5 bài tập về nhà",
+      "goal5": "Không làm gián đoạn lớp học > 1 lần/bài",
+      "caseManager": "Cô Hoài Thu",
+      "strategyNote": "Học sinh phản ứng rất tốt với các tài liệu trực quan (infographics). Nên ưu tiên chuyển đổi các bài tập chữ viết sang dạng sơ đồ trong giai đoạn này.",
+      "dyslexia": "Dyslexia (Chứng khó đọc)",
+      "riskFactor1": "Bỏ lỡ 3 bài tập liên tiếp",
+      "riskFactor2": "Điểm quiz giảm 40%",
+      "riskFactor3": "Vắng mặt 2 buổi gần nhất",
+      "riskFactor4": "Thời gian tự học thấp (< 15p/ngày)",
+      "riskFactor5": "Thất bại trong 2 thử thách code",
+      "riskFactor6": "Chưa hoàn thành mục tiêu tuần",
+      "riskFactor7": "Phản hồi tiêu cực trong self-reflection",
+      "riskFactor8": "Tương tác thấp trên forum lớp",
+      "daysAgo": "{{count}} ngày trước",
+      "hoursAgo": "{{count}} giờ trước",
+      "math6A": "Toán 6A",
+      "pythonB1": "Lập trình Python B1",
+      "literature7B": "Ngữ văn 7B"
+    }
+  },
+  "learningPath": {
+    "title": "Mẫu Lộ trình học tập",
+    "subtitle": "Sử dụng các mẫu lộ trình chuẩn hóa để thiết kế kế hoạch dạy học cá nhân hóa nhanh chóng.",
+    "actions": {
+      "organize": "Tổ chức thư viện",
+      "createNew": "Tạo mẫu mới",
+      "useTemplate": "Sử dụng mẫu"
+    },
+    "search": {
+      "placeholder": "Tìm mẫu theo môn học, thẻ..."
+    },
+    "filters": {
+      "math": "Toán học",
+      "cs": "Tin học",
+      "popular": "Phổ biến nhất",
+      "all": "Tất cả"
+    },
+    "template": {
+      "aiPattern": "AI Pattern",
+      "modulesCount": "{{count}} Modules",
+      "addCustom": "Thêm mẫu mới",
+      "importFile": "Hoặc nhập từ file .LP",
+      "detailsTitle": "Chi tiết mẫu",
+      "structure": "Cấu trúc lộ trình",
+      "targetGroup": "Phù hợp với nhóm học sinh",
+      "useTemplate": "Sử dụng mẫu này",
+      "share": "Chia sẻ",
+      "edit": "Chỉnh sửa",
+      "structureTitle": "Cấu trúc lộ trình",
+      "suitableForTitle": "Phù hợp với nhóm học sinh",
+      "suitableFor": {
+        "visualKinesthetic": "Học sinh có phong cách học visual/kinesthetic.",
+        "math11Background": "Đã hoàn thành kiến thức nền tảng về Toán 11.",
+        "flexibleTime": "Cần thời gian linh hoạt trong tuần."
+      }
+    },
+    "aiSuggestion": {
+      "title": "Gợi ý từ AI",
+      "viewAnalysis": "Xem phân tích AI",
+      "description": "Dựa trên dữ liệu {{subject}} tuần này, chúng tôi khuyên bạn nên cập nhật mẫu {{topic}} để bổ sung phần kiến thức mới."
+    },
+    "collections": {
+      "title": "Bộ sưu tập của bạn",
+      "math10": "Lộ trình Toán 10",
+      "codingProjects": "Dự án Coding",
+      "academicEnglish": "Tiếng Anh Học thuật"
+    },
+    "mock": {
+      "title": {
+        "math12": "Toán 12: Chiến thuật Ôn thi Đại học",
+        "python": "Khởi đầu với Python",
+        "english": "English for Academic Purposes (EAP)"
+      },
+      "desc": {
+        "python": "Lộ trình toàn diện cho học sinh mới bắt đầu, từ cú pháp cơ bản đến xây dựng game logic đơn giản.",
+        "math12": "Tập trung vào các dạng bài trọng tâm, kỹ thuật giải nhanh và mô phỏng đề thi thực tế.",
+        "english": "Xây dựng nền tảng từ vựng học thuật và kỹ năng viết luận cho môi trường quốc tế."
+      },
+      "tags": {
+        "basic": "Cơ bản",
+        "thinking": "Tư duy",
+        "exam": "Ôn thi",
+        "math12": "Toán 12",
+        "intensive": "Cấp tốc",
+        "ielts": "IELTS",
+        "academic": "Học thuật",
+        "writing": "Viết"
+      },
+      "phases": {
+        "intro": "Giới thiệu & Cài đặt",
+        "concepts": "Khái niệm cốt lõi - Giai đoạn 1",
+        "projects": "Dự án thử thách"
+      }
+    }
+  },
+  "autoGrading": {
+    "title": "Chấm điểm tự động (AI)",
+    "desc": "Sử dụng AI để phân tích và đề xuất điểm số cho các bài tự luận.",
+    "analyzing": "Đang phân tích bài làm...",
+    "aiComparing": "AI đang so sánh với đáp án mẫu và tiêu chí chấm điểm (Rubric)...",
+    "approveResults": "Phê duyệt & Lưu điểm"
+  },
+  "parentFeedback": {
+    "title": "Tiêu đề"
+  },
+  "role": {
+    "primary": "Điểm chính",
+    "subject": "Môn học"
+  },
+  "roles": {
+    "teacher": "Giáo viên"
+  },
+  "reports": {
+    "title": "Báo cáo & Thống kê",
+    "subtitle": "Theo dõi hiệu suất và tiến độ học tập",
+    "actions": {
+      "export": "Xuất báo cáo",
+      "selectTime": "Chọn thời gian"
+    },
+    "filters": {
+      "week": "Tuần này",
+      "month": "Tháng này",
+      "quarter": "Quý này",
+      "year": "Năm nay"
+    },
+    "stats": {
+      "avgScore": "Điểm trung bình",
+      "totalStudents": "Tổng học sinh",
+      "submissions": "Bài nộp",
+      "completionRate": "Tỷ lệ hoàn thành",
+      "vsLastMonth": "{{percent}}% so với tháng trước"
+    },
+    "tabs": {
+      "overview": "Tổng quan",
+      "performance": "Hiệu suất",
+      "competency": "Năng lực",
+      "engagement": "Tương tác",
+      "cohorts": "Phân nhóm",
+      "activity": "Hoạt động"
+    },
+    "charts": {
+      "scoreTrend": "Xu hướng điểm số",
+      "scoreTrendDesc": "Điểm trung bình theo tháng",
+      "avgScoreShort": "Điểm TB",
+      "gradeDist": "Phân bố điểm số",
+      "gradeDistDesc": "Tỷ lệ học sinh theo xếp loại",
+      "gradeScale": "Tỷ lệ",
+      "classComp": "So sánh lớp học",
+      "classCompDesc": "Điểm trung bình theo lớp",
+      "subAttendance": "Bài nộp & Điểm danh",
+      "subAttendanceDesc": "Theo dõi hoạt động hàng tháng",
+      "attendPercent": "Điểm danh (%)",
+      "competencyMap": "Bản đồ năng lực",
+      "competencyMapDesc": "Đánh giá theo chủ đề",
+      "competencyDetail": "Chi tiết năng lực",
+      "competencyDetailDesc": "Điểm số theo từng lĩnh vực",
+      "weeklyActivity": "Hoạt động tuần này",
+      "weeklyActivityDesc": "Bài học, bài tập và kiểm tra theo ngày",
+      "lessons": "Bài học",
+      "exercises": "Bài tập",
+      "exams": "Kiểm tra",
+      "contentEff": "Hiệu quả nội dung",
+      "contentEffDesc": "Metrics theo chương học",
+      "engagementUnit": "{{percent}}% tương tác",
+      "completionUnit": "{{percent}}% hoàn thành",
+      "avgTimeUnit": "{{count}} phút TB",
+      "correlation": "Tương quan: Thời gian vs Điểm số",
+      "correlationDesc": "Mối liên hệ giữa nỗ lực học tập và kết quả đạt được",
+      "timeLabel": "Phút học tập",
+      "scoreLabel": "Điểm số",
+      "studentLabel": "Học sinh",
+      "analysis": "Phân tích",
+      "correlationAnalysis": "Có mối tương quan thuận mạnh mẽ giữa thời gian học tập và điểm số. Học sinh dành trên 80 phút thường đạt điểm trên 9.0.",
+      "heatmap": "Mật độ tương tác (Heatmap)",
+      "heatmapDesc": "Tần suất học tập theo giờ trong tuần",
+      "low": "Thấp",
+      "high": "Cao",
+      "interactions": "{{count}} lượt tương tác",
+      "cohortAnalysis": "Phân tích nhóm học sinh (Cohorts)",
+      "cohortAnalysisDesc": "So sánh tiến độ học tập giữa các niên khóa",
+      "cohortGrowth": "Tỷ lệ thăng tiến {{name}}"
+    },
+    "mock": {
+      "months": {
+        "t1": "T1", "t2": "T2", "t3": "T3", "t4": "T4", "t5": "T5", "t6": "T6"
+      },
+      "days": {
+        "mon": "T2", "tue": "T3", "wed": "T4", "thu": "T5", "fri": "T6", "sat": "T7", "sun": "CN"
+      },
+      "grades": {
+        "excellent": "Xuất sắc (9-10)",
+        "good": "Giỏi (8-9)",
+        "fair": "Khá (6.5-8)",
+        "average": "Trung bình (5-6.5)",
+        "poor": "Yếu (<5)"
+      },
+      "classes": {
+        "math6a": "Toán 6A",
+        "math7b": "Toán 7B",
+        "math8a": "Toán 8A",
+        "math9c": "Toán 9C",
+        "math6b": "Toán 6B"
+      },
+      "competencies": {
+        "arithmetic": "Số học",
+        "algebra": "Đại số",
+        "geometry": "Hình học",
+        "statistics": "Thống kê",
+        "probability": "Xác suất",
+        "trigonometry": "Lượng giác"
+      },
+      "chapters": {
+        "rationalNumbers": "Chương 1: Số hữu tỉ",
+        "realNumbers": "Chương 2: Số thực",
+        "planeGeometry": "Chương 3: Hình học phẳng",
+        "statistics": "Chương 4: Thống kê",
+        "midtermReview": "Ôn tập giữa kỳ"
+      }
+    }
+  }
+}

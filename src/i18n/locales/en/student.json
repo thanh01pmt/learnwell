@@ -1,0 +1,202 @@
+{
+  "roadmap": {
+    "generating": {
+      "title": "AI is building your roadmap...",
+      "subtitle": "Analyzing your goals, level, and preferences to optimize learning.",
+      "analyzing": "Analyzing Goals"
+    },
+    "builder": {
+      "version": "Personalization Engine v4.0",
+      "welcome": "Welcome to Personalized Learning",
+      "desc": "Help AI understand you better to create the most effective learning roadmap just for you.",
+      "config": "Roadmap Configuration",
+      "step": "Step {{current}} / {{total}}",
+      "back": "Back",
+      "continue": "Continue",
+      "generate": "Generate Roadmap 🚀",
+      "goals": {
+        "title": "What is your main goal?",
+        "web": "Web Development",
+        "ds": "Data Structures & Algorithms",
+        "ai": "Artificial Intelligence (AI)",
+        "app": "App Development"
+      },
+      "level": {
+        "title": "What is your current level?",
+        "beginner": "Beginner",
+        "beginnerDesc": "Never programmed before",
+        "intermediate": "Intermediate",
+        "intermediateDesc": "Know basics & syntax",
+        "advanced": "Advanced",
+        "advancedDesc": "Built real-world projects"
+      },
+      "time": {
+        "title": "How much time can you spend per week?",
+        "low": "Spend little (2h)",
+        "optimal": "Optimal: {{count}}h/week",
+        "fast": "Learn fast (20h)",
+        "estimate": "With {{hours}}h/week, AI expects you to complete the basic roadmap in about <0>{{weeks}} weeks</0>."
+      }
+    },
+    "header": {
+      "title": "Personalized Roadmap",
+      "duration": "Estimated: {{count}} weeks",
+      "target": "Goal: {{goal}}",
+      "refresh": "Refresh Roadmap",
+      "viewMap": "View Skill Map"
+    },
+    "stats": {
+      "overall": "Overall Completion",
+      "lessonsDone": "Lessons Completed",
+      "currentPhase": "Current Phase",
+      "studySpeed": "Study Speed",
+      "breakthrough": "Breakthrough: Top {{percent}}% this week ⚡"
+    },
+    "path": {
+      "title": "My Roadmap",
+      "desc": "Drag and drop to interact with learning milestones",
+      "week": "Week {{count}}",
+      "lesson": "Lesson",
+      "project": "Project",
+      "practice": "Practice"
+    },
+    "focus": {
+      "title": "This Week's Focus",
+      "startNow": "Start learning now 🚀"
+    },
+    "insights": {
+      "title": "AI Insights",
+      "gapDetected": "Skill Gap Detected",
+      "priority": "Priority",
+      "viewSupplemental": "View supplemental lessons →",
+      "forecast": "Completion Forecast",
+      "early": "{{count}} days early",
+      "habitNote": "Based on your evening study habits."
+    },
+    "peers": {
+      "title": "Peers on same roadmap",
+      "completedNote": "<strong>{{name}}</strong> just completed '{{week}}' with a perfect score."
+    },
+    "mock": {
+      "title": "Web Programming Fundamentals",
+      "phaseHighlight": "Advanced: DOM & Async",
+      "task1": {
+        "title": "DOM Events & Handling",
+        "desc": "Deep dive into user interaction"
+      },
+      "task2": {
+        "title": "Local Storage Lab",
+        "desc": "Start Todo List project"
+      },
+      "task3": {
+        "title": "Quick Quiz: Async Wait",
+        "desc": "Check last week's knowledge"
+      },
+      "insightGap": "Your recent 'Arrays' exercise data shows confusion with <strong>Nested Loops</strong>."
+    }
+  },
+  "autonomy": {
+    "title": "Learning Autonomy",
+    "subtitle": "Take control of your learning journey with data-driven insights.",
+    "actions": {
+      "newGoal": "New Goal",
+      "startSession": "Start Study Session"
+    },
+    "tabs": {
+      "analytics": "Analytics",
+      "goals": "SMART Goals",
+      "optimizer": "AI Optimizer"
+    },
+    "analytics": {
+      "timeDistribution": "Study Time Distribution",
+      "focusTrends": "Focus Quality Trends",
+      "keyInsight": "Key Insight",
+      "optimalWindow": "Your focus is highest between {{start}} - {{end}}",
+      "optimalAdvise": "Try scheduling complex {{subject}} problems during this window for {{percent}}% better accuracy.",
+      "monthlyScore": "Monthly Focus Score"
+    },
+    "goals": {
+      "overall": "Overall Progress",
+      "milestones": "Milestones",
+      "update": "Update Progress",
+      "addNew": "Add New SMART Goal",
+      "smartDesc": "Specific, Measurable, Achievable, Relevant, and Time-bound."
+    },
+    "optimizer": {
+      "recommendation": "AI Recommendation",
+      "windowStart": "Your Optimal Study Window for {{subject}} starts in {{count}} hours",
+      "pastPerform": "Based on your past performance, {{time}} is when you solve algorithms {{multiplier}}x faster.",
+      "accept": "Accept & Schedule",
+      "protop": "Productivity Tip",
+      "topicSuggest": "Topic Suggestion",
+      "readiness": "Weekly Readiness",
+      "prepStatus": "Preparation status for finals",
+      "generatePlan": "Generate Study Plan"
+    }
+  },
+  "skills": {
+    "title": "Skill Gap Analytics",
+    "header": "Personal Competency Analysis",
+    "aiAnalysis": "AI analyzed {{count}} of your exercises this week.",
+    "last30Days": "Last 30 Days",
+    "export": "Export Report",
+    "radar": {
+      "title": "Skill Profile (Radar)",
+      "desc": "Analysis of 5 core competency pillars",
+      "labels": {
+        "technical": "Technical",
+        "logic": "Logic",
+        "creative": "Creative"
+      }
+    },
+    "gap": {
+      "title": "Gap Detection",
+      "urgency": "{{level}} Priority",
+      "benefit": "Benefit: {{impact}}",
+      "aiSuggestion": "AI Suggestion: {{suggestion}}",
+      "startPractice": "START PRACTICE NOW"
+    },
+    "patterns": {
+      "title": "Learning Patterns",
+      "primeTime": "\"Prime Time\" Focus",
+      "bias": "Trial & Error Bias",
+      "adaptive": "Adaptive Difficulty",
+      "aiAdvise": "AI recommends increasing difficulty by {{percent}}% next week 📈"
+    }
+  },
+  "materials": {
+    "header": {
+      "title": "Rich Multimedia Materials",
+      "subtitle": "Explore interactive video lessons, podcasts, and virtual labs.",
+      "totalTime": "Total time: {{time}}"
+    },
+    "video": {
+      "quiz": "Interactive Quiz",
+      "quizQuestion": "\"Which variable declaration is correct in JavaScript?\"",
+      "jumpTo": "Jump to: {{label}}",
+      "correct": "Correct!",
+      "checkpoints": {
+        "variables": "Quick Check: Variables",
+        "scope": "Concept: Scope",
+        "loop": "Challenge: Build-a-Loop"
+      }
+    },
+    "ai": {
+      "notes": "AI Notes",
+      "summary": "\"AI summary: This section explains how JS manages memory through variable assignment...\"",
+      "related": "Related Materials"
+    },
+    "playlist": {
+      "title": "Course Playlist",
+      "progress": "Completion Progress",
+      "badgeNote": "Just 2 more lessons to earn the 'Beginner Master' badge!",
+      "items": {
+        "intro": "1. Course Introduction",
+        "setup": "2. Environment Setup",
+        "variables": "3. Variables & Data Types",
+        "logic": "4. Logic Basics",
+        "practice": "5. Lab: First Game"
+      }
+    }
+  }
+}

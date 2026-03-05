@@ -1,0 +1,53 @@
+{
+  "teams": {
+    "hero": {
+      "badge": "Guilds & Communities",
+      "title": "Teams &",
+      "titleHighlight": "Guilds",
+      "subtitle": "Build your own empire or join top teams to conquer every challenge.",
+      "leaderboard": "Team Leaderboard",
+      "create": "Create Team"
+    },
+    "dashboard": {
+      "level": "Level {{level}}",
+      "region": "Rank #{{rank}} Vietnam",
+      "members": "{{count}}/{{max}} Members",
+      "rating": "Team Rating",
+      "trophies": "Championship Trophies",
+      "coins": "Total LearnCoins",
+      "thisWeek": "This Week",
+      "battle": "Battle",
+      "chat": "Guild Chat"
+    },
+    "explore": {
+      "title": "Explore Teams",
+      "searchPlaceholder": "Search by name or tag...",
+      "tabs": {
+        "popular": "Popular",
+        "new": "New",
+        "friends": "Friends joined"
+      }
+    },
+    "card": {
+      "rank": "Rank #{{rank}}",
+      "members": "Members ({{count}}/{{max}})",
+      "details": "Details",
+      "type": {
+        "public": "Public",
+        "private": "Private"
+      }
+    },
+    "event": {
+      "badge": "Special Event",
+      "title": "Spring Guild War",
+      "prize": "Total prizes up to 50,000,000 VND and Epic title.",
+      "join": "Join Now!"
+    },
+    "mock": {
+      "t1": "Team specialized in solving the world's toughest problems.",
+      "t2": "Learn and grow together. Beginner friendly!",
+      "t3": "Legends of the LearnWell arena.",
+      "t4": "Turn code into gold."
+    }
+  }
+}

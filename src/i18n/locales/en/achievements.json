@@ -1,0 +1,63 @@
+{
+  "badges": {
+    "codeWarrior": {
+      "name": "Code Warrior",
+      "description": "Complete 50 programming exercises"
+    },
+    "quickLearner": {
+      "name": "Quick Learner",
+      "description": "Complete a course in 1 week"
+    },
+    "perfectScore": {
+      "name": "Perfect Score",
+      "description": "Achieve 100% in a test"
+    },
+    "streakMaster": {
+      "name": "Streak Master",
+      "description": "Learn continuously for 30 days"
+    },
+    "teamPlayer": {
+      "name": "Team Player",
+      "description": "Participate in 10 group projects"
+    },
+    "nightOwl": {
+      "name": "Night Owl",
+      "description": "Learn after 22:00 for 15 days"
+    },
+    "description": "Description",
+    "mathMaster": {
+      "name": "Name"
+    },
+    "title": "Title"
+  },
+  "rarities": {
+    "common": "Common",
+    "rare": "Rare",
+    "epic": "Epic",
+    "legendary": "Legendary"
+  },
+  "items": {
+    "jsChampion": {
+      "title": "JavaScript Champion",
+      "description": "Complete all JavaScript exercises"
+    },
+    "reactMaster": {
+      "title": "React Master",
+      "description": "Build 5 React applications"
+    },
+    "debuggerPro": {
+      "title": "Debugger Pro",
+      "description": "Fix 100 bugs in code"
+    },
+    "cleanCoder": {
+      "title": "Clean Coder",
+      "description": "Write standard-compliant code in 20 exercises"
+    }
+  },
+  "categories": {
+    "programming": "Programming",
+    "framework": "Framework",
+    "skill": "Skill",
+    "bestPractice": "Best Practice"
+  }
+}

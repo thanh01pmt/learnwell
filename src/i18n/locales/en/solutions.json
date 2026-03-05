@@ -1,0 +1,8 @@
+{
+  "title": "Solutions",
+  "twoSumOptimized": {
+    "title": "Optimized Two Sum Solution",
+    "description": "This is the most optimized approach using a Hash Map to reduce time complexity to O(n). We iterate through the array once and store the complement value in the map.",
+    "timeLabel": "2 days ago"
+  }
+}

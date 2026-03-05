@@ -1,0 +1,93 @@
+{
+  "title": "Notifications",
+  "subtitle": {
+    "unread": "You have {{count}} unread notifications",
+    "none": "No new notifications"
+  },
+  "actions": {
+    "markAllRead": "Mark all as read",
+    "markRead": "Read",
+    "clear": "Clear notification"
+  },
+  "stats": {
+    "total": "Total Notifications",
+    "unread": "Unread",
+    "read": "Read"
+  },
+  "tabs": {
+    "all": "All ({{count}})",
+    "unread": "Unread ({{count}})",
+    "read": "Read ({{count}})"
+  },
+  "empty": {
+    "title": "No notifications",
+    "allRead": "You've read all notifications",
+    "none": "No notifications yet"
+  },
+  "mocks": {
+    "student": {
+      "s1": {
+        "title": "Math test scores published",
+        "message": "You scored 9.0 in the Chapter 3 test"
+      },
+      "s2": {
+        "title": "New Lesson: Space Geometry",
+        "message": "Teacher Minh just posted a new lesson for Math"
+      },
+      "s3": {
+        "title": "Reminder: Literature Homework",
+        "message": "Lao Hac analysis assignment expires at 17:00 today"
+      },
+      "s4": {
+        "title": "You earned a new badge! 🏆",
+        "message": "Congratulations! You received the 'Hardworking Student' badge"
+      }
+    },
+    "teacher": {
+      "t1": {
+        "title": "New class join request",
+        "message": "Nguyen Van A requested to join Math 6A"
+      },
+      "t2": {
+        "title": "Assignments submitted",
+        "message": "15 students have submitted their Literature test"
+      },
+      "t3": {
+        "title": "Grading Reminder",
+        "message": "5 assignments are still pending grading"
+      }
+    },
+    "admin": {
+      "a1": {
+        "title": "System backup complete",
+        "message": "Scheduled data backup completed successfully"
+      },
+      "a2": {
+        "title": "5 teachers haven't updated grades",
+        "message": "Some teachers haven't updated grades this week"
+      },
+      "a3": {
+        "title": "12 tests pending approval",
+        "message": "New tests need Admin approval"
+      }
+    },
+    "parent": {
+      "p1": {
+        "title": "Minh Anh completed Math test",
+        "message": "Your child scored 9.5 - Excellent!"
+      },
+      "p2": {
+        "title": "Tuan Kiet praised by teacher",
+        "message": "Tuan Kiet was active in class discussions"
+      },
+      "p3": {
+        "title": "Reminder: February Tuition",
+        "message": "Tuition due date is February 10, 2026"
+      },
+      "p4": {
+        "title": "Parent-Teacher meeting 6A1",
+        "message": "Saturday, Feb 8, 2026, 8:00-10:00"
+      }
+    }
+  }
+}

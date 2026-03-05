@@ -1,0 +1,76 @@
+{
+  "title": "Bài giảng Podcast",
+  "subtitle": "Học tập mọi lúc mọi nơi qua âm thanh chất lượng cao.",
+  "actions": {
+    "downloadAll": "Tải toàn bộ",
+    "myPlaylist": "Playlist của tôi",
+    "speed": "{{speed}}x Tốc độ",
+    "transcript": "Transcript",
+    "viewAll": "Xem tất cả bài giảng",
+    "listenNow": "Nghe ngay"
+  },
+  "player": {
+    "narrator": "Giảng viên: {{name}}",
+    "about": "Về bài giảng này",
+    "tabs": {
+      "overview": "Tổng quan",
+      "chapters": "Chương học",
+      "resources": "Tài liệu đính kèm"
+    }
+  },
+  "sidebar": {
+    "related": "Bài giảng liên quan",
+    "relatedDesc": "Tiếp tục lộ trình học tập của bạn",
+    "recommendation": "Gợi ý cho bạn",
+    "recommendationText": "Dựa trên hiệu suất học tập buổi sáng, chúng tôi gợi ý bạn nghe thêm bài giảng về <b>Cấu trúc dữ liệu</b> để củng cố kiến thức Python."
+  },
+  "mockup": {
+    "lessons": {
+      "python": {
+        "title": "Nền tảng Python: Biến & Kiểu dữ liệu",
+        "description": "Tìm hiểu cách máy tính lưu trữ thông tin và các kiểu dữ liệu cơ bản trong Python thông qua các ví dụ thực tế.",
+        "tags": [
+          "Python",
+          "Nơ-ron",
+          "Cơ bản"
+        ],
+        "chapters": {
+          "intro": "Giới thiệu",
+          "what": "Biến là gì?",
+          "numbers": "Kiểu dữ liệu số",
+          "strings": "Kiểu dữ liệu chuỗi",
+          "summary": "Tổng kết & Bài tập"
+        }
+      },
+      "industrial": {
+        "title": "Lịch sử Thế giới: Cuộc Cách mạng Công nghiệp",
+        "description": "Hành trình ngược thời gian về thế kỷ 18 để hiểu về những thay đổi đã định hình thế giới hiện đại.",
+        "tags": [
+          "Lịch sử",
+          "Công nghiệp",
+          "Xã hội"
+        ],
+        "chapters": {
+          "context": "Bối cảnh nước Anh thế kỷ 18",
+          "steam": "Máy hơi nước & James Watt",
+          "production": "Sự thay đổi trong sản xuất",
+          "consequences": "Hệ quả xã hội"
+        }
+      },
+      "goldenRatio": {
+        "title": "Toán học vui: Tỷ lệ vàng trong Tự nhiên",
+        "description": "Khám phá con số kỳ diệu Phi (Φ) xuất hiện từ vỏ ốc đến dải ngân hà.",
+        "tags": [
+          "Toán học",
+          "Thiên nhiên",
+          "Hình học"
+        ],
+        "chapters": {
+          "fibonacci": "Dãy số Fibonacci",
+          "definition": "Định nghĩa Tỷ lệ vàng",
+          "arts": "Ứng dụng trong nghệ thuật"
+        }
+      }
+    }
+  }
+}

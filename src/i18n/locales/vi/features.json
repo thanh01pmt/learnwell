@@ -1,0 +1,294 @@
+{
+  "page": {
+    "title": "Quản lý Tính năng & Phân quyền",
+    "subtitle": "Thiết lập bật/tắt và phân quyền truy cập route cho từng nhóm người dùng."
+  },
+  "info": {
+    "banner": {
+      "title": "Lưu ý quan trọng",
+      "message": "Việc thay đổi phân quyền sẽ ảnh hưởng trực tiếp đến khả năng truy cập của người dùng ngay lập tức. Các route con sẽ tự động bị vô hiệu hóa nếu route cha bị tắt."
+    }
+  },
+  "notifications": {
+    "saved": "Cấu hình đã được lưu tự động"
+  },
+  "tabs": {
+    "contentAccess": {
+      "title": "Cấu trúc Phân quyền Học liệu",
+      "description": "Mô phỏng cấu trúc phân quyền truy cập tài liệu theo lớp và nhóm học sinh.",
+      "stats": "{{students}} học sinh • {{resources}} tài liệu"
+    },
+    "webhooks": {
+      "title": "Báo cáo qua Webhook",
+      "description": "Cấu hình endpoint để nhận báo cáo tự động (Mockup)."
+    },
+    "parentSpecial": {
+      "title": "Quyền bổ sung (Additive) cho Phụ huynh",
+      "description": "Thiết lập các logic bổ sung đặc thù cho vai trò phụ huynh.",
+      "notesTitle": "Ghi chú logic",
+      "notesMessage": "Thiết lập con sẽ bổ sung thêm cho thiết lập cha nhưng không mâu thuẫn với thiết lập cha. Ví dụ: Cho phép xem stats nhưng không cho phép sửa profile con.",
+      "options": {
+        "viewOnly": {
+          "title": "Chế độ \"Chỉ xem\" (Strict Stats Only)",
+          "description": "Phụ huynh chỉ xem được các route stats của con mình."
+        },
+        "contactTeacher": {
+          "title": "Quyền Bổ sung: Liên hệ giáo viên cơ bản",
+          "description": "Cho phép gửi tin nhắn nhanh cho giáo viên phụ trách."
+        },
+        "autoAssign": {
+          "title": "Tự động gán quyền truy cập route con của học sinh",
+          "description": "Phụ huynh tự động có quyền \"Xem\" các route con học tập của học sinh."
+        }
+      }
+    }
+  },
+  "actions": {
+    "searchPlaceholder": "Tìm kiếm tính năng...",
+    "addAccessGroup": "Thêm Nhóm Truy cập",
+    "addWebhook": "Thêm Webhook Endpoint"
+  },
+  "categories": {
+    "all": "Tất cả",
+    "user-management": "Người dùng",
+    "contests": "Cuộc thi",
+    "ai-features": "Tính năng AI",
+    "content-access": "Học liệu",
+    "webhooks": "Webhooks",
+    "parent-special": "Quyền Phụ huynh"
+  },
+  "features": {
+    "user-management": {
+      "name": "Quản lý Người dùng & Thống kê",
+      "description": "Quản lý danh sách học sinh, giáo viên và xem thống kê hệ thống."
+    },
+    "contests": {
+      "name": "Tổ chức Cuộc thi",
+      "description": "Hệ thống thi đấu code, ELO và đấu bot."
+    },
+    "ai-features": {
+      "name": "Tính năng AI & Cá nhân hóa",
+      "description": "Lộ trình học tập AI, phân tích lỗ hổng kiến thức và gợi ý học tập."
+    },
+    "content-access": {
+      "name": "Phân quyền Học liệu",
+      "description": "Kiểm soát truy cập tài nguyên theo lớp, giáo viên và học sinh."
+    },
+    "webhooks": {
+      "name": "Webhook & Reports",
+      "description": "Cấu hình webhook báo cáo và thông báo hệ thống."
+    },
+    "core-lms-teacher": {
+      "name": "LMS Core (Giáo viên)",
+      "description": "Các tính năng cốt lõi cho giáo viên."
+    },
+    "core-lms-student": {
+      "name": "LMS Core (Học sinh)",
+      "description": "Các tính năng cốt lõi cho học sinh."
+    },
+    "programming": {
+      "name": "Lập trình & Code",
+      "description": "IDE, Problem Library và Solution Sharing."
+    },
+    "gamification": {
+      "name": "Gamification",
+      "description": "Shop, Teams và Achievements."
+    },
+    "social": {
+      "name": "Cộng đồng & Trao đổi",
+      "description": "Forum, Social Feed và Study Groups."
+    },
+    "parent-portal": {
+      "name": "Cổng Phụ huynh",
+      "description": "Theo dõi tiến độ, báo cáo và liên lạc phụ huynh."
+    },
+    "portfolio-builder": {
+      "name": "Xây dựng Hồ sơ năng lực",
+      "description": "Tạo hồ sơ chuyên nghiệp để ứng tuyển học bổng, thực tập và tuyển sinh."
+    },
+    "learning-autonomy": {
+      "name": "Tự chủ học tập (Learning Autonomy)",
+      "description": "Phân tích nâng cao, theo dõi thời gian và thiết lập mục tiêu SMART cho học sinh."
+    },
+    "artifact-repo": {
+      "name": "Kho học liệu cá nhân (Learning Artifacts)",
+      "description": "Kho lưu trữ phương tiện truyền thông cho các dự án và phản ánh kỹ thuật số."
+    },
+    "intervention-dashboard": {
+      "name": "Can thiệp & Hỗ trợ",
+      "description": "Dashboard cảnh báo sớm và quy trình hỗ trợ học sinh yếu."
+    },
+    "formative-assessment": {
+      "name": "Đánh giá Thường xuyên",
+      "description": "Công cụ tạo nhanh bài đánh giá và theo dõi độ hiểu bài thời gian thực."
+    },
+    "curriculum-portal": {
+      "name": "Thông tin Giáo trình",
+      "description": "Cổng thông tin giúp phụ huynh hiểu rõ lộ trình và cách hỗ trợ con tại nhà."
+    },
+    "communication-hub": {
+      "name": "Trung tâm Liên lạc",
+      "description": "Kênh liên lạc đa phương tiện và lưu trữ báo cáo định kỳ."
+    },
+    "rich-materials": {
+      "name": "Học liệu Đa phương tiện",
+      "description": "Trình phát video tương tác, podcast và phòng thí nghiệm ảo."
+    },
+    "admin-analytics": {
+      "name": "Phân tích Hành vi & Hiệu quả",
+      "description": "Hệ thống báo cáo chuyên sâu về tương tác người dùng và hiệu quả học tập."
+    },
+    "resource-optimization": {
+      "name": "Tối ưu hóa Nguồn lực",
+      "description": "Công cụ quản lý và phân bổ tài nguyên học tập dựa trên dữ liệu thực tế."
+    },
+    "audio-lessons": {
+      "name": "Bài giảng Podcast",
+      "description": "Học tập linh hoạt qua âm thanh và podcast giáo dục."
+    },
+    "mind-maps": {
+      "name": "Sơ đồ Tư duy",
+      "description": "Hình ảnh hóa kiến thức qua sơ đồ tư duy tương tác."
+    },
+    "micro-credentials": {
+      "name": "Chứng nhận Kỹ năng",
+      "description": "Hệ thống huy hiệu và chứng nhận kỹ năng đạt được."
+    },
+    "home-activities": {
+      "name": "Hoạt động tại nhà",
+      "description": "Thư viện hoạt động giúp phụ huynh hỗ trợ con học tập."
+    },
+    "exit-tickets": {
+      "name": "Exit Tickets",
+      "description": "Công cụ đánh giá nhanh cuối giờ học để nắm bắt mức độ hiểu bài của học sinh."
+    },
+    "learning-path-templates": {
+      "name": "Mẫu Lộ trình học tập",
+      "description": "Thư viện các mẫu lộ trình học tập cá nhân hóa chuẩn hóa."
+    },
+    "iep-manager": {
+      "name": "Quản lý IEP",
+      "description": "Số hóa và quản lý Kế hoạch giáo dục cá nhân (IEP) cho học sinh cần hỗ trợ đặc biệt."
+    },
+    "study-buddies": {
+      "name": "Bạn cùng học (Study Buddy)",
+      "description": "Kết nối học sinh có cùng sở thích và mục tiêu học tập để cùng tiến bộ."
+    },
+    "skill-grouping": {
+      "name": "Phân nhóm theo kỹ năng",
+      "description": "Tự động phân nhóm học sinh theo trình độ và lỗ hổng kiến thức để hỗ trợ cá nhân hóa."
+    },
+    "cohort-tracking": {
+      "name": "Theo dõi Khóa học (Cohort)",
+      "description": "Phân tích và theo dõi tiến độ của các nhóm học sinh (cohort) qua nhiều năm học."
+    }
+  },
+  "matrix": {
+    "status": {
+      "active": "Hoạt động",
+      "disabled": "Đã tắt"
+    },
+    "table": {
+      "header": "Route / Tính năng"
+    },
+    "tooltips": {
+      "parentRoute": "Route cha: Tắt sẽ tắt tất cả route con.",
+      "disabledByParent": "Không có quyền do route cha bị tắt"
+    }
+  },
+  "routes": {
+    "admin": {
+      "dashboard": "Admin Dashboard",
+      "users": "Quản lý Người dùng",
+      "teachers": "Quản lý Giáo viên",
+      "reports": "Báo cáo Hệ thống",
+      "systemHealth": "Sức khỏe hệ thống",
+      "analytics": "Phân tích chuyên sâu",
+      "resources": "Tối ưu nguồn lực",
+      "cohortTracking": "Theo dõi Cohort"
+    },
+    "contests": {
+      "list": "Danh sách cuộc thi",
+      "detail": "Chi tiết cuộc thi",
+      "arena": "Đấu trường",
+      "leaderboard": "Bảng xếp hạng",
+      "quickMatch": "Tìm trận nhanh",
+      "teamBattle": "Đấu đội",
+      "botArena": "Đấu Bot",
+      "eloLeaderboard": "Bảng xếp hạng ELO"
+    },
+    "student": {
+      "dashboard": "Dashboard Học sinh",
+      "roadmap": "Lộ trình AI",
+      "skillGap": "Phân tích kỹ năng",
+      "adaptivePractice": "Luyện tập thích nghi",
+      "assignments": "Bài tập của tôi",
+      "materials": "Tài liệu học tập",
+      "richMaterials": "Học liệu nâng cao",
+      "audioLessons": "Bài học âm thanh",
+      "mindmaps": "Sơ đồ tư duy",
+      "flashcards": "Flashcards",
+      "notes": "Ghi chú",
+      "planner": "Kế hoạch học tập",
+      "autonomy": "Tự chủ học tập",
+      "artifacts": "Kho học liệu cá nhân",
+      "credentials": "Chứng nhận & Huy hiệu",
+      "studyBuddies": "Bạn cùng học",
+      "leaderboard": "Bảng xếp hạng chung",
+      "audio": "Âm thanh"
+    },
+    "teacher": {
+      "dashboard": "Dashboard Giáo viên",
+      "classes": "Danh sách lớp",
+      "classDetail": "Chi tiết lớp",
+      "students": "Danh sách học sinh",
+      "grading": "Chấm điểm",
+      "gradebook": "Sổ điểm",
+      "gradebookAdvanced": "Sổ điểm nâng cao",
+      "rubricBuilder": "Xây dựng Rubric",
+      "seatingChart": "Sơ đồ lớp",
+      "attendance": "Điểm danh",
+      "interventions": "Dashboard hỗ trợ",
+      "formative": "Đánh giá nhanh",
+      "exitTickets": "Exit Tickets",
+      "pathTemplates": "Mẫu lộ trình",
+      "iep": "Quản lý IEP",
+      "skillGroups": "Phân nhóm kỹ năng"
+    },
+    "parent": {
+      "dashboard": "Dashboard Phụ huynh",
+      "progress": "Tiến độ của con",
+      "report": "Báo cáo chi tiết",
+      "attendance": "Chuyên cần",
+      "contact": "Liên hệ giáo viên",
+      "schedule": "Thời khóa biểu của con",
+      "curriculum": "Lộ trình học tập",
+      "communications": "Liên lạc & Báo cáo",
+      "homeActivities": "Hoạt động tại nhà"
+    },
+    "common": {
+      "recommendations": "Gợi ý thông minh",
+      "resources": "Kho học liệu",
+      "learningPaths": "Lộ trình học tập",
+      "playground": "Code Playground",
+      "problems": "Thư viện bài tập",
+      "solutions": "Chia sẻ lời giải",
+      "codeGallery": "Code Gallery",
+      "peerReview": "Peer Review",
+      "shop": "Cửa hàng LearnCoin",
+      "teams": "Hệ thống Team",
+      "achievements": "Thành tựu",
+      "certificates": "Chứng chỉ",
+      "forum": "Diễn đàn",
+      "socialFeed": "Bảng tin cộng đồng",
+      "studyGroups": "Nhóm học tập",
+      "messages": "Tin nhắn",
+      "authoring": {
+        "questions": "Ngân hàng câu hỏi",
+        "curriculum": "Quản lý giáo trình",
+        "exams": "Quản lý kỳ thi"
+      },
+      "portfolioBuilder": "Xây dựng Hồ sơ"
+    }
+  }
+}

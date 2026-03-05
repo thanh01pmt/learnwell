@@ -1,0 +1,235 @@
+{
+  "attendance": {
+    "title": "Theo dõi chuyên cần",
+    "studentInfo": "Học sinh: {{name}} • Lớp {{class}}",
+    "stats": {
+      "present": "Hiện diện",
+      "late": "Vào trễ",
+      "absent": "Vắng mặt"
+    },
+    "calendar": {
+      "mon": "T2",
+      "tue": "T3",
+      "wed": "T4",
+      "thu": "T5",
+      "fri": "T6",
+      "sat": "T7",
+      "sun": "CN"
+    },
+    "status": {
+      "present": "Có mặt",
+      "late": "Đi muộn",
+      "absent": "Vắng mặt",
+      "excused": "Vắng có phép",
+      "unexcused": "Vắng không phép"
+    },
+    "legend": {
+      "present": "Có mặt",
+      "late": "Muộn",
+      "excused": "Có phép",
+      "unexcused": "K phép"
+    },
+    "info": "Dữ liệu điểm danh được cập nhật tự động. Vui lòng liên hệ giáo viên nếu có sai sót."
+  },
+  "schedule": {
+    "title": "Lịch học tập",
+    "subtitle": "Theo dõi thời khóa biểu và các sự kiện của con",
+    "selectChild": "Chọn con",
+    "all": "Tất cả",
+    "dailyTitle": "Lịch học ngày {{date}}",
+    "activitiesCount": "Có {{count}} hoạt động trong ngày",
+    "empty": "Không có hoạt động nào trong ngày này",
+    "upcoming": "Sự kiện sắp tới",
+    "upcomingDesc": "Các sự kiện quan trọng cần lưu ý",
+    "legendTitle": "Chú thích",
+    "types": {
+      "class": "Tiết học",
+      "exam": "Kiểm tra",
+      "event": "Sự kiện",
+      "meeting": "Họp PH",
+      "meetingEnd": "Họp PH cuối kỳ",
+      "sportsDay": "Ngày hội thể thao",
+      "stemDay": "Ngày hội STEM"
+    },
+    "duration": "{{count}} phút",
+    "hours": "{{count}} giờ"
+  },
+  "dashboard": {
+    "stats": {
+      "children": "Số con",
+      "achievements": "Thành tựu",
+      "pendingAssignments": "Bài tập chưa nộp",
+      "upcomingEvents": "Sự kiện sắp tới"
+    },
+    "progress": {
+      "subtitle": "Phân tích chi tiết quá trình học tập của con."
+    },
+    "comparison": {
+      "title": "So sánh tiến độ học tập",
+      "desc": "Điểm của con so với trung bình của lớp",
+      "legend": {
+        "classAvg": "T.Bình Lớp"
+      }
+    },
+    "sections": {
+      "myChildren": {
+        "title": "Con của bạn",
+        "minhanh": "Minh Anh",
+        "tuankiet": "Tuấn Kiệt"
+      },
+      "notifications": "Thông báo",
+      "upcomingLịch": "Lịch học sắp tới",
+      "recentAssignments": "Bài tập gần đây",
+      "upcomingEvents": "Sắp tới"
+    },
+    "actions": {
+      "contactTeacher": "Liên hệ GV",
+      "bookMeeting": "Đặt lịch họp",
+      "buildPortfolio": "Tạo Portfolio",
+      "viewProgress": "Tiến độ",
+      "viewAttendance": "Điểm danh",
+      "viewReport": "Báo cáo",
+      "viewAllNotifications": "Xem tất cả thông báo",
+      "viewFullSchedule": "Xem chi tiết lịch",
+      "viewAllAchievements": "Tất cả thành tựu"
+    },
+    "labels": {
+      "averageScore": "Điểm T.Bình",
+      "attendance": "Chuyên cần",
+      "new": "mới"
+    },
+    "achievements": {
+      "mathStar": "Ngôi sao Toán học",
+      "taskMaster": "Chuyên gia nhiệm vụ",
+      "englishPerfect": "Tiếng Anh hoàn hảo",
+      "streak7": "Chuỗi 7 ngày học tập"
+    }
+  },
+  "communication": {
+    "chat": {
+      "online": "Đang trực tuyến",
+      "inputPlaceholder": "Nhập tin nhắn...",
+      "sendSuccess": "Đã gửi tin nhắn!"
+    },
+    "mock": {
+      "contacts": {
+        "hoa": "Cô Nguyễn Thị Hoa",
+        "nam": "Thầy Trần Văn Nam",
+        "mai": "Cô Lê Thị Mai",
+        "duc": "Thầy Phạm Minh Đức",
+        "subjects": {
+          "homeroomMath": "Chủ nhiệm • Toán",
+          "english": "Tiếng Anh",
+          "it": "Tin học"
+        }
+      },
+      "chat": {
+        "m1": "Chào bạn, mình muốn cập nhật tình hình học tập của con.",
+        "m2": "Chào cô, rất hân hạnh được hỗ trợ.",
+        "m3": "Con dạo này học Toán có ổn không ạ?",
+        "m4": "Con tiến bộ rất tốt, đặc biệt là phần hình học."
+      },
+      "logs": {
+        "academicUpdate": "Cập nhật học tập",
+        "homeworkReminder": "Nhắc nhở bài tập",
+        "praise": "Khen ngợi",
+        "summary1": "Cập nhật kết quả bài kiểm tra giữa kỳ môn Toán.",
+        "summary2": "Nhắc nhở nộp bài tập tiếng Anh Unit 5.",
+        "summary3": "Khen ngợi sự tích cực của con trong tiết học IT."
+      }
+    }
+  },
+  "scheduling": {
+    "mock": {
+      "topics": {
+        "calculusQ": "Giải đáp thắc mắc Tích phân",
+        "essayUnit5": "Review Essay Unit 5"
+      }
+    }
+  },
+  "parentName": "Tony",
+  "mocks": {
+    "parentName": "Tony",
+    "children": {
+      "child1": "Nguyễn Minh Anh",
+      "child2": "Nguyễn Tuấn Kiệt"
+    }
+  },
+  "teacherContact": {
+    "title": "Liên hệ Giáo viên",
+    "subtitle": "Kết nối trực tiếp với giáo viên của con để được hỗ trợ.",
+    "sections": {
+      "subject": "Giáo viên bộ môn",
+      "logs": "Lịch sử trao đổi"
+    },
+    "actions": {
+      "message": "Nhắn tin",
+      "bookMeeting": "Hẹn gặp"
+    },
+    "fields": {
+      "selectTeacher": "Chọn giáo viên",
+      "meetingContent": "Nội dung cuộc hẹn"
+    },
+    "placeholders": {
+      "selectTeacher": "Vui lòng chọn giáo viên...",
+      "selectTime": "Chọn khung giờ...",
+      "meetingContent": "Mô tả vấn đề bạn muốn trao đổi...",
+      "searchPlaceholder": "Tìm kiếm giáo viên..."
+    },
+    "history": {
+      "title": "Lịch sử trao đổi",
+      "desc": "Danh sách các cuộc trao đổi gần đây của bạn với nhà trường"
+    },
+    "noTeachersFound": "Không tìm thấy giáo viên phù hợp"
+  },
+  "curriculum": {
+    "title": "Chương trình học tập",
+    "subtitle": "Theo dõi lộ trình và các mục tiêu học tập của con.",
+    "actions": {
+      "downloadPdf": "Tải tài liệu PDF",
+      "shareProgress": "Chia sẻ tiến độ"
+    },
+    "roadmap": {
+      "title": "Lộ trình học tập",
+      "desc": "Các cột mốc quan trọng trong năm học",
+      "completion": "{{count}}% hoàn thành"
+    },
+    "details": {
+      "title": "Chi tiết mục tiêu",
+      "inProgress": "Đang thực hiện",
+      "skills": "Kỹ năng trọng tâm",
+      "howToHelp": "Cách phụ huynh có thể hỗ trợ",
+      "summaryDoc": "Tài liệu tóm tắt bài học",
+      "summaryDocDesc": "Xem nhanh các kiến thức cốt lõi con đang học.",
+      "quizSuggestions": "Gợi ý câu hỏi kiểm tra",
+      "quizSuggestionsDesc": "Dùng để ôn tập cùng con tại nhà.",
+      "lastUpdated": "Cập nhật {{time}} trước",
+      "askTeacher": "Hỏi giáo viên về phần này"
+    },
+    "weeklyDigest": {
+      "badge": "AI Phân tích",
+      "title": "Bản tin học tập tuần này",
+      "desc": "Tóm tắt tự động dựa trên kết quả học tập của con.",
+      "summary": "Tuần này con đã dành {{hours}} giờ học tập với điểm trung bình ấn tượng {{score}}. Con đang làm rất tốt phần Hình học không gian.",
+      "viewDraft": "Xem bản nháp báo cáo"
+    },
+    "mocks": {
+      "milestone1": {
+        "title": "Nền tảng tư duy & Logic",
+        "howToHelp": "Khuyến khích con giải các câu đố logic hoặc chơi các trò chơi chiến thuật cùng gia đình."
+      },
+      "milestone2": {
+        "title": "Lập trình hướng đối tượng",
+        "howToHelp": "Hỏi con về cách các vật thể trong đời thực có thể được mô tả bằng 'thuộc tính' và 'hành động'."
+      },
+      "milestone3": {
+        "title": "Tự động hóa & Dữ liệu",
+        "howToHelp": "Thảo luận về cách các ứng dụng điện thoại lưu trữ thông tin cá nhân một cách an toàn."
+      },
+      "milestone4": {
+        "title": "Dự án Sáng tạo cuối kỳ",
+        "howToHelp": "Dành thời gian xem con thuyết trình về ý tưởng dự án và đưa ra những lời khen ngợi tích cực."
+      }
+    }
+  }
+}

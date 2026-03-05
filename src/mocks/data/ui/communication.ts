@@ -1,0 +1,87 @@
+export const contactTeachers = [
+  {
+    id: "1",
+    name: "parent:communication.mock.contacts.hoa",
+    subject: "parent:communication.mock.contacts.subjects.homeroomMath",
+    avatar: "teacher1",
+    email: "hoa.nguyen@school.edu.vn",
+    phone: "0901234567",
+    class: "6A1",
+    child: "parent:dashboard.sections.myChildren.minhanh",
+    isOnline: true,
+  },
+  {
+    id: "2",
+    name: "parent:communication.mock.contacts.nam",
+    subject: "parent:communication.mock.contacts.subjects.english",
+    avatar: "teacher2",
+    email: "nam.tran@school.edu.vn",
+    phone: "0902345678",
+    class: "6A1",
+    child: "parent:dashboard.sections.myChildren.minhanh",
+    isOnline: false,
+    timeKey: "hours",
+    timeCount: 2,
+  },
+  {
+    id: "3",
+    name: "parent:communication.mock.contacts.mai",
+    subject: "parent:communication.mock.contacts.subjects.homeroomMath",
+    avatar: "teacher3",
+    email: "mai.le@school.edu.vn",
+    phone: "0903456789",
+    class: "4B2",
+    child: "parent:dashboard.sections.myChildren.tuankiet",
+    isOnline: true,
+  },
+  {
+    id: "4",
+    name: "parent:communication.mock.contacts.duc",
+    subject: "parent:communication.mock.contacts.subjects.it",
+    avatar: "teacher4",
+    email: "duc.pham@school.edu.vn",
+    phone: "0904567890",
+    class: "4B2",
+    child: "parent:dashboard.sections.myChildren.tuankiet",
+    isOnline: false,
+    timeKey: "minutes",
+    timeCount: 30,
+  },
+];
+
+export const mockMessages = [
+  {
+    id: "1",
+    senderId: "teacher",
+    contentKey: "parent:communication.mock.chat.m1",
+    timestamp: "09:30",
+    isMe: false,
+  },
+  {
+    id: "2",
+    senderId: "me",
+    contentKey: "parent:communication.mock.chat.m2",
+    timestamp: "09:35",
+    isMe: true,
+  },
+  {
+    id: "3",
+    senderId: "teacher",
+    contentKey: "parent:communication.mock.chat.m3",
+    timestamp: "09:40",
+    isMe: false,
+  },
+  {
+    id: "4",
+    senderId: "me",
+    contentKey: "parent:communication.mock.chat.m4",
+    timestamp: "09:42",
+    isMe: true,
+  },
+];
+
+export const communicationLog = [
+  { id: "1", date: "2024-01-15", titleKey: "parent:communication.mock.logs.academicUpdate", teacher: "parent:communication.mock.contacts.hoa", summaryKey: "parent:communication.mock.logs.summary1", type: "academic" },
+  { id: "2", date: "2024-01-10", titleKey: "parent:communication.mock.logs.homeworkReminder", teacher: "parent:communication.mock.contacts.nam", summaryKey: "parent:communication.mock.logs.summary2", type: "reminder" },
+  { id: "3", date: "2024-01-05", titleKey: "parent:communication.mock.logs.praise", teacher: "parent:communication.mock.contacts.mai", summaryKey: "parent:communication.mock.logs.summary3", type: "positive" },
+];

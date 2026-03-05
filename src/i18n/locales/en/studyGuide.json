@@ -1,0 +1,100 @@
+{
+  "title": "AI Study Guide Generator",
+  "description": "Automatically synthesize knowledge and create smart review roadmaps",
+  "steps": {
+    "step1": {
+      "title": "Step 1: Choose review topic",
+      "description": "Select the content you want AI to synthesize knowledge for"
+    }
+  },
+  "ui": {
+    "relatedLessons": "{{count}} related lessons",
+    "addTopic": "Add other topic",
+    "aiConfig": "AI Configuration",
+    "detailLevel": "Detail Level",
+    "detailLevelDesc": "Customize the coverage of the synthesized content",
+    "modes": {
+      "summary": "Summary",
+      "standard": "Standard",
+      "advanced": "Advanced"
+    },
+    "includeQuestions": "Include review questions",
+    "includeQuestionsDesc": "AI will create additional self-practice questions",
+    "generateTitle": "Create Study Guide",
+    "generateDesc": "Use AI to process {{count}} lesson documents.",
+    "estimatedTime": "Estimated time",
+    "estimatedSeconds": "~ {{count}} seconds",
+    "processing": "Processing...",
+    "startNow": "Start now",
+    "analyzing": "Analyzing documents...",
+    "extractingKeywords": "Extract {{count}} important keywords",
+    "classifyingKnowledge": "Classify {{count}} knowledge groups",
+    "writingGuide": "Drafting synthesis text...",
+    "badge": "STUDY GUIDE - AI GENERATED",
+    "coreConcepts": "Core Concepts",
+    "keyTakeaways": "Key Takeaways",
+    "practiceQuestions": "Practice Questions",
+    "aiSuggestions": "AI Suggestions",
+    "createFlashcards": "Create Flashcards from this content",
+    "startQuickTest": "Start Quick Test",
+    "history": "Study Guides History",
+    "createNew": "Create new Study Guide"
+  },
+  "mockTopics": {
+    "t1": {
+      "title": "Sorting Algorithms",
+      "subject": "Informatics"
+    },
+    "t2": {
+      "title": "System of Linear Equations",
+      "subject": "Mathematics"
+    },
+    "t3": {
+      "title": "Redox Reactions",
+      "subject": "Chemistry"
+    }
+  },
+  "mockResult": {
+    "title": "Sorting Algorithms & Complexity",
+    "subject": "Informatics Grade 11",
+    "definition": "Sorting is the process of arranging elements of a list in a certain order (ascending or descending).",
+    "quickSort": "QuickSort: O(n log n), most efficient.",
+    "mergeSort": "MergeSort: O(n log n), stable.",
+    "bubbleSort": "BubbleSort: O(n^2), easy to implement.",
+    "takeaway": "QuickSort can drop to O(n^2) if pivot selection is poor. MergeSort consumes more memory due to recursion and requirement for temporary arrays.",
+    "coreConcepts": {
+      "c1": {
+        "title": "Rational Numbers",
+        "content": "Rational numbers are numbers that can be written as a/b where a, b are integers and b is not 0."
+      },
+      "c2": {
+        "title": "Decimals",
+        "content": "How to convert between finite decimals and repeating decimals."
+      }
+    },
+    "keyTakeaways": {
+      "t1": "Master the rules for addition, subtraction, multiplication, and division of rational numbers.",
+      "t2": "Understand the absolute value of a rational number."
+    },
+    "practiceQuestions": {
+      "q1": {
+        "q": "Calculate the value of A = 1/2 + 3/4",
+        "a": "5/4"
+      },
+      "q2": {
+        "q": "Find x, if |x| = 2/3",
+        "a": "x = 2/3 or x = -2/3"
+      }
+    }
+  },
+  "history": {
+    "h1": {
+      "title": "Organic Chemistry",
+      "date": "2 days ago"
+    },
+    "h2": {
+      "title": "Modern History",
+      "date": "1 week ago"
+    }
+  }
+}

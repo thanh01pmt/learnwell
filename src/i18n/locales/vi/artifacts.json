@@ -1,0 +1,61 @@
+{
+  "title": "Sản phẩm học tập",
+  "subtitle": "Kho lưu trữ cá nhân về bằng chứng học tập. Tài liệu về sự phát triển của bạn theo thời gian.",
+  "actions": {
+    "add": "Thêm sản phẩm",
+    "viewDetails": "Xem chi tiết"
+  },
+  "filters": {
+    "title": "Bộ lọc",
+    "searchPlaceholder": "Tìm kiếm sản phẩm...",
+    "categories": "Danh mục",
+    "fileTypes": "Loại tệp"
+  },
+  "types": {
+    "video": "Video",
+    "photo": "Ảnh",
+    "document": "Tài liệu",
+    "link": "Liên kết"
+  },
+  "credentials": {
+    "title": "Chứng chỉ vi mô",
+    "viewAll": "Xem tất cả chứng chỉ"
+  },
+  "quickUpload": {
+    "title": "Tải lên nhanh",
+    "subtitle": "Ghi lại việc học ngay khi nó diễn ra. Chụp ảnh hoặc ghi lại một suy nghĩ."
+  },
+  "stats": {
+    "stars": "{{count}} sao",
+    "feedback": "{{count}} phản hồi"
+  },
+  "timeline": {
+    "end": "Kết thúc kho lưu trữ hiện tại",
+    "subtitle": "Xem dòng thời gian học tập đầy đủ của bạn từ những năm trước.",
+    "browse": "Duyệt dòng thời gian"
+  },
+  "mockup": {
+    "artifacts": {
+      "city": {
+        "title": "Thiết kế thành phố thân thiện với môi trường",
+        "category": "Dự án Khoa học",
+        "reflection": "Dự án nhóm này đã dạy tôi về quy hoạch đô thị bền vững và thiết kế CAD cộng tác."
+      },
+      "code": {
+        "title": "Sự tiến hóa của trò chơi rắn săn mồi Python",
+        "category": "Khoa học máy tính",
+        "reflection": "Phản ánh về cách tôi tối ưu hóa thuật toán phát hiện va chạm bằng cách phân vùng không gian."
+      },
+      "history": {
+        "title": "Bài luận Lịch sử: Cách mạng công nghiệp",
+        "category": "Lịch sử",
+        "reflection": "Phân tích tác động kinh tế - xã hội của máy móc ngành dệt ở Anh thế kỷ 19."
+      }
+    },
+    "credentials": {
+      "data": "Bậc thầy Cấu trúc dữ liệu",
+      "method": "Phương pháp Khoa học",
+      "web": "Cơ bản Phát triển Web"
+    }
+  }
+}

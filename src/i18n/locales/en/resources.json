@@ -1,0 +1,47 @@
+{
+  "title": "Learning Resources",
+  "subtitle": "Library of documents, videos, and tools to support programming learning",
+  "placeholders": {
+    "search": "Search resources..."
+  },
+  "types": {
+    "all": "All",
+    "book": "Books",
+    "video": "Videos",
+    "document": "Documents",
+    "link": "Links"
+  },
+  "categories": {
+    "all": "All",
+    "javascript": "JavaScript",
+    "react": "React",
+    "typescript": "TypeScript",
+    "python": "Python",
+    "nodejs": "Node.js",
+    "css": "CSS",
+    "web": "Web",
+    "tools": "Tools"
+  },
+  "actions": {
+    "access": "Access",
+    "watch": "Watch",
+    "download": "Download"
+  },
+  "messages": {
+    "noResources": "No resources found matching your criteria"
+  },
+  "fields": {
+    "pages": "pages"
+  },
+  "mock": {
+    "jsGoodParts": "The classic book on JavaScript by Douglas Crockford",
+    "reactHooks": "Detailed video tutorial on React Hooks from basic to advanced",
+    "tsHandbook": "Official documentation from Microsoft on TypeScript",
+    "mdn": "The most comprehensive reference for HTML, CSS, and JavaScript",
+    "pythonDataScience": "Guide to using Python for data analysis",
+    "nodeBestPractices": "Collection of best practices for Node.js development",
+    "gitGithub": "Learn how to use Git and GitHub from scratch",
+    "gitGithub.title": "Git and GitHub for Beginners",
+    "cssTricks": "Blog with many tips and tricks for CSS"
+  }
+}

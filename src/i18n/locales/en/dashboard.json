@@ -1,0 +1,709 @@
+{
+  "welcome": {
+    "greeting": "Welcome, {{name}}!",
+    "dateMessage": "Today is {{date}}. Have a productive day!"
+  },
+  "dashboard": {
+    "comparison": {
+      "title": "Title"
+    },
+    "curriculum": {
+      "details": {
+        "lastUpdated": "Last Updated",
+        "skills": "Skills"
+      }
+    }
+  },
+  "nextClass": "Next class: {{time}} - {{className}}",
+  "continueLearning": "Continue your learning journey today!",
+  "stats": {
+    "lessons": "Lessons",
+    "completed": "Completed",
+    "pending": "Pending",
+    "avgGrade": "Avg Grade",
+    "totalClasses": "Total Classes",
+    "totalStudents": "Total Students",
+    "gradingPending": "Grading Pending",
+    "urgentRequests": "Urgent Requests",
+    "myChildren": "My Children",
+    "attendance": "Attendance",
+    "achievements": "Achievements",
+    "upcomingEvents": "Upcoming Events",
+    "users": "Users",
+    "activeUsers": "Active Users",
+    "comparedToLastMonth": "compared to last month",
+    "examsToday": "Exams Today",
+    "completionRate": "Completion Rate",
+    "onlineUsers": "Online Users",
+    "averageScore": "Average Score",
+    "graded": "Graded",
+    "improvement": "Improvement",
+    "skills": "Skills",
+    "systemOverview": "System Overview"
+  },
+  "sections": {
+    "studyPlanner": "Study Planner",
+    "upcomingAssignments": "Upcoming Assignments",
+    "continueLearning": "Continue Learning",
+    "todaySchedule": "Today's Schedule",
+    "notifications": "Notifications",
+    "quickPractice": "Quick Practice",
+    "myClasses": "My Classes",
+    "weeklyProgress": "Weekly Progress",
+    "recentActivity": "Recent Activity",
+    "schedule": "Schedule",
+    "systemHealth": "System Health",
+    "userManagement": "User Management",
+    "curriculum": "Curriculum"
+  },
+  "actions": {
+    "seeAll": "See all",
+    "startNow": "Start now",
+    "continue": "Continue",
+    "review": "Review",
+    "doAssignment": "Do it",
+    "continueWorking": "Let's go!",
+    "createNew": "Create New",
+    "reports": "Reports",
+    "impersonateTeacher": "View as Teacher"
+  },
+  "levels": {
+    "levelUp": "LEVEL UP!",
+    "reachedLevel": "Congratulations {{name}} on reaching **Level {{level}}**!"
+  },
+  "mockup": {
+    "assignments": {
+      "mathQuiz": "15-minute Quiz - Chapter 3",
+      "englishHomework": "Homework - Unit 5",
+      "literatureAnalysis": "Analysis of Lão Hạc",
+      "urgent": "Urgent"
+    },
+    "planner": {
+      "pendingTasks": "You have {{count}} important tasks to complete today."
+    },
+    "xpGained": "Congratulations! You received {{amount}} XP",
+    "lessons": {
+      "rationalNumbers": "Rational Numbers",
+      "englishTenses": "English Tenses",
+      "quadraticEquation": "Quadratic Equations",
+      "pastTenses": "Past Tenses",
+      "newtonMechanics": "Newtonian Mechanics",
+      "geometry": "Solid Geometry"
+    },
+    "notifications": {
+      "mathGrade": "Math quiz grades have been announced",
+      "newLesson": "New lesson: Solid Geometry",
+      "essayReminder": "Reminder: Submit Literature essay before 17:00",
+      "time": {
+        "today": "Today",
+        "tomorrow": "Tomorrow",
+        "minutes": "{{count}} mins ago",
+        "hours": "{{count}} hours ago"
+      }
+    },
+    "practiceReminder": "You have some unfinished math exercises. Spend 15 minutes to review!",
+    "subjects": {
+      "math": "Mathematics",
+      "calculus": "Calculus",
+      "science": "Science",
+      "english": "English",
+      "history": "History",
+      "programming": "Programming",
+      "python": "Python Programming",
+      "literature": "Literature",
+      "physics": "Physics",
+      "chemistry": "Chemistry",
+      "biology": "Biology",
+      "civics": "Civics Education"
+    },
+    "schedule": {
+      "room": "Room {{room}}",
+      "classroom": "Room {{room}}",
+      "grade": "Grade {{grade}}"
+    },
+    "attendance": {
+      "notes": {
+        "bikeBroken": "Bike broken",
+        "sickExcused": "Sick (excused)",
+        "unexcused": "Unexcused",
+        "overslept": "Overslept",
+        "frequestSpeaker": "Frequent speaker",
+        "lateRequest": "Requested late arrival"
+      },
+      "exitTickets": {
+        "titles": {
+          "forLoops": "Understanding For Loops",
+          "dienBienPhu": "Dien Bien Phu Campaign Analysis"
+        },
+        "questions": {
+          "scaleUnderstanding": "How would you rate your understanding today?",
+          "difficulties": "What was most difficult for you?",
+          "historicalSignificance": "Name 3 most important significances of the victory."
+        },
+        "comments": {
+          "debugLoops": "Today's lesson was very visual, I understood how to debug loops.",
+          "nestedLoops": "Still a bit confused about nested loops.",
+          "forVsWhile": "Don't know when to use for vs while."
+        }
+      },
+      "gradebook": {
+        "assignments": {
+          "hwWeek1": "Algebra Week 1",
+          "hwWeek2": "Algebra Week 2",
+          "quizRational": "Quiz: Rational Numbers",
+          "examCh1": "Exam: Chapter 1"
+        }
+      }
+    },
+    "teacher": {
+      "activities": {
+        "mathJoinRequest": "Request to join Math 6A",
+        "mathDescription": "{{name}} wants to join your class",
+        "submissionTitle": "15-minute quiz submitted",
+        "submissionDescription": "{{completed}}/{{total}} students completed the {{subject}} test",
+        "gradingAlert": "Grading Reminder",
+        "gradingDescription": "{{count}} {{subject}} tests pending grading",
+        "vanJoinRequest": "Request to join Literature 7B"
+      },
+      "classes": {
+        "math6A": "Math 6A",
+        "mathSemester": "Mathematics • Semester 2",
+        "scheduleMath": "Mon, Wed, Fri",
+        "van7B": "Literature 7B",
+        "vanSemester": "Literature • Semester 2",
+        "scheduleScience": "Tue, Thu",
+        "english8C": "English 8C",
+        "englishSemester": "English • Semester 2",
+        "scheduleEnglish": "Mon, Wed",
+        "monShort": "Mon",
+        "tueShort": "Tue",
+        "wedShort": "Wed",
+        "thuShort": "Thu",
+        "friShort": "Fri",
+        "satShort": "Sat"
+      },
+      "actions": {
+        "approveAll": "Approve All",
+        "filter": "Filter"
+      },
+      "sections": {
+        "newStudents": "New Students Joined"
+      }
+    },
+    "roadmap": {
+      "activities": {
+        "completedChapter": "Completed chapter",
+        "startedRoadmap": "Started roadmap"
+      }
+    },
+    "parent": {
+      "grades": {
+        "g4": "Grade 4",
+        "g6": "Grade 6"
+      },
+      "activities": {
+        "mathCh3": "Completed Math homework chapter 3",
+        "englishBadge": "Earned 'English Star' badge",
+        "examSuccess": "Minh Anh completed the Math exam with excellence",
+        "teacherPraise": "Tuan Kiet was praised by the teacher in class",
+        "feeReminder": "Reminder: Pay February tuition fee"
+      },
+      "events": {
+        "meeting": "Parent-teacher meeting {{class}}",
+        "exam": "Mid-term exam - {{name}}",
+        "stem": "STEM Day - {{name}}"
+      },
+      "officeHours": {
+        "title": "Office Hours",
+        "subtitleManager": "Manage consultation schedule and student support",
+        "subtitleStudent": "Book a 1:1 consultation with your teacher",
+        "setupAvailability": "Set up availability",
+        "selectTeacher": "Select Teacher",
+        "availableSchedule": "Available Schedule",
+        "availableScheduleDesc": "Choose an empty slot to book an appointment",
+        "confirmTitle": "Confirm Booking",
+        "supportTopic": "What do you need help with?",
+        "topicPlaceholder": "Briefly describe your question...",
+        "confirmBooking": "Confirm Booking",
+        "upcomingSessions": "Upcoming Sessions",
+        "status": {
+          "confirmed": "Confirmed",
+          "pending": "Pending approval"
+        },
+        "noSessions": "No sessions scheduled",
+        "join": "Join",
+        "preparationTip": "Please prepare specific questions in advance to optimize consultation time (usually lasts 15-20 minutes/session)."
+      }
+    },
+    "admin": {
+      "stats": {
+        "totalStudents": "Total Students",
+        "teachers": "Teachers",
+        "classes": "Classes",
+        "courses": "Courses"
+      },
+      "activities": {
+        "createdExam": "created a new exam",
+        "submittedHomework": "submitted Math homework",
+        "gradedPapers": "graded {{count}} papers"
+      },
+      "alerts": {
+        "ungraded": "{{count}} teachers haven't updated grades this week",
+        "pendingApproval": "There are {{count}} exams pending approval",
+        "backupSuccess": "System backup successful",
+        "system": "System Notifications"
+      },
+      "sections": {
+        "classOverview": "Class Overview",
+        "classManagement": "Class Management",
+        "classManagementDesc": "Manage all classes in the system"
+      },
+      "cohortTracking": {
+        "title": "Cohort Tracking",
+        "subtitle": "Longitudinal Data analysis to optimize educational strategies throughout the cohort duration.",
+        "mock": {
+          "cohort2022": "Cohort 2022-2026",
+          "cohort2023": "Cohort 2023-2027",
+          "cohort2024": "Cohort 2024-2028 (New)"
+        },
+        "actions": {
+          "exportBoard": "Export Board Report",
+          "createNew": "Create New Cohort"
+        },
+        "stats": {
+          "students": "System Students",
+          "avgGPA": "Average GPA",
+          "retention": "Retention Rate",
+          "outcomes": "Outcome Index"
+        },
+        "charts": {
+          "driftAnalysis": "Cohort Drift Analysis",
+          "driftAnalysisDesc": "Compare performance across cohorts over time",
+          "targetLine": "Target Line 90%",
+          "averageLine": "Average 80%",
+          "baselineLine": "Baseline 60%",
+          "month": "Month {{month}}",
+          "detailsTitle": "Detailed Data {{month}}",
+          "progress": "Progress",
+          "attendance": "Attendance",
+          "legend": {
+            "progress": "Learning Progress",
+            "attendance": "Attendance Rate",
+            "extracurricular": "Extracurricular Participation"
+          },
+          "careerPath": {
+            "title": "Career Path Interest Distribution"
+          },
+          "pulse": {
+            "title": "Satisfaction & Engagement (Pulse)",
+            "satisfaction": "Student Satisfaction Level",
+            "nps": "Net Promoter Score (NPS)",
+            "insight": "Positive sign: Satisfaction rate increased by 15% after Study Buddy Matching rollout."
+          }
+        },
+        "list": {
+          "title": "Cohort List",
+          "studentCount": "{{count}} students",
+          "status": {
+            "healthy": "Healthy",
+            "warning": "Monitor"
+          },
+          "metrics": {
+            "gpa": "GPA",
+            "growth": "Growth"
+          }
+        },
+        "milestones": {
+          "title": "Board Milestones",
+          "setReminder": "Set Board Report Reminder",
+          "reviewReport": "Review Academic Report",
+          "boardMeeting": "Board Strategy Meeting 2026"
+        },
+        "tips": {
+          "optimizationGoal": "Optimization Goal",
+          "message": "Forecast indicates that improving student retention by 2% will lead to an 8% ROI surge for the 2024 cohort."
+        }
+      },
+      "classes": {
+        "addNew": "Add New Class",
+        "stats": {
+          "totalClasses": "Total Classes",
+          "totalStudents": "Total Students",
+          "averageProgress": "Avg Progress"
+        },
+        "table": {
+          "listTitle": "Class List ({{count}})",
+          "className": "Class",
+          "teacher": "Teacher",
+          "subject": "Subject",
+          "students": "Students",
+          "progress": "Progress",
+          "status": "Status",
+          "actions": "Actions"
+        },
+        "status": {
+          "active": "Active",
+          "warning": "Attention Needed"
+        },
+        "actions": {
+          "viewDetails": "View Details",
+          "edit": "Edit",
+          "delete": "Delete Class"
+        },
+        "filters": {
+          "searchPlaceholder": "Search class or teacher...",
+          "grade": "Grade {{grade}}"
+        }
+      },
+      "teachers": {
+        "title": "Teacher Management",
+        "subtitle": "Manage teacher information and assignments",
+        "addNew": "Add Teacher",
+        "stats": {
+          "totalTeachers": "Total Teachers",
+          "activeTeachers": "Active",
+          "totalClasses": "Total Assigned Classes"
+        },
+        "filters": {
+          "searchPlaceholder": "Search teachers by name, email or subject..."
+        },
+        "table": {
+          "listTitle": "Teacher List ({{count}})",
+          "teacher": "Teacher",
+          "subject": "Subject",
+          "classes": "Classes",
+          "students": "Students",
+          "status": "Status",
+          "joinDate": "Join Date",
+          "actions": "Actions"
+        },
+        "status": {
+          "active": "Active",
+          "inactive": "On Leave"
+        },
+        "actions": {
+          "viewDetails": "View Details",
+          "edit": "Edit",
+          "sendEmail": "Send Email",
+          "assignClass": "Assign Class"
+        }
+      },
+      "users": {
+        "title": "User Management",
+        "subtitle": "Manage all system accounts",
+        "addNew": "Add User",
+        "stats": {
+          "total": "Total",
+          "students": "Students",
+          "teachers": "Teachers",
+          "admins": "Admins"
+        },
+        "filters": {
+          "searchPlaceholder": "Search users...",
+          "tabs": {
+            "all": "All",
+            "student": "Student",
+            "teacher": "Teacher",
+            "admin": "Admin"
+          }
+        },
+        "table": {
+          "listTitle": "User List ({{count}})",
+          "user": "User",
+          "role": "Role",
+          "status": "Status",
+          "lastActive": "Last Active",
+          "createdAt": "Created Date",
+          "actions": "Actions"
+        },
+        "bulk": {
+          "selected": "Selected",
+          "changeRole": "Change Role",
+          "activate": "Activate",
+          "deactivate": "Lock",
+          "delete": "Delete",
+          "cancel": "Cancel"
+        },
+        "status": {
+          "active": "Active",
+          "inactive": "Locked",
+          "pending": "Pending"
+        },
+        "actions": {
+          "viewDetails": "View Details",
+          "edit": "Edit",
+          "changeRole": "Change Role",
+          "lock": "Lock Account",
+          "lockAccount": "Lock Account"
+        },
+        "bulkActions": {
+          "activate": "Activate",
+          "lock": "Lock",
+          "selected": "Selected",
+          "successDesc": "Success Desc",
+          "successMessage": "Success Message"
+        },
+        "searchPlaceholder": "Search Placeholder"
+      },
+      "analytics": {
+        "title": "System Analytics",
+        "subtitle": "Monitor user behavior and platform performance.",
+        "filters": {
+          "last30Days": "Last 30 Days"
+        },
+        "actions": {
+          "exportReport": "Export Report"
+        },
+        "stats": {
+          "activeUsers": "Active Users",
+          "avgSession": "Avg. Session",
+          "engagement": "Engagement",
+          "successRate": "Success Rate",
+          "trendCompare": "vs last month"
+        },
+        "charts": {
+          "usageTraffic": "Daily Usage Traffic",
+          "usageDesc": "Concurrent users by hour",
+          "featureEngagement": "Feature Distribution",
+          "featureDesc": "Engagement rate by module",
+          "students": "Students",
+          "teachers": "Teachers"
+        },
+        "aiAlerts": {
+          "title": "Abnormal Behavior (AI Detected)",
+          "subtitle": "List of cases requiring technical intervention or audit",
+          "viewAll": "View All",
+          "types": {
+            "abnormalScore": "Abnormal Score",
+            "sessionDrop": "Session Drop",
+            "spamAlert": "Spam Alert"
+          },
+          "details": {
+            "scoreDetail": "Gained 2000 XP in 5 minutes via Algorithms exercises.",
+            "dropDetail": "Detected continuous dropout at Step 2 of Python Pro course.",
+            "spamDetail": "32 posts in 1 hour in Discussion Forum."
+          }
+        }
+      },
+      "enrollment": {
+        "title": "Enrollment Management",
+        "subtitle": "Track and manage admission applications",
+        "actions": {
+          "exportReport": "Export Report",
+          "addNew": "Add New Application"
+        },
+        "stats": {
+          "new": "New Apps",
+          "interview": "Wait Interview",
+          "enrolled": "Enrolled",
+          "rejected": "Rejected"
+        },
+        "table": {
+          "listTitle": "Application List",
+          "listDesc": "Found {{count}} applications",
+          "searchPlaceholder": "Search name, email...",
+          "id": "App ID",
+          "student": "Student",
+          "grade": "Grade",
+          "gradeLevel": "Grade {{grade}}",
+          "date": "Apply Date",
+          "contact": "Contact",
+          "status": "Status",
+          "actions": "Actions"
+        },
+        "status": {
+          "new": "New",
+          "interview": "Interview",
+          "pending": "Pending",
+          "enrolled": "Enrolled",
+          "rejected": "Rejected"
+        },
+        "rowActions": {
+          "details": "Details",
+          "options": "Options",
+          "edit": "Edit App",
+          "changeStatus": "Change Status"
+        },
+        "funnel": {
+          "title": "Enrollment Funnel",
+          "description": "Conversion rates through stages",
+          "steps": {
+            "reach": "Reach",
+            "register": "Register",
+            "interview": "Interview",
+            "enrolled": "Enrolled"
+          }
+        },
+        "todo": {
+          "title": "Actions Needed",
+          "viewAll": "View All Tasks",
+          "approveNew": "Approve 5 new apps",
+          "approveNewDesc": "Grade 10 just had 5 online registrations",
+          "scheduleInterview": "Schedule interviews",
+          "scheduleInterviewDesc": "3 students waiting for entrance tests"
+        }
+      },
+      "timetable": {
+        "title": "Timetable Management",
+        "subtitle": "Design and optimize school-wide schedule",
+        "actions": {
+          "exportExcel": "Export Excel",
+          "addNew": "Add Class Slot",
+          "autoSchedule": "Auto-schedule (AI)"
+        },
+        "filters": {
+          "all": "All",
+          "grade": "Grade {{grade}}",
+          "advanced": "Advanced Filters"
+        },
+        "table": {
+          "room": "Room {{room}}",
+          "duration": "{{count}}h/week",
+          "weekLabel": "Week {{week}} ({{start}} - {{end}})"
+        },
+        "days": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "conflicts": {
+          "title": "Schedule Conflicts ({{count}})",
+          "roomConflict": "Room Conflict",
+          "roomConflictDesc": "Room {{room}} is being used by classes {{class1}} and {{class2}} at {{time}}.",
+          "teacherConflict": "Teacher Conflict",
+          "teacherConflictDesc": "{{teacher}} has classes at 2 different sites on {{day}}.",
+          "solveNow": "Solve Now"
+        },
+        "unassigned": {
+          "title": "Unscheduled Classes ({{count}})",
+          "performance": "Room Utilization"
+        }
+      },
+      "health": {
+        "title": "System Health",
+        "subtitle": "Monitor resources, errors, and real-time performance",
+        "actions": {
+          "refresh": "Refresh Data"
+        },
+        "charts": {
+          "systemLoad": "System Load (Last 60m)",
+          "systemLoadDesc": "CPU & Memory chart over time",
+          "userSessions": "User Sessions Distribution",
+          "userSessionsDesc": "Current sessions by role",
+          "roles": {
+            "student": "Student",
+            "teacher": "Teacher",
+            "parent": "Parent",
+            "admin": "Admin"
+          },
+          "cpuName": "CPU Usage %",
+          "memName": "Memory Usage %"
+        },
+        "status": {
+          "high": "High",
+          "normal": "Normal",
+          "optimal": "Optimal Performance"
+        },
+        "stats": {
+          "cpuUsage": "CPU Usage",
+          "memory": "Memory",
+          "dbLatency": "Database Latency",
+          "uptime": "Uptime",
+          "last30days": "Last 30 days"
+        },
+        "errors": {
+          "title": "System Error Tracking",
+          "subtitle": "Most recently recorded incidents",
+          "table": {
+            "type": "Error Type",
+            "route": "Endpoint / Route",
+            "frequency": "Frequency",
+            "lastSeen": "Last Seen",
+            "severity": "Severity",
+            "details": "Details"
+          }
+        }
+      },
+      "resourceOptimization": {
+        "title": "Resource Optimization",
+        "subtitle": "Monitor and allocate technical resources efficiently.",
+        "actions": {
+          "refresh": "Refresh Data",
+          "addCluster": "Configure More Clusters",
+          "executeNow": "Execute Now",
+          "schedule": "Schedule",
+          "autoScaling": "Configure Auto-scaling"
+        },
+        "stats": {
+          "cpuLoad": "Server CPU Load",
+          "dbRam": "Database RAM",
+          "latency": "Latency (Avg)",
+          "stable": "Stable",
+          "optimize": "Optimize",
+          "excellent": "Excellent"
+        },
+        "quotas": {
+          "title": "Resource Quotas",
+          "description": "Monitor infrastructure plan limits"
+        },
+        "aiRecommendations": {
+          "title": "AI Recommendations",
+          "strategyTitle": "Optimization Strategy This Week",
+          "cdnCompression": {
+            "title": "CDN Data Compression",
+            "desc": "Can save 15% CDN traffic by adding 2 levels of compression for old lecture videos (over 6 months)."
+          },
+          "coldStorage": {
+            "title": "Cold Storage Migration",
+            "desc": "Move 400GB of attachments not accessed in 90 days to Deep Archive."
+          }
+        },
+        "cost": {
+          "title": "Projected Infrastructure Cost"
+        }
+      },
+      "config": {
+        "importExport": "Import/Export",
+        "title": "System Configuration (JSON)",
+        "description": "Copy or enter the configuration code in JSON format to backup or restore settings.",
+        "actions": {
+          "downloadJson": "Download JSON",
+          "importConfig": "Import Configuration"
+        },
+        "messages": {
+          "exportSuccess": "Configuration exported to JSON file",
+          "copySuccess": "Copied to clipboard"
+        }
+      }
+    }
+  },
+  "announcements": {
+    "createSubtitle": "Create Subtitle"
+  },
+  "certificates": {
+    "earned": "Earned",
+    "inProgress": "In Progress",
+    "subtitle": "Subtitle"
+  },
+  "curriculum": {
+    "subtitle": "Subtitle"
+  },
+  "nav": {
+    "certificates": "Certificates"
+  },
+  "progress": {
+    "stats": {
+      "avgScore": "Avg Score"
+    }
+  },
+  "status": {
+    "graded": "Graded"
+  },
+  "subjects": {
+    "chemistry": "Chemistry",
+    "english": "English",
+    "math": "Math"
+  }
+}

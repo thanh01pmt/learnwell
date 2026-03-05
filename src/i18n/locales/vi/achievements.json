@@ -1,0 +1,63 @@
+{
+  "badges": {
+    "codeWarrior": {
+      "name": "Code Warrior",
+      "description": "Hoàn thành 50 bài tập lập trình"
+    },
+    "quickLearner": {
+      "name": "Quick Learner",
+      "description": "Hoàn thành khóa học trong 1 tuần"
+    },
+    "perfectScore": {
+      "name": "Perfect Score",
+      "description": "Đạt 100% trong bài kiểm tra"
+    },
+    "streakMaster": {
+      "name": "Streak Master",
+      "description": "Học liên tục 30 ngày"
+    },
+    "teamPlayer": {
+      "name": "Team Player",
+      "description": "Tham gia 10 dự án nhóm"
+    },
+    "nightOwl": {
+      "name": "Night Owl",
+      "description": "Học sau 22h trong 15 ngày"
+    },
+    "description": "Thành tích cá nhân của bạn",
+    "mathMaster": {
+      "name": "Bậc thầy Toán học"
+    },
+    "title": "Huy hiệu thành tích"
+  },
+  "rarities": {
+    "common": "Thường",
+    "rare": "Hiếm",
+    "epic": "Siêu hiếm",
+    "legendary": "Huyền thoại"
+  },
+  "items": {
+    "jsChampion": {
+      "title": "Nhà vô địch JavaScript",
+      "description": "Hoàn thành tất cả bài tập JavaScript"
+    },
+    "reactMaster": {
+      "title": "Bậc thầy React",
+      "description": "Xây dựng 5 ứng dụng React"
+    },
+    "debuggerPro": {
+      "title": "Debugger Pro",
+      "description": "Sửa 100 lỗi trong code"
+    },
+    "cleanCoder": {
+      "title": "Clean Coder",
+      "description": "Viết code đạt chuẩn trong 20 bài"
+    }
+  },
+  "categories": {
+    "programming": "Lập trình",
+    "framework": "Framework",
+    "skill": "Kỹ năng",
+    "bestPractice": "Best Practice"
+  }
+}

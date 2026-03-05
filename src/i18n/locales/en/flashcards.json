@@ -1,0 +1,33 @@
+{
+  "title": "Flashcards",
+  "decks": "decks",
+  "cards": "cards",
+  "progress": "Learning Progress",
+  "front": "FRONT",
+  "back": "BACK",
+  "tapToSeeBack": "Tap to see answer",
+  "known": "Got it",
+  "unknown": "Not yet",
+  "addCard": "Add card",
+  "resetDeck": "Study again",
+  "otherDecks": "Other decks",
+  "excellent": "Excellent!",
+  "completedDescription": "You've completed this flashcard deck.",
+  "toReview": "To review",
+  "mockup": {
+    "deckName": "Basic Algorithms",
+    "deckDescription": "Common sorting and searching algorithms",
+    "cards": {
+      "q1": "Complexity of QuickSort in average case?",
+      "a1": "O(n log n)",
+      "q2": "Which data structure works on LIFO principle?",
+      "a2": "Stack",
+      "q3": "Which algorithm searches on sorted array with O(log n)?",
+      "a3": "Binary Search",
+      "q4": "Complexity of Bubble Sort?",
+      "a4": "O(n^2)",
+      "q5": "What data structure does BFS use?",
+      "a5": "Queue"
+    }
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "title": "Study Buddy",
+  "subtitle": "Connect with friends who share your passion and goals to break through together.",
+  "actions": {
+    "schedule": "Group Schedule",
+    "aiMatching": "AI Matching",
+    "filter": "Advanced Filter",
+    "nearMe": "Near Me (Hanoi)",
+    "connect": "Connect",
+    "viewAllHistory": "View All History",
+    "addManual": "Add Friend Manually"
+  },
+  "tabs": {
+    "discover": "Discover",
+    "friends": "Friends ({{count}})",
+    "requests": "Requests"
+  },
+  "searchPlaceholder": "Search by name, skill, or major...",
+  "compatibility": "Compatibility",
+  "feed": {
+    "title": "Social Feed",
+    "createPost": "Create Post",
+    "types": {
+      "achievement": "ACHIEVEMENT",
+      "code_share": "CODE SHARE",
+      "status": "UPDATE"
+    },
+    "actions": {
+      "like": "Like",
+      "comment": "Comment",
+      "share": "Share",
+      "loadMore": "Load More Posts"
+    },
+    "sidebar": {
+      "recommendations": "Friend Recommendations",
+      "viewAll": "View All",
+      "challenges": "Community Challenges",
+      "hotWeekly": "HOT WEEKLY"
+    },
+    "toasts": {
+      "liked": "You liked {{name}}'s post!"
+    }
+  },
+  "groups": {
+    "hero": {
+      "title": "Study Groups",
+      "subtitle": "Study with friends, progress twice as fast.",
+      "create": "Create New Group"
+    },
+    "search": {
+      "placeholder": "Search groups by name or topic...",
+      "tabs": {
+        "all": "All",
+        "mine": "Mine",
+        "suggested": "Suggested"
+      }
+    },
+    "card": {
+      "members": "{{current}}/{{total}} members",
+      "active": "{{count}} studying",
+      "join": "Join",
+      "chat": "Chat"
+    },
+    "sidebar": {
+      "leaderboard": "Team Leaderboard",
+      "goals": "Group Goals",
+      "reward": "Earn 500 LearnCoins when completing group goals!"
+    }
+  },
+  "mockup": {
+    "addManualDesc": "Via email or student ID",
+    "stats": {
+      "ranks": "Pro-Studying Ranks",
+      "progressToNext": "Progress to {{rank}}",
+      "topPercent": "Top {{percent}}% active study friends"
+    },
+    "history": {
+      "title": "Study Group History"
+    },
+    "goals": {
+      "title": "Weekly Goals",
+      "studySessions": "Study together {{total}} sessions ({{current}}/{{total}})",
+      "helpFriend": "Help 1 new friend"
+    },
+    "buddies": {
+      "tam": {
+        "name": "Tam Le",
+        "bio": "Passionate about programming and want to study algorithms together."
+      },
+      "ngoc": {
+        "name": "Ngoc Tran",
+        "bio": "Looking for a study buddy for statistics."
+      },
+      "huy": {
+        "name": "Huy Hoang",
+        "bio": "Interested in UX design discussions."
+      }
+    },
+    "sessions": {
+      "algo": "Algorithms & Programming",
+      "ui": "Machine Learning UI Design",
+      "english": "English Exam Prep",
+      "yesterday": "Yesterday",
+      "daysAgo": "{{count}} days ago"
+    },
+    "feed": {
+      "posts": {
+        "p1": {
+          "title": "Achievement Unlocked: DFS Algorithm Gold Medal!",
+          "content": "Finally cleared this tough challenge series. Thanks everyone for the code reviews!",
+          "time": "10 minutes ago"
+        },
+        "p2": {
+          "title": "New Library Shared: React-Learn-UI",
+          "content": "A UI component set designed specifically for educational apps. Feel free to fork and try it out!",
+          "time": "1 hour ago"
+        },
+        "p3": {
+          "content": "Started learning about Big O Notation today. Hard but fascinating! Anyone have good resources?",
+          "time": "3 hours ago"
+        }
+      },
+      "challenges": {
+        "binarySearch": {
+          "title": "Clean Code Weekly #12",
+          "description": "Rewrite the most optimal Binary Search algorithm and receive a High-Quality Badge.",
+          "participants": "{{count}} participants"
+        }
+      }
+    },
+    "groups": {
+      "g1": {
+        "name": "Algorithm Masters",
+        "description": "Conquer Leetcode problems and advanced algorithms together."
+      },
+      "g2": {
+        "name": "Web Dev Vietnam",
+        "description": "A group for frontend & backend web development enthusiasts."
+      },
+      "g3": {
+        "name": "Python for Science",
+        "description": "Data analysis and physics simulation using Python."
+      },
+      "ninja": {
+        "name": "Fullstack Ninjas"
+      },
+      "ai": {
+        "name": "AI Explorers"
+      },
+      "goals": {
+        "dfs": "Solve 500 DFS exercises",
+        "system": "Systematize 100 topics"
+      }
+    },
+    "status": {
+      "tabFriendsDev": "Friends list feature is being finalized."
+    }
+  }
+}

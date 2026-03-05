@@ -1,0 +1,707 @@
+{
+  "welcome": {
+    "greeting": "Xin chào, {{name}}!",
+    "dateMessage": "Hôm nay là {{date}}. Chúc bạn có một ngày làm việc hiệu quả!"
+  },
+  "dashboard": {
+    "comparison": {
+      "title": "So sánh năng lực"
+    },
+    "curriculum": {
+      "details": {
+        "lastUpdated": "Cập nhật lần cuối",
+        "skills": "Kỹ năng đạt được"
+      }
+    }
+  },
+  "nextClass": "Tiết dạy tiếp theo: {{time}} - {{className}}",
+  "continueLearning": "Hãy tiếp tục hành trình học tập của bạn hôm nay!",
+  "stats": {
+    "lessons": "Bài học",
+    "completed": "Hoàn thành",
+    "pending": "Chờ duyệt",
+    "avgGrade": "Điểm TB",
+    "totalClasses": "Tổng lớp học",
+    "totalStudents": "Tổng học sinh",
+    "gradingPending": "Bài cần chấm",
+    "urgentRequests": "Yêu cầu khẩn",
+    "myChildren": "Con của bạn",
+    "attendance": "Chuyên cần",
+    "achievements": "Thành tựu",
+    "upcomingEvents": "Sự kiện sắp tới",
+    "users": "Người dùng",
+    "activeUsers": "Đang hoạt động",
+    "comparedToLastMonth": "so với tháng trước",
+    "examsToday": "Bài kiểm tra hôm nay",
+    "completionRate": "Tỷ lệ hoàn thành",
+    "onlineUsers": "Người dùng online",
+    "averageScore": "Trung bình",
+    "graded": "Graded",
+    "improvement": "Improvement",
+    "skills": "Kỹ năng",
+    "systemOverview": "Xem"
+  },
+  "sections": {
+    "studyPlanner": "Kế hoạch học tập",
+    "upcomingAssignments": "Bài tập sắp đến hạn",
+    "continueLearning": "Tiếp tục học",
+    "todaySchedule": "Lịch học hôm nay",
+    "notifications": "Thông báo",
+    "quickPractice": "Luyện tập nhanh",
+    "myClasses": "Lớp học của tôi",
+    "weeklyProgress": "Tiến độ tuần này",
+    "recentActivity": "Hoàn thành gần đây",
+    "schedule": "Lịch học",
+    "systemHealth": "Sức khỏe hệ thống",
+    "userManagement": "Quản lý người dùng",
+    "curriculum": "Chương trình học"
+  },
+  "actions": {
+    "seeAll": "Xem tất cả",
+    "startNow": "Bắt đầu ngay",
+    "continue": "Tiếp tục",
+    "review": "Xem lại",
+    "doAssignment": "Làm bài",
+    "continueWorking": "Tiếp tục thôi!",
+    "createNew": "Tạo mới",
+    "reports": "Báo cáo",
+    "impersonateTeacher": "Xem như Giáo viên"
+  },
+  "levels": {
+    "levelUp": "LEVEL UP!",
+    "reachedLevel": "Chúc mừng {{name}} đã đạt **Cấp độ {{level}}**!"
+  },
+  "mockup": {
+    "assignments": {
+      "mathQuiz": "Bài kiểm tra 15 phút - Chương 3",
+      "englishHomework": "Bài tập về nhà - Unit 5",
+      "literatureAnalysis": "Phân tích tác phẩm Lão Hạc",
+      "urgent": "Gấp"
+    },
+    "planner": {
+      "pendingTasks": "Bạn có {{count}} nhiệm vụ quan trọng cần hoàn thành trong hôm nay."
+    },
+    "xpGained": "Chúc mừng! Bạn nhận được {{amount}} XP",
+    "lessons": {
+      "rationalNumbers": "Số hữu tỉ",
+      "englishTenses": "Thì trong tiếng Anh",
+      "quadraticEquation": "Phương trình bậc hai",
+      "pastTenses": "Thì quá khứ",
+      "newtonMechanics": "Cơ học Newton",
+      "geometry": "Hình học không gian"
+    },
+    "notifications": {
+      "mathGrade": "Điểm bài kiểm tra Toán đã được công bố",
+      "newLesson": "Bài học mới: Hình học không gian",
+      "essayReminder": "Nhắc nhở: Nộp bài tập Văn trước 17:00",
+      "time": {
+        "today": "Hôm nay",
+        "tomorrow": "Ngày mai",
+        "minutes": "{{count}} phút trước",
+        "hours": "{{count}} giờ trước"
+      }
+    },
+    "practiceReminder": "Bạn có một số bài tập toán chưa hoàn thành. Hãy dành 15 phút để ôn tập nhé!",
+    "subjects": {
+      "math": "Toán học",
+      "calculus": "Giải tích",
+      "science": "Khoa học",
+      "english": "Tiếng Anh",
+      "history": "Lịch sử",
+      "programming": "Lập trình",
+      "python": "Lập trình Python",
+      "literature": "Ngữ văn",
+      "physics": "Vật lý",
+      "chemistry": "Hóa học",
+      "biology": "Sinh học",
+      "civics": "GDCD"
+    },
+    "schedule": {
+      "room": "Phòng {{room}}",
+      "classroom": "Phòng {{room}}",
+      "grade": "Khối {{grade}}"
+    },
+    "attendance": {
+      "notes": {
+        "bikeBroken": "Hỏng xe",
+        "sickExcused": "Ốm (có phép)",
+        "unexcused": "Không phép",
+        "overslept": "Quên báo thức",
+        "frequestSpeaker": "Thường xuyên phát biểu",
+        "lateRequest": "Xin đi học muộn"
+      },
+      "exitTickets": {
+        "titles": {
+          "forLoops": "Hiểu biết về Vòng lặp For",
+          "dienBienPhu": "Phân tích Chiến dịch Điện Biên Phủ"
+        },
+        "questions": {
+          "scaleUnderstanding": "Bạn đánh giá mức độ hiểu bài hôm nay như thế nào?",
+          "difficulties": "Điều gì làm bạn cảm thấy khó khăn nhất?",
+          "historicalSignificance": "Nêu 3 ý nghĩa quan trọng nhất của chiến thắng."
+        },
+        "comments": {
+          "debugLoops": "Bài hôm nay rất trực quan, em đã hiểu cách chạy debug vòn lặp.",
+          "nestedLoops": "Vẫn còn hơi rối chỗ lặp lồng nhau.",
+          "forVsWhile": "Không biết khi nào dùng for, khi nào dùng while ạ."
+        }
+      },
+      "gradebook": {
+        "assignments": {
+          "hwWeek1": "Đại số Tuần 1",
+          "hwWeek2": "Đại số Tuần 2",
+          "quizRational": "KT Số hữu tỉ",
+          "examCh1": "KT Chương 1"
+        }
+      }
+    },
+    "teacher": {
+      "activities": {
+        "mathJoinRequest": "Yêu cầu tham gia lớp Toán 6A",
+        "mathDescription": "{{name}} muốn tham gia lớp học của bạn",
+        "submissionTitle": "Bài kiểm tra 15 phút đã được nộp",
+        "submissionDescription": "{{completed}}/{{total}} học sinh đã hoàn thành bài kiểm tra {{subject}}",
+        "gradingAlert": "Nhắc nhở chấm bài",
+        "gradingDescription": "Còn {{count}} bài kiểm tra {{subject}} chưa được chấm điểm",
+        "vanJoinRequest": "Yêu cầu tham gia lớp Văn 7B"
+      },
+      "classes": {
+        "math6A": "Toán học 6A",
+        "mathSemester": "Toán học • Học kỳ 2",
+        "scheduleMath": "T2, T4, T6",
+        "van7B": "Ngữ văn 7B",
+        "vanSemester": "Ngữ văn • Học kỳ 2",
+        "scheduleScience": "T3, T5",
+        "english8C": "Tiếng Anh 8C",
+        "englishSemester": "Ngoại ngữ • Học kỳ 2",
+        "scheduleEnglish": "T2, T4",
+        "monShort": "T2",
+        "tueShort": "T3",
+        "wedShort": "T4",
+        "thuShort": "T5",
+        "friShort": "T6",
+        "satShort": "T7"
+      },
+      "actions": {
+        "approveAll": "Duyệt tất cả",
+        "filter": "Bộ lọc"
+      },
+      "sections": {
+        "newStudents": "Học sinh mới tham gia"
+      }
+    },
+    "roadmap": {
+      "activities": {
+        "completedChapter": "Đã hoàn thành chương học",
+        "startedRoadmap": "Đã bắt đầu lộ trình học"
+      }
+    },
+    "parent": {
+      "grades": {
+        "g4": "Lớp 4",
+        "g6": "Lớp 6"
+      },
+      "activities": {
+        "mathCh3": "Hoàn thành bài tập Toán chương 3",
+        "englishBadge": "Đạt huy hiệu 'Ngôi sao Tiếng Anh'",
+        "examSuccess": "Minh Anh đã hoàn thành xuất sắc bài kiểm tra Toán",
+        "teacherPraise": "Tuấn Kiệt được thầy giáo khen ngợi trong lớp",
+        "feeReminder": "Nhắc nhở: Đóng học phí tháng 2"
+      },
+      "events": {
+        "meeting": "Họp phụ huynh lớp {{class}}",
+        "exam": "Kiểm tra giữa kỳ - {{name}}",
+        "stem": "Ngày hội STEM - {{name}}"
+      },
+      "officeHours": {
+        "title": "Office Hours",
+        "subtitleManager": "Quản lý lịch tư vấn và hỗ trợ học sinh",
+        "subtitleStudent": "Đặt lịch tư vấn 1:1 với giáo viên của bạn",
+        "setupAvailability": "Cài đặt khung giờ trống",
+        "selectTeacher": "Chọn giáo viên",
+        "availableSchedule": "Lịch trình khả dụng",
+        "availableScheduleDesc": "Chọn khung giờ trống để đặt lịch hẹn",
+        "confirmTitle": "Xác nhận đặt lịch",
+        "supportTopic": "Bạn cần hỗ trợ về chủ đề gì?",
+        "topicPlaceholder": "Mô tả ngắn gọn thắc mắc của bạn...",
+        "confirmBooking": "Xác nhận đặt lịch",
+        "upcomingSessions": "Buổi hẹn sắp tới",
+        "status": {
+          "confirmed": "Đã xác nhận",
+          "pending": "Chờ duyệt"
+        },
+        "noSessions": "Chưa có buổi hẹn nào",
+        "join": "Tham gia",
+        "preparationTip": "Vui lòng chuẩn bị trước các câu hỏi cụ thể để tối ưu hóa thời gian tư vấn (thường kéo dài 15-20 phút/buổi)."
+      }
+    },
+    "admin": {
+      "stats": {
+        "totalStudents": "Tổng học sinh",
+        "teachers": "Giáo viên",
+        "classes": "Lớp học",
+        "courses": "Khóa học"
+      },
+      "activities": {
+        "createdExam": "đã tạo bài kiểm tra mới",
+        "submittedHomework": "đã nộp bài tập Toán",
+        "gradedPapers": "đã chấm điểm {{count}} bài"
+      },
+      "alerts": {
+        "ungraded": "{{count}} giáo viên chưa cập nhật điểm tuần này",
+        "pendingApproval": "Có {{count}} bài kiểm tra đang chờ phê duyệt",
+        "backupSuccess": "Backup hệ thống thành công",
+        "system": "Thông báo hệ thống"
+      },
+      "sections": {
+        "classOverview": "Tổng quan lớp học",
+        "classManagement": "Quản lý lớp học",
+        "classManagementDesc": "Quản lý tất cả các lớp học trong hệ thống"
+      },
+      "classes": {
+        "addNew": "Thêm lớp mới",
+        "stats": {
+          "totalClasses": "Tổng lớp học",
+          "totalStudents": "Tổng học sinh",
+          "averageProgress": "Tiến độ TB"
+        },
+        "table": {
+          "listTitle": "Danh sách lớp học ({{count}})",
+          "className": "Lớp",
+          "teacher": "Giáo viên",
+          "subject": "Môn",
+          "students": "Học sinh",
+          "progress": "Tiến độ",
+          "status": "Trạng thái",
+          "actions": "Thao tác"
+        },
+        "status": {
+          "active": "Hoạt động",
+          "warning": "Cần chú ý"
+        },
+        "actions": {
+          "viewDetails": "Xem chi tiết",
+          "edit": "Chỉnh sửa",
+          "delete": "Xóa lớp"
+        },
+        "filters": {
+          "searchPlaceholder": "Tìm kiếm lớp hoặc giáo viên...",
+          "grade": "Khối {{grade}}"
+        }
+      },
+      "teachers": {
+        "title": "Quản lý giáo viên",
+        "subtitle": "Quản lý thông tin và phân công giáo viên",
+        "addNew": "Thêm giáo viên",
+        "stats": {
+          "totalTeachers": "Tổng giáo viên",
+          "activeTeachers": "Đang hoạt động",
+          "totalClasses": "Tổng lớp phụ trách"
+        },
+        "filters": {
+          "searchPlaceholder": "Tìm kiếm giáo viên theo tên, email hoặc môn học..."
+        },
+        "table": {
+          "listTitle": "Danh sách giáo viên ({{count}})",
+          "teacher": "Giáo viên",
+          "subject": "Môn giảng dạy",
+          "classes": "Số lớp",
+          "students": "Học sinh",
+          "status": "Trạng thái",
+          "joinDate": "Ngày tham gia",
+          "actions": "Thao tác"
+        },
+        "status": {
+          "active": "Hoạt động",
+          "inactive": "Tạm nghỉ"
+        },
+        "actions": {
+          "viewDetails": "Xem chi tiết",
+          "edit": "Chỉnh sửa",
+          "sendEmail": "Gửi email",
+          "assignClass": "Phân công lớp"
+        }
+      },
+      "users": {
+        "title": "Quản lý người dùng",
+        "subtitle": "Quản lý tất cả tài khoản trong hệ thống",
+        "addNew": "Thêm người dùng",
+        "stats": {
+          "total": "Tổng cộng",
+          "students": "Học sinh",
+          "teachers": "Giáo viên",
+          "admins": "Admin"
+        },
+        "filters": {
+          "searchPlaceholder": "Tìm kiếm người dùng...",
+          "tabs": {
+            "all": "Tất cả",
+            "student": "Học sinh",
+            "teacher": "Giáo viên",
+            "admin": "Admin"
+          }
+        },
+        "table": {
+          "listTitle": "Danh sách người dùng ({{count}})",
+          "user": "Người dùng",
+          "role": "Vai trò",
+          "status": "Trạng thái",
+          "lastActive": "Hoạt động cuối",
+          "createdAt": "Ngày tạo",
+          "actions": "Thao tác"
+        },
+        "bulk": {
+          "selected": "Đang chọn",
+          "changeRole": "Đổi vai trò",
+          "activate": "Kích hoạt",
+          "deactivate": "Khóa",
+          "delete": "Xóa bài",
+          "cancel": "Hủy"
+        },
+        "status": {
+          "active": "Hoạt động",
+          "inactive": "Tạm khóa",
+          "pending": "Chờ duyệt"
+        },
+        "actions": {
+          "viewDetails": "Xem chi tiết",
+          "edit": "Chỉnh sửa",
+          "changeRole": "Đổi vai trò",
+          "lock": "Khóa tài khoản",
+          "lockAccount": "Khóa tài khoản"
+        },
+        "bulkActions": {
+          "activate": "Kích hoạt hàng loạt",
+          "lock": "Lock",
+          "selected": "Selected",
+          "successDesc": "Mô tả",
+          "successMessage": "Thành công"
+        },
+        "searchPlaceholder": "Tìm kiếm..."
+      },
+      "analytics": {
+        "title": "Phân tích Hệ thống",
+        "subtitle": "Theo dõi hành vi người dùng và hiệu quả vận hành nền tảng.",
+        "filters": {
+          "last30Days": "30 ngày qua"
+        },
+        "actions": {
+          "exportReport": "Xuất báo cáo"
+        },
+        "stats": {
+          "activeUsers": "Active Users",
+          "avgSession": "Avg. Session",
+          "engagement": "Engagement",
+          "successRate": "Success Rate",
+          "trendCompare": "so với tháng trước"
+        },
+        "charts": {
+          "usageTraffic": "Lưu lượng sử dụng trong ngày",
+          "usageDesc": "Số lượng người dùng đồng thời theo khung giờ",
+          "featureEngagement": "Phân bổ tính năng",
+          "featureDesc": "Tỉ lệ tương tác theo module",
+          "students": "Học sinh",
+          "teachers": "Giáo viên"
+        },
+        "aiAlerts": {
+          "title": "Hành vi người dùng bất thường (AI Detected)",
+          "subtitle": "Danh sách các trường hợp cần can thiệp hoặc kiểm tra kỹ thuật",
+          "viewAll": "Xem tất cả",
+          "types": {
+            "abnormalScore": "Abnormal Score",
+            "sessionDrop": "Session Drop",
+            "spamAlert": "Spam Alert"
+          },
+          "details": {
+            "scoreDetail": "Tăng 2000 XP trong 5 phút qua bài tập Algorithms.",
+            "dropDetail": "Phát hiện dropout liên tục tại bước 2 khóa học Python Pro.",
+            "spamDetail": "32 bài đăng trong 1 giờ tại Forum thảo luận."
+          }
+        }
+      },
+      "enrollment": {
+        "title": "Quản lý tuyển sinh",
+        "subtitle": "Theo dõi và quản lý hồ sơ đăng ký nhập học",
+        "actions": {
+          "exportReport": "Xuất báo cáo",
+          "addNew": "Thêm hồ sơ mới"
+        },
+        "stats": {
+          "new": "Mới đăng ký",
+          "interview": "Chờ phỏng vấn",
+          "enrolled": "Đã nhập học",
+          "rejected": "Đã từ chối"
+        },
+        "table": {
+          "listTitle": "Danh sách đăng ký",
+          "listDesc": "Tìm thấy {{count}} hồ sơ trong hệ thống",
+          "searchPlaceholder": "Tìm tên, email...",
+          "id": "Mã hồ sơ",
+          "student": "Học sinh",
+          "grade": "Khối",
+          "gradeLevel": "Lớp {{grade}}",
+          "date": "Ngày đăng ký",
+          "contact": "Liên hệ",
+          "status": "Trạng thái",
+          "actions": "Thao tác"
+        },
+        "status": {
+          "new": "Mới",
+          "interview": "Phỏng vấn",
+          "pending": "Chờ duyệt",
+          "enrolled": "Đã nhập học",
+          "rejected": "Từ chối"
+        },
+        "rowActions": {
+          "details": "Chi tiết",
+          "options": "Tùy chọn",
+          "edit": "Sửa hồ sơ",
+          "changeStatus": "Chuyển trạng thái"
+        },
+        "funnel": {
+          "title": "Tiến trình tuyển sinh",
+          "description": "Tỷ lệ chuyển đổi qua các giai đoạn",
+          "steps": {
+            "reach": "Tiếp cận",
+            "register": "Đăng ký",
+            "interview": "Phỏng vấn",
+            "enrolled": "Trúng tuyển"
+          }
+        },
+        "todo": {
+          "title": "Việc cần làm ngay",
+          "viewAll": "Xem tất cả tác vụ",
+          "approveNew": "Duyệt 5 hồ sơ mới",
+          "approveNewDesc": "Khối 10 vừa có 5 học sinh đăng ký trực tuyến",
+          "scheduleInterview": "Lên lịch phỏng vấn",
+          "scheduleInterviewDesc": "3 học sinh đang chờ lịch kiểm tra đầu vào"
+        }
+      },
+      "timetable": {
+        "title": "Quản lý thời khóa biểu",
+        "subtitle": "Thiết kế và tối ưu lịch học toàn trường",
+        "actions": {
+          "exportExcel": "Xuất Excel",
+          "addNew": "Thêm tiết học",
+          "autoSchedule": "Tự động xếp lịch (AI)"
+        },
+        "filters": {
+          "all": "Tất cả",
+          "grade": "Khối {{grade}}",
+          "advanced": "Lọc nâng cao"
+        },
+        "table": {
+          "room": "Phòng {{room}}",
+          "duration": "{{count}}h/tuần",
+          "weekLabel": "Tuần {{week}} ({{start}} - {{end}})"
+        },
+        "days": [
+          "Thứ 2",
+          "Thứ 3",
+          "Thứ 4",
+          "Thứ 5",
+          "Thứ 6"
+        ],
+        "conflicts": {
+          "title": "Xung đột lịch trình ({{count}})",
+          "roomConflict": "Trùng phòng học",
+          "roomConflictDesc": "Phòng {{room}} đang được sử dụng bởi lớp {{class1}} và {{class2}} vào lúc {{time}}.",
+          "teacherConflict": "Trùng lịch giáo viên",
+          "teacherConflictDesc": "{{teacher}} đang có lịch dạy tại 2 cơ sở khác nhau vào {{day}}.",
+          "solveNow": "Giải quyết ngay"
+        },
+        "unassigned": {
+          "title": "Lớp học chưa xếp lịch ({{count}})",
+          "performance": "Hiệu suất sử dụng phòng"
+        }
+      },
+      "health": {
+        "title": "Sức khỏe hệ thống",
+        "subtitle": "Giám sát tài nguyên, lỗi và hiệu suất thời gian thực",
+        "actions": {
+          "refresh": "Làm mới dữ liệu"
+        },
+        "charts": {
+          "systemLoad": "Tải hệ thống (Last 60m)",
+          "systemLoadDesc": "Biểu đồ CPU & Memory theo thời gian",
+          "userSessions": "Phân bổ Phiên người dùng",
+          "userSessionsDesc": "Sessions hiện tại theo vai trò",
+          "roles": {
+            "student": "Học sinh",
+            "teacher": "Giáo viên",
+            "parent": "Phụ huynh",
+            "admin": "Quản trị"
+          },
+          "cpuName": "Tải CPU %",
+          "memName": "Sử dụng Memory %"
+        },
+        "status": {
+          "high": "Cao",
+          "normal": "Bình thường",
+          "optimal": "Hiệu suất tối ưu"
+        },
+        "stats": {
+          "cpuUsage": "Tải CPU",
+          "memory": "Bộ nhớ",
+          "dbLatency": "Độ trễ Database",
+          "uptime": "Thời gian hoạt động",
+          "last30days": "30 ngày qua"
+        },
+        "errors": {
+          "title": "Theo dõi lỗi hệ thống",
+          "subtitle": "Các sự cố gần nhất được ghi nhận",
+          "table": {
+            "type": "Loại lỗi",
+            "route": "Endpoint / Route",
+            "frequency": "Tần suất",
+          "details": "Chi tiết"
+          }
+        }
+      },
+      "cohortTracking": {
+        "title": "Theo dõi Khóa học (Cohort Tracking)",
+        "subtitle": "Phân tích dữ liệu học tập dài hạn (Longitudinal Data) để tối ưu hóa chiến lược giáo dục toàn khóa.",
+        "mock": {
+          "cohort2022": "Khóa 2022-2026",
+          "cohort2023": "Khóa 2023-2027",
+          "cohort2024": "Khóa 2024-2028 (Mới)"
+        },
+        "actions": {
+          "exportBoard": "Xuất báo cáo Board",
+          "createNew": "Tạo Cohort mới"
+        },
+        "stats": {
+          "students": "Học viên hệ thống",
+          "avgGPA": "GPA trung bình",
+          "retention": "Tỷ lệ duy trì (Retention)",
+          "outcomes": "Chỉ số đầu ra"
+        },
+        "charts": {
+          "driftAnalysis": "Phân tích Tiến trình Dài hạn (Cohort Drift Analysis)",
+          "driftAnalysisDesc": "So sánh hiệu suất giữa các khóa học theo thời gian",
+          "targetLine": "Target Line 90%",
+          "averageLine": "Average 80%",
+          "baselineLine": "Baseline 60%",
+          "month": "Tháng {{month}}",
+          "detailsTitle": "Dữ liệu chi tiết {{month}}",
+          "progress": "Tiến độ",
+          "attendance": "Chuyên cần",
+          "legend": {
+            "progress": "Tiến độ học tập",
+            "attendance": "Tỷ lệ chuyên cần",
+            "extracurricular": "Tham gia ngoại khóa"
+          },
+          "careerPath": {
+            "title": "Phân bổ chuyên ngành (Career Path Interest)"
+          },
+          "pulse": {
+            "title": "Chỉ số Hài lòng & Gắn kết (Pulse)",
+            "satisfaction": "Mức độ hài lòng của học viên",
+            "nps": "Chỉ số gắn kết (NPS)",
+            "insight": "Dấu hiệu tích cực: Tỷ lệ khảo sát 'Hài lòng' tăng 15% sau khi triển khai hệ thống Study Buddy Matching."
+          }
+        },
+        "list": {
+          "title": "Danh sách Cohort",
+          "studentCount": "{{count}} sinh viên",
+          "status": {
+            "healthy": "Ổn định",
+            "warning": "Cần chú ý"
+          },
+          "metrics": {
+            "gpa": "GPA",
+            "growth": "Growth"
+          }
+        },
+        "milestones": {
+          "title": "Board Milestones",
+          "setReminder": "Đặt lời nhắc Board Report",
+          "reviewReport": "Review Báo cáo Năm học",
+          "boardMeeting": "Họp Board Chiến lược 2026"
+        },
+        "tips": {
+          "optimizationGoal": "Optimization Goal",
+          "message": "Dự báo cho thấy nếu cải thiện tỷ lệ Retention học viên thêm 2%, ROI của khóa học 2024 sẽ tăng trưởng vượt bậc 8%."
+        }
+      },
+      "resourceOptimization": {
+        "title": "Tối ưu hóa Nguồn lực",
+        "subtitle": "Giám sát và phân bổ tài nguyên kỹ thuật hiệu quả.",
+        "actions": {
+          "refresh": "Làm mới dữ liệu",
+          "addCluster": "Cấu hình thêm Cluster",
+          "executeNow": "Thực thi ngay",
+          "schedule": "Hẹn lịch",
+          "autoScaling": "Xác hình tự động thu nhỏ/mở rộng"
+        },
+        "stats": {
+          "cpuLoad": "Server CPU Load",
+          "dbRam": "Database RAM",
+          "latency": "Latency (Avg)",
+          "stable": "Ổn định",
+          "optimize": "Tối ưu hóa",
+          "excellent": "Xuất sắc"
+        },
+        "quotas": {
+          "title": "Hạn ngạch Nguồn lực",
+          "description": "Theo dõi các giới hạn gói dịch vụ hạ tầng"
+        },
+        "aiRecommendations": {
+          "title": "Khuyến nghị từ AI",
+          "strategyTitle": "Chiến lược tối ưu tuần này",
+          "cdnCompression": {
+            "title": "Nén dữ liệu CDN",
+            "desc": "Có thể tiết kiệm 15% lưu lượng CDN bằng cách nén thêm 2 cấp độ cho các video bài giảng cũ (trên 6 tháng)."
+          },
+          "coldStorage": {
+            "title": "Di chuyển Cold Storage",
+            "desc": "Di chuyển 400GB tệp đính kèm không được truy cập trong 90 ngày sang Deep Archive."
+          }
+        },
+        "cost": {
+          "title": "Chi phí Hạ tầng dự kiến"
+        }
+      },
+      "config": {
+        "importExport": "Import/Export",
+        "title": "Cấu hình Hệ thống (JSON)",
+        "description": "Sao chép hoặc nhập mã cấu hình dưới dạng JSON để sao lưu hoặc khôi phục thiết lập.",
+        "actions": {
+          "downloadJson": "Tải JSON",
+          "importConfig": "Nhập Cấu hình"
+        },
+        "messages": {
+          "exportSuccess": "Đã xuất cấu hình thành tập tin JSON",
+          "copySuccess": "Đã sao chép vào bộ nhớ tạm"
+        }
+      }
+    }
+  },
+  "announcements": {
+    "createSubtitle": "Tạo thông báo mới cho lớp học"
+  },
+  "certificates": {
+    "earned": "Đã đạt được",
+    "inProgress": "Đang thực hiện",
+    "subtitle": "Danh sách chứng chỉ của bạn"
+  },
+  "curriculum": {
+    "subtitle": "Chương trình học tập chi tiết"
+  },
+  "nav": {
+    "certificates": "Chứng chỉ"
+  },
+  "progress": {
+    "stats": {
+      "avgScore": "Điểm TB"
+    }
+  },
+  "status": {
+    "graded": "Đã chấm điểm"
+  },
+  "subjects": {
+    "chemistry": "Hóa học",
+    "english": "Tiếng Anh",
+    "math": "Toán học"
+  }
+}

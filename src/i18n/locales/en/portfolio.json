@@ -1,0 +1,35 @@
+{
+  "title": "Learning Portfolio",
+  "subtitle": "Build and customize your personal portfolio to shine.",
+  "status": {
+    "draft": "Draft",
+    "saved": "Changes saved",
+    "published": "Published"
+  },
+  "steps": {
+    "basicInfo": "Purpose",
+    "academic": "Content Selection",
+    "achievements": "Design & Customize",
+    "review": "Preview & Export",
+    "projects": "Projects"
+  },
+  "sections": {
+    "personalGoal": "Personal Goals",
+    "security": "Portfolio Security",
+    "securityDesc": "Only people with the link or granted permissions can view this portfolio.",
+    "brandColor": "Brand Color"
+  },
+  "preview": {
+    "title": "Portfolio Preview",
+    "exportPdf": "Export as PDF",
+    "shareLink": "Share Link",
+    "sendEmail": "Send via Email",
+    "publishDate": "Publish Date"
+  },
+  "actions": {
+    "saveDraft": "Save Draft",
+    "back": "Back",
+    "next": "Next",
+    "complete": "Complete"
+  }
+}

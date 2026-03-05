@@ -1,0 +1,159 @@
+{
+  "title": "Bạn cùng học (Study Buddy)",
+  "subtitle": "Kết nối với những người bạn có cùng đam mê và mục tiêu để cùng nhau bứt phá.",
+  "actions": {
+    "schedule": "Lịch học nhóm",
+    "aiMatching": "AI Matching",
+    "filter": "Lọc chuyên sâu",
+    "nearMe": "Gần tôi (Hà Nội)",
+    "connect": "Kết nối",
+    "viewAllHistory": "Xem tất cả lịch sử",
+    "addManual": "Thêm bạn thủ công"
+  },
+  "tabs": {
+    "discover": "Khám phá",
+    "friends": "Bạn bè ({{count}})",
+    "requests": "Yêu cầu"
+  },
+  "searchPlaceholder": "Tìm theo tên, kỹ năng hoặc chuyên ngành...",
+  "compatibility": "Độ tương thích",
+  "feed": {
+    "title": "Social Feed",
+    "createPost": "Tạo bài viết",
+    "types": {
+      "achievement": "THÀNH TÍCH",
+      "code_share": "CÔNG KHAI CODE",
+      "status": "CẬP NHẬT"
+    },
+    "actions": {
+      "like": "Thích",
+      "comment": "Bình luận",
+      "share": "Chia sẻ",
+      "loadMore": "Tải thêm bài viết"
+    },
+    "sidebar": {
+      "recommendations": "Gợi ý kết bạn",
+      "viewAll": "Xem tất cả",
+      "challenges": "Thách thức cộng đồng",
+      "hotWeekly": "HOT WEEKLY"
+    },
+    "toasts": {
+      "liked": "Bạn đã thích bài viết của {{name}}!"
+    }
+  },
+  "groups": {
+    "hero": {
+      "title": "Study Groups",
+      "subtitle": "Học cùng bạn bè, tiến bộ nhanh gấp đôi.",
+      "create": "Tạo nhóm mới"
+    },
+    "search": {
+      "placeholder": "Tìm kiếm nhóm theo tên hoặc chủ đề...",
+      "tabs": {
+        "all": "Tất cả",
+        "mine": "Của tôi",
+        "suggested": "Gợi ý"
+      }
+    },
+    "card": {
+      "members": "{{current}}/{{total}} thành viên",
+      "active": "{{count}} đang học",
+      "join": "Tham gia",
+      "chat": "Chat"
+    },
+    "sidebar": {
+      "leaderboard": "Bảng vàng đồng đội",
+      "goals": "Mục tiêu nhóm",
+      "reward": "Sẽ nhận được 500 LearnCoins khi hoàn thành mục tiêu nhóm!"
+    }
+  },
+  "mockup": {
+    "addManualDesc": "Qua email hoặc ID học viên",
+    "stats": {
+      "ranks": "Pro-Studying Ranks",
+      "progressToNext": "Tiến trình tới {{rank}}",
+      "topPercent": "Top {{percent}}% người bạn học tập tích cực"
+    },
+    "history": {
+      "title": "Lịch sử học nhóm"
+    },
+    "goals": {
+      "title": "Mục tiêu tuần này",
+      "studySessions": "Học chung {{total}} buổi ({{current}}/{{total}})",
+      "helpFriend": "Giúp đỡ 1 bạn mới"
+    },
+    "buddies": {
+      "tam": {
+        "name": "Lê Minh Tâm",
+        "bio": "Đam mê lập trình và muốn cùng ôn thi thuật toán."
+      },
+      "ngoc": {
+        "name": "Trần Bảo Ngọc",
+        "bio": "Tìm bạn học chung môn xác suất thống kê."
+      },
+      "huy": {
+        "name": "Hoàng Gia Huy",
+        "bio": "Thích thảo luận về thiết kế trải nghiệm người dùng."
+      }
+    },
+    "sessions": {
+      "algo": "Algorithms & Programming",
+      "ui": "Machine Learning UI Design",
+      "english": "English Exam Prep",
+      "yesterday": "Hôm nay",
+      "daysAgo": "{{count}} ngày trước"
+    },
+    "feed": {
+      "posts": {
+        "p1": {
+          "title": "Đã đạt được Huy chương Vàng: Thuật toán DFS!",
+          "content": "Cuối cùng cũng vượt qua được chuỗi thử thách khó nhằn này. Cảm ơn mọi người đã hỗ trợ review code cho mình!",
+          "time": "10 phút trước"
+        },
+        "p2": {
+          "title": "Chia sẻ thư viện mới: React-Learn-UI",
+          "content": "Bộ UI component được thiết kế riêng cho các ứng dụng giáo dục. Mời mọi người fork và dùng thử nhé!",
+          "time": "1 giờ trước"
+        },
+        "p3": {
+          "content": "Hôm nay mình đã bắt đầu học về Big O Notation. Thật khó nhưng thú vị! Ai có tài liệu hay không ạ?",
+          "time": "3 giờ trước"
+        }
+      },
+      "challenges": {
+        "binarySearch": {
+          "title": "Clean Code Weekly #12",
+          "description": "Viết lại thuật toán Binary Search tối ưu nhất và nhận ngay Badge High-Quality.",
+          "participants": "{{count}} người tham gia"
+        }
+      }
+    },
+    "groups": {
+      "g1": {
+        "name": "Algorithm Masters",
+        "description": "Cùng nhau chinh phục các bài tập Leetcode và giải thuật nâng cao."
+      },
+      "g2": {
+        "name": "Web Dev Vietnam",
+        "description": "Nhóm những người yêu thích lập trình Web frontend & backend."
+      },
+      "g3": {
+        "name": "Python for Science",
+        "description": "Phân tích dữ liệu và mô phỏng vật lý bằng Python."
+      },
+      "ninja": {
+        "name": "Fullstack Ninjas"
+      },
+      "ai": {
+        "name": "AI Explorers"
+      },
+      "goals": {
+        "dfs": "Giải 500 bài tập DFS",
+        "system": "Hệ thống 100 chuyên đề"
+      }
+    },
+    "status": {
+      "tabFriendsDev": "Tính năng danh sách bạn bè đang được hoàn thiện."
+    }
+  }
+}

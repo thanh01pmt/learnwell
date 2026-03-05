@@ -1,0 +1,47 @@
+{
+  "title": "Tài nguyên học tập",
+  "subtitle": "Thư viện tài liệu, video và công cụ hỗ trợ học lập trình",
+  "placeholders": {
+    "search": "Tìm kiếm tài nguyên..."
+  },
+  "types": {
+    "all": "Tất cả",
+    "book": "Sách",
+    "video": "Video",
+    "document": "Tài liệu",
+    "link": "Liên kết"
+  },
+  "categories": {
+    "all": "Tất cả",
+    "javascript": "JavaScript",
+    "react": "React",
+    "typescript": "TypeScript",
+    "python": "Python",
+    "nodejs": "Node.js",
+    "css": "CSS",
+    "web": "Web",
+    "tools": "Công cụ"
+  },
+  "actions": {
+    "access": "Truy cập",
+    "watch": "Xem",
+    "download": "Tải về"
+  },
+  "messages": {
+    "noResources": "Không tìm thấy tài nguyên phù hợp"
+  },
+  "fields": {
+    "pages": "trang"
+  },
+  "mock": {
+    "jsGoodParts": "Cuốn sách kinh điển về JavaScript của Douglas Crockford",
+    "reactHooks": "Video hướng dẫn chi tiết về React Hooks từ cơ bản đến nâng cao",
+    "tsHandbook": "Tài liệu chính thức từ Microsoft về TypeScript",
+    "mdn": "Tài liệu tham khảo đầy đủ nhất về HTML, CSS và JavaScript",
+    "pythonDataScience": "Hướng dẫn sử dụng Python cho phân tích dữ liệu",
+    "nodeBestPractices": "Tổng hợp các best practices khi phát triển với Node.js",
+    "gitGithub": "Học cách sử dụng Git và GitHub từ đầu",
+    "gitGithub.title": "Git và GitHub cho người mới",
+    "cssTricks": "Blog với nhiều tips và tricks về CSS"
+  }
+}

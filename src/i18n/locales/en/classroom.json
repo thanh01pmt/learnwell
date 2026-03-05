@@ -1,0 +1,197 @@
+{
+  "classes": {
+    "title": "Class Management",
+    "subtitle": "Manage and track the progress of your classes",
+    "createNew": "Create New Class",
+    "searchPlaceholder": "Search classes...",
+    "subjectPlaceholder": "Subject",
+    "allSubjects": "All Subjects",
+    "card": {
+      "statusActive": "Active",
+      "statusEnded": "Ended",
+      "studentCount": "{{count}} students",
+      "programProgress": "Program Progress",
+      "enterClass": "Enter Class"
+    }
+  },
+  "students": {
+    "title": "Student Management",
+    "subtitle": "Track and manage your student information",
+    "exportExcel": "Export Excel"
+  },
+  "status": {
+    "active": "Active",
+    "enrolled": "Enrolled",
+    "completed": "Completed",
+    "graded": "Graded",
+    "pending": "Pending",
+    "late": "Late"
+  },
+  "stats": {
+    "graded": "Graded",
+    "pendingGrading": "Pending Grading",
+    "lateSubmissions": "Late Submissions",
+    "avgScore": "Avg Class Score",
+    "totalStudents": "Total Students"
+  },
+  "subjects": {
+    "math": "Mathematics",
+    "literature": "Literature",
+    "english": "English",
+    "science": "Science",
+    "history": "History",
+    "it": "IT",
+    "art": "Art",
+    "music": "Music",
+    "physical_education": "Physical Education"
+  },
+  "learningPaths": {
+    "title": "Learning Paths",
+    "subtitle": "Choose the learning path that fits you most",
+    "viewProgress": "View Progress",
+    "enrolled": "Enrolled",
+    "coursesCount": "{{count}} courses",
+    "estimatedHours": "{{count}} estimated hours",
+    "completedCount": "{{completed}}/{{total}} completed",
+    "continue": "Continue",
+    "enroll": "Enroll",
+    "progressLabel": "Progress",
+    "active": "Active",
+    "labels": {
+      "completed": "Completed",
+      "studyTime": "Study Time",
+      "overallProgress": "Overall Progress"
+    },
+    "mocks": {
+      "frontendTitle": "Frontend Developer",
+      "frontendDesc": "Learn from basic to advanced web interface development",
+      "backendTitle": "Backend Developer",
+      "backendDesc": "Build API and backend systems with Node.js",
+      "dataTitle": "Data Science with Python",
+      "dataDesc": "Data analysis and machine learning",
+      "devopsTitle": "DevOps Engineer",
+      "devopsDesc": "CI/CD, containerization and cloud infrastructure"
+    }
+  },
+  "grading": {
+    "title": "Grading & Feedback",
+    "subtitle": "Manage submissions and perform grading for your students.",
+    "generalGradebook": "General Gradebook",
+    "gradeDistribution": "Grade Distribution",
+    "searchPlaceholder": "Search by student or assignment...",
+    "classPlaceholder": "Select Class",
+    "allClasses": "All Classes",
+    "submittedAt": "Submitted at",
+    "scoreLabel": "SCORE"
+  },
+  "projectDetail": {
+    "status": {
+      "completed": "Completed",
+      "pending": "Pending",
+      "overdue": "Overdue"
+    }
+  },
+  "mocks": {
+    "students": {
+      "minhanh": "Nguyen Minh Anh",
+      "tuankiet": "Nguyen Tuan Kiet",
+      "thao": "Phuong Thao",
+      "duc": "Minh Duc",
+      "anhtuan": "Anh Tuan",
+      "huong": "Thanh Huong",
+      "cuong": "Tran Manh Cuong",
+      "binh": "Le Thanh Binh",
+      "an": "Pham Gia An",
+      "dung": "Dung Pham",
+      "em": "Em Nguyen",
+      "chi": "Linh Chi",
+      "giang": "Huong Giang",
+      "ha": "Thu Ha",
+      "yen": "Hai Yen"
+    },
+    "classes": {
+      "class10A1": "Class 10A1",
+      "class10A2": "Class 10A2",
+      "class11B1": "Class 11B1",
+      "math6a": "Math 6A",
+      "literature7b": "Literature 7B",
+      "english8c": "English 8C",
+      "physics9a": "Physics 9A"
+    },
+    "semesters": {
+      "semester1": "Semester 1",
+      "semester2": "Semester 2"
+    },
+    "schedule": {
+      "m_w_f_8": "Mon, Wed, Fri - 8:00 AM",
+      "t_th_9": "Tue, Thu - 9:00 AM",
+      "m_w_10": "Mon, Wed - 10:00 AM",
+      "t_th_s_8": "Tue, Thu, Sat - 8:00 AM",
+      "m_f_14": "Mon, Fri - 2:00 PM"
+    },
+    "assignments": {
+      "math3": "Math Assignment #3",
+      "lit1": "Literature Analysis 1",
+      "eng5": "English Unit 5 Homework",
+      "sciLight": "Physics Light Project",
+      "mathQuiz15": "Math 15' Quiz",
+      "mathMidterm": "Math Midterm Exam",
+      "engExam": "English Final Exam"
+    },
+    "gradebook": {
+      "assignments": {
+        "oral1": "Oral Exam 1",
+        "quizRational": "Rational Numbers Quiz",
+        "examCh1": "Chapter 1 Exam",
+        "midterm": "Midterm Exam",
+        "project": "Final Project",
+        "hwWeek1": "Homework Week 1",
+        "hwWeek2": "Homework Week 2"
+      }
+    },
+    "locations": {
+      "room6a1": "Room 6A1",
+      "audiovisual": "AV Room",
+      "hallA": "Hall A"
+    },
+    "teachers": {
+      "hoa": "Ms. Nguyen Thi Hoa",
+      "nam": "Mr. Tran Van Nam",
+      "mai": "Ms. Le Thi Mai",
+      "duc": "Mr. Pham Minh Đức",
+      "teacherA": "Mr. Nguyen Van A",
+      "teacherB": "Ms. Tran Thi B",
+      "teacherC": "Mr. Le Van C",
+      "teacherD": "Ms. Pham Thi D",
+      "teacherE": "Mr. Hoang Van E",
+      "teacherF": "Ms. Vu Thi F"
+    }
+  },
+  "table": {
+    "students": "Students",
+    "avgScore": "Avg Score",
+    "progress": "Overall Progress",
+    "actions": "Actions",
+    "className": "Class Name",
+    "subject": "Subject",
+    "schedule": "Schedule",
+    "status": "Status"
+  },
+  "pagination": {
+    "showing": "Showing {{count}} of {{total}} classes",
+    "prev": "Prev",
+    "next": "Next"
+  },
+  "actions": {
+    "grade": "Grade",
+    "viewWork": "View Work",
+    "viewProfile": "View Profile",
+    "deleteStudent": "Delete Student",
+    "viewDetails": "View Details",
+    "edit": "Edit",
+    "deleteClass": "Delete Class"
+  },
+  "emptyState": {
+    "description": "No submissions found matching the filters."
+  }
+}

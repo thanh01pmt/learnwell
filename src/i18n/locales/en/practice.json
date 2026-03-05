@@ -1,0 +1,95 @@
+{
+  "title": "Practice",
+  "description": "Improve your skills with interactive exercises",
+  "stats": {
+    "done": "Questions done",
+    "accuracy": "Accuracy",
+    "streak": "Streak",
+    "totalXp": "Total XP",
+    "streakDetail": "{{count}} days 🔥"
+  },
+  "analytics": {
+    "accuracyTrend": "Accuracy Trend",
+    "accuracyTrendDesc": "Correct answer rate over the last 7 days",
+    "todayTrend": "+12% today",
+    "avgTime": "Average Time",
+    "avgTimeDesc": "Completion time per question (seconds)",
+    "fasterBadge": "-15s faster",
+    "days": {
+      "T2": "Mon",
+      "T3": "Tue",
+      "T4": "Wed",
+      "T5": "Thu",
+      "T6": "Fri",
+      "T7": "Sat",
+      "CN": "Sun"
+    }
+  },
+  "challenges": {
+    "title": "Daily Challenges",
+    "mode": "Challenge Mode",
+    "toastInfo": "Challenge Mode: AI will prioritize high-difficulty exercises!",
+    "unlimited": "Unlimited",
+    "questions": "{{count}} questions",
+    "items": {
+      "i1": "5-Minute Challenge",
+      "i2": "Question Marathon",
+      "i3": "Unlimited Mode"
+    }
+  },
+  "aiTutor": {
+    "title": "AI Tutor Suggestions",
+    "quote": "\"Based on data from the last 7 days, you are struggling with **Spatial Geometry** problems. I have prepared a specific review list for you!\"",
+    "viewRoadmap": "View review roadmap"
+  },
+  "quiz": {
+    "exit": "Exit",
+    "submitEarly": "Submit early",
+    "progress": "Question {{current}} / {{total}}",
+    "timeLeft": "Time left",
+    "timesUp": "Time's up! Your results are being processed.",
+    "mockQuestion": {
+      "text": "If a triangle has sides 3, 4, 5, what type of triangle is it?",
+      "options": [
+        "Equilateral triangle",
+        "Isosceles triangle",
+        "Right triangle",
+        "Obtuse triangle"
+      ]
+    }
+  },
+  "sections": {
+    "searchPlaceholder": "Search practice topics...",
+    "topicsTitle": "Practice Topics",
+    "progress": "Progress",
+    "accuracy": "{{percent}}% accuracy",
+    "continue": "Continue"
+  },
+  "mockTopics": {
+    "t1": {
+      "title": "Basic Arithmetic",
+      "subject": "Mathematics"
+    },
+    "t2": {
+      "title": "Linear Equations",
+      "subject": "Mathematics"
+    },
+    "t3": {
+      "title": "Medieval Literature",
+      "subject": "Literature"
+    },
+    "t4": {
+      "title": "Grammar - Tenses",
+      "subject": "English"
+    },
+    "t5": {
+      "title": "Vocabulary - Daily Life",
+      "subject": "English"
+    }
+  },
+  "difficulty": {
+    "easy": "Easy",
+    "medium": "Medium",
+    "hard": "Hard"
+  }
+}

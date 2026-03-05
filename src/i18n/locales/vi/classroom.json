@@ -1,0 +1,197 @@
+{
+  "classes": {
+    "title": "Quản lý lớp học",
+    "subtitle": "Quản lý và theo dõi tiến độ các lớp học của bạn",
+    "createNew": "Tạo lớp mới",
+    "searchPlaceholder": "Tìm kiếm lớp học...",
+    "subjectPlaceholder": "Môn học",
+    "allSubjects": "Tất cả môn học",
+    "card": {
+      "statusActive": "Đang hoạt động",
+      "statusEnded": "Đã kết thúc",
+      "studentCount": "{{count}} học sinh",
+      "programProgress": "Tiến độ chương trình",
+      "enterClass": "Vào lớp học"
+    }
+  },
+  "students": {
+    "title": "Quản lý học sinh",
+    "subtitle": "Theo dõi và quản lý thông tin học sinh của bạn",
+    "exportExcel": "Xuất Excel"
+  },
+  "status": {
+    "active": "Đang hoạt động",
+    "enrolled": "Đã ghi danh",
+    "completed": "Hoàn thành",
+    "graded": "Đã chấm điểm",
+    "pending": "Chờ chấm",
+    "late": "Nộp muộn"
+  },
+  "stats": {
+    "graded": "Đã chấm điểm",
+    "pendingGrading": "Chờ chấm điểm",
+    "lateSubmissions": "Nộp muộn",
+    "avgScore": "Điểm TB lớp",
+    "totalStudents": "Tổng học sinh"
+  },
+  "subjects": {
+    "math": "Toán học",
+    "literature": "Ngữ văn",
+    "english": "Tiếng Anh",
+    "science": "Khoa học",
+    "history": "Lịch sử",
+    "it": "Tin học",
+    "art": "Mỹ thuật",
+    "music": "Âm nhạc",
+    "physical_education": "Thể dục"
+  },
+  "learningPaths": {
+    "title": "Lộ trình học tập",
+    "subtitle": "Chọn lộ trình học tập phù hợp nhất với bạn",
+    "viewProgress": "Xem tiến độ",
+    "enrolled": "Đã đăng ký",
+    "coursesCount": "{{count}} khóa học",
+    "estimatedHours": "{{count}} giờ dự kiến",
+    "completedCount": "{{completed}}/{{total}} hoàn thành",
+    "continue": "Tiếp tục",
+    "enroll": "Đăng ký",
+    "progressLabel": "Tiến độ",
+    "active": "Đang học",
+    "labels": {
+      "completed": "Đã hoàn thành",
+      "studyTime": "Thời gian học",
+      "overallProgress": "Tiến độ tổng quát"
+    },
+    "mocks": {
+      "frontendTitle": "Frontend Developer",
+      "frontendDesc": "Học từ cơ bản đến nâng cao về phát triển giao diện web",
+      "backendTitle": "Backend Developer",
+      "backendDesc": "Xây dựng API và hệ thống backend với Node.js",
+      "dataTitle": "Data Science với Python",
+      "dataDesc": "Phân tích dữ liệu và machine learning",
+      "devopsTitle": "DevOps Engineer",
+      "devopsDesc": "CI/CD, containerization và cloud infrastructure"
+    }
+  },
+  "grading": {
+    "title": "Chấm điểm & Phản hồi",
+    "subtitle": "Quản lý bài nộp và thực hiện chấm điểm cho học sinh các lớp.",
+    "generalGradebook": "Sổ điểm tổng quát",
+    "gradeDistribution": "Phân bổ điểm số",
+    "searchPlaceholder": "Tìm kiếm theo tên học sinh hoặc bài tập...",
+    "classPlaceholder": "Chọn lớp học",
+    "allClasses": "Tất cả các lớp",
+    "submittedAt": "Đã nộp lúc",
+    "scoreLabel": "ĐIỂM SỐ"
+  },
+  "projectDetail": {
+    "status": {
+      "completed": "Hoàn thành",
+      "pending": "Đang chờ",
+      "overdue": "Quá hạn"
+    }
+  },
+  "mocks": {
+    "students": {
+      "minhanh": "Nguyễn Minh Anh",
+      "tuankiet": "Nguyễn Tuấn Kiệt",
+      "thao": "Phương Thảo",
+      "duc": "Minh Đức",
+      "anhtuan": "Anh Tuấn",
+      "huong": "Thanh Hương",
+      "cuong": "Trần Mạnh Cường",
+      "binh": "Lê Thanh Bình",
+      "an": "Phạm Gia An",
+      "dung": "Nguyễn Tiến Dũng",
+      "em": "Lê Gia Em",
+      "chi": "Nguyễn Linh Chi",
+      "giang": "Trần Hương Giang",
+      "ha": "Phạm Thu Hà",
+      "yen": "Hoàng Hải Yến"
+    },
+    "classes": {
+      "class10A1": "Lớp 10A1",
+      "class10A2": "Lớp 10A2",
+      "class11B1": "Lớp 11B1",
+      "math6a": "Toán 6A",
+      "literature7b": "Ngữ văn 7B",
+      "english8c": "Tiếng Anh 8C",
+      "physics9a": "Vật lý 9A"
+    },
+    "semesters": {
+      "semester1": "Học kỳ 1",
+      "semester2": "Học kỳ 2"
+    },
+    "schedule": {
+      "m_w_f_8": "Thứ 2, Thứ 4, Thứ 6 - 8:00",
+      "t_th_9": "Thứ 3, Thứ 5 - 9:00",
+      "m_w_10": "Thứ 2, Thứ 4 - 10:00",
+      "t_th_s_8": "Thứ 3, Thứ 5, Thứ 7 - 8:00",
+      "m_f_14": "Thứ 2, Thứ 6 - 14:00"
+    },
+    "assignments": {
+      "math3": "Bài tập Toán số 3",
+      "lit1": "Phân tích văn học 1",
+      "eng5": "Bài tập tiếng Anh Unit 5",
+      "sciLight": "Dự án Ánh sáng Vật lý",
+      "mathQuiz15": "Kiểm tra 15 phút Toán",
+      "mathMidterm": "Kiểm tra giữa kỳ Toán",
+      "engExam": "Kiểm tra Tiếng Anh"
+    },
+    "gradebook": {
+      "assignments": {
+        "oral1": "Kiểm tra miệng 1",
+        "quizRational": "Trắc nghiệm Số hữu tỉ",
+        "examCh1": "Kiểm tra Chương 1",
+        "midterm": "Kiểm tra giữa kỳ",
+        "project": "Dự án cuối khóa",
+        "hwWeek1": "Bài tập Về nhà Tuần 1",
+        "hwWeek2": "Bài tập Về nhà Tuần 2"
+      }
+    },
+    "locations": {
+      "room6a1": "Phòng 6A1",
+      "audiovisual": "Phòng đa năng",
+      "hallA": "Hội trường A"
+    },
+    "teachers": {
+      "hoa": "Cô Nguyễn Thị Hoa",
+      "nam": "Thầy Trần Văn Nam",
+      "mai": "Cô Lê Thị Mai",
+      "duc": "Thầy Phạm Minh Đức",
+      "teacherA": "Thầy Nguyễn Văn A",
+      "teacherB": "Cô Trần Thị B",
+      "teacherC": "Thầy Lê Văn C",
+      "teacherD": "Cô Phạm Thị D",
+      "teacherE": "Thầy Hoàng Văn E",
+      "teacherF": "Cô Vũ Thị F"
+    }
+  },
+  "table": {
+    "students": "Học sinh",
+    "avgScore": "Điểm TB",
+    "progress": "Tiến độ hoàn thành",
+    "actions": "Thao tác",
+    "className": "Tên lớp học",
+    "subject": "Môn học",
+    "schedule": "Lịch học",
+    "status": "Trạng thái"
+  },
+  "pagination": {
+    "showing": "Hiển thị {{count}} trên {{total}} lớp học",
+    "prev": "Trước",
+    "next": "Tiếp"
+  },
+  "actions": {
+    "grade": "Chấm điểm",
+    "viewWork": "Xem bài làm",
+    "viewProfile": "Xem hồ sơ",
+    "deleteStudent": "Xóa học sinh",
+    "viewDetails": "Xem chi tiết",
+    "edit": "Chỉnh sửa",
+    "deleteClass": "Xóa lớp học"
+  },
+  "emptyState": {
+    "description": "Không có bài nộp nào phù hợp với bộ lọc hiện tại."
+  }
+}

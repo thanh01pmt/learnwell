@@ -1,0 +1,86 @@
+{
+  "settings": {
+    "title": "Cài đặt",
+    "subtitle": "Quản lý tài khoản và tùy chỉnh trải nghiệm của bạn",
+    "tabs": {
+      "profile": "Hồ sơ",
+      "notifications": "Thông báo",
+      "appearance": "Giao diện",
+      "security": "Bảo mật"
+    },
+    "profile": {
+      "title": "Thông tin cá nhân",
+      "avatar": {
+        "title": "Ảnh đại diện",
+        "description": "JPG, PNG. Tối đa 2MB"
+      },
+      "form": {
+        "fullName": "Họ và tên",
+        "email": "Email",
+        "phone": "Số điện thoại",
+        "subject": "Bộ môn",
+        "save": "Lưu thay đổi"
+      }
+    },
+    "notifications": {
+      "channels": {
+        "title": "Phương thức thông báo",
+        "email": {
+          "title": "Email",
+          "description": "Nhận thông báo qua email"
+        },
+        "push": {
+          "title": "Thông báo đẩy",
+          "description": "Nhận thông báo trên trình duyệt"
+        },
+        "sms": {
+          "title": "SMS",
+          "description": "Nhận thông báo qua tin nhắn"
+        }
+      },
+      "types": {
+        "title": "Loại thông báo",
+        "newSubmission": {
+          "title": "Bài nộp mới",
+          "description": "Khi học sinh nộp bài"
+        },
+        "joinRequest": {
+          "title": "Yêu cầu tham gia",
+          "description": "Khi có học sinh muốn tham gia lớp"
+        },
+        "weeklyReport": {
+          "title": "Báo cáo hàng tuần",
+          "description": "Tổng kết hoạt động mỗi tuần"
+        }
+      }
+    },
+    "appearance": {
+      "title": "Giao diện",
+      "theme": {
+        "title": "Chế độ màu",
+        "light": "Sáng",
+        "dark": "Tối",
+        "system": "Hệ thống"
+      },
+      "regional": {
+        "title": "Ngôn ngữ & Khu vực",
+        "language": "Ngôn ngữ",
+        "timezone": "Múi giờ"
+      }
+    },
+    "security": {
+      "changePassword": {
+        "title": "Đổi mật khẩu",
+        "current": "Mật khẩu hiện tại",
+        "new": "Mật khẩu mới",
+        "confirm": "Xác nhận mật khẩu mới",
+        "submit": "Cập nhật mật khẩu"
+      },
+      "sessions": {
+        "title": "Phiên đăng nhập",
+        "active": "Hiện tại",
+        "logout": "Đăng xuất"
+      }
+    }
+  }
+}

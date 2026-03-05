@@ -1,0 +1,31 @@
+{
+  "contact": {
+    "title": "Contact us",
+    "subtitle": "Have questions, suggestions, or want to partner with LearnWell? Don't hesitate to reach out, our team is always ready to listen.",
+    "info": {
+      "email": {
+        "title": "Email",
+        "value": "hello@learnwell.vn"
+      },
+      "phone": {
+        "title": "Phone",
+        "value": "1900 xxxx (8:00 - 18:00)"
+      },
+      "address": {
+        "title": "Address",
+        "value": "5th Floor, Innovation Building, High Tech Park, District 9, HCMC"
+      }
+    },
+    "form": {
+      "name": "Full Name",
+      "namePlaceholder": "John Doe",
+      "email": "Email",
+      "emailPlaceholder": "john@example.com",
+      "subject": "Subject",
+      "subjectPlaceholder": "Educational Partnership",
+      "message": "Message",
+      "messagePlaceholder": "Your message content...",
+      "submit": "Send Message"
+    }
+  }
+}

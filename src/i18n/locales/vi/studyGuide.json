@@ -1,0 +1,100 @@
+{
+  "title": "AI Study Guide Generator",
+  "description": "Tự động tổng hợp kiến thức và tạo lộ trình ôn tập thông minh",
+  "steps": {
+    "step1": {
+      "title": "Bước 1: Chọn chủ đề ôn tập",
+      "description": "Chọn nội dung bạn muốn AI tổng hợp kiến thức"
+    }
+  },
+  "ui": {
+    "relatedLessons": "{{count}} bài học liên quan",
+    "addTopic": "Thêm chủ đề khác",
+    "aiConfig": "Cấu hình AI",
+    "detailLevel": "Mức độ chi tiết",
+    "detailLevelDesc": "Tùy chỉnh độ phủ của nội dung tổng hợp",
+    "modes": {
+      "summary": "Tóm tắt",
+      "standard": "Tiêu chuẩn",
+      "advanced": "Nâng cao"
+    },
+    "includeQuestions": "Bao gồm câu hỏi ôn tập",
+    "includeQuestionsDesc": "AI sẽ tạo thêm các câu hỏi tự luyện",
+    "generateTitle": "Tạo Study Guide",
+    "generateDesc": "Sử dụng AI để xử lý {{count}} tài liệu bài học.",
+    "estimatedTime": "Ước tính thời gian",
+    "estimatedSeconds": "~ {{count}} giây",
+    "processing": "Đang xử lý...",
+    "startNow": "Bắt đầu ngay",
+    "analyzing": "Đang phân tích tài liệu...",
+    "extractingKeywords": "Trích xuất {{count}} từ khóa quan trọng",
+    "classifyingKnowledge": "Phân loại {{count}} nhóm kiến thức",
+    "writingGuide": "Đang soạn thảo văn bản tổng hợp...",
+    "badge": "STUDY GUIDE - AI GENERATED",
+    "coreConcepts": "Khái niệm cốt lõi",
+    "keyTakeaways": "Lưu ý đặc biệt (Key Takeaways)",
+    "practiceQuestions": "Câu hỏi luyện tập",
+    "aiSuggestions": "Gợi ý từ AI",
+    "createFlashcards": "Tạo Flashcard từ nội dung này",
+    "startQuickTest": "Bắt đầu bài Test nhanh",
+    "history": "Lịch sử Study Guides",
+    "createNew": "Tạo Study Guide mới"
+  },
+  "mockTopics": {
+    "t1": {
+      "title": "Giải thuật Sắp xếp",
+      "subject": "Tin học"
+    },
+    "t2": {
+      "title": "Hệ phương trình bậc nhất",
+      "subject": "Toán học"
+    },
+    "t3": {
+      "title": "Phản ứng Oxi hóa khử",
+      "subject": "Hóa học"
+    }
+  },
+  "mockResult": {
+    "title": "Giải thuật Sắp xếp & Độ phức tạp",
+    "subject": "Tin học lớp 11",
+    "definition": "Sắp xếp (Sorting) là quá trình sắp đặt các phần tử của một danh sách theo một thứ tự nhất định (tăng dần hoặc giảm dần).",
+    "quickSort": "QuickSort: O(n log n), hiệu quả nhất.",
+    "mergeSort": "MergeSort: O(n log n), ổn định.",
+    "bubbleSort": "BubbleSort: O(n^2), dễ cài đặt.",
+    "takeaway": "QuickSort có thể rơi vào O(n^2) nếu chọn pivot không tốt. MergeSort tốn nhiều bộ nhớ hơn do tính chất đệ quy và yêu cầu mảng tạm.",
+    "coreConcepts": {
+      "c1": {
+        "title": "Số hữu tỉ",
+        "content": "Số hữu tỉ là số viết được dưới dạng phân số a/b với a, b thuộc Z, b khác 0."
+      },
+      "c2": {
+        "title": "Số thập phân",
+        "content": "Cách chuyển đổi giữa số thập phân hữu hạn và số thập phân vô hạn tuần hoàn."
+      }
+    },
+    "keyTakeaways": {
+      "t1": "Nắm vững các quy tắc cộng, trừ, nhân, chia số hữu tỉ.",
+      "t2": "Hiểu rõ giá trị tuyệt đối của một số hữu tỉ."
+    },
+    "practiceQuestions": {
+      "q1": {
+        "q": "Tính giá trị của A = 1/2 + 3/4",
+        "a": "5/4"
+      },
+      "q2": {
+        "q": "Tìm x, biết |x| = 2/3",
+        "a": "x = 2/3 hoặc x = -2/3"
+      }
+    }
+  },
+  "history": {
+    "h1": {
+      "title": "Hóa học hữu cơ",
+      "date": "2 ngày trước"
+    },
+    "h2": {
+      "title": "Lịch sử cận đại",
+      "date": "1 tuần trước"
+    }
+  }
+}

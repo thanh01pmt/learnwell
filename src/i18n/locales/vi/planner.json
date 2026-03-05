@@ -1,0 +1,39 @@
+{
+  "title": "Lập kế hoạch học tập",
+  "subtitle": "Theo dõi mục tiêu và nhiệm vụ mỗi ngày",
+  "actions": {
+    "newGoal": "Thêm mục tiêu mới"
+  },
+  "calendar": {
+    "title": "Lịch trình tuần này",
+    "day": "Ngày"
+  },
+  "goals": {
+    "title": "Mục tiêu dài hạn",
+    "mockup": {
+      "math": "Hoàn thành 10 bài tập Toán",
+      "english": "Học 50 từ vựng Tiếng Anh",
+      "physics": "Đọc xong 2 chương Vật Lý"
+    }
+  },
+  "streak": {
+    "title": "Cày quốc cuối tuần",
+    "message": "Bạn đang trong chuỗi 7 ngày học tập. Hoàn thành nhiệm vụ ngày mai để nhận rương báu!",
+    "action": "Nhận nhiệm vụ mới"
+  },
+  "tips": {
+    "title": "Mẹo học tập",
+    "pomodoro": "Học 25 phút, nghỉ 5 phút theo phương pháp Pomodoro sẽ giúp bạn tập trung lâu hơn."
+  },
+  "mockup": {
+    "tasks": {
+      "math": "Ôn tập Toán 10",
+      "english": "Học từ vựng English Unit 6",
+      "physics": "Làm bài tập Lý",
+      "literature": "Đọc văn học trung đại",
+      "chemistry": "Project nhóm Hóa học",
+      "biology": "Kiểm tra 15p Sinh học",
+      "summary": "Tổng kết tuần"
+    }
+  }
+}

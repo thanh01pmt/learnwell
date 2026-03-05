@@ -1,0 +1,294 @@
+{
+  "page": {
+    "title": "Feature & Permission Management",
+    "subtitle": "Enable/disable features and configure route access for each user role."
+  },
+  "info": {
+    "banner": {
+      "title": "Important Note",
+      "message": "Changing permissions will immediately affect user access. Child routes are automatically disabled if the parent route is turned off."
+    }
+  },
+  "notifications": {
+    "saved": "Configuration saved automatically"
+  },
+  "tabs": {
+    "contentAccess": {
+      "title": "Content Access Structure",
+      "description": "Simulate access control for educational materials by class and student group.",
+      "stats": "{{students}} students • {{resources}} materials"
+    },
+    "webhooks": {
+      "title": "Webhook Reports",
+      "description": "Configure endpoints for automatic reports (Mockup)."
+    },
+    "parentSpecial": {
+      "title": "Additive Parent Permissions",
+      "description": "Configure role-specific additive logic for parents.",
+      "notesTitle": "Logic Notes",
+      "notesMessage": "Sub-settings augment the parent settings but do not conflict. For example: allow viewing stats but restrict profile modifications.",
+      "options": {
+        "viewOnly": {
+          "title": "Strict Stats Only Mode",
+          "description": "Parents can only view their student's statistic routes."
+        },
+        "contactTeacher": {
+          "title": "Additive: Basic Teacher Contact",
+          "description": "Allow sending quick messages to the responsible teacher."
+        },
+        "autoAssign": {
+          "title": "Auto-assign Student Child Routes",
+          "description": "Parents automatically gain 'View' permissions for student learning routes."
+        }
+      }
+    }
+  },
+  "actions": {
+    "searchPlaceholder": "Search features...",
+    "addAccessGroup": "Add Access Group",
+    "addWebhook": "Add Webhook Endpoint"
+  },
+  "categories": {
+    "all": "All",
+    "user-management": "Users",
+    "contests": "Contests",
+    "ai-features": "AI Features",
+    "content-access": "Materials",
+    "webhooks": "Webhooks",
+    "parent-special": "Parent Permissions"
+  },
+  "features": {
+    "user-management": {
+      "name": "User Management & Analytics",
+      "description": "Manage students, teachers, and view system statistics."
+    },
+    "contests": {
+      "name": "Contests & Arena",
+      "description": "Coding contest system, ELO, and bot battles."
+    },
+    "ai-features": {
+      "name": "AI Features & Personalization",
+      "description": "AI learning roadmaps, skill gap analysis, and smart recommendations."
+    },
+    "content-access": {
+      "name": "Content Access Control",
+      "description": "Manage resource access per class, teacher, and student."
+    },
+    "webhooks": {
+      "name": "Webhooks & Reports",
+      "description": "Configure report webhooks and system notifications."
+    },
+    "core-lms-teacher": {
+      "name": "LMS Core (Teacher)",
+      "description": "Core features for teachers."
+    },
+    "core-lms-student": {
+      "name": "LMS Core (Student)",
+      "description": "Core features for students."
+    },
+    "programming": {
+      "name": "Programming & Code",
+      "description": "IDE, Problem Library, and Solution Sharing."
+    },
+    "gamification": {
+      "name": "Gamification",
+      "description": "Shop, Teams, and Achievements."
+    },
+    "social": {
+      "name": "Social & Community",
+      "description": "Forum, Social Feed, and Study Groups."
+    },
+    "parent-portal": {
+      "name": "Parent Portal",
+      "description": "Track progress, reports, and teacher communication."
+    },
+    "portfolio-builder": {
+      "name": "Portfolio Builder",
+      "description": "Create professional portfolios for scholarships, internships, and admissions."
+    },
+    "learning-autonomy": {
+      "name": "Learning Autonomy",
+      "description": "Advanced analytics, time tracking, and SMART goal setting for students."
+    },
+    "artifact-repo": {
+      "name": "Learning Artifacts",
+      "description": "Multimedia repository for project work and digital reflections."
+    },
+    "intervention-dashboard": {
+      "name": "Intervention Dashboard",
+      "description": "Early warning dashboard and support workflows for at-risk students."
+    },
+    "formative-assessment": {
+      "name": "Formative Assessment",
+      "description": "Swift assessment tools and real-time comprehension tracking."
+    },
+    "curriculum-portal": {
+      "name": "Curriculum Information",
+      "description": "Portal for parents to understand roadmaps and home support."
+    },
+    "communication-hub": {
+      "name": "Communication Hub",
+      "description": "Multimedia communication channel and periodic report storage."
+    },
+    "rich-materials": {
+      "name": "Rich Multimedia Materials",
+      "description": "Interactive video player, podcasts, and virtual labs."
+    },
+    "admin-analytics": {
+      "name": "Behavioral & Effectiveness Analytics",
+      "description": "In-depth reporting system for user interaction and learning outcomes."
+    },
+    "resource-optimization": {
+      "name": "Resource Optimization",
+      "description": "Tools for managing and allocating learning resources based on actual data."
+    },
+    "audio-lessons": {
+      "name": "Podcast Lessons",
+      "description": "Flexible learning through audio and educational podcasts."
+    },
+    "mind-maps": {
+      "name": "Mind Maps",
+      "description": "Visualize knowledge through interactive mind maps."
+    },
+    "micro-credentials": {
+      "name": "Micro-Credentials",
+      "description": "Badge system and skill certifications earned."
+    },
+    "home-activities": {
+      "name": "Home Activities",
+      "description": "Activity library for parents to support student learning."
+    },
+    "exit-tickets": {
+      "name": "Exit Tickets",
+      "description": "Quick end-of-class assessment tool to capture student understanding."
+    },
+    "learning-path-templates": {
+      "name": "Learning Path Templates",
+      "description": "Library of standardized personalized learning path templates."
+    },
+    "iep-manager": {
+      "name": "IEP Manager",
+      "description": "Digitize and manage Individualized Education Programs (IEP)."
+    },
+    "study-buddies": {
+      "name": "Study Buddies",
+      "description": "Connect students with similar interests and learning goals to progress together."
+    },
+    "skill-grouping": {
+      "name": "Skill Grouping",
+      "description": "Automatically group students by level and knowledge gaps for personalized support."
+    },
+    "cohort-tracking": {
+      "name": "Cohort Tracking",
+      "description": "Analyze and track the progress of student cohorts across multiple academic years."
+    }
+  },
+  "matrix": {
+    "status": {
+      "active": "Active",
+      "disabled": "Disabled"
+    },
+    "table": {
+      "header": "Route / Feature"
+    },
+    "tooltips": {
+      "parentRoute": "Parent Route: Disabling will disable all child routes.",
+      "disabledByParent": "No permission because parent route is disabled"
+    }
+  },
+  "routes": {
+    "admin": {
+      "dashboard": "Admin Dashboard",
+      "users": "User Management",
+      "teachers": "Teacher Management",
+      "reports": "System Reports",
+      "systemHealth": "System Health",
+      "analytics": "Advanced Analytics",
+      "resources": "Resource Optimization",
+      "cohortTracking": "Cohort Tracking"
+    },
+    "contests": {
+      "list": "Contest List",
+      "detail": "Contest Detail",
+      "arena": "Arena",
+      "leaderboard": "Leaderboard",
+      "quickMatch": "Quick Match",
+      "teamBattle": "Team Battle",
+      "botArena": "Bot Arena",
+      "eloLeaderboard": "ELO Leaderboard"
+    },
+    "student": {
+      "dashboard": "Student Dashboard",
+      "roadmap": "AI Roadmap",
+      "skillGap": "Skill Gap Analysis",
+      "adaptivePractice": "Adaptive Practice",
+      "assignments": "My Assignments",
+      "materials": "Learning Materials",
+      "richMaterials": "Advanced Materials",
+      "audio": "Podcast Learning",
+      "mindmaps": "Mind Maps",
+      "flashcards": "Flashcards",
+      "notes": "Notes",
+      "planner": "Study Planner",
+      "autonomy": "Learning Autonomy",
+      "artifacts": "Personal Artifact Repository",
+      "credentials": "Certificates & Badges",
+      "studyBuddies": "Study Buddies",
+      "leaderboard": "General Leaderboard",
+      "audioLessons": "Audio Lessons"
+    },
+    "teacher": {
+      "dashboard": "Teacher Dashboard",
+      "classes": "Class List",
+      "classDetail": "Class Detail",
+      "students": "Student List",
+      "grading": "Grading",
+      "gradebook": "Gradebook",
+      "gradebookAdvanced": "Advanced Gradebook",
+      "rubricBuilder": "Rubric Builder",
+      "seatingChart": "Seating Chart",
+      "attendance": "Attendance",
+      "interventions": "Support Dashboard",
+      "formative": "Quick Assessment",
+      "exitTickets": "Exit Tickets",
+      "pathTemplates": "Path Templates",
+      "iep": "IEP Management",
+      "skillGroups": "Skill Grouping"
+    },
+    "parent": {
+      "dashboard": "Parent Dashboard",
+      "progress": "Child Progress",
+      "report": "Detailed Reports",
+      "attendance": "Attendance",
+      "contact": "Contact Teacher",
+      "schedule": "Child Schedule",
+      "curriculum": "Learning Roadmap",
+      "communications": "Communications & Reports",
+      "homeActivities": "Home Activities"
+    },
+    "common": {
+      "recommendations": "Smart Recommendations",
+      "resources": "Resource Bank",
+      "learningPaths": "Learning Paths",
+      "playground": "Code Playground",
+      "problems": "Problem Library",
+      "solutions": "Solution Sharing",
+      "codeGallery": "Code Gallery",
+      "peerReview": "Peer Review",
+      "shop": "LearnCoin Shop",
+      "teams": "Team System",
+      "achievements": "Achievements",
+      "certificates": "Certificates",
+      "forum": "Forum",
+      "socialFeed": "Social Feed",
+      "studyGroups": "Study Groups",
+      "messages": "Messages",
+      "authoring": {
+        "questions": "Question Bank",
+        "curriculum": "Curriculum Management",
+        "exams": "Exam Management"
+      },
+      "portfolioBuilder": "Portfolio Builder"
+    }
+  }
+}

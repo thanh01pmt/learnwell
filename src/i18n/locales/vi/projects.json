@@ -1,0 +1,126 @@
+{
+  "mock": {
+    "authorName": "Hải Nam"
+  },
+  "items": {
+    "aimath": {
+      "title": "AI Math Tutor",
+      "shortDescription": "Ứng dụng giúp học sinh giải toán bằng AI với giải thích từng bước. Sử dụng React, OpenAI API và MathML để hiển thị công thức.",
+      "detailedDescription": "Dự án này được khởi xướng trong kỳ học Spring 2026. Mục tiêu là tạo ra một công cụ hỗ trợ học tập cá nhân hóa, giúp học sinh không chỉ biết đáp án mà còn hiểu rõ phương pháp giải. Hệ thống sử dụng mô hình GPT-4 để phân tích bài toán và tạo ra các bước giải chi tiết.",
+      "features": {
+        "f1": "Nhận diện công thức từ hình ảnh",
+        "f2": "Giải thích bước-bằng-bước (Step-by-step interpretation)",
+        "f3": "Tích hợp vẽ đồ thị hàm số",
+        "f4": "Lưu lại lịch sử các bài toán đã giải"
+      }
+    }
+  },
+  "roles": {
+    "fullstack": "Lập trình viên Fullstack",
+    "author": "Tác giả"
+  },
+  "detail": {
+    "stats": {
+      "stars": "Sao",
+      "forks": "Forks",
+      "views": "Lượt xem"
+    },
+    "author": {
+      "personalGoal": "Mục tiêu cá nhân",
+      "module": "Phân hệ",
+      "memberSince": "Thành viên từ",
+      "follow": "Theo dõi tác giả",
+      "mockGoal": "Xây dựng các công cụ hỗ trợ giáo dục dễ tiếp cận cho mọi người."
+    },
+    "actions": {
+      "liveDemo": "Xem LIVE Demo",
+      "sourceCode": "Xem mã nguồn"
+    },
+    "aiChallenge": {
+      "title": "Thông tin AI Challenge",
+      "description": "Dự án này đã vượt qua kiểm duyệt code tự động với điểm Clean Code là <1>{{score}}/100</1>.",
+      "verified": "🏆 Verified Solution"
+    }
+  },
+  "title": "Dự án cá nhân",
+  "library": {
+    "titleHighlight": "THƯ VIỆN DỰ ÁN",
+    "header": {
+      "title": "Biến đam mê thành",
+      "titleHighlight": "Sản phẩm thực tế",
+      "subtitle": "\"Hãy học cách xây dựng những gì bạn yêu thích. Thành công sẽ tự tìm đến bạn.\"",
+      "newCount": "{{count}} Dự án mới tháng này",
+      "aiSuggestion": "Gợi ý bởi AI"
+    },
+    "filter": {
+      "all": "Tất cả",
+      "search": "Tìm dự án..."
+    },
+    "card": {
+      "matchScore": "Độ khớp: {{score}}%",
+      "difficulty": {
+        "beginner": "Bắt đầu",
+        "intermediate": "Trung bình",
+        "advanced": "Nâng cao"
+      },
+      "estimatedTime": "{{count}} giờ"
+    },
+    "mock": {
+      "p1": {
+        "title": "Xây dựng Game Flappy Bird",
+        "description": "Học về trọng lực, va chạm và vòng lặp game bằng JavaScript Canvas."
+      },
+      "p2": {
+        "title": "Hệ thống Nghệ thuật Sáng tạo",
+        "description": "Tạo ra những tác phẩm nghệ thuật trừu tượng bằng giải thuật toán học."
+      },
+      "p3": {
+        "title": "Mô phỏng Hệ Mặt Trời",
+        "description": "Mô phỏng quỹ đạo các hành tinh với tỉ lệ thực tế và vật lý chính xác."
+      },
+      "p4": {
+        "title": "Phân loại Ảnh Chó/Mèo",
+        "description": "Sử dụng TensorFlow.js để huấn luyện mô hình nhận diện động vật đơn giản."
+      }
+    }
+  },
+  "survey": {
+    "header": {
+      "badge": "Cá nhân hóa trải nghiệm",
+      "title": "Bạn muốn học thông qua",
+      "titleHighlight": "Lĩnh vực",
+      "subtitle": "LearnWell sẽ gợi ý các dự án và bài tập dựa trên sở thích của bạn để việc học trở nên thú vị hơn."
+    },
+    "topics": {
+      "game": {
+        "label": "Lập trình Game",
+        "description": "Tạo ra các trò chơi 2D/3D, xử lý logic va chạm và đồ họa."
+      },
+      "art": {
+        "label": "Nghệ thuật & Thiết kế",
+        "description": "Sáng tạo nghệ thuật bằng code, thiết kế giao diện lấp lánh."
+      },
+      "science": {
+        "label": "Khoa học & Dữ liệu",
+        "description": "Mô phỏng vật lý, phân tích dữ liệu và vẽ biểu đồ khoa học."
+      },
+      "ai": {
+        "label": "Trí tuệ Nhân tạo",
+        "description": "Xây dựng chatbot, nhận diện hình ảnh và máy học cơ bản."
+      }
+    },
+    "actions": {
+      "continue": "Tiếp tục hành trình"
+    },
+    "messages": {
+      "error": "Vui lòng chọn ít nhất một sở thích!",
+      "success": "Hệ thống đã ghi nhận sở thích của bạn!"
+    },
+    "loading": {
+      "title": "Đang thiết lập thư viện dự án...",
+      "subtitle": "AI đang lựa chọn các dự án phù hợp nhất với kỹ năng và sở thích của bạn.",
+      "analyzing": "Phân tích kỹ năng",
+      "suggesting": "Gợi ý dự án"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "actions": {
+    "run": "Chạy code"
+  },
+  "editor": {
+    "placeholder": "Nhập code tại đây..."
+  },
+  "output": {
+    "default": "Kết quả sẽ hiển thị tại đây",
+    "placeholder": "Chưa có kết quả",
+    "runToSeeResults": "Bấm chạy để xem kết quả",
+    "running": "Đang chạy..."
+  },
+  "sections": {
+    "exercises": "Bài tập rèn luyện"
+  },
+  "subtitle": "Môi trường thực hành code trực quan"
+}

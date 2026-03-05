@@ -1,0 +1,149 @@
+{
+  "questionBank": {
+    "title": "Question Bank",
+    "subtitle": "Manage and organize questions for tests",
+    "actions": {
+      "addQuestion": "Add Question",
+      "deleteQuestion": "Delete Question"
+    },
+    "stats": {
+      "totalQuestions": "Total Questions",
+      "multipleChoice": "Multiple Choice",
+      "essay": "Essay",
+      "fillBlank": "Fill in the Blank"
+    },
+    "filters": {
+      "placeholder": "Search questions...",
+      "allSubjects": "All Subjects",
+      "allDifficulties": "All Difficulties"
+    },
+    "table": {
+      "content": "Question Content",
+      "type": "Type",
+      "topic": "Topic",
+      "difficulty": "Difficulty",
+      "used": "Used",
+      "times": "{{count}} times"
+    },
+    "types": {
+      "multiple_choice": "Multiple Choice",
+      "fill_blank": "Fill Blank",
+      "essay": "Essay"
+    },
+    "difficulties": {
+      "easy": "Easy",
+      "medium": "Medium",
+      "hard": "Hard"
+    }
+  },
+  "exams": {
+    "title": "Exam Management",
+    "subtitle": "Create and manage tests and assignments",
+    "actions": {
+      "createExam": "Create Exam",
+      "viewDetails": "View Details",
+      "edit": "Edit",
+      "duplicate": "Duplicate",
+      "delete": "Delete",
+      "preview": "Preview",
+      "publish": "Publish"
+    },
+    "stats": {
+      "total": "Total Exams",
+      "active": "Active",
+      "scheduled": "Scheduled",
+      "draft": "Draft",
+      "completed": "Completed"
+    },
+    "tabs": {
+      "all": "All",
+      "active": "Active",
+      "scheduled": "Scheduled",
+      "draft": "Draft"
+    },
+    "placeholders": {
+      "search": "Search exams..."
+    },
+    "card": {
+      "classLabel": "Class {{class}}",
+      "duration": "{{count}} mins",
+      "questions": "{{count}} questions",
+      "submissions": "{{current}}/{{total}}"
+    },
+    "empty": {
+      "title": "No exams found",
+      "description": "Create your first exam"
+    }
+  },
+  "curriculum": {
+    "title": "Curriculum",
+    "subtitle": "Build and manage lecture content",
+    "actions": {
+      "addChapter": "Add Chapter",
+      "addLesson": "Add Lesson",
+      "preview": "Preview",
+      "edit": "Edit",
+      "deleteLesson": "Delete Lesson"
+    },
+    "stats": {
+      "totalChapters": "Total Chapters",
+      "totalLessons": "Total Lessons",
+      "duration": "Duration",
+      "avgProgress": "Avg. Progress"
+    },
+    "filters": {
+      "placeholder": "Search lessons..."
+    },
+    "lessonTypes": {
+      "reading": "Reading",
+      "video": "Video",
+      "quiz": "Quiz"
+    }
+  },
+  "mock": {
+    "subjects": {
+      "math": "Mathematics",
+      "literature": "Literature",
+      "english": "English",
+      "physics": "Physics"
+    },
+    "topics": {
+      "algebra": "Algebra",
+      "modernLit": "Modern Literature",
+      "grammarTenses": "Grammar - Tenses",
+      "equations": "Equations",
+      "mechanics": "Mechanics"
+    },
+    "questions": {
+      "calcValue": "Calculate the value of: 2x + 3y when x = 5 and y = 2",
+      "analyzeLaoHac": "Analyze the art of character portrayal in 'Lao Hạc'",
+      "newtonLaws": "State Newton's laws and provide examples",
+      "quadraticEquation": "Solve the quadratic equation: x² - 5x + 6 = 0",
+      "englishGrammar": "Choose the correct answer: She _____ to school every day."
+    },
+    "exams": {
+      "quizCh3": "15-minute Quiz - Chapter 3",
+      "midterm": "Midterm Exam",
+      "homeworkUnit5": "Homework - Unit 5",
+      "reviewElectricity": "Chapter Review - Electricity"
+    },
+    "chapters": {
+      "arithmetic": "Chapter 1: Arithmetic",
+      "fractions": "Chapter 2: Fractions",
+      "geometry": "Chapter 3: Geometry"
+    },
+    "lessons": {
+      "arithmetic": "Natural numbers and operations",
+      "factors": "Factors and Multiples",
+      "primes": "Prime Numbers",
+      "quizCh1": "Chapter 1 Quiz",
+      "fractions": "Concept of Fractions",
+      "simplifying": "Simplifying Fractions",
+      "comparing": "Comparing Fractions",
+      "arithmeticFractions": "Fraction Arithmetic",
+      "geometryBasic": "Points, Lines, Segments",
+      "angles": "Angles and Types of Angles",
+      "triangles": "Triangles"
+    }
+  }
+}

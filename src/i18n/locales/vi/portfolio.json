@@ -1,0 +1,35 @@
+{
+  "title": "Hồ sơ năng lực (Portfolio)",
+  "subtitle": "Xây dựng và tùy chỉnh hồ sơ năng lực cá nhân để tỏa sáng.",
+  "status": {
+    "draft": "Bản nháp",
+    "saved": "Đã lưu thay đổi",
+    "published": "Đã công khai"
+  },
+  "steps": {
+    "basicInfo": "Mục đích hồ sơ",
+    "academic": "Lựa chọn nội dung",
+    "achievements": "Tùy chỉnh thiết kế",
+    "review": "Xem trước & Xuất",
+    "projects": "Dự án"
+  },
+  "sections": {
+    "personalGoal": "Mục tiêu cá nhân",
+    "security": "Bảo mật hồ sơ",
+    "securityDesc": "Chỉ những người có link hoặc được cấp quyền mới có thể xem hồ sơ này.",
+    "brandColor": "Màu sắc chủ đạo"
+  },
+  "preview": {
+    "title": "Xem trước hồ sơ",
+    "exportPdf": "Xuất bản PDF",
+    "shareLink": "Chia sẻ đường dẫn",
+    "sendEmail": "Gửi qua Email",
+    "publishDate": "Ngày xuất bản"
+  },
+  "actions": {
+    "saveDraft": "Lưu bản nháp",
+    "back": "Quay lại",
+    "next": "Tiếp theo",
+    "complete": "Hoàn tất"
+  }
+}

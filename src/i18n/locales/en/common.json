@@ -1,0 +1,248 @@
+{
+  "locale": "en-US",
+  "common": {
+    "me": "Minh",
+    "streak": "Streak",
+    "day": "day",
+    "new": "new",
+    "date": "Date"
+  },
+  "save": "Save",
+  "minutes": "{{count}} mins",
+  "minutesShort": "mins",
+  "daysCount": "{{count}} days",
+  "weeksCount": "{{count}} weeks",
+  "cancel": "Cancel",
+  "loading": "Loading...",
+  "search": "Search...",
+  "notifications": "Notifications",
+  "profile": "Profile",
+  "settings": "Settings",
+  "logout": "Logout",
+  "login": "Login",
+  "signup": "Sign Up",
+  "back": "Back",
+  "noNotifications": "No new notifications",
+  "viewAll": "View all",
+  "themeSwitcher": "Theme Switcher",
+  "languageSwitcher": "Language Switcher",
+  "new": "new",
+  "day": "day",
+  "switchRole": "Switch Role",
+  "streak": "Streak",
+  "you": "You",
+  "time": {
+    "justNow": "Just now",
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "am": "AM",
+    "pm": "PM",
+    "minutesAgo": "{{count}} minutes ago",
+    "hoursAgo": "{{count}} hours ago",
+    "daysAgo": "{{count}} days ago",
+    "minutes": "{{count}} minutes",
+    "hours": "{{count}} hours",
+    "days": "{{count}} days",
+    "3hours": "3 hours"
+  },
+  "days": {
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday"
+  },
+  "daysShort": {
+    "mon": "Mon",
+    "tue": "Tue",
+    "wed": "Wed",
+    "thu": "Thu",
+    "fri": "Fri",
+    "sat": "Sat",
+    "sun": "Sun"
+  },
+  "roles": {
+    "student": "Student",
+    "teacher": "Teacher",
+    "admin": "Admin",
+    "parent": "Parent",
+    "subjects": {
+      "math": "Mathematics",
+      "math_intensive": "Intensive Math",
+      "literature": "Literature",
+      "english": "English",
+      "physics": "Physics",
+      "chemistry": "Chemistry",
+      "python": "Python Programming"
+    }
+  },
+  "levels": {
+    "beginner": "Beginner",
+    "intermediate": "Intermediate",
+    "advanced": "Advanced"
+  },
+  "lessons": "lessons",
+  "assignments": "assignments",
+  "assignment": "assignment",
+  "grade": "grade",
+  "share": "Share",
+  "edit": "Edit",
+  "stats": {
+    "courses": "Courses",
+    "projects": "Projects",
+    "badges": "Badges",
+    "points": "Points",
+    "students": "Students"
+  },
+  "tabs": {
+    "all": "All"
+  },
+  "pagination": {
+    "prev": "Prev",
+    "next": "Next",
+    "showing": "Showing {{count}} of {{total}}"
+  },
+  "months": {
+    "jan": "January",
+    "feb": "February",
+    "mar": "March",
+    "apr": "April",
+    "may": "May",
+    "jun": "June",
+    "jul": "July",
+    "aug": "August",
+    "sep": "September",
+    "oct": "October",
+    "nov": "November",
+    "dec": "December",
+    "week1": "Week 1",
+    "week2": "Week 2",
+    "week3": "Week 3",
+    "week4": "Week 4",
+    "week5": "Week 5",
+    "janShort": "Jan",
+    "febShort": "Feb",
+    "marShort": "Mar",
+    "aprShort": "Apr",
+    "mayShort": "May",
+    "junShort": "Jun",
+    "julShort": "Jul",
+    "augShort": "Aug",
+    "sepShort": "Sep",
+    "octShort": "Oct",
+    "novShort": "Nov",
+    "decShort": "Dec",
+    "february": "February",
+    "january": "January"
+  },
+  "scoreUnit": "{{count}} pts",
+  "countUnit": "{{count}} items",
+  "labels": {
+    "completionProgress": "Completion Progress",
+    "gradingNeeded": "Grading Needed",
+    "todaySchedule": "Today's Schedule",
+    "inProgress": "In Progress"
+  },
+  "mockData": {
+    "studentAbbr": "Std"
+  },
+  "announcements": {
+    "statsTitle": "Announcement Stats",
+    "total": "Total",
+    "today": "Today",
+    "important": "Important",
+    "newCount": "{{count}} new",
+    "mainTitle": "Announcement Center",
+    "mainSubtitle": "Get the latest updates from LearnWell",
+    "mock": {
+      "item1Title": "Semester 1 Exam Schedule Change",
+      "item1Content": "The Math exam for classes 6A1 and 6A2 has been moved to Feb 15 instead of Feb 12. Please update your study schedule accordingly.",
+      "item1Target": "Grade 6",
+      "item1Author": "Math Department",
+      "item2Title": "LearnWell STEM Competition 2026 Launched",
+      "item2Content": "The STEM creation competition is now officially accepting registrations. Total prize value up to 50 million VND.",
+      "item2Target": "Everyone",
+      "item2Author": "Student Affairs Office",
+      "surveyTitle": "Learning Survey Deadline",
+      "surveyDesc": "{{count}} days left to complete",
+      "pblTitle": "Submit Grade 10 PBL Assignment",
+      "deadlineToday": "Deadline: {{time}} today",
+      "viewDetails": "View Details",
+      "sorting": {
+        "newest": "Newest",
+        "oldest": "Oldest",
+        "priority": "Priority"
+      },
+      "details": {
+        "target": "Target",
+        "author": "By",
+        "reminders": "Important Reminders"
+      },
+      "create": {
+        "title": "Create New Announcement",
+        "label": "Title",
+        "placeholder": "Enter title...",
+        "targetLabel": "Target Audience",
+        "contentLabel": "Content",
+        "contentPlaceholder": "Write announcement details...",
+        "saveDraft": "Save Draft",
+        "publish": "Publish Announcement"
+      },
+      "search": {
+        "placeholder": "Search announcements..."
+      },
+      "filter": "Filter",
+      "sortingTitle": "Sort"
+    }
+  },
+  "editor": {
+    "placeholder": "Start writing your content here...",
+    "tableFeature": "Table insertion feature will be available in a future update",
+    "stats": {
+      "characters": "characters",
+      "words": "words"
+    }
+  },
+  "actions": {
+    "accept": "Accept",
+    "reject": "Reject",
+    "tryAgain": "Try Again",
+    "advanced": "Advanced",
+    "cancel": "Cancel",
+    "configure": "Configure",
+    "default": "Default",
+    "delete": "Delete",
+    "save": "Save",
+    "saveChanges": "Save Changes",
+    "submit": "Submit"
+  },
+  "status": {
+    "noData": "No data",
+    "noDataDesc": "There is no information to display here.",
+    "loading": "Loading data...",
+    "loadingDesc": "Please wait a moment.",
+    "error": "An error occurred",
+    "errorDesc": "Could not connect to server. Please try again later.",
+    "noActivity": "No activities"
+  },
+  "roadmap": {
+    "nodes": {
+      "quarter": "Quarter"
+    }
+  },
+  "saveSuccess": "Saved successfully",
+  "schoolYear": "School Year",
+  "semester2": "Semester 2",
+  "sort": "Sort",
+  "subjects": {
+    "math": "Mathematics",
+    "math_intensive": "Intensive Mathematics"
+  },
+  "terms": {
+    "semester2": "Semester 2"
+  },
+  "verified": "Verified",
+  "weight": "Weight"
+}

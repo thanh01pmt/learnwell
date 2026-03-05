@@ -1,0 +1,27 @@
+{
+  "title": "Tin nhắn",
+  "searchPlaceholder": "Tìm người liên hệ...",
+  "activeNow": "Đang hoạt động",
+  "lastActive": "Vừa hoạt động",
+  "today": "Hôm nay",
+  "yesterday": "Hôm qua",
+  "daysAgo": "{{count}} ngày trước",
+  "inputPlaceholder": "Nhập tin nhắn...",
+  "mockup": {
+    "contacts": {
+      "teacher1": "Cô Nguyễn Hoa",
+      "student2": "Trần Minh Quân",
+      "teacher2": "Thầy Trần Nam",
+      "parent1": "Lê Thị Bưởi"
+    },
+    "messages": {
+      "m1": "Chào cô ạ, em có thắc mắc về bài tập Toán chương 4.",
+      "m2": "Chào Quân, em cứ hỏi nhé. Phần nào em chưa rõ?",
+      "m3": "Dạ là phần tích phân ạ, em chưa hiểu cách đặt ẩn phụ ở câu 5.",
+      "m4": "À, câu đó em thử đặt u = √(x+1) xem sao. Thử làm rồi gửi cô xem nhé!",
+      "m5": "Mai có đi học không cậu?",
+      "m6": "Nhớ nộp bài luận đúng hạn nhé.",
+      "m7": "Cảm ơn thầy đã hỗ trợ cháu."
+    }
+  }
+}

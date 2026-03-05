@@ -1,0 +1,18 @@
+{
+  "actions": {
+    "run": "Run"
+  },
+  "editor": {
+    "placeholder": "Placeholder"
+  },
+  "output": {
+    "default": "Default",
+    "placeholder": "Placeholder",
+    "runToSeeResults": "Run To See Results",
+    "running": "Running"
+  },
+  "sections": {
+    "exercises": "Exercises"
+  },
+  "subtitle": "Subtitle"
+}

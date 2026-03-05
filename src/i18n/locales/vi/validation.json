@@ -1,0 +1,8 @@
+{
+  "required": "Trường này là bắt buộc",
+  "invalidEmail": "Email không hợp lệ",
+  "tooSmall": "Phải có ít nhất {{minimum}} ký tự",
+  "tooBig": "Có tối đa {{maximum}} ký tự",
+  "invalidType": "Kiểu dữ liệu không hợp lệ, mong đợi {{expected}}",
+  "invalidString": "Chuỗi không hợp lệ"
+}

@@ -1,0 +1,27 @@
+{
+  "title": "Messages",
+  "searchPlaceholder": "Search contacts...",
+  "activeNow": "Active now",
+  "lastActive": "Last active",
+  "today": "Today",
+  "yesterday": "Yesterday",
+  "daysAgo": "{{count}} days ago",
+  "inputPlaceholder": "Type a message...",
+  "mockup": {
+    "contacts": {
+      "teacher1": "Ms. Nguyen Hoa",
+      "student2": "Tran Minh Quan",
+      "teacher2": "Mr. Tran Nam",
+      "parent1": "Le Thi Buoi"
+    },
+    "messages": {
+      "m1": "Hello teacher, I have a question about Math homework Chapter 4.",
+      "m2": "Hello Quan, feel free to ask. Which part is unclear?",
+      "m3": "It's about integration, I don't understand how to substitute variables in question 5.",
+      "m4": "Ah, for that one try setting u = √(x+1). Try it and send it to me!",
+      "m5": "Are you going to school tomorrow?",
+      "m6": "Remember to submit your essay on time.",
+      "m7": "Thank you for your support, teacher."
+    }
+  }
+}

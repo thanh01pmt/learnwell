@@ -1,0 +1,120 @@
+{
+  "legal": {
+    "privacy": {
+      "title": "Chính sách bảo mật",
+      "lastUpdated": "Cập nhật lần cuối: {{date}}",
+      "contactText": "Nếu bạn có thắc mắng về chính sách bảo mật, vui lòng liên hệ:",
+      "sections": {
+        "collection": {
+          "title": "1. Thu thập thông tin",
+          "description": "LearnWell thu thập thông tin cá nhân khi bạn đăng ký tài khoản, bao gồm:",
+          "items": [
+            "Họ tên, email, số điện thoại",
+            "Thông tin học tập và tiến độ",
+            "Dữ liệu sử dụng nền tảng (thời gian học, bài tập đã làm)",
+            "Thông tin thanh toán (nếu sử dụng dịch vụ trả phí)"
+          ]
+        },
+        "usage": {
+          "title": "2. Sử dụng thông tin",
+          "description": "Chúng tôi sử dụng thông tin của bạn để:",
+          "items": [
+            "Cá nhân hóa trải nghiệm học tập với AI",
+            "Cung cấp báo cáo tiến độ cho phụ huynh và giáo viên",
+            "Cải thiện chất lượng nền tảng",
+            "Gửi thông báo về khóa học và cập nhật hệ thống"
+          ]
+        },
+        "protection": {
+          "title": "3. Bảo vệ thông tin",
+          "description": "LearnWell cam kết bảo vệ dữ liệu của bạn bằng:",
+          "items": [
+            "Mã hóa SSL/TLS cho tất cả dữ liệu truyền tải",
+            "Lưu trữ an toàn trên hạ tầng đám mây đạt chuẩn quốc tế",
+            "Kiểm soát truy cập nghiêm ngặt",
+            "Sao lưu dữ liệu định kỳ"
+          ]
+        },
+        "rights": {
+          "title": "4. Quyền của người dùng",
+          "description": "Bạn có quyền:",
+          "items": [
+            "Truy cập và chỉnh sửa thông tin cá nhân",
+            "Yêu cầu xóa tài khoản và dữ liệu",
+            "Từ chối nhận email marketing",
+            "Xuất dữ liệu học tập của bạn"
+          ]
+        },
+        "sharing": {
+          "title": "5. Chia sẻ thông tin",
+          "description": "LearnWell không bán thông tin cá nhân của bạn. Chúng tôi chỉ chia sẻ dữ liệu với:",
+          "items": [
+            "Giáo viên và phụ huynh (theo vai trò được phân quyền)",
+            "Đối tác công nghệ (chỉ dữ liệu cần thiết, có thỏa thuận bảo mật)",
+            "Cơ quan pháp luật (khi có yêu cầu hợp pháp)"
+          ]
+        }
+      }
+    },
+    "terms": {
+      "title": "Điều khoản sử dụng",
+      "lastUpdated": "Có hiệu lực từ: {{date}}",
+      "contactText": "Nếu bạn có câu hỏi về điều khoản sử dụng, vui lòng liên hệ:",
+      "sections": {
+        "acceptance": {
+          "title": "1. Chấp nhận điều khoản",
+          "description": "Bằng việc truy cập và sử dụng nền tảng LearnWell, bạn đồng ý tuân thủ các điều khoản và điều kiện sau đây. Nếu không đồng ý, vui lòng không sử dụng dịch vụ của chúng tôi."
+        },
+        "account": {
+          "title": "2. Tài khoản người dùng",
+          "description": "Khi đăng ký tài khoản, bạn cam kết:",
+          "items": [
+            "Cung cấp thông tin chính xác và đầy đủ",
+            "Bảo mật thông tin đăng nhập của bạn",
+            "Chịu trách nhiệm cho mọi hoạt động dưới tài khoản của bạn",
+            "Thông báo ngay cho chúng tôi nếu phát hiện truy cập trái phép"
+          ],
+          "note": "Học sinh dưới 13 tuổi cần có sự đồng ý của phụ huynh để sử dụng nền tảng."
+        },
+        "rights": {
+          "title": "3. Quyền sử dụng",
+          "description": "LearnWell cấp cho bạn quyền sử dụng có giới hạn, không độc quyền, không thể chuyển nhượng để:",
+          "items": [
+            "Truy cập và sử dụng nền tảng cho mục đích học tập cá nhân",
+            "Tải xuống tài liệu học tập cho sử dụng cá nhân",
+            "Tham gia các hoạt động học tập và cộng đồng"
+          ]
+        },
+        "restrictions": {
+          "title": "4. Hành vi bị cấm",
+          "description": "Bạn không được phép:",
+          "items": [
+            "Sao chép, phân phối nội dung mà không có sự cho phép",
+            "Sử dụng nền tảng cho mục đích thương mại trái phép",
+            "Tấn công, hack hoặc làm gián đoạn hệ thống",
+            "Đăng tải nội dung vi phạm pháp luật, xúc phạm, hoặc spam",
+            "Chia sẻ tài khoản với người khác",
+            "Sử dụng bot hoặc công cụ tự động hóa trái phép"
+          ]
+        },
+        "intellectualPropery": {
+          "title": "5. Sở hữu trí tuệ",
+          "description": "Tất cả nội dung trên LearnWell (bài giảng, video, bài tập, mã nguồn) thuộc quyền sở hữu của LearnWell hoặc các đối tác được cấp phép. Bạn không được sao chép, sửa đổi, hoặc phân phối nội dung mà không có sự cho phép bằng văn bản."
+        },
+        "liability": {
+          "title": "6. Giới hạn trách nhiệm",
+          "description": "LearnWell cung cấp nền tảng \"nguyên trạng\" và không đảm bảo rằng dịch vụ sẽ không bị gián đoạn hoặc không có lỗi. Chúng tôi không chịu trách nhiệm cho:",
+          "items": [
+            "Mất mát dữ liệu do lỗi kỹ thuật",
+            "Thiệt hại gián tiếp phát sinh từ việc sử dụng nền tảng",
+            "Nội dung do người dùng khác đăng tải"
+          ]
+        },
+        "changes": {
+          "title": "7. Thay đổi điều khoản",
+          "description": "LearnWell có quyền cập nhật điều khoản này bất kỳ lúc nào. Chúng tôi sẽ thông báo cho bạn qua email hoặc thông báo trên nền tảng. Việc tiếp tục sử dụng sau khi có thay đổi đồng nghĩa với việc bạn chấp nhận điều khoản mới."
+        }
+      }
+    }
+  }
+}

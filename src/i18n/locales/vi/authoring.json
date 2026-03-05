@@ -1,0 +1,149 @@
+{
+  "questionBank": {
+    "title": "Ngân hàng câu hỏi",
+    "subtitle": "Quản lý và tổ chức câu hỏi cho các bài kiểm tra",
+    "actions": {
+      "addQuestion": "Thêm câu hỏi",
+      "deleteQuestion": "Xóa câu hỏi"
+    },
+    "stats": {
+      "totalQuestions": "Tổng câu hỏi",
+      "multipleChoice": "Trắc nghiệm",
+      "essay": "Tự luận",
+      "fillBlank": "Điền khuyết"
+    },
+    "filters": {
+      "placeholder": "Tìm kiếm câu hỏi...",
+      "allSubjects": "Tất cả môn",
+      "allDifficulties": "Tất cả mức độ"
+    },
+    "table": {
+      "content": "Nội dung câu hỏi",
+      "type": "Loại",
+      "topic": "Chủ đề",
+      "difficulty": "Độ khó",
+      "used": "Đã dùng",
+      "times": "{{count}} lần"
+    },
+    "types": {
+      "multiple_choice": "Trắc nghiệm",
+      "fill_blank": "Điền khuyết",
+      "essay": "Tự luận"
+    },
+    "difficulties": {
+      "easy": "Dễ",
+      "medium": "Trung bình",
+      "hard": "Khó"
+    }
+  },
+  "exams": {
+    "title": "Quản lý bài kiểm tra",
+    "subtitle": "Tạo và quản lý các bài kiểm tra, bài tập",
+    "actions": {
+      "createExam": "Tạo bài kiểm tra",
+      "viewDetails": "Xem chi tiết",
+      "edit": "Chỉnh sửa",
+      "duplicate": "Nhân bản",
+      "delete": "Xóa",
+      "preview": "Xem trước",
+      "publish": "Xuất bản"
+    },
+    "stats": {
+      "total": "Tổng bài kiểm tra",
+      "active": "Đang diễn ra",
+      "scheduled": "Đã lên lịch",
+      "draft": "Bản nháp",
+      "completed": "Hoàn thành"
+    },
+    "tabs": {
+      "all": "Tất cả",
+      "active": "Đang diễn ra",
+      "scheduled": "Đã lên lịch",
+      "draft": "Bản nháp"
+    },
+    "placeholders": {
+      "search": "Tìm kiếm bài kiểm tra..."
+    },
+    "card": {
+      "classLabel": "Lớp {{class}}",
+      "duration": "{{count}} phút",
+      "questions": "{{count}} câu",
+      "submissions": "{{current}}/{{total}}"
+    },
+    "empty": {
+      "title": "Không có bài kiểm tra nào",
+      "description": "Tạo bài kiểm tra đầu tiên của bạn"
+    }
+  },
+  "curriculum": {
+    "title": "Chương trình giảng dạy",
+    "subtitle": "Xây dựng và quản lý nội dung bài giảng",
+    "actions": {
+      "addChapter": "Thêm chương",
+      "addLesson": "Thêm bài học",
+      "preview": "Xem trước",
+      "edit": "Chỉnh sửa",
+      "deleteLesson": "Xóa bài học"
+    },
+    "stats": {
+      "totalChapters": "Tổng chương",
+      "totalLessons": "Tổng bài học",
+      "duration": "Thời lượng",
+      "avgProgress": "Tiến độ TB"
+    },
+    "filters": {
+      "placeholder": "Tìm kiếm bài học..."
+    },
+    "lessonTypes": {
+      "reading": "Bài đọc",
+      "video": "Video",
+      "quiz": "Bài kiểm tra"
+    }
+  },
+  "mock": {
+    "subjects": {
+      "math": "Toán học",
+      "literature": "Ngữ văn",
+      "english": "Tiếng Anh",
+      "physics": "Vật lý"
+    },
+    "topics": {
+      "algebra": "Đại số",
+      "modernLit": "Văn học hiện đại",
+      "grammarTenses": "Grammar - Tenses",
+      "equations": "Phương trình",
+      "mechanics": "Cơ học"
+    },
+    "questions": {
+      "calcValue": "Tính giá trị của biểu thức: 2x + 3y khi x = 5 và y = 2",
+      "analyzeLaoHac": "Phân tích nghệ thuật miêu tả nhân vật trong đoạn trích 'Lão Hạc'",
+      "newtonLaws": "Nêu các định luật Newton và cho ví dụ minh họa",
+      "quadraticEquation": "Giải phương trình bậc hai: x² - 5x + 6 = 0",
+      "englishGrammar": "Chọn đáp án đúng: She _____ to school every day."
+    },
+    "exams": {
+      "quizCh3": "Kiểm tra 15 phút - Chương 3",
+      "midterm": "Kiểm tra giữa kỳ",
+      "homeworkUnit5": "Bài tập về nhà - Unit 5",
+      "reviewElectricity": "Ôn tập cuối chương - Điện học"
+    },
+    "chapters": {
+      "arithmetic": "Chương 1: Số học",
+      "fractions": "Chương 2: Phân số",
+      "geometry": "Chương 3: Hình học"
+    },
+    "lessons": {
+      "arithmetic": "Số tự nhiên và các phép tính",
+      "factors": "Ước và bội",
+      "primes": "Số nguyên tố",
+      "quizCh1": "Bài kiểm tra chương 1",
+      "fractions": "Khái niệm phân số",
+      "simplifying": "Rút gọn phân số",
+      "comparing": "So sánh phân số",
+      "arithmeticFractions": "Phép cộng trừ phân số",
+      "geometryBasic": "Điểm, đường thẳng, đoạn thẳng",
+      "angles": "Góc và các loại góc",
+      "triangles": "Tam giác"
+    }
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "title": "Danh sách bài tập",
+  "subtitle": "Theo dõi và quản lý tiến độ học tập qua các bài kiểm tra và bài tập về nhà",
+  "stats": {
+    "pending": "Bài chưa làm",
+    "submitted": "Bài đã nộp",
+    "graded": "Bài đã chấm",
+    "avgScore": "Điểm TB"
+  },
+  "tabs": {
+    "all": "Tất cả",
+    "pending": "Chờ nộp",
+    "submitted": "Đã nộp",
+    "graded": "Đã chấm"
+  },
+  "filters": {
+    "searchPlaceholder": "Tìm kiếm bài tập...",
+    "subjectDefault": "Chọn môn học",
+    "allSubjects": "Tất cả môn học"
+  },
+  "status": {
+    "pending": "Chờ nộp",
+    "in_progress": "Đang làm",
+    "submitted": "Đã nộp",
+    "graded": "Đã chấm",
+    "late": "Nộp muộn"
+  },
+  "actions": {
+    "submit": "Nộp bài ngay",
+    "continue": "Tiếp tục làm",
+    "viewWork": "Xem bài nộp",
+    "viewResult": "Xem kết quả",
+    "overdue": "Hết hạn"
+  },
+  "details": {
+    "duration": "Thời gian: {{count}} phút",
+    "questions": "{{count}} câu hỏi",
+    "dueDate": "Hạn nộp: {{date}}",
+    "progress": "Tiến độ",
+    "score": "Điểm số"
+  },
+  "emptyState": {
+    "title": "Không tìm thấy bài tập nào",
+    "description": "Vui lòng điều chỉnh bộ lọc hoặc kiểm tra lại sau."
+  },
+  "submission": {
+    "title": "Nộp bài làm",
+    "submit": "Nộp bài làm",
+    "submitting": "Đang nộp...",
+    "cancel": "Hủy",
+    "errorNoFiles": "Vui lòng đính kèm ít nhất một tập tin",
+    "successTitle": "Nộp bài thành công!",
+    "successDescription": "Bài làm cho \"{{assignmentTitle}}\" đã được ghi nhận.",
+    "autoSaving": "Đang tự động lưu...",
+    "autoSaveTime": "Tự động lưu bài lúc: {{time}}",
+    "uploadOrWrite": "Tải lên tài liệu hoặc viết bài trực tiếp tại đây.",
+    "lateSubmission": "Nộp muộn",
+    "attachFile": "Đính kèm tệp",
+    "writeDirectly": "Viết bài trực tiếp",
+    "dropzone": {
+      "title": "Kéo thả tập tin vào đây",
+      "description": "Hoặc click để chọn tập tin từ máy tính"
+    },
+    "fileList": "Danh sách tập tin ({{count}})",
+    "uploadComplete": "{{size}} KB • Tải lên hoàn tất",
+    "placeholderWrite": "Viết bài làm của bạn tại đây...",
+    "noteToTeacher": "Ghi chú cho giáo viên",
+    "notePlaceholder": "Nhập nội dung lưu ý hoặc giải trình cho bài nộp..."
+  },
+  "grading": {
+    "criteria": {
+      "accuracy": "Độ chính xác",
+      "presentation": "Trình bày",
+      "effort": "Nỗ lực",
+      "labels": {
+        "poor": "Kém",
+        "average": "Trung bình",
+        "good": "Tốt",
+        "scant": "Sơ sài",
+        "clear": "Rõ ràng",
+        "excellent": "Xuất sắc",
+        "low": "Thấp",
+        "full": "Đầy đủ",
+        "exceeds": "Vượt mong đợi"
+      },
+      "descriptions": {
+        "accuracyPoor": "Nhiều sai sót nghiêm trọng về kiến thức.",
+        "accuracyAverage": "Có sai sót nhưng vẫn nắm bắt được ý chính.",
+        "accuracyGood": "Hoàn toàn chính xác, không có lỗi kiến thức.",
+        "presentationScant": "Khó đọc, thiếu cấu trúc rõ ràng.",
+        "presentationClear": "Dễ theo dõi, cấu trúc ổn định.",
+        "presentationExcellent": "Sáng tạo, trình bày chuyên nghiệp.",
+        "effortLow": "Làm bài hời hợt, thiếu đầu tư.",
+        "effortFull": "Đáp ứng đúng các yêu cầu tối thiểu.",
+        "effortExceeds": "Đầu tư thời gian và tâm huyết rõ rệt."
+      }
+    },
+    "feedback": {
+      "title": "Nhận xét & Góp ý",
+      "placeholder": "Viết nhận xét chi tiết cho học sinh...",
+      "chips": {
+        "wellDone": "Tốt lắm!",
+        "careful": "Làm bài kỹ hơn",
+        "improvePresentation": "Cần cải thiện trình bày",
+        "creative": "Sáng tạo"
+      },
+      "multimedia": {
+        "title": "Phản hồi đa phương tiện",
+        "audio": {
+          "start": "Ghi âm",
+          "stop": "Dừng ghi âm..."
+        },
+        "video": {
+          "start": "Ghi hình",
+          "stop": "Dừng ghi hình..."
+        },
+        "description": "Phản hồi bằng âm thanh/video giúp học sinh dễ tiếp thu hơn.",
+        "saveSuccess": "Đã lưu bản ghi {{type}}!",
+        "saveDescription": "Phản hồi đa phương tiện đã được đính kèm vào bài chấm.",
+        "typeAudio": "âm thanh",
+        "typeVideo": "video"
+      }
+    },
+    "actions": {
+      "cancel": "Hủy",
+      "saving": "Đang lưu...",
+      "completeAndSave": "Hoàn thành & Lưu",
+      "openNewTab": "Mở trong tab mới"
+    },
+    "messages": {
+      "errorCriteria": "Vui lòng hoàn thành tất cả các tiêu chí chấm điểm",
+      "successTitle": "Đã hoàn thành chấm điểm!",
+      "successDescription": "Bài làm của {{name}} đã được cập nhật điểm {{score}}."
+    },
+    "previews": {
+      "submissionPreview": "Bản xem trước bài làm",
+      "gradingCriteria": "Tiêu chí chấm điểm",
+      "weight": "Trọng số: {{weight}}%",
+      "autoSaving": "Tự động lưu...",
+      "totalScore": "Tổng: {{score}}"
+    }
+  }
+}

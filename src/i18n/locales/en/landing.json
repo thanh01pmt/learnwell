@@ -1,0 +1,158 @@
+{
+  "landing": {
+    "hero": {
+      "badge": "AI-Powered learning — Premium Experience",
+      "title": "Learning",
+      "smart": "smartly",
+      "subtitle": "Beyond All Boundaries",
+      "description": "AI-personalized learning paths, modern integrated IDE with automated grading, and detailed progress reports help students develop 300% potential in the shortest time.",
+      "startNow": "START NOW",
+      "forTeachers": "FOR TEACHERS",
+      "free": "100% Free",
+      "secure": "Absolutely Secure",
+      "aiPersonalized": "AI Personalized"
+    },
+    "stats": {
+      "activeStudents": "Active Students",
+      "assignmentsProjects": "Assignments & Projects",
+      "teachers": "Teachers",
+      "hoursCompleted": "Hours Completed"
+    },
+    "showcase": {
+      "title": "Experience the Ecosystem",
+      "subtitle": "Discover the standout features that make LearnWell a trusted companion on your learning journey.",
+      "exploreNow": "Explore Now",
+      "connectCommunity": "Connect with community",
+      "featureLabel": "{{title}} Feature",
+      "items": {
+        "gallery": {
+          "title": "Code Gallery",
+          "description": "Explore thousands of creative projects from the community. Learn from quality code and share your achievements.",
+          "preview": "Browse web projects, games, and AI apps built by talented students."
+        },
+        "leaderboard": {
+          "title": "Leaderboard",
+          "description": "Fair Elo ranking system. Compete, rank up, and establish your position in the programming community.",
+          "preview": "Track your position and those of top players in the Real-time leaderboard."
+        },
+        "forum": {
+          "title": "Forum",
+          "description": "The place to answer all programming questions. Enthusiastic community support, quickly resolving technical issues.",
+          "preview": "Join discussions, ask questions, and share experiences with experts."
+        },
+        "blog": {
+          "title": "Tech Blog",
+          "description": "Update on the latest technology trends, in-depth tutorials, and inspiring stories.",
+          "preview": "Read quality articles on AI, Web Dev, Data Science, and many other fascinating topics."
+        }
+      }
+    },
+    "features": {
+      "title": "Comprehensive Solution for Everyone",
+      "subtitle": "Specialized tools for students, teachers, and parents - all connected in one ecosystem.",
+      "roles": {
+        "student": "Student",
+        "teacher": "Teacher",
+        "parent": "Parent"
+      },
+      "items": {
+        "aiPath": {
+          "title": "AI Personalized Path",
+          "desc": "AI analyzes strengths/weaknesses and suggests suitable exercises for each student."
+        },
+        "competition": {
+          "title": "Competition & Ranking",
+          "desc": "Join the Coding Arena, accumulate ELO, and rank up in the community."
+        },
+        "autoPortfolio": {
+          "title": "Auto Portfolio",
+          "desc": "System automatically aggregates projects and certificates into a professional portfolio."
+        },
+        "autoGrading": {
+          "title": "Automated Grading",
+          "desc": "AI grades code instantly with detailed feedback, saving 80% of time."
+        },
+        "skillAnalysis": {
+          "title": "Skill Analysis",
+          "desc": "Visual dashboard tracks progress for each student and class in real-time."
+        },
+        "aiLectures": {
+          "title": "Create AI Lectures",
+          "desc": "Interactive lesson tool with built-in video, code editor, and quizzes."
+        },
+        "realtimeTracking": {
+          "title": "Real-time Tracking",
+          "desc": "Instantly see projects completed, scores, and daily study time."
+        },
+        "weeklyReports": {
+          "title": "Weekly Reports",
+          "desc": "Receive summary emails of skills, strengths, and areas for improvement."
+        },
+        "familyActivities": {
+          "title": "Family Activities",
+          "desc": "Suggested projects and challenges for parents to learn with their children at home."
+        }
+      }
+    },
+    "cta": {
+      "badge": "Start your journey today",
+      "title": "Ready to break boundaries with LearnWell?",
+      "description": "Join +1,200 students and +40 teachers optimizing their educational experience with the leading personalized platform.",
+      "signUpFree": "Sign Up Free",
+      "contactUs": "Contact for Partnership",
+      "footerNote": "No commitment • Always free for individuals • 24/7 Support"
+    },
+    "about": {
+      "title": "About LearnWell",
+      "description": "LearnWell is an intelligent learning platform using AI to personalize education for every student. We believe that every child has exceptional potential if they learn in a way that suits them. With advanced technology and a dedicated educational team, we are changing the way learning happens in Vietnam.",
+      "vision": {
+        "title": "Vision",
+        "description": "To become the leading AI educational platform in Vietnam, helping 1 million students develop thinking and programming skills to be ready for the digital future."
+      },
+      "mission": {
+        "title": "Mission",
+        "description": "To provide free AI tools that help teachers teach more effectively, students learn the right way, and parents track their child's progress transparently and scientifically."
+      }
+    },
+    "header": {
+      "nav": {
+        "gallery": "Code Gallery",
+        "leaderboard": "Leaderboard",
+        "forum": "Forum",
+        "blog": "Blog",
+        "problems": "Exercises"
+      },
+      "goToDashboard": "Go to Dashboard",
+      "login": "Login",
+      "signUpFree": "Sign Up Free"
+    },
+    "footer": {
+      "description": "A smart AI-driven educational platform designed to help students break boundaries and optimize their personal potential through personalized learning paths.",
+      "sections": {
+        "products": "Products",
+        "community": "Community",
+        "newsletter": "Newsletter"
+      },
+      "nav": {
+        "problemsCode": "Coding Problems",
+        "contests": "Contests",
+        "techBlog": "Tech Blog",
+        "aboutUs": "About Us"
+      },
+      "newsletter": {
+        "note": "Get notified about the latest contests & materials.",
+        "placeholder": "Your email...",
+        "submit": "Send"
+      },
+      "contact": {
+        "address": "Hanoi, Vietnam"
+      },
+      "copyright": "© 2026 LearnWell Platform. All Rights Reserved. Designed for premium education.",
+      "links": {
+        "privacy": "Privacy",
+        "terms": "Terms",
+        "support": "Support"
+      }
+    }
+  }
+}

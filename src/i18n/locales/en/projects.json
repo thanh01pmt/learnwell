@@ -1,0 +1,126 @@
+{
+  "mock": {
+    "authorName": "Hai Nam"
+  },
+  "items": {
+    "aimath": {
+      "title": "AI Math Tutor",
+      "shortDescription": "Application that helps students solve math using AI with step-by-step explanations. Uses React, OpenAI API, and MathML for formula display.",
+      "detailedDescription": "This project was initiated during the Spring 2026 semester. The goal is to create a personalized learning support tool that helps students not only know the answer but also clearly understand the solution method. The system uses the GPT-4 model to analyze problems and generate detailed solution steps.",
+      "features": {
+        "f1": "Formula recognition from images",
+        "f2": "Step-by-step interpretation",
+        "f3": "Integrated graphing function",
+        "f4": "Save history of solved problems"
+      }
+    }
+  },
+  "roles": {
+    "fullstack": "Fullstack Developer",
+    "author": "Author"
+  },
+  "detail": {
+    "stats": {
+      "stars": "Stars",
+      "forks": "Forks",
+      "views": "Views"
+    },
+    "author": {
+      "personalGoal": "Personal Goal",
+      "module": "Module",
+      "memberSince": "Member Since",
+      "follow": "Follow Author",
+      "mockGoal": "Building accessible educational tools for everyone."
+    },
+    "actions": {
+      "liveDemo": "View LIVE Demo",
+      "sourceCode": "View Source Code"
+    },
+    "aiChallenge": {
+      "title": "AI Challenge Info",
+      "description": "This project passed automated code review with a Clean Code score of <1>{{score}}/100</1>.",
+      "verified": "🏆 Verified Solution"
+    }
+  },
+  "title": "Personal Projects",
+  "library": {
+    "titleHighlight": "PROJECT LIBRARY",
+    "header": {
+      "title": "Turn passion into",
+      "titleHighlight": "Real Products",
+      "subtitle": "\"Learn to build what you love. Success will find its way to you.\"",
+      "newCount": "{{count}} New projects this month",
+      "aiSuggestion": "Suggested by AI"
+    },
+    "filter": {
+      "all": "All",
+      "search": "Search projects..."
+    },
+    "card": {
+      "matchScore": "Match: {{score}}%",
+      "difficulty": {
+        "beginner": "Beginner",
+        "intermediate": "Intermediate",
+        "advanced": "Advanced"
+      },
+      "estimatedTime": "{{count}} hours"
+    },
+    "mock": {
+      "p1": {
+        "title": "Build Flappy Bird Game",
+        "description": "Learn about gravity, collisions, and game loops using JavaScript Canvas."
+      },
+      "p2": {
+        "title": "Generative Art System",
+        "description": "Create abstract artworks using mathematical algorithms."
+      },
+      "p3": {
+        "title": "Solar System Simulation",
+        "description": "Simulate planetary orbits with realistic scale and accurate physics."
+      },
+      "p4": {
+        "title": "Dog/Cat Image Classifier",
+        "description": "Use TensorFlow.js to train a simple animal recognition model."
+      }
+    }
+  },
+  "survey": {
+    "header": {
+      "badge": "Personalize Experience",
+      "title": "What do you want to learn through",
+      "titleHighlight": "Fields",
+      "subtitle": "LearnWell will suggest projects and exercises based on your interests to make learning more fun."
+    },
+    "topics": {
+      "game": {
+        "label": "Game Development",
+        "description": "Create 2D/3D games, handle collision logic and graphics."
+      },
+      "art": {
+        "label": "Art & Design",
+        "description": "Create art with code, design sparkling interfaces."
+      },
+      "science": {
+        "label": "Science & Data",
+        "description": "Simulate physics, analyze data and plot scientific charts."
+      },
+      "ai": {
+        "label": "Artificial Intelligence",
+        "description": "Build chatbots, image recognition and basic machine learning."
+      }
+    },
+    "actions": {
+      "continue": "Continue Journey"
+    },
+    "messages": {
+      "error": "Please select at least one interest!",
+      "success": "Your interests have been recorded!"
+    },
+    "loading": {
+      "title": "Setting up project library...",
+      "subtitle": "AI is selecting the most suitable projects for your skills and interests.",
+      "analyzing": "Analyzing skills",
+      "suggesting": "Suggesting projects"
+    }
+  }
+}

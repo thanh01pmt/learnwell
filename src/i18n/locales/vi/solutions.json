@@ -1,0 +1,8 @@
+{
+  "title": "Giải pháp",
+  "twoSumOptimized": {
+    "title": "Cách giải Two Sum tối ưu",
+    "description": "Đây là cách tối ưu nhất sử dụng Hash Map để giảm độ phức tạp thời gian xuống O(n). Chúng ta duyệt mảng một lần và lưu trữ giá trị còn thiếu (complement) vào map.",
+    "timeLabel": "2 ngày trước"
+  }
+}

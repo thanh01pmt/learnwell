@@ -1,0 +1,69 @@
+{
+  "title": "Study Materials",
+  "subtitle": "Access lessons, videos, and materials from teachers",
+  "stats": {
+    "totalLessons": "Total Lessons",
+    "completed": "Completed",
+    "duration": "Duration",
+    "materials": "Materials"
+  },
+  "tabs": {
+    "lessons": "Lessons",
+    "resources": "Resources"
+  },
+  "filters": {
+    "searchPlaceholder": "Search courses, lessons...",
+    "subjectDefault": "Subject",
+    "allSubjects": "All Subjects"
+  },
+  "lessonTypes": {
+    "video": "Video",
+    "reading": "Reading",
+    "quiz": "Quiz",
+    "practice": "Practice"
+  },
+  "actions": {
+    "review": "Review",
+    "learnNow": "Learn Now",
+    "loginToLearn": "Login to learn",
+    "download": "Download",
+    "loginToDownload": "Login to download"
+  },
+  "chapterInfo": {
+    "lessonsCount": "{{count}} lessons",
+    "completedCount": "{{count}} completed"
+  },
+  "mockup": {
+    "chapters": {
+      "ch1": "Chapter 1: Basic Arithmetic",
+      "ch2": "Chapter 2: Fractions",
+      "ch3": "Unit 5: Daily Routines",
+      "ch4": "Modern Vietnamese Literature"
+    },
+    "lessons": {
+      "l1_1": "Natural Numbers and Calculations",
+      "l1_2": "Factors and Multiples",
+      "l1_3": "Prime Numbers",
+      "l1_4": "Arithmetic Practice",
+      "l1_5": "Chapter 1 Test",
+      "l2_1": "Concept of Fractions",
+      "l2_2": "Simplifying Fractions",
+      "l2_3": "Comparing Fractions",
+      "l2_4": "Adding and Subtracting Fractions",
+      "l2_5": "Fractions Practice",
+      "l3_1": "Vocabulary - Daily Activities",
+      "l3_2": "Grammar - Present Simple",
+      "l3_3": "Listening Practice",
+      "l3_4": "Speaking Exercise",
+      "l4_1": "Introduction to Modern Literature",
+      "l4_2": "Work 'Lão Hạc' - Nam Cao",
+      "l4_3": "Character Analysis"
+    },
+    "resources": {
+      "r1": "Grade 6 Math Formulas",
+      "r2": "Vocabulary Unit 1-5",
+      "r3": "Literature Summary Semester 1",
+      "r4": "Supplementary Exercises - Fractions"
+    }
+  }
+}

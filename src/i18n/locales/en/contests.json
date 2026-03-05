@@ -1,0 +1,486 @@
+{
+  "header": {
+    "title": "LearnWell Coding Arena",
+    "subtitle": "Challenge yourself, climb the Elo ranks, and earn valuable rewards from the community."
+  },
+  "actions": {
+    "schedule": "Match Schedule",
+    "organize": "Host a Contest",
+    "viewResults": "View Results",
+    "join": "Join",
+    "run": "Run Tests",
+    "submit": "Submit",
+    "searchPlaceholder": "Search Placeholder"
+  },
+  "search": {
+    "placeholder": "Search contests..."
+  },
+  "status": {
+    "live": "LIVE",
+    "upcoming": "UPCOMING",
+    "ended": "ENDED",
+    "running": "In Progress",
+    "endingIn": "Ends in {{time}}",
+    "startsIn": "Starts in {{time}}",
+    "past": "Past"
+  },
+  "difficulty": {
+    "easy": "Easy",
+    "medium": "Medium",
+    "mediumHard": "Medium - Hard",
+    "hard": "Hard",
+    "veryHard": "Very Hard"
+  },
+  "card": {
+    "duration": "Duration: {{duration}}",
+    "problemsAndDifficulty": "{{count}} problems • {{difficulty}}"
+  },
+  "userStats": {
+    "rank": "Your Rank",
+    "weeklyTrend": "+{{count}} positions this week",
+    "tier": "Tier: Expert",
+    "achievements": "Achievements",
+    "medals": "{{count}} gold medals"
+  },
+  "arena": {
+    "actions": {
+      "leave": "Leave",
+      "run": "Run Code",
+      "submit": "Submit"
+    },
+    "navigation": {
+      "problem": "Problem {{p}}"
+    },
+    "problem": {
+      "example": "Example {{n}}:",
+      "additionalInfo": "Additional Info",
+      "memory": "Memory: {{size}}",
+      "timeLimit": "Limit: {{time}}"
+    },
+    "console": {
+      "title": "Console / Output",
+      "compiling": "Compiling problem...",
+      "compileSuccess": "Compile successful.",
+      "testPass": "Test case passed!",
+      "submitting": "Submitting to Graded System...",
+      "empty": "No data printed to console yet. Press 'Run Tests' to start.",
+      "clear": "Clear"
+    },
+    "footer": {
+      "online": "{{count}} Online",
+      "latency": "Latency: {{ms}}ms",
+      "autosave": "Autosave: {{time}} ago",
+      "support": "Support Center"
+    }
+  },
+  "detail": {
+    "back": "Back to Arena",
+    "participantsCount": "{{count}} participants",
+    "actions": {
+      "register": "Register Now",
+      "enterArena": "Enter Arena",
+      "leaderboard": "Leaderboard"
+    },
+    "tabs": {
+      "overview": "Overview",
+      "rules": "Rules",
+      "problems": "Problems",
+      "faq": "FAQ"
+    },
+    "overview": {
+      "descriptionTitle": "Detailed Description",
+      "pointsStructure": "Points Structure",
+      "problemsAndPoints": "{{count}} problems • {{pts}} pts",
+      "eloTitle": "ELO System",
+      "eloDesc": "Affects ranking"
+    },
+    "rules": {
+      "title": "Contest Rules"
+    },
+    "problems": {
+      "solvedCount": "Solved by: {{count}}",
+      "pointsMax": "Max",
+      "lockedNote": "Submission will be enabled after you register and start the contest."
+    },
+    "sidebar": {
+      "countdownTitle": "Contest ends in",
+      "hours": "Hours",
+      "minutes": "Minutes",
+      "seconds": "Seconds",
+      "organizerTitle": "Organizer",
+      "notesTitle": "Notes",
+      "notesDesc": "Ensure a stable internet connection before starting. Penalty time will be calculated from the start of the contest until you AC.",
+      "helpTitle": "Need Help?",
+      "helpDesc": "Read contest guide",
+      "verifiedMember": "Verified Member"
+    }
+  },
+  "leaderboard": {
+    "title": "Leaderboard: {{name}}",
+    "subtitle": "Real-time leaderboard (Updated {{time}} ago)",
+    "contestantsCount": "{{count}} contestants",
+    "table": {
+      "rank": "Rank",
+      "name": "Contestant",
+      "solved": "Solved",
+      "score": "Score",
+      "time": "Time (Hrs)",
+      "trend": "Trend"
+    },
+    "actions": {
+      "viewAll": "View all leaderboard"
+    },
+    "stats": {
+      "stability": "Stability",
+      "submissions": "Submissions",
+      "latency": "Response Time",
+      "solvers": "Full Solvers"
+    },
+    "mockActions": {
+      "fail": "Fail",
+      "record": "Record",
+      "streak": "Streak"
+    }
+  },
+  "eloLeaderboard": {
+    "header": {
+      "smallTitle": "Global ELO Leaderboard",
+      "title": "Leaderboard",
+      "subtitle": "Esports",
+      "timerLabel": "Spring 2026 Season ends in:",
+      "searchPlaceholder": "Search opponent...",
+      "filter": "Filter"
+    },
+    "table": {
+      "tier": "Tier",
+      "winRate": "Win Rate"
+    },
+    "sidebar": {
+      "joinTitle": "Join Now",
+      "joinDesc": "Log in to see your position on the leaderboard and start competing with the community.",
+      "loginAction": "Log in now",
+      "progressToTier": "Progress to {{tier}}",
+      "ptsToTier": "{{pts}} pts remaining",
+      "findMatch": "FIND MATCH NOW ⚔️",
+      "seasonTrends": "Season Trends",
+      "clanTitle": "Join a Clan and compete in Tournaments!",
+      "clanDesc": "Opportunity to win cash prizes up to 1,000 Gems weekly for the leading Clan.",
+      "clanActionJoin": "Register to join",
+      "clanActionView": "View tournament"
+    },
+    "mock": {
+      "winStreak": "2-match win streak",
+      "unluckyLoss": "Unlucky loss",
+      "recordBreak": "Record breaking time"
+    }
+  },
+  "quickMatch": {
+    "lobby": {
+      "smallTitle": "1v1 Quick Match",
+      "title": "Esports Arena",
+      "subtitle": "15-minute code arena. Find opponents of the same rank!",
+      "eloRating": "ELO Rating",
+      "difficultyLabel": "Problem Difficulty",
+      "wins": "Wins",
+      "losses": "Losses",
+      "startAction": "CHALLENGE NOW",
+      "onlineCount": "{{count}} players online"
+    },
+    "searching": {
+      "title": "Searching for opponent...",
+      "timer": "Waiting time: {{time}}s",
+      "cancel": "Cancel search"
+    },
+    "found": {
+      "title": "Opponent found!",
+      "countdownLabel": "Starting in"
+    },
+    "battle": {
+      "remaining": "Remaining",
+      "runAction": "RUN CODE",
+      "mockTyping": "# Typing...",
+      "opponentLabel": "Opponent",
+      "mockAction": "Optimizing loops...",
+      "playerAction": "You just passed Test Case #{{num}}",
+      "opponentAction": "Opponent just passed Test Case #{{num}}",
+      "feedTitle": "Battle Feed",
+      "startFeed": "Match started!"
+    },
+    "results": {
+      "victoryTitle": "VICTORY! 🏆",
+      "defeatTitle": "DEFEAT",
+      "victoryDesc": "You defeated the opponent in 7 minutes 12 seconds.",
+      "newRank": "New Rank",
+      "chatAction": "Discuss Chat",
+      "continueAction": "CONTINUE ⚔️",
+      "youLabel": "You",
+      "opponentName": "Hai Anh"
+    }
+  },
+  "teamBattle": {
+    "lobby": {
+      "smallTitle": "Clan Tournament: Season 1",
+      "title": "TEAM BATTLE (RELAY)",
+      "yourTeamLabel": "Your Team:",
+      "voiceChatAction": "Voice Chat",
+      "inviteMemberAction": "Invite Member",
+      "memberCount": "Members ({{current}}/{{max}})",
+      "leaderTag": "LEADER",
+      "readyStatus": "READY",
+      "waitingStatus": "WAITING...",
+      "waitingForOthers": "Waiting for other players to join...",
+      "autoStartNote": "Match will start automatically when all are ready.",
+      "playAction": "PLAY NOW",
+      "chatTitle": "Team Chat",
+      "chatPlaceholder": "Message the team...",
+      "modeTitle": "Mode: Relay",
+      "modeDesc1": "Each player has <strong>5 minutes</strong> to code their part.",
+      "modeDesc2": "The next person inherits the code from the previous one.",
+      "modeDesc3": "<strong>LearnCoins & Gems</strong> rewards are split equally with the team.",
+      "rivalTitle": "Eternal Rival",
+      "avgElo": "Avg ELO:"
+    },
+    "battle": {
+      "liveTag": "LIVE BATTLE",
+      "problemLabel": "Team Problem",
+      "yourTurnLabel": "Your Turn: {{name}} 👋",
+      "mockTyping": "# Implement Queue handling here...",
+      "timeWarningTitle": "TIME ALMOST UP!",
+      "timeWarningDesc": "{{seconds}} seconds left to handover to <strong>{{name}}</strong>.",
+      "handoverAction": "EARLY HANDOVER",
+      "standingsTitle": "Match Leaderboard",
+      "aiSuggestionTitle": "AI STRATEGY SUGGESTION",
+      "reportLogicError": "Report Logic Error",
+      "suggestAlgorithm": "Suggest Algorithm",
+      "intel": "INTEL",
+      "comms": "COMMS",
+      "quickResponsePlaceholder": "Quick response..."
+    },
+    "chat": {
+      "m1": "M1",
+      "m2": "M2"
+    },
+    "chatLobby": {
+      "m1": "M1",
+      "m2": "M2"
+    },
+    "hint": "Hint",
+    "mock": {
+      "aiSuggestion": "Ai Suggestion",
+      "clanName": "Clan Name",
+      "phase1": "Phase1",
+      "phase2": "Phase2",
+      "problemTitle": "Problem Title",
+      "teamName": "Team Name"
+    },
+    "reportError": "Report Error"
+  },
+  "list": {
+    "durationLabel": "Duration",
+    "difficultyLabel": "Difficulty",
+    "prizeLabel": "Prize",
+    "problemsLabel": "problems",
+    "noOngoing": "Currently no contests in progress.",
+    "participantsCountShort": "{{count}} joined",
+    "headerSmall": "Coding Competitions"
+  },
+  "stats": {
+    "yourRank": "Your Rank",
+    "rankChange": "+{{count}} positions this week",
+    "rankTrend": "+{{count}} positions this week",
+    "eloRating": "Elo Rating",
+    "tierLabel": "Tier",
+    "achievements": "Achievements",
+    "goldMedals": "gold medals"
+  },
+  "botArena": {
+    "hero": {
+      "title": "Code -> Conquer 🤖",
+      "subtitle": "Program your AI, join the automatic arena and climb the Master rank.",
+      "desc": "Your bot will compete 24/7 even while you sleep!",
+      "rankTag": "RANK: GRAND MASTER",
+      "rankValue": "#14 global",
+      "smallTitle": "AI Bot Arena"
+    },
+    "tabs": {
+      "lab": "BOT LAB",
+      "tournaments": "TOURNAMENTS",
+      "history": "BATTLE HISTORY"
+    },
+    "actions": {
+      "testBot": "TEST BOT"
+    },
+    "lab": {
+      "mockTyping": "# Implement shield when enemy is near..."
+    },
+    "sidebar": {
+      "assistantTitle": "Tactical Assistant",
+      "suggestionLabel": "Optimization Suggestion",
+      "computePower": "Compute Power (Simulation)",
+      "recentActivity": "Recent Matches",
+      "viewAllHistory": "View all history →",
+      "winrate": "Win Rate",
+      "elo": "ELO"
+    },
+    "detail": {
+      "back": "Back",
+      "participantsCount": "{{count}} participants",
+      "actions": {
+        "register": "Register Now",
+        "enterArena": "Enter Arena"
+      },
+      "tabs": {
+        "overview": "Overview",
+        "rules": "Rules",
+        "problems": "Problems",
+        "faq": "FAQ"
+      },
+      "overview": {
+        "descriptionTitle": "Contest Description",
+        "pointsStructure": "Points Structure",
+        "problemsAndPoints": "{{count}} problems - {{pts}} pts",
+        "eloTitle": "Elo Rating",
+        "eloDesc": "Official ranking points"
+      },
+      "rules": {
+        "title": "Rules & Terms"
+      },
+      "problems": {
+        "solvedCount": "{{count}} solved",
+        "pointsMax": "MAX POINTS",
+        "lockedNote": "Problem list will be revealed when the contest starts."
+      },
+      "sidebar": {
+        "countdownTitle": "TIME REMAINING",
+        "hours": "Hours",
+        "minutes": "Minutes",
+        "seconds": "Seconds",
+        "organizerTitle": "ORGANIZER",
+        "verifiedMember": "Sharp Academy Member",
+        "notesTitle": "Important Notes",
+        "notesDesc": "Please check your internet connection before starting the contest.",
+        "helpTitle": "Quick Help",
+        "helpDesc": "Having issues? Contact Mentor now"
+      }
+    },
+    "tournaments": {
+      "prizeLabel": "Prize:",
+      "entryLabel": "Entry Fee:",
+      "registerAction": "Register now",
+      "teamBattle": {
+        "hint": "Algorithm Hint",
+        "reportError": "Report Logic Error",
+        "chat": {
+          "m1": "I'll handle the Logic, Tony lead Architect?",
+          "m2": "OK, we're gonna win against Dark Knights this time!"
+        },
+        "chatBattle": {
+          "m1": "Ready for handover Tony, I've got the Mutex part ready.",
+          "m2": "Wrapping up the Queue part. Check your inbox."
+        },
+        "mock": {
+          "teamName": "Antigravity Devs",
+          "problemTitle": "Build a Concurrent Task Runner",
+          "opponent1": "Shadow Coder",
+          "opponent2": "Logic Master",
+          "opponent3": "Pixel Guru",
+          "clanName": "Dark Knights",
+          "phase1": "Phase 1: Environment Setup",
+          "phase2": "Phase 2: Logic Injected",
+          "aiSuggestion": "Based on current progress, TONY PHAM should focus on completing the <b>Queue logic</b> before handover. Opponents are catching up on optimization!"
+        }
+      },
+      "viewAction": "View progress",
+      "mock": {
+        "free": "Free",
+        "level10": "Level 10+",
+        "exclusiveBadge": "Exclusive Badge"
+      }
+    },
+    "leaderboard": {
+      "mockActions": {
+        "streak": "Won 2 streak matches",
+        "fail": "Regrettable failure",
+        "record": "Broke time record"
+      }
+    },
+    "footer": {
+      "leaderboardTitle": "Global Bot Leaderboard",
+      "leaderboardDesc": "You are in the Top 1% of AI creators 🚀",
+      "seasonResults": "Season achievements",
+      "rankingAction": "FOLLOW RANKING"
+    },
+    "mock": {
+      "assistantSuggestion": "Assistant Suggestion"
+    },
+    "teamBattle": {
+      "hint": "Hint",
+      "reportError": "Report Error",
+      "chatLobby": {
+        "m1": "Ready?",
+        "m2": "I'm ready!"
+      },
+      "chat": {
+        "m1": "Hello team!",
+        "m2": "Let's do this!"
+      },
+      "mock": {
+        "teamName": "Winning Team",
+        "problemTitle": "Sample Problem",
+        "opponent1": "Opponent 1",
+        "opponent2": "Opponent 2",
+        "opponent3": "Opponent 3",
+        "clanName": "Coding Clan",
+        "phase1": "Phase 1",
+        "phase2": "Phase 2",
+        "aiSuggestion": "AI Suggestion"
+      }
+    }
+  },
+  "mock": {
+    "title1": "Spring Code Challenge 2026",
+    "duration3h": "3 hours",
+    "prize1": "Certificate + 500 LearnCoins",
+    "problemTitle1": "Two Sum",
+    "problemDesc1": "Given an array of integers <code className=\"bg-muted px-1 rounded\">nums</code> and an integer <code className=\"bg-muted px-1 rounded\">target</code>, return indices of the two numbers such that they add up to <code className=\"bg-muted px-1 rounded\">target</code>. You may assume that each input would have exactly one solution, and you may not use the same element twice.",
+    "explanation1": "Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].",
+    "weeklyChallenge42": "Weekly Challenge #42",
+    "weeklyChallengeDesc": "Weekly programming challenge",
+    "teamBattleAlgoArena": "Team Battle: Algorithm Arena",
+    "teamBattle3People": "Team competition (3 people)",
+    "duration48h": "48 hours",
+    "difficultyEasyHard": "Easy - Hard",
+    "problemDescSpring": "Welcome to the Spring Code Challenge 2026! This is the largest programming competition of the year searching for young algorithmic talents.",
+    "rules": [
+      "Each problem has only one unique correct solution.",
+      "You can use Python, Java, or JavaScript.",
+      "Any form of cheating (copying code) will result in immediate disqualification.",
+      "The leaderboard will be updated in real-time.",
+      "Any inquiries should be sent to the support mailbox."
+    ],
+    "organizerName": "LearnWell Programming Association",
+    "endTimeStartsIn7d": "Starts in 7 days",
+    "duration24h": "24 hours",
+    "duration1_5h": "1.5 hours",
+    "difficultyVeryHard": "Very Hard",
+    "prize3": "500,000 VND + Trophy",
+    "prize4": "LearnCoins",
+    "startTimeOngoing": "Starts: 08:00, today",
+    "endTimeFinishIn": "Finishes in: {{time}}",
+    "endTimeStartsIn": "Starts in: {{time}} days",
+    "duration2h": "2 hours",
+    "difficultyMediumHard": "Medium - Hard",
+    "difficultyEasy": "Easy",
+    "prize2": "Badge + 200 LearnCoins"
+  },
+  "elo": {
+    "tiers": {
+      "expert": "Expert"
+    }
+  },
+  "tabs": {
+    "ongoing": "Ongoing",
+    "past": "Past",
+    "upcoming": "Upcoming"
+  }
+}

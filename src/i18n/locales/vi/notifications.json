@@ -1,0 +1,93 @@
+{
+  "title": "Thông báo",
+  "subtitle": {
+    "unread": "Bạn có {{count}} thông báo chưa đọc",
+    "none": "Không có thông báo mới"
+  },
+  "actions": {
+    "markAllRead": "Đánh dấu tất cả đã đọc",
+    "markRead": "Đã đọc",
+    "clear": "Xóa thông báo"
+  },
+  "stats": {
+    "total": "Tổng thông báo",
+    "unread": "Chưa đọc",
+    "read": "Đã đọc"
+  },
+  "tabs": {
+    "all": "Tất cả ({{count}})",
+    "unread": "Chưa đọc ({{count}})",
+    "read": "Đã đọc ({{count}})"
+  },
+  "empty": {
+    "title": "Không có thông báo",
+    "allRead": "Bạn đã đọc tất cả thông báo",
+    "none": "Chưa có thông báo nào"
+  },
+  "mocks": {
+    "student": {
+      "s1": {
+        "title": "Điểm bài kiểm tra Toán đã được công bố",
+        "message": "Bạn đạt 9.0 điểm trong bài kiểm tra chương 3"
+      },
+      "s2": {
+        "title": "Bài học mới: Hình học không gian",
+        "message": "Thầy Minh vừa đăng bài học mới cho môn Toán"
+      },
+      "s3": {
+        "title": "Nhắc nhở: Nộp bài tập Văn",
+        "message": "Bài tập phân tích Lão Hạc sẽ hết hạn vào 17:00 hôm nay"
+      },
+      "s4": {
+        "title": "Bạn đạt huy hiệu mới! 🏆",
+        "message": "Chúc mừng! Bạn đã nhận được huy hiệu 'Học sinh chăm chỉ'"
+      }
+    },
+    "teacher": {
+      "t1": {
+        "title": "Yêu cầu tham gia lớp mới",
+        "message": "Nguyễn Văn A yêu cầu tham gia lớp Toán 6A"
+      },
+      "t2": {
+        "title": "Bài tập đã được nộp",
+        "message": "15 học sinh đã nộp bài kiểm tra Văn"
+      },
+      "t3": {
+        "title": "Nhắc nhở chấm bài",
+        "message": "Còn 5 bài chưa được chấm điểm"
+      }
+    },
+    "admin": {
+      "a1": {
+        "title": "Backup hệ thống hoàn tất",
+        "message": "Sao lưu dữ liệu định kỳ đã hoàn thành thành công"
+      },
+      "a2": {
+        "title": "5 giáo viên chưa cập nhật điểm",
+        "message": "Một số giáo viên chưa cập nhật điểm tuần này"
+      },
+      "a3": {
+        "title": "Có 12 bài kiểm tra chờ phê duyệt",
+        "message": "Các bài kiểm tra mới cần được Admin phê duyệt"
+      }
+    },
+    "parent": {
+      "p1": {
+        "title": "Minh Anh hoàn thành bài kiểm tra Toán",
+        "message": "Con bạn đạt 9.5 điểm - Xuất sắc!"
+      },
+      "p2": {
+        "title": "Tuấn Kiệt được thầy giáo khen ngợi",
+        "message": "Tuấn Kiệt tích cực phát biểu trong lớp"
+      },
+      "p3": {
+        "title": "Nhắc nhở: Đóng học phí tháng 2",
+        "message": "Hạn đóng học phí là ngày 10/02/2026"
+      },
+      "p4": {
+        "title": "Lịch họp phụ huynh lớp 6A1",
+        "message": "Thứ 7, 08/02/2026, 8:00-10:00"
+      }
+    }
+  }
+}

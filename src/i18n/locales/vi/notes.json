@@ -1,0 +1,26 @@
+{
+  "title": "Ghi chú",
+  "searchPlaceholder": "Tìm kiếm ghi chú...",
+  "noNotes": "Không tìm thấy ghi chú",
+  "lastUpdated": "Cập nhật lúc {{time}}",
+  "editorPlaceholder": "Bắt đầu ghi chú tại đây...",
+  "emptyState": {
+    "title": "Chọn một ghi chú để bắt đầu",
+    "description": "Tổ chức kiến thức, lưu lại những điều quan trọng từ bài giảng và ôn tập hiệu quả hơn.",
+    "createButton": "Tạo ghi chú mới"
+  },
+  "mockNotes": {
+    "n1": {
+      "title": "Ghi chú Bài 1: Đạo hàm",
+      "content": "# Nội dung chính\n- Quy tắc cơ bản\n- Các dạng bài tập thường gặp\n- Lưu ý về điều kiện có đạo hàm."
+    },
+    "n2": {
+      "title": "Từ vựng Unit 7 - Technology",
+      "content": "## Key vocabulary\n- Innovation\n- Breakthrough\n- Cutting-edge"
+    },
+    "n3": {
+      "title": "Thí nghiệm Quang học",
+      "content": "Dụng cụ: Thấu kính hội tụ, nguồn sáng, màn chắn..."
+    }
+  }
+}

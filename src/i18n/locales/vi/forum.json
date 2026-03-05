@@ -1,0 +1,139 @@
+{
+  "breadcrumbs": "Diễn đàn",
+  "title": "Diễn đàn thảo luận",
+  "subtitle": "Nơi chia sẻ, hỏi đáp và học hỏi cùng bạn bè!",
+  "loginToPost": "Đăng nhập để đăng bài",
+  "categories": "Danh mục",
+  "posts": "bài viết",
+  "searchPlaceholder": "Tìm kiếm theo tiêu đề, nội dung hoặc tag...",
+  "filterByCategory": "Danh mục",
+  "allCategories": "Tất cả danh mục",
+  "timeRange": "Thời gian",
+  "allTime": "Tất cả",
+  "today": "Hôm nay",
+  "thisWeek": "Tuần này",
+  "thisMonth": "Tháng này",
+  "sortBy": "Sắp xếp",
+  "latest": "Mới nhất",
+  "mostLiked": "Nhiều thích nhất",
+  "mostViewed": "Nhiều xem nhất",
+  "mostReplied": "Nhiều trả lời nhất",
+  "newPost": "Tạo bài viết mới",
+  "pinned": "Đã ghim",
+  "solved": "Đã giải quyết",
+  "lastBy": "Lần cuối bởi",
+  "reputation": "Reputation",
+  "level": "Level",
+  "unanswered": "Chưa trả lời",
+  "emptyState": {
+    "title": "Không có bài viết nào",
+    "description": "Không tìm thấy bài viết phù hợp với bộ lọc",
+    "noPinned": "Chưa có bài viết nào được ghim.",
+    "allAnswered": "Tuyệt vời! Tất cả câu hỏi đều đã được trả lời! 🎉"
+  },
+  "dialog": {
+    "title": "Tạo bài viết mới",
+    "subject": "Tiêu đề",
+    "category": "Danh mục",
+    "selectCategory": "Chọn danh mục",
+    "content": "Nội dung",
+    "contentPlaceholder": "Viết nội dung bài viết của bạn...",
+    "tags": "Tags",
+    "tagPlaceholder": "Nhập tag hoặc chọn từ gợi ý...",
+    "limitTags": "Đã đạt giới hạn {{count}} tags",
+    "suggestions": "Gợi ý nhanh",
+    "cancel": "Hủy",
+    "submit": "Đăng bài",
+    "titleLabel": "Tiêu đề",
+    "titlePlaceholder": "Nhập tiêu đề bài viết...",
+    "categoryLabel": "Danh mục",
+    "categoryPlaceholder": "Chọn danh mục",
+    "contentLabel": "Nội dung",
+    "tagsLabel": "Tags",
+    "tagLimit": "Đã đạt giới hạn {{count}} tags",
+    "quickSuggest": "Gợi ý nhanh:",
+    "categorySuggestions": "Gợi ý chuyên mục",
+    "popularTags": "Thẻ phổ biến",
+    "searchResults": "Kết quả tìm kiếm"
+  },
+  "filters": {
+    "advanced": "Bộ lọc nâng cao",
+    "clearAll": "Xóa tất cả",
+    "minLikes": "Tối thiểu {{count}} lượt thích",
+    "minReplies": "Tối thiểu {{count}} trả lời",
+    "onlySolved": "Chỉ hiện đã giải quyết",
+    "onlyPinned": "Chỉ hiện bài ghim",
+    "byTag": "Lọc theo tag"
+  },
+  "mockup": {
+    "categories": {
+      "general": {
+        "name": "Thảo luận chung",
+        "description": "Trao đổi về mọi chủ đề học tập"
+      },
+      "homework": {
+        "name": "Hỏi bài tập",
+        "description": "Nhờ giúp đỡ các bài tập khó"
+      },
+      "coding": {
+        "name": "Lập trình",
+        "description": "Thảo luận về code và thuật toán"
+      },
+      "tips": {
+        "name": "Mẹo học tốt",
+        "description": "Chia sẻ kinh nghiệm học hiệu quả"
+      },
+      "books": {
+        "name": "Sách & Tài liệu",
+        "description": "Giới thiệu sách và tài liệu hay"
+      }
+    },
+    "posts": {
+      "q1": {
+        "title": "Làm sao để giải bài toán chia hết lớp 6 ạ? 🤔",
+        "content": "Em không hiểu cách tìm số chia hết cho cả 3 và 5. Ai giúp em với!",
+        "badge": "🌟 Học sinh chăm chỉ",
+        "tags": [
+          "Toán lớp 6",
+          "Số học"
+        ]
+      },
+      "q2": {
+        "title": "Share code game đoán số bằng Python 🐍",
+        "content": "Mình vừa làm xong game đoán số, code đơn giản lắm! Ai muốn học thì vào xem nha.",
+        "badge": "💻 Cao thủ code",
+        "tags": [
+          "Python",
+          "Game",
+          "Beginner"
+        ]
+      },
+      "q3": {
+        "title": "Mẹo học từ vựng tiếng Anh siêu nhanh! ⚡",
+        "content": "Mình học được 50 từ mỗi ngày bằng phương pháp này, chia sẻ cho mọi người!",
+        "badge": "📚 Mọt sách",
+        "tags": [
+          "Tiếng Anh",
+          "Học tập"
+        ]
+      },
+      "q4": {
+        "title": "Có ai biết sách học Scratch cho người mới không?",
+        "content": "Mình muốn học làm game bằng Scratch mà không biết bắt đầu từ đâu.",
+        "tags": [
+          "Scratch",
+          "Sách"
+        ]
+      },
+      "q5": {
+        "title": "Thử thách: Giải 10 bài toán trong 1 tuần! 🏆",
+        "content": "Ai muốn cùng mình thử thách giải 10 bài toán khó trong tuần này không?",
+        "badge": "🏆 Top learner",
+        "tags": [
+          "Thử thách",
+          "Toán"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "contact": {
+    "title": "Liên hệ chúng tôi",
+    "subtitle": "Bạn có câu hỏi, góp ý hay muốn hợp tác cùng LearnWell? Đừng ngần ngại liên hệ, đội ngũ của chúng tôi luôn sẵn sàng lắng nghe.",
+    "info": {
+      "email": {
+        "title": "Email",
+        "value": "hello@learnwell.vn"
+      },
+      "phone": {
+        "title": "Điện thoại",
+        "value": "1900 xxxx (8:00 - 18:00)"
+      },
+      "address": {
+        "title": "Địa chỉ",
+        "value": "Tầng 5, Tòa nhà Innovation, Khu Công nghệ cao, Quận 9, TP. HCM"
+      }
+    },
+    "form": {
+      "name": "Họ và tên",
+      "namePlaceholder": "Nguyễn Văn A",
+      "email": "Email",
+      "emailPlaceholder": "an@example.com",
+      "subject": "Chủ đề",
+      "subjectPlaceholder": "Hợp tác giáo dục",
+      "message": "Tin nhắn",
+      "messagePlaceholder": "Nội dung lời nhắn của bạn...",
+      "submit": "Gửi lời nhắn"
+    }
+  }
+}

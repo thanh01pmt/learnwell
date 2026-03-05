@@ -1,0 +1,120 @@
+{
+  "legal": {
+    "privacy": {
+      "title": "Privacy Policy",
+      "lastUpdated": "Last updated: {{date}}",
+      "contactText": "If you have questions about the privacy policy, please contact:",
+      "sections": {
+        "collection": {
+          "title": "1. Information Collection",
+          "description": "LearnWell collects personal information when you register for an account, including:",
+          "items": [
+            "Full name, email, phone number",
+            "Academic information and progress",
+            "Platform usage data (study time, completed assignments)",
+            "Payment information (if using paid services)"
+          ]
+        },
+        "usage": {
+          "title": "2. Information Usage",
+          "description": "We use your information to:",
+          "items": [
+            "Personalize the learning experience with AI",
+            "Provide progress reports for parents and teachers",
+            "Improve platform quality",
+            "Send notifications about courses and system updates"
+          ]
+        },
+        "protection": {
+          "title": "3. Information Protection",
+          "description": "LearnWell is committed to protecting your data with:",
+          "items": [
+            "SSL/TLS encryption for all transmitted data",
+            "Secure storage on world-class cloud infrastructure",
+            "Strict access control",
+            "Regular data backups"
+          ]
+        },
+        "rights": {
+          "title": "4. User Rights",
+          "description": "You have the right to:",
+          "items": [
+            "Access and edit personal information",
+            "Request account and data deletion",
+            "Opt-out of marketing emails",
+            "Export your learning data"
+          ]
+        },
+        "sharing": {
+          "title": "5. Information Sharing",
+          "description": "LearnWell does not sell your personal information. We only share data with:",
+          "items": [
+            "Teachers and parents (according to authorized roles)",
+            "Technology partners (only necessary data, with non-disclosure agreements)",
+            "Legal authorities (when legally required)"
+          ]
+        }
+      }
+    },
+    "terms": {
+      "title": "Terms of Service",
+      "lastUpdated": "Effective as of: {{date}}",
+      "contactText": "If you have questions about the terms of service, please contact:",
+      "sections": {
+        "acceptance": {
+          "title": "1. Acceptance of Terms",
+          "description": "By accessing and using the LearnWell platform, you agree to comply with the following terms and conditions. If you do not agree, please do not use our services."
+        },
+        "account": {
+          "title": "2. User Accounts",
+          "description": "When registering an account, you commit to:",
+          "items": [
+            "Providing accurate and complete information",
+            "Keeping your login credentials secure",
+            "Being responsible for all activities under your account",
+            "Notifying us immediately if unauthorized access is detected"
+          ],
+          "note": "Students under 13 require parental consent to use the platform."
+        },
+        "rights": {
+          "title": "3. Right to Use",
+          "description": "LearnWell grants you a limited, non-exclusive, non-transferable right to:",
+          "items": [
+            "Access and use the platform for personal learning purposes",
+            "Download learning materials for personal use",
+            "Participate in learning activities and the community"
+          ]
+        },
+        "restrictions": {
+          "title": "4. Prohibited Behaviors",
+          "description": "You are not allowed to:",
+          "items": [
+            "Copy or distribute content without permission",
+            "Use the platform for unauthorized commercial purposes",
+            "Attack, hack, or disrupt the system",
+            "Upload content that violates the law, is offensive, or spam",
+            "Share accounts with others",
+            "Use bots or unauthorized automation tools"
+          ]
+        },
+        "intellectualPropery": {
+          "title": "5. Intellectual Property",
+          "description": "All content on LearnWell (lectures, videos, assignments, source code) is the property of LearnWell or licensed partners. You may not copy, modify, or distribute content without written permission."
+        },
+        "liability": {
+          "title": "6. Limitation of Liability",
+          "description": "LearnWell provides the platform \"as is\" and does not guarantee that the service will be uninterrupted or error-free. We are not responsible for:",
+          "items": [
+            "Data loss due to technical errors",
+            "Indirect damages arising from platform use",
+            "Content posted by other users"
+          ]
+        },
+        "changes": {
+          "title": "7. Changes to Terms",
+          "description": "LearnWell reserves the right to update these terms at any time. We will notify you via email or platform notification. Continued use after changes implies acceptance of the new terms."
+        }
+      }
+    }
+  }
+}
