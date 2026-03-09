@@ -17,6 +17,7 @@ export const PublicHeader = () => {
 
     const navLinks = [
         { name: t("landing:landing.header.nav.gallery"), href: "/explore/gallery" },
+        { name: t("landing:landing.header.nav.projects"), href: "/explore/projects" },
         { name: t("landing:landing.header.nav.leaderboard"), href: "/explore/leaderboard" },
         { name: t("landing:landing.header.nav.forum"), href: "/explore/forum" },
         { name: t("landing:landing.header.nav.blog"), href: "/explore/blog" },
@@ -31,7 +32,7 @@ export const PublicHeader = () => {
                         <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary">
                             <GraduationCap className="h-5 w-5 text-white" />
                         </div>
-                        <span className="text-xl font-bold tracking-tight text-foreground">LearnWell</span>
+                        <span className="text-xl font-bold tracking-tight text-foreground">{t("landing:landing.header.logo", { defaultValue: "LearnWell" })}</span>
                     </Link>
 
                     <nav className="hidden md:flex ml-10 gap-6">

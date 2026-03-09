@@ -85,6 +85,7 @@ const studentNavItems: NavItem[] = [
       { title: "leaderboardELO", href: "/contests/leaderboard/elo" },
       { title: "solutions", href: "/solutions" },
       { title: "projectLibrary", href: "/project-library" },
+      { title: "projectHub", href: "/hub" },
       { title: "codingProfile", href: "/profile/coding" },
       { title: "teams", href: "/teams" },
       { title: "shop", href: "/shop" },
@@ -140,6 +141,7 @@ const teacherNavItems: NavItem[] = [
     children: [
       { title: "curriculum", href: "/authoring/curriculum" },
       { title: "questionBank", href: "/authoring/questions" },
+      { title: "projectHub", href: "/hub" },
       { title: "exams", href: "/authoring/exams" },
     ],
   },
@@ -292,7 +294,7 @@ export function SidebarNavContent({ collapsed }: SidebarContentProps) {
                 >
                   <span className="flex items-center gap-3">
                     <Icon className="h-5 w-5 shrink-0" />
-                    {!collapsed && <span>{t(item.title as any)}</span>}
+                    {!collapsed && <span>{t(item.title as string)}</span>}
                   </span>
                   {!collapsed && (
                     <ChevronRight
@@ -314,7 +316,7 @@ export function SidebarNavContent({ collapsed }: SidebarContentProps) {
                       isActive(child.href) && "active"
                     )}
                   >
-                    {t(child.title as any)}
+                    {t(child.title as string)}
                   </Link>
                 ))}
               </CollapsibleContent>
@@ -328,7 +330,7 @@ export function SidebarNavContent({ collapsed }: SidebarContentProps) {
             className={cn("nav-item", active && "active")}
           >
             <Icon className="h-5 w-5 shrink-0" />
-            {!collapsed && <span>{t(item.title as any)}</span>}
+            {!collapsed && <span>{t(item.title as string)}</span>}
           </Link>
         );
 
@@ -337,7 +339,7 @@ export function SidebarNavContent({ collapsed }: SidebarContentProps) {
             <Tooltip key={item.href} delayDuration={0}>
               <TooltipTrigger asChild>{navLink}</TooltipTrigger>
               <TooltipContent side="right" className="font-medium">
-                {t(item.title as any)}
+                {t(item.title as string)}
               </TooltipContent>
             </Tooltip>
           );
@@ -384,7 +386,7 @@ export function AppSidebar() {
               <div className="h-9 w-9 rounded-xl bg-primary flex items-center justify-center">
                 <GraduationCap className="h-5 w-5 text-primary-foreground" />
               </div>
-              <span className="font-bold text-lg">LearnWell</span>
+              <span className="font-bold text-lg">{t("navigation:header.logo", { defaultValue: "LearnWell" })}</span>
             </Link>
           )}
           <Button

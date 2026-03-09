@@ -11,7 +11,8 @@ import {
   Zap,
   Bell,
   CheckCircle2,
-  Layout
+  Layout,
+  Rocket
 } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { AppLayout } from "@/components/layout/AppLayout";
@@ -214,9 +215,9 @@ export default function StudentDashboard() {
         </div>
 
         {/* Phase 2.6: Study Planner Quick Access */}
-        <div>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <Link to="/student/planner">
-            <div className="glass-card rounded-2xl p-4 bg-primary/5 hover:bg-primary/10 transition-all border border-primary/20 flex items-center justify-between group">
+            <div className="glass-card rounded-2xl p-4 bg-primary/5 hover:bg-primary/10 transition-all border border-primary/20 flex items-center justify-between group h-full">
               <div className="flex items-center gap-4">
                 <div className="h-12 w-12 rounded-xl bg-primary flex items-center justify-center shadow-lg shadow-primary/20 group-hover:scale-110 transition-transform">
                   <Layout className="h-6 w-6 text-white" />
@@ -231,6 +232,23 @@ export default function StudentDashboard() {
                   <p className="text-xs font-bold text-primary">{t("dashboard:sections.weeklyProgress") as any}</p>
                   <p className="text-sm font-black text-gradient">60%</p>
                 </div>
+                <ChevronRight className="h-6 w-6 text-muted-foreground group-hover:translate-x-1 transition-transform" />
+              </div>
+            </div>
+          </Link>
+
+          <Link to="/explore/projects">
+            <div className="glass-card rounded-2xl p-4 bg-accent/5 hover:bg-accent/10 transition-all border border-accent/20 flex items-center justify-between group h-full">
+              <div className="flex items-center gap-4">
+                <div className="h-12 w-12 rounded-xl bg-accent flex items-center justify-center shadow-lg shadow-accent/20 group-hover:scale-110 transition-transform">
+                  <Rocket className="h-6 w-6 text-white" />
+                </div>
+                <div>
+                  <h3 className="font-bold text-lg">{t("navigation:projectHub", { defaultValue: "Trạm dự án (Hub)" })}</h3>
+                  <p className="text-sm text-muted-foreground">{t("hub:explore.subtitle", { defaultValue: "Khám phá và sáng tạo dự án của riêng bạn" })}</p>
+                </div>
+              </div>
+              <div className="flex items-center gap-4">
                 <ChevronRight className="h-6 w-6 text-muted-foreground group-hover:translate-x-1 transition-transform" />
               </div>
             </div>

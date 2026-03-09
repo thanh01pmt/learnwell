@@ -1,158 +1,165 @@
 {
-  "landing": {
-    "hero": {
-      "badge": "Học tập được hỗ trợ bởi AI — Trải nghiệm cao cấp",
-      "title": "Học tập",
-      "smart": "thông minh",
-      "subtitle": "Vượt mọi giới hạn",
-      "description": "Lộ trình học tập thông minh do AI cá nhân hóa, hệ thống chấm điểm tự động tích hợp IDE hiện đại, và báo cáo tiến độ chi tiết giúp học sinh phát triển 300% tiềm năng trong thời gian ngắn nhất.",
-      "startNow": "BẮT ĐẦU NGAY",
-      "forTeachers": "DÀNH CHO GIÁO VIÊN",
-      "free": "Miễn phí 100%",
-      "secure": "Bảo mật tuyệt đối",
-      "aiPersonalized": "AI Cá nhân hóa"
-    },
-    "stats": {
-      "activeStudents": "Học sinh hoạt động",
-      "assignmentsProjects": "Bài tập & Dự án",
-      "teachers": "Giáo viên",
-      "hoursCompleted": "Giờ học đã hoàn thành"
-    },
-    "showcase": {
-      "title": "Trải nghiệm hệ sinh thái",
-      "subtitle": "Khám phá những tính năng nổi bật giúp LearnWell trở thành người bạn đồng hành tin cậy trên con đường học tập.",
-      "exploreNow": "Khám phá ngay",
-      "connectCommunity": "Kết nối với cộng đồng",
-      "featureLabel": "Tính năng {{title}}",
-      "items": {
-        "gallery": {
-          "title": "Code Gallery",
-          "description": "Khám phá hàng ngàn dự án sáng tạo từ cộng đồng. Học hỏi từ những đoạn code chất lượng và chia sẻ thành quả của bạn.",
-          "preview": "Duyệt qua các dự án web, game, và ứng dụng AI được xây dựng bởi các học sinh tài năng."
-        },
-        "leaderboard": {
-          "title": "Bảng xếp hạng",
-          "description": "Hệ thống xếp hạng Elo công bằng. Thi đấu, thăng hạng và khẳng định vị thế của bạn trong cộng đồng lập trình.",
-          "preview": "Theo dõi vị trí của bạn và các cao thủ trong bảng xếp hạng Real-time."
-        },
-        "forum": {
-          "title": "Diễn đàn",
-          "description": "Nơi giải đáp mọi thắc mắc về lập trình. Cộng đồng hỗ trợ nhiệt tình, giải đáp nhanh chóng các vấn đề kỹ thuật.",
-          "preview": "Tham gia thảo luận, đặt câu hỏi và chia sẻ kinh nghiệm cùng các chuyên gia."
-        },
-        "blog": {
-          "title": "Tech Blog",
-          "description": "Cập nhật những xu hướng công nghệ mới nhất, các bài hướng dẫn chuyên sâu và câu chuyện truyền cảm hứng.",
-          "preview": "Đọc các bài viết chất lượng về AI, Web Dev, Data Science và nhiều chủ đề hấp dẫn khác."
-        }
-      }
-    },
-    "features": {
-      "title": "Giải pháp toàn diện cho mọi đối tượng",
-      "subtitle": "Công cụ chuyên biệt cho học sinh, giáo viên và phụ huynh - tất cả kết nối trong một hệ sinh thái.",
-      "roles": {
-        "student": "Học sinh",
-        "teacher": "Giáo viên",
-        "parent": "Phụ huynh"
-      },
-      "items": {
-        "aiPath": {
-          "title": "Lộ trình AI cá nhân",
-          "desc": "AI phân tích điểm mạnh/yếu và đề xuất bài tập phù hợp với từng học sinh."
-        },
-        "competition": {
-          "title": "Thi đấu & Xếp hạng",
-          "desc": "Tham gia Arena lập trình, tích lũy ELO và thăng hạng trong cộng đồng."
-        },
-        "autoPortfolio": {
-          "title": "Portfolio tự động",
-          "desc": "Hệ thống tự động tổng hợp dự án, chứng chỉ thành hồ sơ năng lực chuyên nghiệp."
-        },
-        "autoGrading": {
-          "title": "Chấm bài tự động",
-          "desc": "AI chấm code tức thì với feedback chi tiết, tiết kiệm 80% thời gian."
-        },
-        "skillAnalysis": {
-          "title": "Phân tích kỹ năng",
-          "desc": "Dashboard trực quan theo dõi tiến độ từng học sinh và cả lớp theo thời gian thực."
-        },
-        "aiLectures": {
-          "title": "Tạo bài giảng AI",
-          "desc": "Công cụ soạn bài tương tác với video, code editor và quiz tích hợp sẵn."
-        },
-        "realtimeTracking": {
-          "title": "Theo dõi thời gian thực",
-          "desc": "Xem ngay bài tập con đã làm, điểm số và thời gian học mỗi ngày."
-        },
-        "weeklyReports": {
-          "title": "Báo cáo hàng tuần",
-          "desc": "Nhận email tổng kết kỹ năng, điểm mạnh và điểm cần cải thiện của con."
-        },
-        "familyActivities": {
-          "title": "Hoạt động gia đình",
-          "desc": "Gợi ý dự án và thử thách để phụ huynh cùng con học tập tại nhà."
-        }
-      }
-    },
-    "cta": {
-      "badge": "Bắt đầu hành trình của bạn ngay hôm nay",
-      "title": "Sẵn sàng để bứt phá giới hạn cùng LearnWell?",
-      "description": "Tham gia cùng +1,200 học sinh và +40 giáo viên đang tối ưu hóa trải nghiệm giáo dục với nền tảng cá nhân hóa hàng đầu.",
-      "signUpFree": "Đăng ký miễn phí",
-      "contactUs": "Liên hệ hợp tác",
-      "footerNote": "Không cần cam kết • Luôn luôn miễn phí cho cá nhân • Hỗ trợ 24/7"
-    },
-    "about": {
-      "title": "Về LearnWell",
-      "description": "LearnWell là nền tảng học tập thông minh sử dụng AI để cá nhân hóa giáo dục cho mỗi học sinh. Chúng tôi tin rằng mỗi em đều có tiềm năng vượt trội nếu được học theo cách phù hợp với bản thân. Với công nghệ tiên tiến và đội ngũ giáo dục tâm huyết, chúng tôi đang thay đổi cách học tập tại Việt Nam.",
-      "vision": {
-        "title": "Tầm nhìn",
-        "description": "Trở thành nền tảng giáo dục AI hàng đầu Việt Nam, giúp 1 triệu học sinh phát triển kỹ năng tư duy và lập trình để sẵn sàng cho tương lai số."
-      },
-      "mission": {
-        "title": "Sứ mệnh",
-        "description": "Cung cấp công cụ AI miễn phí giúp giáo viên dạy hiệu quả hơn, học sinh học đúng cách, và phụ huynh theo dõi tiến độ con một cách minh bạch và khoa học."
-      }
-    },
-    "header": {
-      "nav": {
-        "gallery": "Code Gallery",
-        "leaderboard": "Bảng xếp hạng",
-        "forum": "Diễn đàn",
-        "blog": "Blog",
-        "problems": "Bài tập"
-      },
-      "goToDashboard": "Đi tới Dashboard",
-      "login": "Đăng nhập",
-      "signUpFree": "Đăng ký miễn phí"
-    },
-    "footer": {
-      "description": "Nền tảng giáo dục thông minh ứng dụng AI hiện đại, giúp học sinh bứt phá giới hạn và tối ưu hóa tiềm năng cá nhân thông qua lộ trình học tập cá nhân hóa.",
-      "sections": {
-        "products": "Sản phẩm",
-        "community": "Cộng đồng",
-        "newsletter": "Newsletter"
-      },
-      "nav": {
-        "problemsCode": "Bài tập Code",
-        "contests": "Cuộc thi",
-        "techBlog": "Tech Blog",
-        "aboutUs": "Về chúng tôi"
-      },
-      "newsletter": {
-        "note": "Nhận thông báo về các cuộc thi & tài liệu mới nhất.",
-        "placeholder": "Email của bạn...",
-        "submit": "Gửi"
-      },
-      "contact": {
-        "address": "Hà Nội, Việt Nam"
-      },
-      "copyright": "© 2026 LearnWell Platform. All Rights Reserved. Designed for premium education.",
-      "links": {
-        "privacy": "Bảo mật",
-        "terms": "Điều khoản",
-        "support": "Hỗ trợ"
-      }
-    }
-  }
+	"landing": {
+		"hero": {
+			"badge": "Học tập được hỗ trợ bởi AI — Trải nghiệm cao cấp",
+			"title": "Học tập",
+			"smart": "thông minh",
+			"subtitle": "Vượt mọi giới hạn",
+			"description": "Lộ trình học tập thông minh do AI cá nhân hóa, hệ thống chấm điểm tự động tích hợp IDE hiện đại, và báo cáo tiến độ chi tiết giúp học sinh phát triển 300% tiềm năng trong thời gian ngắn nhất.",
+			"startNow": "BẮT ĐẦU NGAY",
+			"forTeachers": "DÀNH CHO GIÁO VIÊN",
+			"free": "Miễn phí 100%",
+			"secure": "Bảo mật tuyệt đối",
+			"aiPersonalized": "AI Cá nhân hóa"
+		},
+		"stats": {
+			"activeStudents": "Học sinh hoạt động",
+			"assignmentsProjects": "Bài tập & Dự án",
+			"teachers": "Giáo viên",
+			"hoursCompleted": "Giờ học đã hoàn thành"
+		},
+		"showcase": {
+			"title": "Trải nghiệm hệ sinh thái",
+			"subtitle": "Khám phá những tính năng nổi bật giúp LearnWell trở thành người bạn đồng hành tin cậy trên con đường học tập.",
+			"exploreNow": "Khám phá ngay",
+			"connectCommunity": "Kết nối với cộng đồng",
+			"featureLabel": "Tính năng {{title}}",
+			"items": {
+				"gallery": {
+					"title": "Code Gallery",
+					"description": "Khám phá hàng ngàn dự án sáng tạo từ cộng đồng. Học hỏi từ những đoạn code chất lượng và chia sẻ thành quả của bạn.",
+					"preview": "Duyệt qua các dự án web, game, và ứng dụng AI được xây dựng bởi các học sinh tài năng."
+				},
+				"projects": {
+					"title": "Dự án",
+					"description": "Khám phá 7 loại dự án sáng tạo từ lập trình Game, App đến AI và Robotics. Bắt đầu hành trình sáng tạo của riêng bạn.",
+					"preview": "Tạo ra những sản phẩm công nghệ thực tế với các công cụ lập trình mạnh mẽ của LearnWell."
+				},
+				"leaderboard": {
+					"title": "Bảng xếp hạng",
+					"description": "Hệ thống xếp hạng Elo công bằng. Thi đấu, thăng hạng và khẳng định vị thế của bạn trong cộng đồng lập trình.",
+					"preview": "Theo dõi vị trí của bạn và các cao thủ trong bảng xếp hạng Real-time."
+				},
+				"forum": {
+					"title": "Diễn đàn",
+					"description": "Nơi giải đáp mọi thắc mắc về lập trình. Cộng đồng hỗ trợ nhiệt tình, giải đáp nhanh chóng các vấn đề kỹ thuật.",
+					"preview": "Tham gia thảo luận, đặt câu hỏi và chia sẻ kinh nghiệm cùng các chuyên gia."
+				},
+				"blog": {
+					"title": "Tech Blog",
+					"description": "Cập nhật những xu hướng công nghệ mới nhất, các bài hướng dẫn chuyên sâu và câu chuyện truyền cảm hứng.",
+					"preview": "Đọc các bài viết chất lượng về AI, Web Dev, Data Science và nhiều chủ đề hấp dẫn khác."
+				}
+			}
+		},
+		"features": {
+			"title": "Giải pháp toàn diện cho mọi đối tượng",
+			"subtitle": "Công cụ chuyên biệt cho học sinh, giáo viên và phụ huynh - tất cả kết nối trong một hệ sinh thái.",
+			"roles": {
+				"student": "Học sinh",
+				"teacher": "Giáo viên",
+				"parent": "Phụ huynh"
+			},
+			"items": {
+				"aiPath": {
+					"title": "Lộ trình AI cá nhân",
+					"desc": "AI phân tích điểm mạnh/yếu và đề xuất bài tập phù hợp với từng học sinh."
+				},
+				"competition": {
+					"title": "Thi đấu & Xếp hạng",
+					"desc": "Tham gia Arena lập trình, tích lũy ELO và thăng hạng trong cộng đồng."
+				},
+				"autoPortfolio": {
+					"title": "Portfolio tự động",
+					"desc": "Hệ thống tự động tổng hợp dự án, chứng chỉ thành hồ sơ năng lực chuyên nghiệp."
+				},
+				"autoGrading": {
+					"title": "Chấm bài tự động",
+					"desc": "AI chấm code tức thì với feedback chi tiết, tiết kiệm 80% thời gian."
+				},
+				"skillAnalysis": {
+					"title": "Phân tích kỹ năng",
+					"desc": "Dashboard trực quan theo dõi tiến độ từng học sinh và cả lớp theo thời gian thực."
+				},
+				"aiLectures": {
+					"title": "Tạo bài giảng AI",
+					"desc": "Công cụ soạn bài tương tác với video, code editor và quiz tích hợp sẵn."
+				},
+				"realtimeTracking": {
+					"title": "Theo dõi thời gian thực",
+					"desc": "Xem ngay bài tập con đã làm, điểm số và thời gian học mỗi ngày."
+				},
+				"weeklyReports": {
+					"title": "Báo cáo hàng tuần",
+					"desc": "Nhận email tổng kết kỹ năng, điểm mạnh và điểm cần cải thiện của con."
+				},
+				"familyActivities": {
+					"title": "Hoạt động gia đình",
+					"desc": "Gợi ý dự án và thử thách để phụ huynh cùng con học tập tại nhà."
+				}
+			}
+		},
+		"cta": {
+			"badge": "Bắt đầu hành trình của bạn ngay hôm nay",
+			"title": "Sẵn sàng để bứt phá giới hạn cùng LearnWell?",
+			"description": "Tham gia cùng +1,200 học sinh và +40 giáo viên đang tối ưu hóa trải nghiệm giáo dục với nền tảng cá nhân hóa hàng đầu.",
+			"signUpFree": "Đăng ký miễn phí",
+			"contactUs": "Liên hệ hợp tác",
+			"footerNote": "Không cần cam kết • Luôn luôn miễn phí cho cá nhân • Hỗ trợ 24/7"
+		},
+		"about": {
+			"title": "Về LearnWell",
+			"description": "LearnWell là nền tảng học tập thông minh sử dụng AI để cá nhân hóa giáo dục cho mỗi học sinh. Chúng tôi tin rằng mỗi em đều có tiềm năng vượt trội nếu được học theo cách phù hợp với bản thân. Với công nghệ tiên tiến và đội ngũ giáo dục tâm huyết, chúng tôi đang thay đổi cách học tập tại Việt Nam.",
+			"vision": {
+				"title": "Tầm nhìn",
+				"description": "Trở thành nền tảng giáo dục AI hàng đầu Việt Nam, giúp 1 triệu học sinh phát triển kỹ năng tư duy và lập trình để sẵn sàng cho tương lai số."
+			},
+			"mission": {
+				"title": "Sứ mệnh",
+				"description": "Cung cấp công cụ AI miễn phí giúp giáo viên dạy hiệu quả hơn, học sinh học đúng cách, và phụ huynh theo dõi tiến độ con một cách minh bạch và khoa học."
+			}
+		},
+		"header": {
+			"logo": "LearnWell",
+			"nav": {
+				"gallery": "Code Gallery",
+				"projects": "Dự án",
+				"leaderboard": "Bảng xếp hạng",
+				"forum": "Diễn đàn",
+				"blog": "Blog",
+				"problems": "Bài tập"
+			},
+			"goToDashboard": "Đi tới Dashboard",
+			"login": "Đăng nhập",
+			"signUpFree": "Đăng ký miễn phí"
+		},
+		"footer": {
+			"description": "Nền tảng giáo dục thông minh ứng dụng AI hiện đại, giúp học sinh bứt phá giới hạn và tối ưu hóa tiềm năng cá nhân thông qua lộ trình học tập cá nhân hóa.",
+			"sections": {
+				"products": "Sản phẩm",
+				"community": "Cộng đồng",
+				"newsletter": "Newsletter"
+			},
+			"nav": {
+				"problemsCode": "Bài tập Code",
+				"contests": "Cuộc thi",
+				"techBlog": "Tech Blog",
+				"aboutUs": "Về chúng tôi"
+			},
+			"newsletter": {
+				"note": "Nhận thông báo về các cuộc thi & tài liệu mới nhất.",
+				"placeholder": "Email của bạn...",
+				"submit": "Gửi"
+			},
+			"contact": {
+				"address": "Hà Nội, Việt Nam"
+			},
+			"copyright": "© 2026 LearnWell Platform. All Rights Reserved. Designed for premium education.",
+			"links": {
+				"privacy": "Bảo mật",
+				"terms": "Điều khoản",
+				"support": "Hỗ trợ"
+			}
+		}
+	}
 }

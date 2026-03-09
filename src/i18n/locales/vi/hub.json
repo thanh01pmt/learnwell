@@ -17,6 +17,44 @@
 		"robotics": "Mô Phỏng Robot",
 		"algo": "Thuật Toán"
 	},
+	"explore": {
+		"title": "Khám Phá Dự Án",
+		"subtitle": "Hãy chọn một lĩnh vực bạn yêu thích và bắt đầu sáng tạo ngay hôm nay.",
+		"categories": {
+			"intro": {
+				"title": "Làm Quen",
+				"desc": "Bắt đầu hành trình lập trình với những khối lệnh đơn giản và thú vị."
+			},
+			"game": {
+				"title": "Thiết Kế Game",
+				"desc": "Tự tay tạo ra những trò chơi hấp dẫn, từ ý tưởng đến thực thi."
+			},
+			"app": {
+				"title": "Ứng Dụng",
+				"desc": "Xây dựng các ứng dụng thực tế với giao diện hiện đại và tính năng thông minh."
+			},
+			"stem": {
+				"title": "STEM & AI",
+				"desc": "Khám phá sự kết hợp giữa khoa học, công nghệ và trí tuệ nhân tạo."
+			},
+			"physics": {
+				"title": "Vật Lý Mô Phỏng",
+				"desc": "Mô phỏng các hiện tượng vật lý chân thực trong môi trường ảo."
+			},
+			"robotics": {
+				"title": "Robotics",
+				"desc": "Lập trình điều khiển robot thực hiện các nhiệm vụ phức tạp."
+			},
+			"algo": {
+				"title": "Thuật Toán",
+				"desc": "Rèn luyện tư duy logic và giải quyết vấn đề hiệu quả."
+			}
+		},
+		"cta": {
+			"create": "Tạo Dự Án",
+			"learnMore": "Tìm Hiểu Thêm"
+		}
+	},
 	"modes": {
 		"block": "Lập Trình Kéo Thả",
 		"python": "Python",

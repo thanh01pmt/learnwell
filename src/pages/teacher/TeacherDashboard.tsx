@@ -14,7 +14,8 @@ import {
     UserCheck,
     TrendingUp,
     Sparkles,
-    Pen
+    Pen,
+    Rocket
 } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { AppLayout } from "@/components/layout/AppLayout";
@@ -171,8 +172,8 @@ export default function TeacherDashboard() {
                                     <h3 className="font-bold">{t("teacher:dashboard.sections.notifications")}</h3>
                                 </div>
                                 <div className="space-y-4">
-                                    <div className="flex items-start gap-3 p-3 rounded-xl bg-muted/30 border border-border/50">
-                                        <div className="h-8 w-8 rounded-lg bg-primary/10 flex items-center justify-center shrink-0">
+                                    <div className="flex items-start gap-3 p-3 rounded-xl bg-primary/10 border border-border/50">
+                                        <div className="h-8 w-8 rounded-lg bg-primary/20 flex items-center justify-center shrink-0">
                                             <Sparkles className="h-4 w-4 text-primary" />
                                         </div>
                                         <div>
@@ -180,6 +181,20 @@ export default function TeacherDashboard() {
                                             <p className="text-[10px] text-muted-foreground">{t("dashboard:mockup.planner.pendingTasks", { count: 2 })}</p>
                                         </div>
                                     </div>
+
+                                    <button
+                                        onClick={() => navigate("/explore/projects")}
+                                        className="w-full flex items-start gap-3 p-3 rounded-xl bg-accent/10 border border-accent/20 hover:bg-accent/20 transition-colors group text-left"
+                                    >
+                                        <div className="h-8 w-8 rounded-lg bg-accent/20 flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform">
+                                            <Rocket className="h-4 w-4 text-accent" />
+                                        </div>
+                                        <div className="flex-1">
+                                            <p className="text-xs font-semibold text-accent">{t("navigation:projectHub", { defaultValue: "Trạm dự án (Hub)" })}</p>
+                                            <p className="text-[10px] text-muted-foreground">{t("hub:explore.subtitle", { defaultValue: "Quản lý và tạo dự án mới" })}</p>
+                                        </div>
+                                        <ChevronRight className="h-4 w-4 text-muted-foreground group-hover:translate-x-1 transition-transform self-center" />
+                                    </button>
                                 </div>
                             </div>
 

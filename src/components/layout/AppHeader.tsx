@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
-import { Bell, Search, Sun, Moon, User, Settings, LogOut, ChevronDown, Check, Menu, GraduationCap } from "lucide-react";
+import { Bell, Search, Sun, Moon, User, Settings, LogOut, ChevronDown, Check, Menu, GraduationCap, Plus } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -134,7 +134,7 @@ export function AppHeader({ isImpersonating = false, impersonatedUser }: AppHead
                   <div className="h-9 w-9 rounded-xl bg-primary flex items-center justify-center">
                     <GraduationCap className="h-5 w-5 text-primary-foreground" />
                   </div>
-                  <span className="font-bold text-lg">LearnWell</span>
+                  <span className="font-bold text-lg">{t("header.logo", { defaultValue: "LearnWell" })}</span>
                 </Link>
               </div>
               <div className="overflow-y-auto flex-1">
@@ -159,9 +159,14 @@ export function AppHeader({ isImpersonating = false, impersonatedUser }: AppHead
 
           {/* Right Actions */}
           <div className="flex items-center gap-2 ml-auto">
-            {/* Mobile Search Button */}
-            <Button variant="ghost" size="icon" className="md:hidden rounded-xl" aria-label={t("search")}>
-              <Search className="h-5 w-5" />
+            <Button
+              variant="default"
+              size="sm"
+              className="hidden sm:flex items-center gap-2 rounded-xl bg-primary hover:bg-primary/90 shadow-sm shadow-primary/20 mr-2"
+              onClick={() => navigate("/hub")}
+            >
+              <Plus className="h-4 w-4" />
+              <span className="font-bold text-xs">{t("create", { defaultValue: "Create Project" })}</span>
             </Button>
 
             {/* Notifications */}
@@ -219,14 +224,14 @@ export function AppHeader({ isImpersonating = false, impersonatedUser }: AppHead
                         </div>
                         <div className="flex justify-between gap-2 mb-1">
                           <p className={cn("text-xs font-semibold", !notification.isRead ? "text-primary" : "text-muted-foreground uppercase tracking-widest")}>
-                            {t(notification.title as any)}
+                            {t(notification.title)}
                           </p>
                           <span className="text-[10px] text-muted-foreground whitespace-nowrap">
                             {formatTimeAgo(notification.createdAt)}
                           </span>
                         </div>
                         <p className="text-sm line-clamp-2 text-foreground/80 leading-snug">
-                          {t(notification.message as any)}
+                          {t(notification.message)}
                         </p>
                       </DropdownMenuItem>
                     ))

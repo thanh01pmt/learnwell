@@ -17,6 +17,44 @@
 		"robotics": "Robotics Simulation",
 		"algo": "Algorithm"
 	},
+	"explore": {
+		"title": "Explore Projects",
+		"subtitle": "Choose a field you love and start creating today.",
+		"categories": {
+			"intro": {
+				"title": "Intro",
+				"desc": "Start your coding journey with simple and fun blocks."
+			},
+			"game": {
+				"title": "Game Design",
+				"desc": "Create engaging games from scratch, from idea to execution."
+			},
+			"app": {
+				"title": "App",
+				"desc": "Build real-world apps with modern interfaces and smart features."
+			},
+			"stem": {
+				"title": "STEM & AI",
+				"desc": "Explore the intersection of science, technology, and AI."
+			},
+			"physics": {
+				"title": "Physics Simulation",
+				"desc": "Simulate realistic physical phenomena in a virtual environment."
+			},
+			"robotics": {
+				"title": "Robotics",
+				"desc": "Program robots to perform complex real-world tasks."
+			},
+			"algo": {
+				"title": "Algorithm",
+				"desc": "Train your logical thinking and solve problems efficiently."
+			}
+		},
+		"cta": {
+			"create": "Create Project",
+			"learnMore": "Learn More"
+		}
+	},
 	"modes": {
 		"block": "Block Coding",
 		"python": "Python",

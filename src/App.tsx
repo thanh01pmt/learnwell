@@ -79,6 +79,7 @@ import ProjectHub from "./pages/hub/ProjectHub";
 import EditorRedirect from "./pages/hub/EditorRedirect";
 import BlockEditorMock from "./pages/hub/BlockEditorMock";
 import TextEditorMock from "./pages/hub/TextEditorMock";
+import ExploreProjects from "@/pages/projects/ExploreProjects";
 
 // Student pages
 import StudentDashboard from "./pages/student/StudentDashboard";
@@ -154,6 +155,7 @@ function App() {
                 {/* Public routes */}
                 <Route path="/" element={<LandingPage />} />
                 <Route path="/explore/gallery" element={<PublicLayout><CodeGallery publicView={true} /></PublicLayout>} />
+                <Route path="/explore/projects" element={<PublicLayout><ExploreProjects publicView={true} /></PublicLayout>} />
                 <Route path="/explore/leaderboard" element={<PublicLayout><EloLeaderboard publicView={true} /></PublicLayout>} />
                 <Route path="/explore/forum" element={<PublicLayout><Forum publicView={true} /></PublicLayout>} />
                 <Route path="/explore/blog" element={<PublicLayout><TechBlog /></PublicLayout>} />
@@ -241,6 +243,7 @@ function App() {
                   <Route path="/interests" element={<InterestSurvey />} />
                   <Route path="/study-groups" element={<StudyGroups />} />
                   <Route path="/social-feed" element={<SocialFeed />} />
+                  <Route path="/explore/projects" element={<ExploreProjects />} />
 
                   {/* Hub & Editor Mockups */}
                   <Route path="/hub" element={<ProjectHub />} />
