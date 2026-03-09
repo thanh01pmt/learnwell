@@ -14,11 +14,7 @@ export default function EditorRedirect() {
 
         // Simulate a brief loading sequence before redirecting
         const timer = setTimeout(() => {
-            if (mode === "block") {
-                navigate(`/editor/block?type=${type}`, { replace: true });
-            } else {
-                navigate(`/editor/text?type=${type}&lang=${mode}`, { replace: true });
-            }
+            navigate(`/workspace?type=${type}&mode=${mode}`, { replace: true });
         }, 1500);
 
         return () => clearTimeout(timer);

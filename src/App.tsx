@@ -80,6 +80,7 @@ import EditorRedirect from "./pages/hub/EditorRedirect";
 import BlockEditorMock from "./pages/hub/BlockEditorMock";
 import TextEditorMock from "./pages/hub/TextEditorMock";
 import ExploreProjects from "@/pages/projects/ExploreProjects";
+import AdvancedWorkspace from "./pages/editor/AdvancedWorkspace";
 
 // Student pages
 import StudentDashboard from "./pages/student/StudentDashboard";
@@ -250,6 +251,7 @@ function App() {
                   <Route path="/editor" element={<EditorRedirect />} />
                   <Route path="/editor/block" element={<BlockEditorMock />} />
                   <Route path="/editor/text" element={<TextEditorMock />} />
+                  <Route path="/workspace" element={<AdvancedWorkspace />} />
 
                   {/* Learning & Progress */}
                   <Route path="/practice" element={<FeatureRoute path="/practice"><Practice /></FeatureRoute>} />

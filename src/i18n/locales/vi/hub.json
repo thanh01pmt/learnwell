@@ -122,6 +122,78 @@
 				"mainModule": "\"__main__\"",
 				"callMain": "main()"
 			}
+		},
+		"workspace": {
+			"header": {
+				"project": "Dự án: {{type}}",
+				"lastSaved": "Tự động lưu: {{time}} trước",
+				"save": "Lưu bài",
+				"share": "Chia sẻ"
+			},
+			"tutorial": {
+				"title": "Hành trình học tập",
+				"completed": "Hoàn thành {{percent}}%",
+				"viewVideo": "Xem Video Hướng Dẫn",
+				"next": "Bước tiếp theo",
+				"steps": [
+					{
+						"title": "Khởi đầu hành trình",
+						"content": "Chào mừng bạn đến với dự án đầu tiên! Hôm nay chúng ta sẽ học cách làm cho nhân vật di chuyển."
+					},
+					{
+						"title": "Thiết lập sự kiện",
+						"content": "Sử dụng khối 'Khi bấm vào lá cờ xanh' để bắt đầu chương trình của bạn."
+					},
+					{
+						"title": "Di chuyển nhân vật",
+						"content": "Thêm khối 'di chuyển 10 bước' vào bên dưới khối sự kiện vừa tạo."
+					}
+				]
+			},
+			"code": {
+				"modes": {
+					"block": "Blocks",
+					"text": "Python"
+				},
+				"run": "Chạy thử",
+				"placeholder": {
+					"title": "Kéo thả khối tại đây",
+					"desc": "Sử dụng thanh toolbox bên trái để bắt đầu xây dựng thuật toán của bạn."
+				},
+				"ai": {
+					"ready": "Trợ lý AI đang sẵn sàng ✨"
+				},
+				"mock": {
+					"filename": "main.py",
+					"greeting": "Xin chào thế giới!"
+				}
+			},
+			"preview": {
+				"status": "Đang chạy",
+				"fps": "{{value}} FPS",
+				"coords": {
+					"x": "Tọa độ X",
+					"y": "Tọa độ Y"
+				}
+			},
+			"console": {
+				"metrics": {
+					"ms": "{{value}}ms",
+					"mb": "{{value}}MB"
+				},
+				"testCases": "Trạng thái kiểm tra (Test Cases)",
+				"passed": "{{passed}}/{{total}} ĐẠT",
+				"cases": {
+					"move": "Kiểm tra di chuyển",
+					"collision": "Phản ứng va chạm",
+					"loop": "Vòng lặp vô tận"
+				},
+				"logs": {
+					"resourcesLoaded": "✔ Đã tải tài nguyên dự án (Scratch 3 engine)",
+					"runningLine": "Đang chạy dòng lệnh {{line}}... Di chuyển nhân vật 10 bước.",
+					"warningFps": "! Cảnh báo: Tốc độ khung hình giảm xuống 30 FPS."
+				}
+			}
 		}
 	}
 }

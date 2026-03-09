@@ -122,6 +122,78 @@
 				"mainModule": "\"__main__\"",
 				"callMain": "main()"
 			}
+		},
+		"workspace": {
+			"header": {
+				"project": "Project: {{type}}",
+				"lastSaved": "Auto-saved: {{time}} ago",
+				"save": "Save",
+				"share": "Share"
+			},
+			"tutorial": {
+				"title": "Learning Journey",
+				"completed": "Completed {{percent}}%",
+				"viewVideo": "Watch Video Tutorial",
+				"next": "Next step",
+				"steps": [
+					{
+						"title": "Start Your Journey",
+						"content": "Welcome to your first project! Today we will learn how to make an actor move."
+					},
+					{
+						"title": "Event Setup",
+						"content": "Use the 'when green flag clicked' block to start your program."
+					},
+					{
+						"title": "Move the Actor",
+						"content": "Add a 'move 10 steps' block below the event block you just created."
+					}
+				]
+			},
+			"code": {
+				"modes": {
+					"block": "Blocks",
+					"text": "Python"
+				},
+				"run": "Run test",
+				"placeholder": {
+					"title": "Drag blocks here",
+					"desc": "Use the toolbox on the left to start building your algorithm."
+				},
+				"ai": {
+					"ready": "AI Assistant is ready ✨"
+				},
+				"mock": {
+					"filename": "main.py",
+					"greeting": "Hello World!"
+				}
+			},
+			"preview": {
+				"status": "Running",
+				"fps": "{{value}} FPS",
+				"coords": {
+					"x": "X Coordinate",
+					"y": "Y Coordinate"
+				}
+			},
+			"console": {
+				"metrics": {
+					"ms": "{{value}}ms",
+					"mb": "{{value}}MB"
+				},
+				"testCases": "Test Cases Status",
+				"passed": "{{passed}}/{{total}} PASSED",
+				"cases": {
+					"move": "Movement check",
+					"collision": "Collision reaction",
+					"loop": "Infinite loop"
+				},
+				"logs": {
+					"resourcesLoaded": "✔ Project resources loaded (Scratch 3 engine)",
+					"runningLine": "Executing line {{line}}... Moving actor 10 steps.",
+					"warningFps": "! Warning: Frame rate dropped below 30 FPS."
+				}
+			}
 		}
 	}
 }
