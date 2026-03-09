@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useNavigate, Link } from "react-router-dom";
+import { useNavigate, Link, useLocation } from "react-router-dom";
 import { Bell, Search, Sun, Moon, User, Settings, LogOut, ChevronDown, Check, Menu, GraduationCap, Plus } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { Button } from "@/components/ui/button";
@@ -42,6 +42,9 @@ export function AppHeader({ isImpersonating = false, impersonatedUser }: AppHead
   const { notifications, unreadCount, markAsRead } = useNotifications();
   const { t } = useTranslation("navigation");
   const [isDark, setIsDark] = useState(false);
+
+  const location = useLocation();
+  const isHubPage = location.pathname === "/hub";
 
   const getRoleLabel = () => {
     switch (role) {
@@ -159,15 +162,17 @@ export function AppHeader({ isImpersonating = false, impersonatedUser }: AppHead
 
           {/* Right Actions */}
           <div className="flex items-center gap-2 ml-auto">
-            <Button
-              variant="default"
-              size="sm"
-              className="hidden sm:flex items-center gap-2 rounded-xl bg-primary hover:bg-primary/90 shadow-sm shadow-primary/20 mr-2"
-              onClick={() => navigate("/hub")}
-            >
-              <Plus className="h-4 w-4" />
-              <span className="font-bold text-xs">{t("create", { defaultValue: "Create Project" })}</span>
-            </Button>
+            {!isHubPage && (
+              <Button
+                variant="default"
+                size="sm"
+                className="hidden sm:flex items-center gap-2 rounded-xl bg-primary hover:bg-primary/90 shadow-sm shadow-primary/20 mr-2"
+                onClick={() => navigate("/hub")}
+              >
+                <Plus className="h-4 w-4" />
+                <span className="font-bold text-xs">{t("create", { defaultValue: "Create Project" })}</span>
+              </Button>
+            )}
 
             {/* Notifications */}
             <DropdownMenu>

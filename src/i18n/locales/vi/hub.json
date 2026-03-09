@@ -6,7 +6,18 @@
 		"mode": "Chọn Chế Độ Lập Trình"
 	},
 	"actions": {
-		"start": "Bắt Đầu Dự Án"
+		"start": "Bắt Đầu Dự Án",
+		"startBlank": "Bắt đầu dự án mới",
+		"viewAll": "Xem tất cả",
+		"clickToSelect": "Nhấn để chọn"
+	},
+	"ui": {
+		"categories": "Danh mục",
+		"createBlank": "Tạo dự án trống",
+		"selectMode": "Chọn chế độ lập trình",
+		"guidedTutorials": "Hướng dẫn thực hành",
+		"comingSoon": "Sẽ sớm có thêm hướng dẫn cho danh mục này!",
+		"searchPlaceholder": "Tìm kiếm dự án..."
 	},
 	"projectTypes": {
 		"intro": "Cơ Bản",
@@ -16,6 +27,26 @@
 		"physics": "Mô Phỏng Vật Lý",
 		"robotics": "Mô Phỏng Robot",
 		"algo": "Thuật Toán"
+	},
+	"templates": {
+		"blank": {
+			"title": "Dự án trống",
+			"desc": "Bắt đầu dự án mới từ đầu."
+		},
+		"guided": {
+			"moveActor": {
+				"title": "Di chuyển nhân vật",
+				"desc": "Học cách di chuyển nhân vật bằng phím mũi tên."
+			},
+			"miniGames": {
+				"title": "Trò chơi nhỏ",
+				"desc": "Xây dựng một trò chơi đơn giản với nhiều cấp độ."
+			},
+			"designer": {
+				"title": "Thiết kế UI",
+				"desc": "Thiết kế giao diện ứng dụng cơ bản."
+			}
+		}
 	},
 	"explore": {
 		"title": "Khám Phá Dự Án",
@@ -58,7 +89,10 @@
 	"modes": {
 		"block": "Lập Trình Kéo Thả",
 		"python": "Python",
-		"js": "JavaScript"
+		"js": "JavaScript",
+		"cpp": "C++",
+		"lua": "Lua",
+		"swift": "Swift"
 	},
 	"editor": {
 		"loading": "Đang khởi tạo môi trường lập trình...",

@@ -6,7 +6,18 @@
 		"mode": "Choose Coding Mode"
 	},
 	"actions": {
-		"start": "Start Project"
+		"start": "Start Project",
+		"startBlank": "Start Blank Project",
+		"viewAll": "View All",
+		"clickToSelect": "Click to select"
+	},
+	"ui": {
+		"categories": "Categories",
+		"createBlank": "Create Blank",
+		"selectMode": "Select Coding Mode",
+		"guidedTutorials": "Guided Tutorials",
+		"comingSoon": "More tutorials coming soon for this category!",
+		"searchPlaceholder": "Search projects..."
 	},
 	"projectTypes": {
 		"intro": "Intro",
@@ -16,6 +27,26 @@
 		"physics": "Physics Simulation",
 		"robotics": "Robotics Simulation",
 		"algo": "Algorithm"
+	},
+	"templates": {
+		"blank": {
+			"title": "Blank Project",
+			"desc": "Create a new project from scratch."
+		},
+		"guided": {
+			"moveActor": {
+				"title": "Move Around",
+				"desc": "Learn how to move your character using arrow keys."
+			},
+			"miniGames": {
+				"title": "Mini Games",
+				"desc": "Build a simple game with multiple levels."
+			},
+			"designer": {
+				"title": "UI Designer",
+				"desc": "Design a basic app interface."
+			}
+		}
 	},
 	"explore": {
 		"title": "Explore Projects",
@@ -56,9 +87,12 @@
 		}
 	},
 	"modes": {
-		"block": "Block Coding",
+		"block": "Block Programming",
 		"python": "Python",
-		"js": "JavaScript"
+		"js": "JavaScript",
+		"cpp": "C++",
+		"lua": "Lua",
+		"swift": "Swift"
 	},
 	"editor": {
 		"loading": "Initializing Editor Environment...",
