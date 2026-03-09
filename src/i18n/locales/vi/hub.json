@@ -1,0 +1,89 @@
+{
+	"title": "Tạo Dự Án Mới",
+	"subtitle": "Chọn loại dự án và chế độ lập trình để bắt đầu.",
+	"steps": {
+		"type": "Chọn Loại Dự Án",
+		"mode": "Chọn Chế Độ Lập Trình"
+	},
+	"actions": {
+		"start": "Bắt Đầu Dự Án"
+	},
+	"projectTypes": {
+		"intro": "Cơ Bản",
+		"game": "Thiết Kế Game",
+		"app": "Phát Triển Ứng Dụng",
+		"stem": "STEM & AI",
+		"physics": "Mô Phỏng Vật Lý",
+		"robotics": "Mô Phỏng Robot",
+		"algo": "Thuật Toán"
+	},
+	"modes": {
+		"block": "Lập Trình Kéo Thả",
+		"python": "Python",
+		"js": "JavaScript"
+	},
+	"editor": {
+		"loading": "Đang khởi tạo môi trường lập trình...",
+		"loadingExtension": "Đang tải mở rộng: {{type}}",
+		"blocks": {
+			"title": "Learnwell Blocks",
+			"project": "Dự án: {{type}}",
+			"save": "Lưu",
+			"toolbox": "Khối Lệnh",
+			"categories": {
+				"events": "Sự Kiện",
+				"control": "Điều Khiển",
+				"motion": "Chuyển Động",
+				"looks": "Hiển Thị",
+				"sound": "Âm Thanh",
+				"sensors": "Cảm Biến"
+			},
+			"code": {
+				"whenClicked": "khi nhấn vào",
+				"forever": "liên tục",
+				"moveSteps": "di chuyển 10 bước"
+			},
+			"stage": "Sân Khấu",
+			"actors": "Nhân Vật",
+			"add": "Thêm",
+			"penguin": "Chim Cánh Cụt",
+			"apple": "Quả Táo"
+		},
+		"ide": {
+			"title": "Learnwell IDE",
+			"run": "Chạy Code",
+			"files": "Tệp Tin",
+			"filenames": {
+				"main": "main.{{ext}}",
+				"utils": "utils.{{ext}}",
+				"requirements": "requirements.txt",
+				"package": "package.json"
+			},
+			"tutorial": {
+				"title": "Hướng Dẫn",
+				"gettingStarted": "Bắt Đầu",
+				"welcome": "Chào mừng bạn đến với chế độ Text Editor. Tại đây bạn có thể viết code trực tiếp cho dự án của mình.",
+				"step1": "Xem qua mã nguồn mẫu.",
+				"step2": "Thêm logic tùy chỉnh của bạn.",
+				"step3": "Nhấn Chạy Code ở trên để xem kết quả."
+			},
+			"console": {
+				"title": "Console",
+				"initializing": "đang khởi tạo môi trường... xong.",
+				"loadingFile": "tải src/{{file}}",
+				"ready": "Sẵn sàng thực thi."
+			},
+			"code": {
+				"comment": "# Điểm bắt đầu chính của dự án",
+				"welcome": "Chào mừng đến với Dự án Learnwell: ",
+				"def": "def",
+				"main": "main",
+				"print": "print(",
+				"if": "if",
+				"name": "__name__ ==",
+				"mainModule": "\"__main__\"",
+				"callMain": "main()"
+			}
+		}
+	}
+}

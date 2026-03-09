@@ -1,0 +1,89 @@
+{
+	"title": "Create a New Project",
+	"subtitle": "Select a project type and coding mode to get started.",
+	"steps": {
+		"type": "Select Project Type",
+		"mode": "Choose Coding Mode"
+	},
+	"actions": {
+		"start": "Start Project"
+	},
+	"projectTypes": {
+		"intro": "Intro",
+		"game": "Game Design",
+		"app": "App Development",
+		"stem": "STEM & AI",
+		"physics": "Physics Simulation",
+		"robotics": "Robotics Simulation",
+		"algo": "Algorithm"
+	},
+	"modes": {
+		"block": "Block Coding",
+		"python": "Python",
+		"js": "JavaScript"
+	},
+	"editor": {
+		"loading": "Initializing Editor Environment...",
+		"loadingExtension": "Loading extension: {{type}}",
+		"blocks": {
+			"title": "Learnwell Blocks",
+			"project": "Project: {{type}}",
+			"save": "Save",
+			"toolbox": "Blocks",
+			"categories": {
+				"events": "Events",
+				"control": "Control",
+				"motion": "Motion",
+				"looks": "Looks",
+				"sound": "Sound",
+				"sensors": "Sensors"
+			},
+			"code": {
+				"whenClicked": "when clicked",
+				"forever": "forever",
+				"moveSteps": "move 10 steps"
+			},
+			"stage": "Stage",
+			"actors": "Actors",
+			"add": "Add",
+			"penguin": "Penguin",
+			"apple": "Apple"
+		},
+		"ide": {
+			"title": "Learnwell IDE",
+			"run": "Run Code",
+			"files": "Files",
+			"filenames": {
+				"main": "main.{{ext}}",
+				"utils": "utils.{{ext}}",
+				"requirements": "requirements.txt",
+				"package": "package.json"
+			},
+			"tutorial": {
+				"title": "Tutorial",
+				"gettingStarted": "Getting Started",
+				"welcome": "Welcome to the Text Editor mode. Here you can write native code for your project.",
+				"step1": "Review the starter code.",
+				"step2": "Add your custom logic.",
+				"step3": "Click Run Code above to see the output."
+			},
+			"console": {
+				"title": "Console",
+				"initializing": "initializing environment... done.",
+				"loadingFile": "load src/{{file}}",
+				"ready": "Ready for execution."
+			},
+			"code": {
+				"comment": "# Main entry point for the project",
+				"welcome": "Welcome to Learnwell Project: ",
+				"def": "def",
+				"main": "main",
+				"print": "print(",
+				"if": "if",
+				"name": "__name__ ==",
+				"mainModule": "\"__main__\"",
+				"callMain": "main()"
+			}
+		}
+	}
+}

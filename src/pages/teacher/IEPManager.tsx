@@ -31,7 +31,27 @@ import { Progress } from "@/components/ui/progress";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { cn } from "@/lib/utils";
 
-const MOCK_IEP_STUDENTS = [
+interface IEPGoal {
+    id: number;
+    text: string;
+    status: "completed" | "in-progress" | "pending";
+}
+
+interface IEPStudent {
+    id: string;
+    name: string;
+    class: string;
+    need: string;
+    status: string;
+    lastReview: string;
+    nextReview: string;
+    progress: number;
+    priority: string;
+    goals: IEPGoal[];
+    accommodations: string[];
+}
+
+const MOCK_IEP_STUDENTS: IEPStudent[] = [
     {
         id: "1",
         name: "classroom:mocks.students.an",
@@ -77,7 +97,7 @@ const MOCK_IEP_STUDENTS = [
 
 export default function IEPManager() {
     const { t } = useTranslation();
-    const [selectedStudent, setSelectedStudent] = useState<any>(MOCK_IEP_STUDENTS[0]);
+    const [selectedStudent, setSelectedStudent] = useState<IEPStudent>(MOCK_IEP_STUDENTS[0]);
 
     return (
         <AppLayout>
@@ -86,20 +106,20 @@ export default function IEPManager() {
                 <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
                     <div>
                         <h1 className="text-3xl font-bold tracking-tight bg-gradient-to-r from-red-600 to-rose-600 bg-clip-text text-transparent">
-                            {t("teacher:iepManager.title" as any) as any}
+                            {t("teacher:iepManager.title")}
                         </h1>
                         <p className="text-muted-foreground">
-                            {t("teacher:iepManager.subtitle" as any) as any}
+                            {t("teacher:iepManager.subtitle")}
                         </p>
                     </div>
                     <div className="flex gap-2">
                         <Button variant="outline" size="sm">
                             <Download className="mr-2 h-4 w-4" />
-                            {t("teacher:iepManager.actions.summaryReport" as any) as any}
+                            {t("teacher:iepManager.actions.summaryReport")}
                         </Button>
                         <Button size="sm" className="bg-red-600 hover:bg-red-700">
                             <Plus className="mr-2 h-4 w-4" />
-                            {t("teacher:iepManager.actions.create" as any) as any}
+                            {t("teacher:iepManager.actions.create")}
                         </Button>
                     </div>
                 </div>
@@ -110,12 +130,12 @@ export default function IEPManager() {
                         <div className="flex flex-col md:flex-row gap-4 items-center justify-between bg-white p-4 rounded-xl shadow-sm border">
                             <div className="relative w-full md:w-80">
                                 <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
-                                <Input placeholder={t("teacher:iepManager.filters.searchPlaceholder" as any) as any} className="pl-10" />
+                                <Input placeholder={t("teacher:iepManager.filters.searchPlaceholder")} className="pl-10" />
                             </div>
                             <div className="flex gap-4">
                                 <div className="flex items-center gap-2">
-                                    <span className="text-xs font-bold text-muted-foreground whitespace-nowrap uppercase tracking-widest">{t("teacher:iepManager.filters.sortBy" as any) as any}:</span>
-                                    <Badge variant="outline" className="cursor-pointer bg-slate-50">{t("teacher:iepManager.filters.lastReview" as any) as any}</Badge>
+                                    <span className="text-xs font-bold text-muted-foreground whitespace-nowrap uppercase tracking-widest">{t("teacher:iepManager.filters.sortBy")}:</span>
+                                    <Badge variant="outline" className="cursor-pointer bg-slate-50">{t("teacher:iepManager.filters.lastReview")}</Badge>
                                 </div>
                                 <Button variant="ghost" size="icon"><Filter className="h-4 w-4" /></Button>
                             </div>
@@ -139,8 +159,8 @@ export default function IEPManager() {
                                             <div className="flex-1 space-y-2 min-w-0">
                                                 <div className="flex justify-between items-start">
                                                     <div>
-                                                        <h3 className="font-bold text-base truncate">{student.name.includes(':') ? t(student.name as any) : student.name}</h3>
-                                                        <p className="text-xs text-muted-foreground">{student.class} • <span className="text-[10px] text-muted-foreground">{student.need.includes(':') ? t(student.need as any) : student.need}</span></p>
+                                                        <h3 className="font-bold text-base truncate">{student.name.includes(':') ? t(student.name) : student.name}</h3>
+                                                        <p className="text-xs text-muted-foreground">{student.class} • <span className="text-[10px] text-muted-foreground">{student.need.includes(':') ? t(student.need) : student.need}</span></p>
                                                     </div>
                                                     <Badge variant={student.priority === 'High' ? 'destructive' : 'secondary'} className="text-[9px] py-0 px-1">
                                                         {student.priority}
@@ -148,7 +168,7 @@ export default function IEPManager() {
                                                 </div>
                                                 <div className="space-y-1">
                                                     <div className="flex justify-between text-[10px] font-bold">
-                                                        <span className="text-muted-foreground uppercase">{t("teacher:iepManager.stats.progress" as any) as any}</span>
+                                                        <span className="text-muted-foreground uppercase">{t("teacher:iepManager.stats.progress")}</span>
                                                         <span className="text-red-600">{student.progress}%</span>
                                                     </div>
                                                     <Progress value={student.progress} className="h-1.5" />
@@ -158,7 +178,7 @@ export default function IEPManager() {
                                         <div className="px-5 py-3 bg-slate-50/80 border-t flex justify-between items-center text-[10px] text-muted-foreground font-medium">
                                             <div className="flex items-center gap-1">
                                                 <Clock className="h-3 w-3" />
-                                                <span>{t("teacher:iepManager.stats.nextReview" as any) as any}: {student.nextReview}</span>
+                                                <span>{t("teacher:iepManager.stats.nextReview")}: {student.nextReview}</span>
                                             </div>
                                             <ChevronRight className="h-3 w-3" />
                                         </div>
@@ -173,10 +193,10 @@ export default function IEPManager() {
                                     <div className="flex justify-between items-center">
                                         <CardTitle className="flex items-center gap-2">
                                             <FileText className="h-5 w-5 text-red-600" />
-                                            {t("teacher:iepManager.labels.detail" as any, { name: selectedStudent.name.includes(':') ? t(selectedStudent.name as any) : selectedStudent.name } as any) as any}
+                                            {t("teacher:iepManager.labels.detail", { name: selectedStudent.name.includes(':') ? t(selectedStudent.name) : selectedStudent.name })}
                                         </CardTitle>
                                         <div className="flex gap-2">
-                                            <Button variant="outline" size="sm"><History className="mr-2 h-4 w-4" /> {t("teacher:iepManager.actions.history" as any) as any}</Button>
+                                            <Button variant="outline" size="sm"><History className="mr-2 h-4 w-4" /> {t("teacher:iepManager.actions.history")}</Button>
                                             <Button variant="outline" size="sm"><MoreVertical className="h-4 w-4" /></Button>
                                         </div>
                                     </div>
@@ -184,41 +204,41 @@ export default function IEPManager() {
                                 <CardContent className="p-6">
                                     <Tabs defaultValue="overview">
                                         <TabsList className="mb-6 bg-slate-100 p-1">
-                                            <TabsTrigger value="overview">{t("teacher:iepManager.tabs.overview" as any) as any}</TabsTrigger>
-                                            <TabsTrigger value="goals">{t("teacher:iepManager.tabs.goals" as any) as any} {selectedStudent.goals.length}</TabsTrigger>
-                                            <TabsTrigger value="accommodations">{t("teacher:iepManager.tabs.accommodations" as any) as any} {selectedStudent.accommodations.length}</TabsTrigger>
-                                            <TabsTrigger value="meetings">{t("teacher:iepManager.tabs.meetings" as any) as any}</TabsTrigger>
+                                            <TabsTrigger value="overview">{t("teacher:iepManager.tabs.overview")}</TabsTrigger>
+                                            <TabsTrigger value="goals">{t("teacher:iepManager.tabs.goals")} {selectedStudent.goals.length}</TabsTrigger>
+                                            <TabsTrigger value="accommodations">{t("teacher:iepManager.tabs.accommodations")} {selectedStudent.accommodations.length}</TabsTrigger>
+                                            <TabsTrigger value="meetings">{t("teacher:iepManager.tabs.meetings")}</TabsTrigger>
                                         </TabsList>
 
                                         <TabsContent value="overview" className="space-y-6">
                                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                                                 <div className="space-y-4">
-                                                    <h4 className="text-sm font-bold uppercase tracking-widest text-muted-foreground">{t("teacher:iepManager.labels.generalInfo" as any) as any}</h4>
+                                                    <h4 className="text-sm font-bold uppercase tracking-widest text-muted-foreground">{t("teacher:iepManager.labels.generalInfo")}</h4>
                                                     <div className="space-y-2 text-sm">
                                                         <div className="flex justify-between py-2 border-b">
-                                                            <span className="text-muted-foreground">{t("teacher:iepManager.labels.need" as any) as any}:</span>
-                                                            <span className="font-bold">{selectedStudent.need.includes(':') ? t(selectedStudent.need as any) : selectedStudent.need}</span>
+                                                            <span className="text-muted-foreground">{t("teacher:iepManager.labels.need")}:</span>
+                                                            <span className="font-bold">{selectedStudent.need.includes(':') ? t(selectedStudent.need) : selectedStudent.need}</span>
                                                         </div>
                                                         <div className="flex justify-between py-2 border-b">
-                                                            <span className="text-muted-foreground">{t("teacher:iepManager.labels.startDate" as any) as any}:</span>
+                                                            <span className="text-muted-foreground">{t("teacher:iepManager.labels.startDate")}:</span>
                                                             <span>2025-09-01</span>
                                                         </div>
                                                         <div className="flex justify-between py-2 border-b">
-                                                            <span className="text-muted-foreground">{t("teacher:iepManager.labels.assignedTeacher" as any) as any}:</span>
+                                                            <span className="text-muted-foreground">{t("teacher:iepManager.labels.assignedTeacher")}:</span>
                                                             <span className="font-bold underline decoration-dotted">{t("teacher:iepManager.mock.caseManager")}</span>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div className="space-y-4">
-                                                    <h4 className="text-sm font-bold uppercase tracking-widest text-muted-foreground">{t("teacher:iepManager.labels.mainMetrics" as any) as any}</h4>
+                                                    <h4 className="text-sm font-bold uppercase tracking-widest text-muted-foreground">{t("teacher:iepManager.labels.mainMetrics")}</h4>
                                                     <div className="grid grid-cols-2 gap-4">
                                                         <div className="bg-red-50 p-4 rounded-xl border border-red-100">
                                                             <p className="text-2xl font-bold text-red-700">{selectedStudent.progress}%</p>
-                                                            <p className="text-[10px] text-red-600 font-bold">{t("teacher:iepManager.stats.progress" as any) as any}</p>
+                                                            <p className="text-[10px] text-red-600 font-bold">{t("teacher:iepManager.stats.progress")}</p>
                                                         </div>
                                                         <div className="bg-blue-50 p-4 rounded-xl border border-blue-100">
                                                             <p className="text-2xl font-bold text-blue-700">12</p>
-                                                            <p className="text-[10px] text-blue-600 font-bold">{t("teacher:iepManager.stats.interventions" as any) as any}</p>
+                                                            <p className="text-[10px] text-blue-600 font-bold">{t("teacher:iepManager.stats.interventions")}</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -228,7 +248,7 @@ export default function IEPManager() {
                                                 <div className="flex gap-3">
                                                     <ShieldAlert className="h-5 w-5 text-amber-500 shrink-0" />
                                                     <div className="space-y-1">
-                                                        <p className="text-xs font-bold text-amber-900">{t("teacher:iepManager.stats.criticalObservation" as any) as any}</p>
+                                                        <p className="text-xs font-bold text-amber-900">{t("teacher:iepManager.stats.criticalObservation")}</p>
                                                         <p className="text-xs text-amber-800 italic leading-relaxed">
                                                             {t("teacher:iepManager.mock.strategyNote")}
                                                         </p>
@@ -277,7 +297,7 @@ export default function IEPManager() {
                             <CardHeader className="pb-3 border-b">
                                 <CardTitle className="text-sm font-bold flex items-center gap-2">
                                     <Target className="h-4 w-4 text-red-600" />
-                                    {t("teacher:iepManager.stats.nextReview" as any) as any}
+                                    {t("teacher:iepManager.stats.nextReview")}
                                 </CardTitle>
                             </CardHeader>
                             <CardContent className="p-4 space-y-4">
@@ -287,13 +307,13 @@ export default function IEPManager() {
                                 ].map((meeting, idx) => (
                                     <div key={idx} className="flex justify-between items-center p-2 border-l-2 border-primary bg-primary/5 rounded-r-lg">
                                         <div>
-                                            <p className="text-[10px] font-bold">{meeting.name.includes(':') ? t(meeting.name as any) : meeting.name}</p>
-                                            <p className="text-[8px] text-muted-foreground">{meeting.date} • {t(meeting.type as any)}</p>
+                                            <p className="text-[10px] font-bold">{meeting.name.includes(':') ? t(meeting.name) : meeting.name}</p>
+                                            <p className="text-[8px] text-muted-foreground">{meeting.date} • {t(meeting.type)}</p>
                                         </div>
                                         <Button variant="ghost" size="icon" className="h-6 w-6"><ChevronRight className="h-3 w-3" /></Button>
                                     </div>
                                 ))}
-                                <Button className="w-full bg-slate-900 text-white hover:bg-slate-800 text-xs py-2">{t("teacher:iepManager.actions.create" as any) as any}</Button>
+                                <Button className="w-full bg-slate-900 text-white hover:bg-slate-800 text-xs py-2">{t("teacher:iepManager.actions.create")}</Button>
                             </CardContent>
                         </Card>
 
@@ -301,7 +321,7 @@ export default function IEPManager() {
                             <CardHeader>
                                 <CardTitle className="text-sm font-bold flex items-center gap-2">
                                     <Stethoscope className="h-4 w-4" />
-                                    {t("teacher:iepManager.labels.teamSupport" as any) as any}
+                                    {t("teacher:iepManager.labels.teamSupport")}
                                 </CardTitle>
                             </CardHeader>
                             <CardContent className="p-4 pt-0 space-y-4">
@@ -315,7 +335,7 @@ export default function IEPManager() {
                                     {t("teacher:iepManager.mock.iepTeamDesc")}
                                 </p>
                                 <Button variant="ghost" className="w-full bg-white/10 hover:bg-white/20 text-white border-white/20 text-xs">
-                                    {t("teacher:iepManager.actions.summaryReport" as any) as any}
+                                    {t("teacher:iepManager.actions.summaryReport")}
                                     <ChevronRight className="ml-1 h-3 w-3" />
                                 </Button>
                             </CardContent>
@@ -325,19 +345,19 @@ export default function IEPManager() {
                             <CardHeader>
                                 <CardTitle className="text-sm font-bold flex items-center gap-2">
                                     <TrendingUp className="h-4 w-4 text-primary" />
-                                    {t("teacher:iepManager.labels.interventionResults" as any) as any}
+                                    {t("teacher:iepManager.labels.interventionResults")}
                                 </CardTitle>
                             </CardHeader>
                             <CardContent className="space-y-4">
                                 <div className="text-center">
                                     <p className="text-3xl font-bold">14%</p>
-                                    <p className="text-[10px] text-muted-foreground uppercase font-bold tracking-widest text-primary">
-                                        {t("teacher:iepManager.labels.skillGrowth" as any) as any}
+                                    <p className="text-[10px] text-muted-foreground uppercase font-bold tracking-widest">
+                                        {t("teacher:iepManager.labels.skillGrowth")}
                                     </p>
                                 </div>
                                 <div className="space-y-2">
                                     <div className="flex justify-between text-[10px]">
-                                        <span>{t("teacher:iepManager.labels.lastMonth" as any) as any}</span>
+                                        <span>{t("teacher:iepManager.labels.lastMonth")}</span>
                                         <span className="font-bold">58%</span>
                                     </div>
                                     <Progress value={58} className="h-1" />

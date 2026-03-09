@@ -95,7 +95,7 @@ const TeamSystem = () => {
                     </Badge>
                     <div className="flex items-center gap-1 text-yellow-500 font-bold text-sm">
                         <Star className="w-4 h-4 fill-yellow-500" />
-                        {team.elo} Elo
+                        {team.elo} {t("common:stats.elo" as any)}
                     </div>
                 </div>
             </div>
@@ -151,7 +151,7 @@ const TeamSystem = () => {
                 </div>
 
                 {/* Your Team Dashboard (Mocked for current user in a team) */}
-                <div className="glass-card p-8 bg-gradient-to-br from-card to-background border-border relative overflow-hidden flex flex-col lg:flex-row items-center gap-12 border-2 border-primary/20">
+                <div className="glass-card p-8 bg-gradient-to-br from-card to-background relative overflow-hidden flex flex-col lg:flex-row items-center gap-12 border-2 border-primary/20">
                     <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-primary/10 blur-[100px] rounded-full translate-x-1/2 -translate-y-1/2" />
 
                     <div className="flex flex-col items-center lg:items-start text-center lg:text-left gap-6 z-10">

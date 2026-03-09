@@ -75,6 +75,10 @@ import { AdaptivePractice } from "./pages/code/AdaptivePractice";
 import { EloLeaderboard } from "./pages/contests/EloLeaderboard";
 import { SolutionDetail } from "./pages/code/SolutionDetail";
 import ProjectDetail from "./pages/projects/ProjectDetail";
+import ProjectHub from "./pages/hub/ProjectHub";
+import EditorRedirect from "./pages/hub/EditorRedirect";
+import BlockEditorMock from "./pages/hub/BlockEditorMock";
+import TextEditorMock from "./pages/hub/TextEditorMock";
 
 // Student pages
 import StudentDashboard from "./pages/student/StudentDashboard";
@@ -237,6 +241,12 @@ function App() {
                   <Route path="/interests" element={<InterestSurvey />} />
                   <Route path="/study-groups" element={<StudyGroups />} />
                   <Route path="/social-feed" element={<SocialFeed />} />
+
+                  {/* Hub & Editor Mockups */}
+                  <Route path="/hub" element={<ProjectHub />} />
+                  <Route path="/editor" element={<EditorRedirect />} />
+                  <Route path="/editor/block" element={<BlockEditorMock />} />
+                  <Route path="/editor/text" element={<TextEditorMock />} />
 
                   {/* Learning & Progress */}
                   <Route path="/practice" element={<FeatureRoute path="/practice"><Practice /></FeatureRoute>} />
