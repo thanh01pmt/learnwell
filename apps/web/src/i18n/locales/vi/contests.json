@@ -1,486 +1,708 @@
 {
-  "header": {
-    "title": "Đấu trường Lập trình LearnWell",
-    "subtitle": "Thử thách bản thân, leo hạng Elo và nhận những phần thưởng giá trị từ cộng đồng."
-  },
-  "actions": {
-    "schedule": "Lịch thi đấu",
-    "organize": "Tổ chức cuộc thi",
-    "viewResults": "Xem kết quả",
-    "join": "Tham gia",
-    "run": "Chạy thử",
-    "submit": "Nộp bài",
-    "searchPlaceholder": "Tìm kiếm cuộc thi..."
-  },
-  "search": {
-    "placeholder": "Tìm kiếm cuộc thi..."
-  },
-  "status": {
-    "live": "LIVE",
-    "upcoming": "SẮP TỚI",
-    "ended": "ĐÃ KẾT THÚC",
-    "running": "Đang diễn ra",
-    "endingIn": "Kết thúc trong {{time}}",
-    "startsIn": "Bắt đầu sau {{time}}",
-    "past": "Đã kết thúc"
-  },
-  "difficulty": {
-    "easy": "Dễ",
-    "medium": "Trung bình",
-    "mediumHard": "Trung bình - Khó",
-    "hard": "Khó",
-    "veryHard": "Rất khó"
-  },
-  "card": {
-    "duration": "Thời gian: {{duration}}",
-    "problemsAndDifficulty": "{{count}} bài tập • {{difficulty}}"
-  },
-  "userStats": {
-    "rank": "Hạng của bạn",
-    "weeklyTrend": "+{{count}} vị trí tuần này",
-    "tier": "Bậc: Chuyên gia",
-    "achievements": "Thành tựu",
-    "medals": "{{count}} huy chương vàng"
-  },
-  "arena": {
-    "actions": {
-      "leave": "Rời khỏi",
-      "run": "Chạy thử",
-      "submit": "Nộp bài (Submit)"
-    },
-    "navigation": {
-      "problem": "Bài {{p}}"
-    },
-    "problem": {
-      "example": "Ví dụ {{n}}:",
-      "additionalInfo": "Thông tin bổ sung",
-      "memory": "Bộ nhớ: {{size}}",
-      "timeLimit": "Giới hạn: {{time}}"
-    },
-    "console": {
-      "title": "Console / Output",
-      "compiling": "Đang biên dịch bài tập...",
-      "compileSuccess": "Biên dịch thành công.",
-      "testPass": "Test case vượt qua!",
-      "submitting": "Đang nộp bài cho Hệ thống chấm...",
-      "empty": "Chưa có dữ liệu nào được in ra console. Nhấn 'Chạy thử' để bắt đầu.",
-      "clear": "Xóa"
-    },
-    "footer": {
-      "online": "{{count}} Trực tuyến",
-      "latency": "Độ trễ: {{ms}}ms",
-      "autosave": "Tự động lưu: {{time}} trước",
-      "support": "Trung tâm hỗ trợ"
-    }
-  },
-  "detail": {
-    "back": "Quay lại Đấu trường",
-    "participantsCount": "{{count}} thí sinh đang tham gia",
-    "actions": {
-      "register": "Đăng ký ngay",
-      "enterArena": "Vào thi thôi!",
-      "leaderboard": "Leaderboard"
-    },
-    "tabs": {
-      "overview": "Tổng quan",
-      "rules": "Quy tắc",
-      "problems": "Bài tập",
-      "faq": "FAQ"
-    },
-    "overview": {
-      "descriptionTitle": "Mô tả chi tiết",
-      "pointsStructure": "Cơ cấu điểm",
-      "problemsAndPoints": "{{count}} bài tập • {{pts}} pts",
-      "eloTitle": "Sử dụng Elo",
-      "eloDesc": "Có ảnh hưởng thứ hạng"
-    },
-    "rules": {
-      "title": "Quy tắc thi đấu"
-    },
-    "problems": {
-      "solvedCount": "Số người giải thành công: {{count}}",
-      "pointsMax": "Tối đa",
-      "lockedNote": "Chức năng nộp bài sẽ được mở sau khi bạn đăng ký và bắt đầu thi."
-    },
-    "sidebar": {
-      "countdownTitle": "Cuộc thi kết thúc trong",
-      "hours": "Giờ",
-      "minutes": "Phút",
-      "seconds": "Giây",
-      "organizerTitle": "Ban tổ chức",
-      "notesTitle": "Lưu ý",
-      "notesDesc": "Hãy đảm bảo kết nối internet ổn định trước khi bắt đầu. Thời gian penalty sẽ được tính từ lúc cuộc thi bắt đầu cho đến khi bạn AC.",
-      "helpTitle": "Cần hỗ trợ?",
-      "helpDesc": "Đọc tài liệu hướng dẫn thi đấu",
-      "verifiedMember": "Thành viên đã xác minh"
-    }
-  },
-  "leaderboard": {
-    "title": "Bảng xếp hạng: {{name}}",
-    "subtitle": "Bảng xếp hạng cập nhật theo thời gian thực (Cập nhật {{time}} trước)",
-    "contestantsCount": "{{count}} thí sinh",
-    "table": {
-      "rank": "Hạng",
-      "name": "Thí sinh",
-      "solved": "Số bài giải",
-      "score": "Điểm số",
-      "time": "Thời gian (Hrs)",
-      "trend": "Xu hướng"
-    },
-    "actions": {
-      "viewAll": "Xem toàn bộ bảng xếp hạng"
-    },
-    "stats": {
-      "stability": "Độ ổn định",
-      "submissions": "Lượt nộp bài",
-      "latency": "Thời gian phản hồi",
-      "solvers": "Số người giải hết"
-    },
-    "mockActions": {
-      "fail": "Thất bại",
-      "record": "Kỷ lục",
-      "streak": "Chuỗi thắng"
-    }
-  },
-  "eloLeaderboard": {
-    "header": {
-      "smallTitle": "Bảng xếp hạng ELO Toàn cầu",
-      "title": "Bảng xếp hạng",
-      "subtitle": "Thế thao điện tử",
-      "timerLabel": "Mùa giải Spring 2026 kết thúc sau:",
-      "searchPlaceholder": "Tìm kiếm đối thủ...",
-      "filter": "Bộ lọc"
-    },
-    "table": {
-      "tier": "Bậc",
-      "winRate": "Tỉ lệ thắng"
-    },
-    "sidebar": {
-      "joinTitle": "Tham gia ngay",
-      "joinDesc": "Đăng nhập để xem vị trí của bạn trên bảng xếp hạng và bắt đầu thi đấu cùng cộng đồng.",
-      "loginAction": "Đăng nhập ngay",
-      "progressToTier": "Tiến tới {{tier}}",
-      "ptsToTier": "còn {{pts}} pts",
-      "findMatch": "TÌM TRẬN NGAY ⚔️",
-      "seasonTrends": "Xu hướng mùa giải",
-      "clanTitle": "Gia nhập Clan và thi đấu Tournament!",
-      "clanDesc": "Cơ hội nhận giải thưởng hiện kim lên tới 1,000 Gems mỗi tuần cho Clan dẫn đầu.",
-      "clanActionJoin": "Đăng ký để tham gia",
-      "clanActionView": "Xem giải đấu"
-    },
-    "mock": {
-      "winStreak": "Thắng 2 trận chuỗi",
-      "unluckyLoss": "Thất bại đáng tiếc",
-      "recordBreak": "Phá kỷ lục thời gian"
-    }
-  },
-  "quickMatch": {
-    "lobby": {
-      "smallTitle": "Đấu nhanh 1v1",
-      "title": "Đấu trường Esports",
-      "subtitle": "Đấu trường code 15 phút. Tìm đối thủ cùng đẳng cấp!",
-      "eloRating": "Chỉ số ELO",
-      "difficultyLabel": "Độ khó bài tập",
-      "wins": "Thắng",
-      "losses": "Thua",
-      "startAction": "THỬ THÁCH NGAY",
-      "onlineCount": "{{count}} người chơi đang online"
-    },
-    "searching": {
-      "title": "Đang tìm đối thủ...",
-      "timer": "Thời gian chờ: {{time}}s",
-      "cancel": "Hủy tìm kiếm"
-    },
-    "found": {
-      "title": "Đã tìm thấy đối thủ!",
-      "countdownLabel": "Bắt đầu sau"
-    },
-    "battle": {
-      "remaining": "Còn lại",
-      "runAction": "CHẠY CODE",
-      "mockTyping": "# Đang gõ...",
-      "opponentLabel": "Đối thủ",
-      "mockAction": "Đang tối ưu vòng lặp...",
-      "playerAction": "Bạn vừa pass Test Case #{{num}}",
-      "opponentAction": "Đối thủ vừa pass Test Case #{{num}}",
-      "feedTitle": "Battle Feed",
-      "startFeed": "Trận đấu bắt đầu!"
-    },
-    "results": {
-      "victoryTitle": "CHIẾN THẮNG! 🏆",
-      "defeatTitle": "THẤT BẠI",
-      "victoryDesc": "Bạn đã vượt qua đối thủ trong 7 phút 12 giây.",
-      "newRank": "Thứ hạng mới",
-      "chatAction": "Chat thảo luận",
-      "continueAction": "TIẾP TỤC ⚔️",
-      "youLabel": "Bạn",
-      "opponentName": "Hải Anh"
-    }
-  },
-  "teamBattle": {
-    "lobby": {
-      "smallTitle": "Giải đấu Clan: Mùa 1",
-      "title": "ĐẤU ĐỘI (TIẾP SỨC)",
-      "yourTeamLabel": "Đội của bạn:",
-      "voiceChatAction": "Voice Chat",
-      "inviteMemberAction": "Mời thành viên",
-      "memberCount": "Thành viên ({{current}}/{{max}})",
-      "leaderTag": "TRƯỞNG NHÓM",
-      "readyStatus": "SẴN SÀNG",
-      "waitingStatus": "ĐANG CHỜ...",
-      "waitingForOthers": "Đang chờ người chơi khác tham gia...",
-      "autoStartNote": "Trận đấu sẽ bắt đầu tự động khi tất cả sẵn sàng.",
-      "playAction": "CHƠI NGAY",
-      "chatTitle": "Team Chat",
-      "chatPlaceholder": "Nhắn tin cho team...",
-      "modeTitle": "Chế độ: Tiếp sức",
-      "modeDesc1": "Mỗi người chơi có <strong>5 phút</strong> để code phần của mình.",
-      "modeDesc2": "Người tiếp theo sẽ kế thừa code của người trước đó.",
-      "modeDesc3": "Phần thưởng <strong>LearnCoins & Gems</strong> chia đều cho team.",
-      "rivalTitle": "Đối thủ truyền kiếp",
-      "avgElo": "ELO trung bình:"
-    },
-    "battle": {
-      "liveTag": "LIVE BATTLE",
-      "problemLabel": "Bài tập đội",
-      "yourTurnLabel": "Lượt của bạn: {{name}} 👋",
-      "mockTyping": "# Viết phần xử lý Queue ở đây...",
-      "timeWarningTitle": "SẮP HẾT GIỜ!",
-      "timeWarningDesc": "Còn {{seconds}} giây để bàn giao cho <strong>{{name}}</strong>.",
-      "handoverAction": "BÀN GIAO SỚM",
-      "standingsTitle": "Bảng xếp hạng trận đấu",
-      "aiSuggestionTitle": "GỢI Ý CHIẾN THUẬT AI",
-      "reportLogicError": "Báo lỗi Logic",
-      "suggestAlgorithm": "Gợi ý thuật toán",
-      "intel": "INTEL",
-      "comms": "BÀN BẠC",
-      "quickResponsePlaceholder": "Trả lời nhanh..."
-    },
-    "chat": {
-      "m1": "Xin chào cả đội!",
-      "m2": "Cùng cố gắng nào!"
-    },
-    "chatLobby": {
-      "m1": "Sẵn sàng chưa?",
-      "m2": "Tôi đã sẵn sàng!"
-    },
-    "hint": "Gợi ý",
-    "mock": {
-      "aiSuggestion": "Gợi ý từ AI",
-      "clanName": "Hội lập trình",
-      "phase1": "Giai đoạn 1",
-      "phase2": "Giai đoạn 2",
-      "problemTitle": "Bài toán mẫu",
-      "teamName": "Đội chiến thắng"
-    },
-    "reportError": "Báo lỗi"
-  },
-  "list": {
-    "durationLabel": "Thời lượng",
-    "difficultyLabel": "Độ khó",
-    "prizeLabel": "Phần thưởng",
-    "problemsLabel": "bài tập",
-    "noOngoing": "Hiện không có cuộc thi nào đang diễn ra.",
-    "participantsCountShort": "{{count}} tham gia",
-    "headerSmall": "Cuộc thi Lập trình"
-  },
-  "stats": {
-    "yourRank": "Hạng của bạn",
-    "rankChange": "+{{count}} vị trí tuần này",
-    "rankTrend": "+{{count}} vị trí tuần này",
-    "eloRating": "Rating Elo",
-    "tierLabel": "Bậc",
-    "achievements": "Thành tựu",
-    "goldMedals": "huy chương vàng"
-  },
-  "botArena": {
-    "hero": {
-      "title": "Code -> Conquer 🤖",
-      "subtitle": "Lập trình trí tuệ nhân tạo của bạn, tham gia đấu trường tự động và leo hạng Master.",
-      "desc": "Bot của bạn sẽ thi đấu 24/7 ngay cả khi bạn đang ngủ!",
-      "rankTag": "RANK: GRAND MASTER",
-      "rankValue": "#14 toàn cầu",
-      "smallTitle": "Đấu trường Bot AI"
-    },
-    "tabs": {
-      "lab": "BOT LAB",
-      "tournaments": "TOURNAMENTS",
-      "history": "LỊCH SỬ ĐẤU"
-    },
-    "actions": {
-      "testBot": "TEST BOT"
-    },
-    "lab": {
-      "mockTyping": "# Triển khai lá chắn khi địch ở gần..."
-    },
-    "sidebar": {
-      "assistantTitle": "Trợ lý chiến thuật",
-      "suggestionLabel": "Gợi ý tối ưu",
-      "computePower": "Năng lực tính toán (Mô phỏng)",
-      "recentActivity": "Trận đấu gần đây",
-      "viewAllHistory": "Xem tất cả lịch sử →",
-      "winrate": "Tỉ lệ thắng",
-      "elo": "ELO"
-    },
-    "detail": {
-      "back": "Quay lại",
-      "participantsCount": "{{count}} người tham gia",
-      "actions": {
-        "register": "Đăng ký ngay",
-        "enterArena": "Vào đấu trường"
-      },
-      "tabs": {
-        "overview": "Tổng quan",
-        "rules": "Quy tắc",
-        "problems": "Bài tập",
-        "faq": "Hỏi đáp"
-      },
-      "overview": {
-        "descriptionTitle": "Mô tả cuộc thi",
-        "pointsStructure": "Cơ cấu điểm số",
-        "problemsAndPoints": "{{count}} bài tập - {{pts}} điểm",
-        "eloTitle": "Rating Elo",
-        "eloDesc": "Tính điểm xếp hạng"
-      },
-      "rules": {
-        "title": "Quy tắc & Điều khoản"
-      },
-      "problems": {
-        "solvedCount": "{{count}} người đã giải",
-        "pointsMax": "ĐIỂM TỐI ĐA",
-        "lockedNote": "Danh sách bài tập sẽ hiển thị khi cuộc thi bắt đầu."
-      },
-      "sidebar": {
-        "countdownTitle": "THỜI GIAN CÒN LẠI",
-        "hours": "Giờ",
-        "minutes": "Phút",
-        "seconds": "Giây",
-        "organizerTitle": "ĐƠN VỊ TỔ CHỨC",
-        "verifiedMember": "Thành viên Học viện Sắc sảo",
-        "notesTitle": "Lưu ý quan trọng",
-        "notesDesc": "Vui lòng kiểm tra kết nối internet trước khi bắt đầu bài thi.",
-        "helpTitle": "Hỗ trợ nhanh",
-        "helpDesc": "Gặp sự cố? Liên hệ Mentor ngay"
-      }
-    },
-    "tournaments": {
-      "prizeLabel": "Phần thưởng:",
-      "entryLabel": "Lệ phí:",
-      "registerAction": "Đăng ký ngay",
-      "viewAction": "Xem diễn biến",
-      "mock": {
-        "free": "Miễn phí",
-        "level10": "Cấp 10+",
-        "exclusiveBadge": "Huy hiệu độc quyền"
-      },
-      "teamBattle": {
-        "hint": "Gợi ý",
-        "reportError": "Báo lỗi",
-        "chat": {
-          "m1": "Xin chào!",
-          "m2": "Cố lên!"
-        },
-        "chatBattle": {
-          "m1": "Đang tấn công!",
-          "m2": "Phòng thủ ngay!"
-        },
-        "mock": {
-          "teamName": "Đội vô địch",
-          "problemTitle": "Thử thách thuật toán",
-          "opponent1": "Đại cao thủ",
-          "opponent2": "Ẩn sĩ",
-          "opponent3": "Chiến binh",
-          "clanName": "Biệt đội Code",
-          "phase1": "Tăng tốc",
-          "phase2": "Về đích",
-          "aiSuggestion": "Linh tính AI"
-        }
-      }
-    },
-    "footer": {
-      "leaderboardTitle": "Bảng xếp hạng Bot Toàn cầu",
-      "leaderboardDesc": "Bạn đang ở Top 1% các nhà kiến tạo AI 🚀",
-      "seasonResults": "Thành tích mùa này",
-      "rankingAction": "THEO DÕI RANKING"
-    },
-    "teamBattle": {
-      "hint": "Gợi ý",
-      "reportError": "Báo lỗi",
-      "chatLobby": {
-        "m1": "Sẵn sàng chưa?",
-        "m2": "Tôi đã sẵn sàng!"
-      },
-      "chat": {
-        "m1": "Xin chào cả đội!",
-        "m2": "Cùng cố gắng nào!"
-      },
-      "mock": {
-        "teamName": "Đội chiến thắng",
-        "problemTitle": "Bài toán mẫu",
-        "opponent1": "Đối thủ 1",
-        "opponent2": "Đối thủ 2",
-        "opponent3": "Đối thủ 3",
-        "clanName": "Hội lập trình",
-        "phase1": "Giai đoạn 1",
-        "phase2": "Giai đoạn 2",
-        "aiSuggestion": "Gợi ý từ AI"
-      }
-    },
-    "leaderboard": {
-      "mockActions": {
-        "streak": "Thắng 2 trận chuỗi",
-        "fail": "Thất bại đáng tiếc",
-        "record": "Phá kỷ lục thời gian"
-      }
-    },
-    "mock": {
-      "assistantSuggestion": "Gợi ý từ trợ lý AI"
-    }
-  },
-  "mock": {
-    "title1": "Spring Code Challenge 2026",
-    "duration3h": "3 giờ",
-    "prize1": "Chứng chỉ + 500 LearnCoins",
-    "problemTitle1": "Hai số tổng",
-    "problemDesc1": "Cho một mảng các số nguyên <code className=\"bg-muted px-1 rounded\">nums</code> và một số nguyên <code className=\"bg-muted px-1 rounded\">target</code>. Hãy trả về chỉ số của hai số sao cho tổng của chúng bằng <code className=\"bg-muted px-1 rounded\">target</code>. Bạn có thể giả định rằng mỗi đầu vào sẽ có chính xác một lời giải, và bạn không được sử dụng cùng một phần tử hai lần.",
-    "explanation1": "Giải thích: Vì nums[0] + nums[1] == 9, chúng ta trả về [0, 1].",
-    "weeklyChallenge42": "Thử thách Tuần #42",
-    "weeklyChallengeDesc": "Thử thách lập trình hàng tuần",
-    "teamBattleAlgoArena": "Quyết chiến Algorithm Arena",
-    "teamBattle3People": "Thi đấu theo đội 3 người",
-    "duration48h": "48 giờ",
-    "difficultyEasyHard": "Dễ - Khó",
-    "problemDescSpring": "Chào mừng bạn đến với Spring Code Challenge 2026! Đây là cuộc thi lập trình quy mô lớn nhất trong năm nhằm tìm kiếm các tài năng thuật toán trẻ.",
-    "rules": [
-      "Mỗi bài tập chỉ có một lời giải đúng duy nhất.",
-      "Bạn có thể sử dụng Python, Java hoặc JavaScript.",
-      "Mọi hành vi gian lận (copy code) sẽ bị loại ngay lập tức.",
-      "Leaderboard sẽ được cập nhật theo thời gian thực.",
-      "Bất kỳ thắc mắc nào hãy gửi về hòm thư hỗ trợ."
-    ],
-    "organizerName": "Hội lập trình LearnWell",
-    "endTimeStartsIn7d": "Bắt đầu sau: 7 ngày",
-    "duration24h": "24 giờ",
-    "duration1_5h": "1.5 giờ",
-    "difficultyVeryHard": "Rất khó",
-    "prize3": "500.000 VNĐ + Cúp",
-    "prize4": "LearnCoins",
-    "startTimeOngoing": "Bắt đầu: 08:00, hôm nay",
-    "endTimeFinishIn": "Kết thúc sau: {{time}}",
-    "endTimeStartsIn": "Bắt đầu sau: {{time}} ngày",
-    "duration2h": "2 giờ",
-    "difficultyMediumHard": "Trung bình - Khó",
-    "difficultyEasy": "Cơ bản",
-    "prize2": "Huy hiệu + 200 LearnCoins"
-  },
-  "elo": {
-    "tiers": {
-      "expert": "Chuyên gia"
-    }
-  },
-  "tabs": {
-    "ongoing": "Đang diễn ra",
-    "past": "Đã kết thúc",
-    "upcoming": "Sắp tới"
-  }
+	"header": {
+		"title": "Đấu trường Lập trình LearnWell",
+		"subtitle": "Thử thách bản thân, leo hạng Elo và nhận những phần thưởng giá trị từ cộng đồng."
+	},
+	"actions": {
+		"schedule": "Lịch thi đấu",
+		"organize": "Tổ chức cuộc thi",
+		"viewResults": "Xem kết quả",
+		"join": "Tham gia",
+		"run": "Chạy thử",
+		"submit": "Nộp bài",
+		"searchPlaceholder": "Tìm kiếm cuộc thi..."
+	},
+	"search": {
+		"placeholder": "Tìm kiếm cuộc thi..."
+	},
+	"status": {
+		"live": "LIVE",
+		"upcoming": "SẮP TỚI",
+		"ended": "ĐÃ KẾT THÚC",
+		"running": "Đang diễn ra",
+		"endingIn": "Kết thúc trong {{time}}",
+		"startsIn": "Bắt đầu sau {{time}}",
+		"past": "Đã kết thúc"
+	},
+	"difficulty": {
+		"easy": "Dễ",
+		"medium": "Trung bình",
+		"mediumHard": "Trung bình - Khó",
+		"hard": "Khó",
+		"veryHard": "Rất khó"
+	},
+	"card": {
+		"duration": "Thời gian: {{duration}}",
+		"problemsAndDifficulty": "{{count}} bài tập • {{difficulty}}"
+	},
+	"userStats": {
+		"rank": "Hạng của bạn",
+		"weeklyTrend": "+{{count}} vị trí tuần này",
+		"tier": "Bậc: Chuyên gia",
+		"achievements": "Thành tựu",
+		"medals": "{{count}} huy chương vàng"
+	},
+	"arena": {
+		"actions": {
+			"leave": "Rời khỏi",
+			"run": "Chạy thử",
+			"submit": "Nộp bài (Submit)"
+		},
+		"navigation": {
+			"problem": "Bài {{p}}"
+		},
+		"problem": {
+			"example": "Ví dụ {{n}}:",
+			"additionalInfo": "Thông tin bổ sung",
+			"memory": "Bộ nhớ: {{size}}",
+			"timeLimit": "Giới hạn: {{time}}"
+		},
+		"console": {
+			"title": "Console / Output",
+			"compiling": "Đang biên dịch bài tập...",
+			"compileSuccess": "Biên dịch thành công.",
+			"testPass": "Test case vượt qua!",
+			"submitting": "Đang nộp bài cho Hệ thống chấm...",
+			"empty": "Chưa có dữ liệu nào được in ra console. Nhấn 'Chạy thử' để bắt đầu.",
+			"clear": "Xóa"
+		},
+		"footer": {
+			"online": "{{count}} Trực tuyến",
+			"latency": "Độ trễ: {{ms}}ms",
+			"autosave": "Tự động lưu: {{time}} trước",
+			"support": "Trung tâm hỗ trợ"
+		}
+	},
+	"detail": {
+		"back": "Quay lại Đấu trường",
+		"participantsCount": "{{count}} thí sinh đang tham gia",
+		"actions": {
+			"register": "Đăng ký ngay",
+			"enterArena": "Vào thi thôi!",
+			"leaderboard": "Leaderboard"
+		},
+		"tabs": {
+			"overview": "Tổng quan",
+			"rules": "Quy tắc",
+			"problems": "Bài tập",
+			"faq": "FAQ"
+		},
+		"overview": {
+			"descriptionTitle": "Mô tả chi tiết",
+			"pointsStructure": "Cơ cấu điểm",
+			"problemsAndPoints": "{{count}} bài tập • {{pts}} pts",
+			"eloTitle": "Sử dụng Elo",
+			"eloDesc": "Có ảnh hưởng thứ hạng"
+		},
+		"rules": {
+			"title": "Quy tắc thi đấu"
+		},
+		"problems": {
+			"solvedCount": "Số người giải thành công: {{count}}",
+			"pointsMax": "Tối đa",
+			"lockedNote": "Chức năng nộp bài sẽ được mở sau khi bạn đăng ký và bắt đầu thi."
+		},
+		"sidebar": {
+			"countdownTitle": "Cuộc thi kết thúc trong",
+			"hours": "Giờ",
+			"minutes": "Phút",
+			"seconds": "Giây",
+			"organizerTitle": "Ban tổ chức",
+			"notesTitle": "Lưu ý",
+			"notesDesc": "Hãy đảm bảo kết nối internet ổn định trước khi bắt đầu. Thời gian penalty sẽ được tính từ lúc cuộc thi bắt đầu cho đến khi bạn AC.",
+			"helpTitle": "Cần hỗ trợ?",
+			"helpDesc": "Đọc tài liệu hướng dẫn thi đấu",
+			"verifiedMember": "Thành viên đã xác minh"
+		}
+	},
+	"leaderboard": {
+		"title": "Bảng xếp hạng: {{name}}",
+		"subtitle": "Bảng xếp hạng cập nhật theo thời gian thực (Cập nhật {{time}} trước)",
+		"contestantsCount": "{{count}} thí sinh",
+		"table": {
+			"rank": "Hạng",
+			"name": "Thí sinh",
+			"solved": "Số bài giải",
+			"score": "Điểm số",
+			"time": "Thời gian (Hrs)",
+			"trend": "Xu hướng"
+		},
+		"actions": {
+			"viewAll": "Xem toàn bộ bảng xếp hạng"
+		},
+		"stats": {
+			"stability": "Độ ổn định",
+			"submissions": "Lượt nộp bài",
+			"latency": "Thời gian phản hồi",
+			"solvers": "Số người giải hết"
+		},
+		"mockActions": {
+			"fail": "Thất bại",
+			"record": "Kỷ lục",
+			"streak": "Chuỗi thắng"
+		}
+	},
+	"eloLeaderboard": {
+		"header": {
+			"smallTitle": "Bảng xếp hạng ELO Toàn cầu",
+			"title": "Bảng xếp hạng",
+			"subtitle": "Thế thao điện tử",
+			"timerLabel": "Mùa giải Spring 2026 kết thúc sau:",
+			"searchPlaceholder": "Tìm kiếm đối thủ...",
+			"filter": "Bộ lọc"
+		},
+		"table": {
+			"tier": "Bậc",
+			"winRate": "Tỉ lệ thắng"
+		},
+		"sidebar": {
+			"joinTitle": "Tham gia ngay",
+			"joinDesc": "Đăng nhập để xem vị trí của bạn trên bảng xếp hạng và bắt đầu thi đấu cùng cộng đồng.",
+			"loginAction": "Đăng nhập ngay",
+			"progressToTier": "Tiến tới {{tier}}",
+			"ptsToTier": "còn {{pts}} pts",
+			"findMatch": "TÌM TRẬN NGAY ⚔️",
+			"seasonTrends": "Xu hướng mùa giải",
+			"clanTitle": "Gia nhập Clan và thi đấu Tournament!",
+			"clanDesc": "Cơ hội nhận giải thưởng hiện kim lên tới 1,000 Gems mỗi tuần cho Clan dẫn đầu.",
+			"clanActionJoin": "Đăng ký để tham gia",
+			"clanActionView": "Xem giải đấu"
+		},
+		"mock": {
+			"winStreak": "Thắng 2 trận chuỗi",
+			"unluckyLoss": "Thất bại đáng tiếc",
+			"recordBreak": "Phá kỷ lục thời gian"
+		}
+	},
+	"quickMatch": {
+		"lobby": {
+			"smallTitle": "Đấu nhanh 1v1",
+			"title": "Đấu trường Esports",
+			"subtitle": "Đấu trường code 15 phút. Tìm đối thủ cùng đẳng cấp!",
+			"eloRating": "Chỉ số ELO",
+			"difficultyLabel": "Độ khó bài tập",
+			"wins": "Thắng",
+			"losses": "Thua",
+			"startAction": "THỬ THÁCH NGAY",
+			"onlineCount": "{{count}} người chơi đang online"
+		},
+		"searching": {
+			"title": "Đang tìm đối thủ...",
+			"timer": "Thời gian chờ: {{time}}s",
+			"cancel": "Hủy tìm kiếm"
+		},
+		"found": {
+			"title": "Đã tìm thấy đối thủ!",
+			"countdownLabel": "Bắt đầu sau"
+		},
+		"battle": {
+			"remaining": "Còn lại",
+			"runAction": "CHẠY CODE",
+			"mockTyping": "# Đang gõ...",
+			"opponentLabel": "Đối thủ",
+			"mockAction": "Đang tối ưu vòng lặp...",
+			"playerAction": "Bạn vừa pass Test Case #{{num}}",
+			"opponentAction": "Đối thủ vừa pass Test Case #{{num}}",
+			"feedTitle": "Battle Feed",
+			"startFeed": "Trận đấu bắt đầu!"
+		},
+		"results": {
+			"victoryTitle": "CHIẾN THẮNG! 🏆",
+			"defeatTitle": "THẤT BẠI",
+			"victoryDesc": "Bạn đã vượt qua đối thủ trong 7 phút 12 giây.",
+			"newRank": "Thứ hạng mới",
+			"chatAction": "Chat thảo luận",
+			"continueAction": "TIẾP TỤC ⚔️",
+			"youLabel": "Bạn",
+			"opponentName": "Hải Anh"
+		}
+	},
+	"teamBattle": {
+		"lobby": {
+			"smallTitle": "Giải đấu Clan: Mùa 1",
+			"title": "ĐẤU ĐỘI (TIẾP SỨC)",
+			"yourTeamLabel": "Đội của bạn:",
+			"voiceChatAction": "Voice Chat",
+			"inviteMemberAction": "Mời thành viên",
+			"memberCount": "Thành viên ({{current}}/{{max}})",
+			"leaderTag": "TRƯỞNG NHÓM",
+			"readyStatus": "SẴN SÀNG",
+			"waitingStatus": "ĐANG CHỜ...",
+			"waitingForOthers": "Đang chờ người chơi khác tham gia...",
+			"autoStartNote": "Trận đấu sẽ bắt đầu tự động khi tất cả sẵn sàng.",
+			"playAction": "CHƠI NGAY",
+			"chatTitle": "Team Chat",
+			"chatPlaceholder": "Nhắn tin cho team...",
+			"modeTitle": "Chế độ: Tiếp sức",
+			"modeDesc1": "Mỗi người chơi có <strong>5 phút</strong> để code phần của mình.",
+			"modeDesc2": "Người tiếp theo sẽ kế thừa code của người trước đó.",
+			"modeDesc3": "Phần thưởng <strong>LearnCoins & Gems</strong> chia đều cho team.",
+			"rivalTitle": "Đối thủ truyền kiếp",
+			"avgElo": "ELO trung bình:"
+		},
+		"battle": {
+			"liveTag": "LIVE BATTLE",
+			"problemLabel": "Bài tập đội",
+			"yourTurnLabel": "Lượt của bạn: {{name}} 👋",
+			"mockTyping": "# Viết phần xử lý Queue ở đây...",
+			"timeWarningTitle": "SẮP HẾT GIỜ!",
+			"timeWarningDesc": "Còn {{seconds}} giây để bàn giao cho <strong>{{name}}</strong>.",
+			"handoverAction": "BÀN GIAO SỚM",
+			"standingsTitle": "Bảng xếp hạng trận đấu",
+			"aiSuggestionTitle": "GỢI Ý CHIẾN THUẬT AI",
+			"reportLogicError": "Báo lỗi Logic",
+			"suggestAlgorithm": "Gợi ý thuật toán",
+			"intel": "INTEL",
+			"comms": "BÀN BẠC",
+			"quickResponsePlaceholder": "Trả lời nhanh..."
+		},
+		"chat": {
+			"m1": "Xin chào cả đội!",
+			"m2": "Cùng cố gắng nào!"
+		},
+		"chatLobby": {
+			"m1": "Sẵn sàng chưa?",
+			"m2": "Tôi đã sẵn sàng!"
+		},
+		"hint": "Gợi ý",
+		"mock": {
+			"aiSuggestion": "Gợi ý từ AI",
+			"clanName": "Hội lập trình",
+			"phase1": "Giai đoạn 1",
+			"phase2": "Giai đoạn 2",
+			"problemTitle": "Bài toán mẫu",
+			"teamName": "Đội chiến thắng"
+		},
+		"reportError": "Báo lỗi"
+	},
+	"list": {
+		"durationLabel": "Thời lượng",
+		"difficultyLabel": "Độ khó",
+		"prizeLabel": "Phần thưởng",
+		"problemsLabel": "bài tập",
+		"noOngoing": "Hiện không có cuộc thi nào đang diễn ra.",
+		"participantsCountShort": "{{count}} tham gia",
+		"headerSmall": "Cuộc thi Lập trình"
+	},
+	"stats": {
+		"yourRank": "Hạng của bạn",
+		"rankChange": "+{{count}} vị trí tuần này",
+		"rankTrend": "+{{count}} vị trí tuần này",
+		"eloRating": "Rating Elo",
+		"tierLabel": "Bậc",
+		"achievements": "Thành tựu",
+		"goldMedals": "huy chương vàng"
+	},
+	"botArena": {
+		"hero": {
+			"title": "Code -> Conquer 🤖",
+			"subtitle": "Lập trình trí tuệ nhân tạo của bạn, tham gia đấu trường tự động và leo hạng Master.",
+			"desc": "Bot của bạn sẽ thi đấu 24/7 ngay cả khi bạn đang ngủ!",
+			"rankTag": "RANK: GRAND MASTER",
+			"rankValue": "#14 toàn cầu",
+			"smallTitle": "Đấu trường Bot AI"
+		},
+		"tabs": {
+			"lab": "BOT LAB",
+			"tournaments": "TOURNAMENTS",
+			"history": "LỊCH SỬ ĐẤU"
+		},
+		"actions": {
+			"testBot": "TEST BOT"
+		},
+		"lab": {
+			"mockTyping": "# Triển khai lá chắn khi địch ở gần..."
+		},
+		"sidebar": {
+			"assistantTitle": "Trợ lý chiến thuật",
+			"suggestionLabel": "Gợi ý tối ưu",
+			"computePower": "Năng lực tính toán (Mô phỏng)",
+			"recentActivity": "Trận đấu gần đây",
+			"viewAllHistory": "Xem tất cả lịch sử →",
+			"winrate": "Tỉ lệ thắng",
+			"elo": "ELO"
+		},
+		"detail": {
+			"back": "Quay lại",
+			"participantsCount": "{{count}} người tham gia",
+			"actions": {
+				"register": "Đăng ký ngay",
+				"enterArena": "Vào đấu trường"
+			},
+			"tabs": {
+				"overview": "Tổng quan",
+				"rules": "Quy tắc",
+				"problems": "Bài tập",
+				"faq": "Hỏi đáp"
+			},
+			"overview": {
+				"descriptionTitle": "Mô tả cuộc thi",
+				"pointsStructure": "Cơ cấu điểm số",
+				"problemsAndPoints": "{{count}} bài tập - {{pts}} điểm",
+				"eloTitle": "Rating Elo",
+				"eloDesc": "Tính điểm xếp hạng"
+			},
+			"rules": {
+				"title": "Quy tắc & Điều khoản"
+			},
+			"problems": {
+				"solvedCount": "{{count}} người đã giải",
+				"pointsMax": "ĐIỂM TỐI ĐA",
+				"lockedNote": "Danh sách bài tập sẽ hiển thị khi cuộc thi bắt đầu."
+			},
+			"sidebar": {
+				"countdownTitle": "THỜI GIAN CÒN LẠI",
+				"hours": "Giờ",
+				"minutes": "Phút",
+				"seconds": "Giây",
+				"organizerTitle": "ĐƠN VỊ TỔ CHỨC",
+				"verifiedMember": "Thành viên Học viện Sắc sảo",
+				"notesTitle": "Lưu ý quan trọng",
+				"notesDesc": "Vui lòng kiểm tra kết nối internet trước khi bắt đầu bài thi.",
+				"helpTitle": "Hỗ trợ nhanh",
+				"helpDesc": "Gặp sự cố? Liên hệ Mentor ngay"
+			}
+		},
+		"tournaments": {
+			"prizeLabel": "Phần thưởng:",
+			"entryLabel": "Lệ phí:",
+			"registerAction": "Đăng ký ngay",
+			"viewAction": "Xem diễn biến",
+			"mock": {
+				"free": "Miễn phí",
+				"level10": "Cấp 10+",
+				"exclusiveBadge": "Huy hiệu độc quyền"
+			},
+			"teamBattle": {
+				"hint": "Gợi ý",
+				"reportError": "Báo lỗi",
+				"chat": {
+					"m1": "Xin chào!",
+					"m2": "Cố lên!"
+				},
+				"chatBattle": {
+					"m1": "Đang tấn công!",
+					"m2": "Phòng thủ ngay!"
+				},
+				"mock": {
+					"teamName": "Đội vô địch",
+					"problemTitle": "Thử thách thuật toán",
+					"opponent1": "Đại cao thủ",
+					"opponent2": "Ẩn sĩ",
+					"opponent3": "Chiến binh",
+					"clanName": "Biệt đội Code",
+					"phase1": "Tăng tốc",
+					"phase2": "Về đích",
+					"aiSuggestion": "Linh tính AI"
+				}
+			}
+		},
+		"footer": {
+			"leaderboardTitle": "Bảng xếp hạng Bot Toàn cầu",
+			"leaderboardDesc": "Bạn đang ở Top 1% các nhà kiến tạo AI 🚀",
+			"seasonResults": "Thành tích mùa này",
+			"rankingAction": "THEO DÕI RANKING"
+		},
+		"teamBattle": {
+			"hint": "Gợi ý",
+			"reportError": "Báo lỗi",
+			"chatLobby": {
+				"m1": "Sẵn sàng chưa?",
+				"m2": "Tôi đã sẵn sàng!"
+			},
+			"chat": {
+				"m1": "Xin chào cả đội!",
+				"m2": "Cùng cố gắng nào!"
+			},
+			"mock": {
+				"teamName": "Đội chiến thắng",
+				"problemTitle": "Bài toán mẫu",
+				"opponent1": "Đối thủ 1",
+				"opponent2": "Đối thủ 2",
+				"opponent3": "Đối thủ 3",
+				"clanName": "Hội lập trình",
+				"phase1": "Giai đoạn 1",
+				"phase2": "Giai đoạn 2",
+				"aiSuggestion": "Gợi ý từ AI"
+			}
+		},
+		"leaderboard": {
+			"mockActions": {
+				"streak": "Thắng 2 trận chuỗi",
+				"fail": "Thất bại đáng tiếc",
+				"record": "Phá kỷ lục thời gian"
+			}
+		},
+		"mock": {
+			"assistantSuggestion": "Gợi ý từ trợ lý AI"
+		}
+	},
+	"mock": {
+		"title1": "Spring Code Challenge 2026",
+		"duration3h": "3 giờ",
+		"prize1": "Chứng chỉ + 500 LearnCoins",
+		"problemTitle1": "Hai số tổng",
+		"problemDesc1": "Cho một mảng các số nguyên <code className=\"bg-muted px-1 rounded\">nums</code> và một số nguyên <code className=\"bg-muted px-1 rounded\">target</code>. Hãy trả về chỉ số của hai số sao cho tổng của chúng bằng <code className=\"bg-muted px-1 rounded\">target</code>. Bạn có thể giả định rằng mỗi đầu vào sẽ có chính xác một lời giải, và bạn không được sử dụng cùng một phần tử hai lần.",
+		"explanation1": "Giải thích: Vì nums[0] + nums[1] == 9, chúng ta trả về [0, 1].",
+		"weeklyChallenge42": "Thử thách Tuần #42",
+		"weeklyChallengeDesc": "Thử thách lập trình hàng tuần",
+		"teamBattleAlgoArena": "Quyết chiến Algorithm Arena",
+		"teamBattle3People": "Thi đấu theo đội 3 người",
+		"duration48h": "48 giờ",
+		"difficultyEasyHard": "Dễ - Khó",
+		"problemDescSpring": "Chào mừng bạn đến với Spring Code Challenge 2026! Đây là cuộc thi lập trình quy mô lớn nhất trong năm nhằm tìm kiếm các tài năng thuật toán trẻ.",
+		"rules": [
+			"Mỗi bài tập chỉ có một lời giải đúng duy nhất.",
+			"Bạn có thể sử dụng Python, Java hoặc JavaScript.",
+			"Mọi hành vi gian lận (copy code) sẽ bị loại ngay lập tức.",
+			"Leaderboard sẽ được cập nhật theo thời gian thực.",
+			"Bất kỳ thắc mắc nào hãy gửi về hòm thư hỗ trợ."
+		],
+		"organizerName": "Hội lập trình LearnWell",
+		"endTimeStartsIn7d": "Bắt đầu sau: 7 ngày",
+		"duration24h": "24 giờ",
+		"duration1_5h": "1.5 giờ",
+		"difficultyVeryHard": "Rất khó",
+		"prize3": "500.000 VNĐ + Cúp",
+		"prize4": "LearnCoins",
+		"startTimeOngoing": "Bắt đầu: 08:00, hôm nay",
+		"endTimeFinishIn": "Kết thúc sau: {{time}}",
+		"endTimeStartsIn": "Bắt đầu sau: {{time}} ngày",
+		"duration2h": "2 giờ",
+		"difficultyMediumHard": "Trung bình - Khó",
+		"difficultyEasy": "Cơ bản",
+		"prize2": "Huy hiệu + 200 LearnCoins"
+	},
+	"elo": {
+		"tiers": {
+			"expert": "Chuyên gia"
+		}
+	},
+	"tabs": {
+		"ongoing": "Đang diễn ra",
+		"past": "Đã kết thúc",
+		"upcoming": "Sắp tới"
+	},
+	"management": {
+		"title": "Quản lý Cuộc thi",
+		"list": {
+			"title": "Tất cả cuộc thi",
+			"importJson": "Import JSON",
+			"createContest": "Tạo cuộc thi",
+			"noContests": "Chưa có cuộc thi nào. Hãy tạo cuộc thi đầu tiên.",
+			"table": {
+				"name": "Tên cuộc thi",
+				"code": "Mã tham gia",
+				"status": "Trạng thái",
+				"rounds": "Số vòng",
+				"boards": "Số cụm",
+				"date": "Ngày tạo",
+				"actions": "Thao tác"
+			},
+			"status": {
+				"active": "Đang thi",
+				"scheduled": "Lên lịch",
+				"lobby": "Trong sảnh",
+				"draft": "Nháp",
+				"ended": "Kết thúc",
+				"selectPlaceholder": "Chọn trạng thái"
+			}
+		},
+		"editor": {
+			"basicInfo": "Thông tin cơ bản",
+			"basicInfoDesc": "Cấu hình tên, mô tả và trạng thái vận hành của cuộc thi.",
+			"titleLabel": "Tên cuộc thi",
+			"descLabel": "Mô tả chi tiết",
+			"statusLabel": "Trạng thái vận hành",
+			"codeLabel": "Mã tham gia (Short Code)",
+			"rulesLabel": "Quy định & Tính điểm",
+			"rulesDesc": "Thiết lập luật chơi và cách thức chấm điểm cho toàn cuộc thi.",
+			"scoringLabel": "Chế độ tính điểm",
+			"scoringModePlaceholder": "Chọn chế độ",
+			"scoring": {
+				"highest": "Điểm cao nhất",
+				"latest": "Lần nộp cuối"
+			},
+			"hiddenTestCases": "Hiển thị Hidden Test Cases",
+			"hiddenTestCasesDesc": "Thí sinh có thể xem kết quả của các bộ test ẩn sau khi nộp bài.",
+			"saveChanges": "Lưu thay đổi",
+			"saving": "Đang lưu...",
+			"exportJson": "Export JSON"
+		},
+		"rounds": {
+			"title": "Cấu trúc Vòng thi",
+			"subtitle": "Quản lý các giai đoạn thi đấu trong cuộc thi này.",
+			"add": "Thêm vòng thi",
+			"label": "Vòng {{index}}",
+			"startAt": "Bắt đầu: {{time}}",
+			"endAt": "Kết thúc: {{time}}",
+			"status": {
+				"ongoing": "Đang diễn ra",
+				"ended": "Đã kết thúc",
+				"upcoming": "Sắp tới",
+				"draft": "Bản nháp"
+			},
+			"r1": "Vòng loại - Trực tuyến",
+			"r2": "Vòng bán kết - Tập trung",
+			"r3": "Vòng chung kết"
+		},
+		"boards": {
+			"title": "Quản lý Cụm thi (Boards)",
+			"subtitle": "Phân chia thí sinh vào các cụm thi để dễ dàng quản lý và giám sát.",
+			"add": "Thêm cụm mới",
+			"public": "Công khai",
+			"private": "Nội bộ",
+			"participantCount": "{{count}} thí sinh",
+			"manageParticipants": "Quản lý thí sinh",
+			"exportCodes": "Xuất mã tham gia",
+			"delete": "Xóa cụm thi",
+			"b1": "Cụm thi Miền Bắc",
+			"b2": "Cụm thi Miền Trung",
+			"b3": "Cụm thi Miền Nam"
+		},
+		"accounts": {
+			"generateTitle": "Sinh tài khoản tự động",
+			"generateDesc": "Khởi tạo hàng loạt tài khoản cho thí sinh tham gia.",
+			"prefix": "Tiền tố (Prefix)",
+			"count": "Số lượng",
+			"preview": "Xem trước Danh sách (Preview)",
+			"saveDb": "Xác nhận & Lưu Database",
+			"saving": "Đang xử lý...",
+			"cancel": "Hủy bỏ",
+			"distributionTitle": "Phân phối Cụm thi (Board)",
+			"distributionDesc": "Gán thí sinh đã đăng ký vào các cụm thi cụ thể.",
+			"targetRound": "Vòng thi mục tiêu",
+			"assigning": "Đang gán...",
+			"assignAll": "Gán TẤT CẢ thí sinh vào cụm này",
+			"dbStats": "Cơ sở dữ liệu: {{count}} thí sinh",
+			"title": "Danh sách Thí sinh",
+			"search": "Tìm tài khoản...",
+			"exportExcel": "Xuất Excel",
+			"table": {
+				"uid": "Tài khoản (UID)",
+				"name": "Họ tên hiển thị",
+				"email": "Email",
+				"date": "Ngày đăng ký"
+			},
+			"empty": "Chưa có thí sinh nào được đăng ký.",
+			"previewCount": "Khởi tạo {{count}} tài khoản xem trước.",
+			"saveSuccess": "Đã lưu tài khoản vào cơ sở dữ liệu!",
+			"assignSuccess": "Đã gán thí sinh vào cụm thi công khai thành công!"
+		},
+		"live": {
+			"title": "Giám sát Live",
+			"realtime": "Real-time",
+			"lastUpdate": "Cập nhật cuối: {{time}}",
+			"refresh": "Làm mới",
+			"exportScores": "Xuất Bảng điểm",
+			"scope": "Phạm vi giám sát",
+			"byBoard": "Theo Cụm",
+			"byRound": "Theo Vòng",
+			"comprehensive": "Toàn diện",
+			"roundLabel": "Vòng thi",
+			"roundPlaceholder": "Chọn vòng thi",
+			"boardLabel": "Cụm thi (Board)",
+			"boardPlaceholder": "Chưa chọn cụm",
+			"refreshSuccess": "Đã cập nhật dữ liệu mới nhất.",
+			"leaderboard": "Bảng xếp hạng Live",
+			"onlineCount": "{{count}} thí sinh trực tuyến",
+			"table": {
+				"rank": "# Rank",
+				"contestant": "Thí sinh",
+				"score": "Điểm số",
+				"solved": "Bài giải",
+				"status": "Trạng thái",
+				"lastActivity": "Hoạt động cuối"
+			},
+			"status": {
+				"active": "Thi đấu",
+				"submitted": "Đã nộp",
+				"left": "Rời khỏi"
+			}
+		},
+		"promotion": {
+			"title": "Xét tuyển & Thăng hạng",
+			"subtitle": "Chuyển thí sinh đạt yêu cầu từ vòng này sang vòng kế tiếp.",
+			"sourceRound": "Vòng xuất phát (Source)",
+			"targetRound": "Vòng mục tiêu (Target)",
+			"targetBoard": "Đích đến (Target Board)",
+			"roundPlaceholder": "Chọn vòng",
+			"boardPlaceholder": "Chọn cụm thi",
+			"proposalTitle": "Đề xuất Thăng hạng",
+			"proposalDesc": "{{count}} thí sinh đủ tiêu chuẩn từ {{round}}",
+			"execute": "Thực hiện Thăng hạng ngay",
+			"table": {
+				"rank": "# Rank",
+				"candidate": "Thí sinh / Tài khoản",
+				"score": "Điểm tích lũy",
+				"status": "Trạng thái hiện tại"
+			},
+			"empty": "Chưa có bảng điểm cho vòng thi này để đề xuất thăng hạng.",
+			"success": "Đã thăng hạng {{count}} thí sinh thành công!",
+			"note": "Lưu ý:",
+			"noteDesc": "Hành động thăng hạng sẽ tạo liên kết thí sinh vào Cụm thi của vòng mục tiêu. Điểm số của thí sinh ở vòng cũ vẫn được giữ nguyên. Vui lòng kiểm tra kỹ danh sách trước khi thực hiện.",
+			"status": {
+				"qualified": "Qualified",
+				"onHold": "On-hold"
+			}
+		},
+		"challenges": {
+			"exam": "Bộ đề (Exam)",
+			"examPlaceholder": "Chọn bộ đề",
+			"addExam": "Thêm bộ đề",
+			"saveExam": "Lưu bộ đề",
+			"saving": "Đang lưu...",
+			"listTitle": "Danh sách câu hỏi",
+			"addQuest": "Tạo câu hỏi mới",
+			"noQuests": "Chưa có câu hỏi nào.",
+			"untitled": "Chưa có tiêu đề",
+			"newQuest": "Câu hỏi mới",
+			"editorTitle": "Soạn thảo nội dung",
+			"editorDesc": "Mô tả chi tiết đề bài và các ràng buộc kỹ thuật.",
+			"preview": "Xem trước",
+			"questTitle": "Tiêu đề câu hỏi",
+			"questTitlePlaceholder": "VD: Tổng hai số nguyên...",
+			"questDesc": "Nội dung đề bài (Markdown)",
+			"questDescPlaceholder": "Viết nội dung giới thiệu bài toán tại đây...",
+			"inputFormat": "Định dạng đầu vào",
+			"outputFormat": "Định dạng đầu ra",
+			"constraints": "Ràng buộc dữ liệu (Constraints)",
+			"publicTests": "Ví dụ công khai ({{count}})",
+			"hiddenTests": "Bộ test ẩn ({{count}})",
+			"addPublic": "Thêm ví dụ công khai",
+			"addHidden": "Thêm bộ test ẩn",
+			"input": "Input",
+			"expectedOutput": "Output mong đợi",
+			"inputTest": "Input Test",
+			"emptyEditor": "Chọn một câu hỏi để bắt đầu soạn thảo đề bài.",
+			"saveSuccess": "Đã lưu bộ đề thành công!",
+			"sampleLabel": "Ví dụ {{index}}",
+			"exams": {
+				"e1": "Đề thi Chính thức 1",
+				"e2": "Đề thi Dự phòng",
+				"e3": "Đề thi Thử 1"
+			}
+		},
+		"import": {
+			"title": "Import Contest JSON",
+			"subtitle": "Nhập cấu hình cuộc thi từ tệp tin JSON đã có sẵn.",
+			"paste": "Dán nội dung JSON",
+			"upload": "Hoặc tải lên từ máy tính",
+			"start": "Bắt đầu Import",
+			"cancel": "Hủy bỏ",
+			"success": "Đã nhập dữ liệu cuộc thi thành công!",
+			"error": "Lỗi nhập dữ liệu JSON.",
+			"invalid": "Định dạng JSON không hợp lệ. Vui lòng kiểm tra lại."
+		},
+		"tabs": {
+			"list": "Danh sách",
+			"info": "Thông tin",
+			"rounds": "Vòng thi",
+			"boards": "Cụm thi",
+			"challenges": "Thử thách",
+			"accounts": "Tài khoản",
+			"live": "Live",
+			"promotion": "Quảng bá"
+		}
+	}
 }

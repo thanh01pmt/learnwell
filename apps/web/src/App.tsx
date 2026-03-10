@@ -105,6 +105,15 @@ import AdminTeachers from "./pages/admin/AdminTeachers";
 import AdminUsers from "./pages/admin/AdminUsers";
 import SystemHealth from "./pages/admin/SystemHealth";
 
+// Contest Management
+import ContestManagementLayout from "./pages/admin/contests/ContestManagementLayout";
+import ContestListPage from "./pages/admin/contests/ContestListPage";
+import ContestEditorPage from "./pages/admin/contests/ContestEditorPage";
+import ChallengeBuilderPage from "./pages/admin/contests/ChallengeBuilderPage";
+import AccountsPage from "./pages/admin/contests/AccountsPage";
+import LiveMonitorPage from "./pages/admin/contests/LiveMonitorPage";
+import PromotionPage from "./pages/admin/contests/PromotionPage";
+
 // Parent pages
 import ParentDashboard from "./pages/parent/ParentDashboard";
 import ChildProgress from "./pages/parent/ChildProgress";
@@ -314,6 +323,18 @@ function App() {
                   <Route path="/admin/resources" element={<FeatureRoute path="/admin/resources"><ResourceOptimization /></FeatureRoute>} />
                   <Route path="/admin/cohort-tracking" element={<FeatureRoute path="/admin/cohort-tracking"><CohortTracking /></FeatureRoute>} />
                   <Route path="/admin/system-health" element={<FeatureRoute path="/admin/system-health"><SystemHealth /></FeatureRoute>} />
+
+                  {/* Contest Management */}
+                  <Route path="/admin/contests" element={<FeatureRoute path="/admin/contests"><ContestManagementLayout /></FeatureRoute>}>
+                    <Route index element={<ContestListPage />} />
+                    <Route path=":id/edit" element={<ContestEditorPage />} />
+                    <Route path=":id/rounds" element={<ContestEditorPage />} /> {/* We can handle sub-tabs in Editor or separate pages */}
+                    <Route path=":id/boards" element={<ContestEditorPage />} />
+                    <Route path=":id/challenges" element={<ChallengeBuilderPage />} />
+                    <Route path=":id/accounts" element={<AccountsPage />} />
+                    <Route path=":id/live" element={<LiveMonitorPage />} />
+                    <Route path=":id/promotion" element={<PromotionPage />} />
+                  </Route>
                 </Route>
 
                 <Route path="*" element={<NotFound />} />
