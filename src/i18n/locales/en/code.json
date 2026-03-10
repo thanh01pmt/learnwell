@@ -1,541 +1,609 @@
 {
-  "gallery": {
-    "title": "Code",
-    "titleHighlight": "Gallery",
-    "subtitle": "Explore and learn from the most optimal solutions from the community.",
-    "weeklyTop": "Weekly Top",
-    "shareSolution": "Share Solution",
-    "loginToShare": "Log in to share",
-    "searchPlaceholder": "Search problems or users...",
-    "weeklySpotlight": "Weekly Spotlight",
-    "viewNow": "VIEW NOW",
-    "allSolutions": "All Solutions",
-    "latest": "Latest",
-    "popular": "Popular",
-    "forkAndRemix": "Fork & Remix",
-    "loginToFork": "Log in to Fork",
-    "viewDetails": "View Details",
-    "loadMore": "Load More",
-    "breadcrumbs": "Code Gallery",
-    "points": "{{count}} Points",
-    "reputation": "{{count}} rep",
-    "messages": {
-      "forkSuccess": "Source code forked! You can view it in Playground."
-    },
-    "mock": {
-      "tuankiet": "Tuan Kiet",
-      "minhanh": "Minh Anh",
-      "hamy": "Ha My"
-    }
-  },
-  "blog": {
-    "title": "Tech",
-    "titleHighlight": "Blog",
-    "subtitle": "Share knowledge, experience, and the latest technology trends.",
-    "writePost": "Write New Post",
-    "featuredPosts": "Featured Posts",
-    "searchPlaceholder": "Search posts...",
-    "readMore": "READ MORE",
-    "hotTopics": "Hot Topics",
-    "topAuthors": "Top Authors",
-    "newsletter": {
-      "title": "Don't miss any posts!",
-      "description": "Subscribe to receive notifications about the best quality posts every week.",
-      "placeholder": "Your email"
-    },
-    "footer": {
-      "about": "About Tech Blog",
-      "guidelines": "Community Guidelines",
-      "becomeAuthor": "Become an Author"
-    },
-    "followers": "{{val}} followers",
-    "followAction": "Follow",
-    "breadcrumbs": "Tech Blog",
-    "tags": {
-      "algorithms": "Algorithms",
-      "mobile": "Mobile",
-      "ai": "AI/ML",
-      "backend": "Backend",
-      "frontend": "Frontend",
-      "career": "Career",
-      "devops": "DevOps",
-      "cybersecurity": "Cybersecurity",
-      "webdev": "Web Development",
-      "react": "React",
-      "memory": "Memory Management",
-      "junior": "Junior"
-    },
-    "mock": {
-      "b1": {
-        "title": "Optimizing Dynamic Programming Algorithms: From O(N^2) to O(N)",
-        "summary": "Explore space and time optimization techniques in dynamic programming through real-world examples.",
-        "author": "Thanh Pham"
-      },
-      "b2": {
-        "title": "Web Development Learning Path for Beginners in 2026",
-        "summary": "Why React still holds the throne and AI's breakthrough in creating user interfaces.",
-        "author": "Alex Johnson"
-      },
-      "b3": {
-        "title": "Deep Dive into Pointers in C++: Nightmare or Powerful Tool?",
-        "summary": "Detailed explanation of memory management, smart pointers, and common errors when working with memory.",
-        "author": "Maria Garcia"
-      }
-    }
-  },
-  "problems": {
-    "title": "Algorithm",
-    "titleHighlight": "Problems",
-    "subtitle": "Improve your coding skills and algorithmic thinking every day.",
-    "progress": "Progress",
-    "solved": "solved",
-    "searchPlaceholder": "Search problems...",
-    "difficulty": "Difficulty",
-    "all": "All",
-    "easy": "Easy",
-    "medium": "Medium",
-    "hard": "Hard",
-    "acceptanceRate": "Acceptance Rate",
-    "table": {
-      "rank": "#",
-      "title": "Problem Title",
-      "difficulty": "Difficulty",
-      "acceptance": "AC Rate",
-      "action": "Action"
-    },
-    "tryNow": "Try Now",
-    "noProblems": "No matching problems found.",
-    "learningPath": {
-      "aiSuggested": "AI Suggested",
-      "dpPathTitle": "Dynamic Programming Training Path",
-      "dpPathDesc": "You have mastered Arrays, continue with DP to solve more complex optimization problems.",
-      "startPath": "Start Path"
-    },
-    "premium": {
-      "title": "Premium Content",
-      "googleTitle": "Practice with Google Problem Set",
-      "googleDesc": "A collection of the most common problems in actual interview rounds.",
-      "unlock": "Upgrade to unlock"
-    },
-    "breadcrumbs": "Algorithm Problems",
-    "mock": {
-      "p1": {
-        "title": "Two Sum",
-        "category": "Array"
-      },
-      "p2": {
-        "title": "Reverse Linked List",
-        "category": "Linked List"
-      },
-      "p3": {
-        "title": "Cycle in Graph",
-        "category": "Graph"
-      },
-      "p4": {
-        "title": "Climbing Stairs",
-        "category": "Dynamic Programming"
-      },
-      "p5": {
-        "title": "Longest Palindromic Substring",
-        "category": "String"
-      },
-      "p6": {
-        "title": "Binary Tree Level Order Traversal",
-        "category": "Tree"
-      }
-    }
-  },
-  "hub": {
-    "title": "Solution",
-    "titleHighlight": "Hub",
-    "subtitle": "Share, discuss, and learn from thousands of optimized solutions.",
-    "headerLabel": "Solution Hub",
-    "shareAction": "Share Solution",
-    "searchPlaceholder": "Search by problem or solution...",
-    "languages": {
-      "all": "All"
-    },
-    "actions": {
-      "backToList": "Back to list",
-      "helpful": "Helpful",
-      "save": "Save",
-      "askAuthor": "Ask Author",
-      "backToGallery": "Back to Gallery",
-      "discussions": "Discussions",
-      "comments": "Comments ({{count}})",
-      "sendComment": "Send Comment",
-      "viewProfile": "View Profile",
-      "copySuccess": "Source code copied to clipboard!",
-      "isInitializing": "Initializing Playground with this source code..."
-    },
-    "details": {
-      "sourceCode": "Source Code",
-      "algorithmExplanation": "Algorithm Explanation",
-      "complexity": "Complexity",
-      "communityFeedback": "Community Feedback",
-      "views": "Views",
-      "forks": "Forks",
-      "bestApproach": "Best Approach",
-      "reputation": "Reputations",
-      "feedbackPlaceholder": "Very useful and optimal algorithm, thanks to the author!",
-      "commentPlaceholder": "Write your comment...",
-      "aiTip": "You can improve this solution by using **WeakMap** if you want to optimize garbage collection.",
-      "aiTipLabel": "AI Learning Hint",
-      "detailedSolution": "Detailed Solution",
-      "likes": "Likes",
-      "solutions": "Solutions",
-      "topics": "Topics",
-      "acceptance": "Acceptance"
-    },
-    "noSolutions": "No matching solutions found.",
-    "mock": {
-      "s1": {
-        "title": "Optimizing Hash Map for Two Sum",
-        "problemTitle": "Two Sum",
-        "explanation": "Using a Hash Map to store visited values helps us search for the 'complement' (target - current_val) in O(1) constant time."
-      },
-      "s2": {
-        "title": "Most Intuitive One-pass Approach",
-        "problemTitle": "Two Sum",
-        "explanation": "Similar to Python, Map in JS is extremely powerful for this problem."
-      },
-      "s3": {
-        "title": "Using Array instead of Hash Map (Optimization)",
-        "problemTitle": "Two Sum",
-        "explanation": "If the array is already sorted, we can use the Two Pointers algorithm to reduce memory space to O(1)."
-      }
-    }
-  },
-  "ide": {
-    "header": {
-      "help": "Help",
-      "points": "pts"
-    },
-    "tabs": {
-      "description": "Description",
-      "solutions": "Solutions",
-      "history": "History",
-      "hints": "Hints"
-    },
-    "content": {
-      "examples": "Examples",
-      "constraints": "Constraints",
-      "solutionsEmpty": "Hints and sample solutions will appear once you complete the task.",
-      "historyEmpty": "Your submission history will be saved here."
-    },
-    "terminal": {
-      "running": "Compiling...",
-      "success": "Output:\n[0, 1]\n\nSuccessfully run in 12ms.",
-      "placeholder": "Press 'Run Code' to see compilation results.",
-      "submitting": "Submitting..."
-    },
-    "mock": {
-      "p1": {
-        "title": "Two Sum",
-        "category": "Arrays & Hashing",
-        "description": "Given an array of integers `nums` and an integer `target`, return indices of the two numbers such that they add up to `target`.\n\nYou may assume that each input would have exactly one solution, and you may not use the same element twice.\n\nYou can return the answer in any order.",
-        "explanation1": "Because nums[0] + nums[1] == 9, we return [0, 1].",
-        "constraints": "Only one valid answer exists.",
-        "starter": "Write your code here"
-      }
-    },
-    "tutor": {
-      "context": "Context: {{problem}} ({{lang}})",
-      "typing": "AI Tutor is thinking...",
-      "actions": {
-        "hint": "Hint Approach",
-        "explain": "Explain Code",
-        "quiz": "Quick Quiz"
-      },
-      "inputPlaceholder": "Ask AI anything...",
-      "disclaimer": "AI Tutor can make mistakes. Please check important information.",
-      "mock": {
-        "welcome": "Hello! I am LearnWell's AI Tutor. I see you are working on '{{problem}}'. Do you need a hint or explanation for any part?",
-        "suggestion": "An optimal approach for this is using a Hash Map to store visited values. Would you like me to explain how to use a Hash Map for this problem?"
-      }
-    },
-    "hints": {
-      "header": {
-        "title": "Smart Hints (AI)",
-        "ready": "{{count}} hints ready"
-      },
-      "levels": {
-        "level": "Level {{count}}",
-        "free": "Free",
-        "penalty": "-{{count}} XP Penalty",
-        "subtle": "Subtle Suggestion",
-        "specific": "Specific Hint",
-        "code": "Code Snippet"
-      },
-      "actions": {
-        "unlock": "Unlock Hint {{count}}",
-        "unlockPenalty": "Unlock Hint {{count}} (XP Penalty)",
-        "placeholder": "Hint {{count}} content...",
-        "analyzing": "Analyzing Code...",
-        "checkAction": "Check Code with AI (5 Gems)"
-      },
-      "badges": {
-        "notUsed": "Learning without hints will earn you the \"Self-Reliant\" Badge 🎖️"
-      },
-      "review": {
-        "title": "AI Code Review Result",
-        "excellent": "Excellent!",
-        "description": "Your code follows the correct logic. However, it can be further optimized for memory.",
-        "correctness": "Correctness",
-        "efficiency": "Efficiency",
-        "style": "Style",
-        "tipHighlight": "Optimization Tip:",
-        "tip": "Instead of using nested O(n²) loops, try using a Hash Map to achieve O(n).",
-        "close": "Close",
-        "viewSolution": "View Optimal Solution"
-      },
-      "mock": {
-        "h1": "Have you considered the case where the input array is empty or has only 1 element? Think about the loop termination condition.",
-        "h2": "You can use a Hash Map to store the complement (target - current_value). This helps find the remaining element in O(1).",
-        "h3": "if complement in hash_map:\n    return [hash_map[complement], i]\nhash_map[num] = i"
-      }
-    }
-  },
-  "profile": {
-    "header": {
-      "share": "Share",
-      "settings": "Settings",
-      "joined": "Joined {{date}}",
-      "streak": "{{count}} Day Streak",
-      "rank": "Rank #{{count}}",
-      "contributions": "Contributions"
-    },
-    "analysis": {
-      "title": "Skill Analysis",
-      "languages": "Preferred Languages"
-    },
-    "activity": {
-      "title": "Problem Solving Activity",
-      "summary": "Total {{count}} problems solved in the past year.",
-      "less": "Less",
-      "more": "More"
-    },
-    "stats": {
-      "solved": "Solved",
-      "elo": "Elo Rating",
-      "awards": "Awards",
-      "badges": "Badges",
-      "eloHistory": "Elo Growth History"
-    },
-    "achievements": {
-      "title": "Titles & Badges",
-      "mock": {
-        "titan": {
-          "name": "Code Titan",
-          "desc": "100 Hard problems"
-        },
-        "learner": {
-          "name": "Fast Learner",
-          "desc": "30-day streak"
-        },
-        "hunter": {
-          "name": "Bug Hunter",
-          "desc": "Find 5 system bugs"
-        },
-        "star": {
-          "name": "Social Star",
-          "desc": "1000 blog likes"
-        },
-        "contender": {
-          "name": "Top Contender",
-          "desc": "Rank 1 Arena"
-        }
-      }
-    }
-  },
-  "adaptive": {
-    "header": {
-      "personalized": "AI-Driven Personalization",
-      "title": "Smart Practice Hub",
-      "subtitle": "AI has prepared 3 targeted exercises based on your knowledge gaps.",
-      "history": "Practice History",
-      "analysis": "Skill Analysis",
-      "historyToast": "Practice History feature coming soon!"
-    },
-    "recommendation": {
-      "badge": "AI Recommended Drill",
-      "priority": "High Retention Priority",
-      "title": "Data Structures: Coordinating Array & Map",
-      "description": "Based on 85% of your recent errors in <strong>Nested Data</strong>, this exercise will help you optimize search time from O(n) to O(1).",
-      "stats": {
-        "match": "AI Match",
-        "difficulty": "Difficulty",
-        "currency": "Currency",
-        "time": "Estimated Time"
-      },
-      "tags": {
-        "optimal": "Optimal Training",
-        "gap": "Gap Coverage",
-        "efficiency": "Efficiency Boost",
-        "repetition": "Spaced Repetition"
-      },
-      "startAction": "Start Training",
-      "docsAction": "View Support Docs"
-    },
-    "difficulty": {
-      "title": "Calibrate AI Difficulty",
-      "subtitle": "Adjust the challenge level for future AI exercises.",
-      "badge": "ADAPTIVE MODE ON",
-      "zones": {
-        "comfort": "Comfort Zone",
-        "growth": "Growth Zone",
-        "danger": "Danger Zone"
-      },
-      "analysis": "AI Analysis for Intensity: {{val}}%",
-      "message": "At this difficulty, AI will select exercises with an average completion rate of <strong>45-60%</strong> from the community, focusing on improving logic processing speed under time pressure."
-    },
-    "sidebar": {
-      "priorityGaps": "Priority Gaps",
-      "strength": "Strength",
-      "viewMore": "View Deeper Analysis",
-      "gaps": {
-        "nestedLoops": "Nested Loops",
-        "recursionBasics": "Recursion Basics",
-        "arrayMethods": "Array Methods",
-        "timeComplexity": "Time Complexity"
-      },
-      "dailyGoal": {
-        "title": "Daily Goal",
-        "message": "Complete 1 more AI exercise to reach your Goal!"
-      }
-    },
-    "tip": {
-      "title": "AI Learning Tip",
-      "subtitle": "Spaced Repetition",
-      "message": "You haven't practiced <strong>Binary Search</strong> in the last 14 days. This may reduce your knowledge retention rate to below 40%.",
-      "plannerAction": "Schedule Review 📅"
-    }
-  },
-  "ai": {
-    "hero": {
-      "badge": "AI Insight Engine v2.0 Active",
-      "title": "Learning Roadmap",
-      "titleHighlight": "Personalized for you",
-      "subtitle": "LearnWell's AI has analyzed more than 400 submitted exercises and suggested the most optimal roadmap for you to reach the Senior Developer level.",
-      "startNow": "Start Now",
-      "viewAnalysis": "View Detailed Analysis"
-    },
-    "goals": {
-      "title": "This Week's Goal",
-      "dp": "Solve 5 DP problems",
-      "blog": "Read 2 Blog posts",
-      "contest": "Join 1 Contest"
-    },
-    "gaps": {
-      "title": "Knowledge Gaps",
-      "practiceNow": "Practice Now",
-      "status": {
-        "critical": "Critical",
-        "improving": "Improving",
-        "good": "Good"
-      }
-    },
-    "tips": {
-      "title": "AI Tips",
-      "message": "You tend to solve exercises in the evening with a 25% faster rate. Try focusing on Hard exercises between 20:00 - 22:00 for the best results."
-    },
-    "recommendations": {
-      "title": "Recommended for you",
-      "viewAll": "View All",
-      "details": "Details",
-      "mock": {
-        "r1": {
-          "title": "Hash Map Optimization",
-          "type": "Knowledge Gap",
-          "reason": "Based on your recent Time Limit Exceeded errors in Algorithms."
-        },
-        "r2": {
-          "title": "Building REST API with Node.js",
-          "type": "New Skill",
-          "reason": "You have successfully completed Frontend exercises, this is the next step to becoming Fullstack."
-        },
-        "r3": {
-          "title": "C++ 7-Day Challenge",
-          "type": "Maintain Momentum",
-          "reason": "You have a 12-day streak, continue with a new language challenge."
-        }
-      }
-    },
-    "progression": {
-      "title": "Career Progression Estimation",
-      "steps": {
-        "junior": "Junior Developer",
-        "mid": "Mid-Level Engineer",
-        "senior": "Senior Tech Lead"
-      },
-      "status": {
-        "completed": "Completed",
-        "inProgress": "In Progress",
-        "locked": "Locked"
-      }
-    }
-  },
-  "peer": {
-    "header": {
-      "title": "Peer",
-      "subtitle": "\"The best learner is the one who knows how to learn from their own mistakes and the experiences of others.\"",
-      "reputationPoint": "Reputation Points",
-      "submitAction": "Submit Code Review"
-    },
-    "stats": {
-      "done": "Reviews Done",
-      "helpful": "Helpful",
-      "badges": "Badges Received",
-      "reputationEarned": "Reputation Earned"
-    },
-    "marketplace": {
-      "title": "Review Marketplace",
-      "filter": "Filter",
-      "tabs": {
-        "all": "All",
-        "open": "Open",
-        "completed": "Completed"
-      },
-      "author": "Author",
-      "reward": "Reward",
-      "comments": "{{count}} comments",
-      "reviewNow": "Review Now",
-      "moreRequests": "View more requests",
-      "mock": {
-        "r1": {
-          "title": "Optimizing runtime for DFS algorithm",
-          "author": "Minh Anh"
-        },
-        "r2": {
-          "title": "Need feedback on variable naming and code structure",
-          "author": "Duc Anh"
-        },
-        "r3": {
-          "title": "Help! Code exceeds memory limit (MLE)",
-          "author": "Tuan Kiet"
-        }
-      }
-    },
-    "leaderboard": {
-      "title": "Top Reviewers",
-      "reviewsDone": "{{count}} reviews completed",
-      "fullLeaderboard": "See Full Leaderboard",
-      "mock": {
-        "cohuong": "Ms. Huong",
-        "tuankiet": "Tuan Kiet",
-        "hamy": "Ha My"
-      }
-    },
-    "suggestions": {
-      "title": "Review Suggestions for you",
-      "description": "Based on your \"JavaScript\" and \"Data Structures\" skills, here are 2 problems needing an expert like you!",
-      "reward": "Reward: {{count}} LearnCoins"
-    }
-  },
-  "roles": {
-    "expert": "Expert",
-    "teacher": "Teacher",
-    "student": "Student",
-    "developer": "Developer"
-  }
+	"gallery": {
+		"title": "Code",
+		"titleHighlight": "Gallery",
+		"subtitle": "Explore and learn from the most optimal solutions from the community.",
+		"weeklyTop": "Weekly Top",
+		"shareSolution": "Share Solution",
+		"loginToShare": "Log in to share",
+		"searchPlaceholder": "Search problems or users...",
+		"weeklySpotlight": "Weekly Spotlight",
+		"viewNow": "VIEW NOW",
+		"allSolutions": "All Solutions",
+		"latest": "Latest",
+		"popular": "Popular",
+		"forkAndRemix": "Fork & Remix",
+		"loginToFork": "Log in to Fork",
+		"viewDetails": "View Details",
+		"loadMore": "Load More",
+		"breadcrumbs": "Code Gallery",
+		"points": "{{count}} Points",
+		"reputation": "{{count}} rep",
+		"messages": {
+			"forkSuccess": "Source code forked! You can view it in Playground."
+		},
+		"mock": {
+			"tuankiet": "Tuan Kiet",
+			"minhanh": "Minh Anh",
+			"hamy": "Ha My"
+		}
+	},
+	"blog": {
+		"title": "Tech",
+		"titleHighlight": "Blog",
+		"subtitle": "Share knowledge, experience, and the latest technology trends.",
+		"writePost": "Write New Post",
+		"featuredPosts": "Featured Posts",
+		"searchPlaceholder": "Search posts...",
+		"readMore": "READ MORE",
+		"hotTopics": "Hot Topics",
+		"topAuthors": "Top Authors",
+		"newsletter": {
+			"title": "Don't miss any posts!",
+			"description": "Subscribe to receive notifications about the best quality posts every week.",
+			"placeholder": "Your email"
+		},
+		"footer": {
+			"about": "About Tech Blog",
+			"guidelines": "Community Guidelines",
+			"becomeAuthor": "Become an Author"
+		},
+		"followers": "{{val}} followers",
+		"followAction": "Follow",
+		"breadcrumbs": "Tech Blog",
+		"tags": {
+			"algorithms": "Algorithms",
+			"mobile": "Mobile",
+			"ai": "AI/ML",
+			"backend": "Backend",
+			"frontend": "Frontend",
+			"career": "Career",
+			"devops": "DevOps",
+			"cybersecurity": "Cybersecurity",
+			"webdev": "Web Development",
+			"react": "React",
+			"memory": "Memory Management",
+			"junior": "Junior"
+		},
+		"mock": {
+			"b1": {
+				"title": "Optimizing Dynamic Programming Algorithms: From O(N^2) to O(N)",
+				"summary": "Explore space and time optimization techniques in dynamic programming through real-world examples.",
+				"author": "Thanh Pham"
+			},
+			"b2": {
+				"title": "Web Development Learning Path for Beginners in 2026",
+				"summary": "Why React still holds the throne and AI's breakthrough in creating user interfaces.",
+				"author": "Alex Johnson"
+			},
+			"b3": {
+				"title": "Deep Dive into Pointers in C++: Nightmare or Powerful Tool?",
+				"summary": "Detailed explanation of memory management, smart pointers, and common errors when working with memory.",
+				"author": "Maria Garcia"
+			}
+		}
+	},
+	"problems": {
+		"title": "Algorithm",
+		"titleHighlight": "Problems",
+		"subtitle": "Improve your coding skills and algorithmic thinking every day.",
+		"progress": "Progress",
+		"solved": "solved",
+		"searchPlaceholder": "Search problems...",
+		"difficulty": "Difficulty",
+		"all": "All",
+		"easy": "Easy",
+		"medium": "Medium",
+		"hard": "Hard",
+		"acceptanceRate": "Acceptance Rate",
+		"table": {
+			"rank": "#",
+			"title": "Problem Title",
+			"difficulty": "Difficulty",
+			"acceptance": "AC Rate",
+			"action": "Action"
+		},
+		"tryNow": "Try Now",
+		"noProblems": "No matching problems found.",
+		"learningPath": {
+			"aiSuggested": "AI Suggested",
+			"dpPathTitle": "Dynamic Programming Training Path",
+			"dpPathDesc": "You have mastered Arrays, continue with DP to solve more complex optimization problems.",
+			"startPath": "Start Path"
+		},
+		"premium": {
+			"title": "Premium Content",
+			"googleTitle": "Practice with Google Problem Set",
+			"googleDesc": "A collection of the most common problems in actual interview rounds.",
+			"unlock": "Upgrade to unlock"
+		},
+		"breadcrumbs": "Algorithm Problems",
+		"mock": {
+			"p1": {
+				"title": "Two Sum",
+				"category": "Array"
+			},
+			"p2": {
+				"title": "Reverse Linked List",
+				"category": "Linked List"
+			},
+			"p3": {
+				"title": "Cycle in Graph",
+				"category": "Graph"
+			},
+			"p4": {
+				"title": "Climbing Stairs",
+				"category": "Dynamic Programming"
+			},
+			"p5": {
+				"title": "Longest Palindromic Substring",
+				"category": "String"
+			},
+			"p6": {
+				"title": "Binary Tree Level Order Traversal",
+				"category": "Tree"
+			}
+		}
+	},
+	"hub": {
+		"title": "Solution",
+		"titleHighlight": "Hub",
+		"subtitle": "Share, discuss, and learn from thousands of optimized solutions.",
+		"headerLabel": "Solution Hub",
+		"shareAction": "Share Solution",
+		"searchPlaceholder": "Search by problem or solution...",
+		"languages": {
+			"all": "All"
+		},
+		"actions": {
+			"backToList": "Back to list",
+			"helpful": "Helpful",
+			"save": "Save",
+			"askAuthor": "Ask Author",
+			"backToGallery": "Back to Gallery",
+			"discussions": "Discussions",
+			"comments": "Comments ({{count}})",
+			"sendComment": "Send Comment",
+			"viewProfile": "View Profile",
+			"copySuccess": "Source code copied to clipboard!",
+			"isInitializing": "Initializing Playground with this source code..."
+		},
+		"details": {
+			"sourceCode": "Source Code",
+			"algorithmExplanation": "Algorithm Explanation",
+			"complexity": "Complexity",
+			"communityFeedback": "Community Feedback",
+			"views": "Views",
+			"forks": "Forks",
+			"bestApproach": "Best Approach",
+			"reputation": "Reputations",
+			"feedbackPlaceholder": "Very useful and optimal algorithm, thanks to the author!",
+			"commentPlaceholder": "Write your comment...",
+			"aiTip": "You can improve this solution by using **WeakMap** if you want to optimize garbage collection.",
+			"aiTipLabel": "AI Learning Hint",
+			"detailedSolution": "Detailed Solution",
+			"likes": "Likes",
+			"solutions": "Solutions",
+			"topics": "Topics",
+			"acceptance": "Acceptance"
+		},
+		"noSolutions": "No matching solutions found.",
+		"mock": {
+			"s1": {
+				"title": "Optimizing Hash Map for Two Sum",
+				"problemTitle": "Two Sum",
+				"explanation": "Using a Hash Map to store visited values helps us search for the 'complement' (target - current_val) in O(1) constant time."
+			},
+			"s2": {
+				"title": "Most Intuitive One-pass Approach",
+				"problemTitle": "Two Sum",
+				"explanation": "Similar to Python, Map in JS is extremely powerful for this problem."
+			},
+			"s3": {
+				"title": "Using Array instead of Hash Map (Optimization)",
+				"problemTitle": "Two Sum",
+				"explanation": "If the array is already sorted, we can use the Two Pointers algorithm to reduce memory space to O(1)."
+			}
+		}
+	},
+	"ide": {
+		"header": {
+			"help": "Help",
+			"points": "pts"
+		},
+		"tabs": {
+			"description": "Description",
+			"solutions": "Solutions",
+			"history": "History",
+			"hints": "Hints"
+		},
+		"content": {
+			"examples": "Examples",
+			"constraints": "Constraints",
+			"solutionsEmpty": "Hints and sample solutions will appear once you complete the task.",
+			"historyEmpty": "Your submission history will be saved here."
+		},
+		"terminal": {
+			"running": "Compiling...",
+			"success": "Output:\n[0, 1]\n\nSuccessfully run in 12ms.",
+			"placeholder": "Press 'Run Code' to see compilation results.",
+			"submitting": "Submitting..."
+		},
+		"mock": {
+			"p1": {
+				"title": "Two Sum",
+				"category": "Arrays & Hashing",
+				"description": "Given an array of integers `nums` and an integer `target`, return indices of the two numbers such that they add up to `target`.\n\nYou may assume that each input would have exactly one solution, and you may not use the same element twice.\n\nYou can return the answer in any order.",
+				"explanation1": "Because nums[0] + nums[1] == 9, we return [0, 1].",
+				"constraints": "Only one valid answer exists.",
+				"starter": "Write your code here"
+			}
+		},
+		"tutor": {
+			"context": "Context: {{problem}} ({{lang}})",
+			"typing": "AI Tutor is thinking...",
+			"actions": {
+				"hint": "Hint Approach",
+				"explain": "Explain Code",
+				"quiz": "Quick Quiz"
+			},
+			"inputPlaceholder": "Ask AI anything...",
+			"disclaimer": "AI Tutor can make mistakes. Please check important information.",
+			"mock": {
+				"welcome": "Hello! I am LearnWell's AI Tutor. I see you are working on '{{problem}}'. Do you need a hint or explanation for any part?",
+				"suggestion": "An optimal approach for this is using a Hash Map to store visited values. Would you like me to explain how to use a Hash Map for this problem?"
+			}
+		},
+		"hints": {
+			"header": {
+				"title": "Smart Hints (AI)",
+				"ready": "{{count}} hints ready"
+			},
+			"levels": {
+				"level": "Level {{count}}",
+				"free": "Free",
+				"penalty": "-{{count}} XP Penalty",
+				"subtle": "Subtle Suggestion",
+				"specific": "Specific Hint",
+				"code": "Code Snippet"
+			},
+			"actions": {
+				"unlock": "Unlock Hint {{count}}",
+				"unlockPenalty": "Unlock Hint {{count}} (XP Penalty)",
+				"placeholder": "Hint {{count}} content...",
+				"analyzing": "Analyzing Code...",
+				"checkAction": "Check Code with AI (5 Gems)"
+			},
+			"badges": {
+				"notUsed": "Learning without hints will earn you the \"Self-Reliant\" Badge 🎖️"
+			},
+			"review": {
+				"title": "AI Code Review Result",
+				"excellent": "Excellent!",
+				"description": "Your code follows the correct logic. However, it can be further optimized for memory.",
+				"correctness": "Correctness",
+				"efficiency": "Efficiency",
+				"style": "Style",
+				"tipHighlight": "Optimization Tip:",
+				"tip": "Instead of using nested O(n²) loops, try using a Hash Map to achieve O(n).",
+				"close": "Close",
+				"viewSolution": "View Optimal Solution"
+			},
+			"mock": {
+				"h1": "Have you considered the case where the input array is empty or has only 1 element? Think about the loop termination condition.",
+				"h2": "You can use a Hash Map to store the complement (target - current_value). This helps find the remaining element in O(1).",
+				"h3": "if complement in hash_map:\n    return [hash_map[complement], i]\nhash_map[num] = i"
+			}
+		}
+	},
+	"profile": {
+		"header": {
+			"share": "Share",
+			"settings": "Settings",
+			"joined": "Joined {{date}}",
+			"streak": "{{count}} Day Streak",
+			"rank": "Rank #{{count}}",
+			"contributions": "Contributions"
+		},
+		"analysis": {
+			"title": "Skill Analysis",
+			"languages": "Preferred Languages"
+		},
+		"activity": {
+			"title": "Problem Solving Activity",
+			"summary": "Total {{count}} problems solved in the past year.",
+			"less": "Less",
+			"more": "More"
+		},
+		"stats": {
+			"solved": "Solved",
+			"elo": "Elo Rating",
+			"awards": "Awards",
+			"badges": "Badges",
+			"eloHistory": "Elo Growth History"
+		},
+		"achievements": {
+			"title": "Titles & Badges",
+			"mock": {
+				"titan": {
+					"name": "Code Titan",
+					"desc": "100 Hard problems"
+				},
+				"learner": {
+					"name": "Fast Learner",
+					"desc": "30-day streak"
+				},
+				"hunter": {
+					"name": "Bug Hunter",
+					"desc": "Find 5 system bugs"
+				},
+				"star": {
+					"name": "Social Star",
+					"desc": "1000 blog likes"
+				},
+				"contender": {
+					"name": "Top Contender",
+					"desc": "Rank 1 Arena"
+				}
+			}
+		}
+	},
+	"adaptive": {
+		"header": {
+			"personalized": "AI-Driven Personalization",
+			"title": "Smart Practice Hub",
+			"subtitle": "AI has prepared 3 targeted exercises based on your knowledge gaps.",
+			"history": "Practice History",
+			"analysis": "Skill Analysis",
+			"historyToast": "Practice History feature coming soon!"
+		},
+		"recommendation": {
+			"badge": "AI Recommended Drill",
+			"priority": "High Retention Priority",
+			"title": "Data Structures: Coordinating Array & Map",
+			"description": "Based on 85% of your recent errors in <strong>Nested Data</strong>, this exercise will help you optimize search time from O(n) to O(1).",
+			"stats": {
+				"match": "AI Match",
+				"difficulty": "Difficulty",
+				"currency": "Currency",
+				"time": "Estimated Time"
+			},
+			"tags": {
+				"optimal": "Optimal Training",
+				"gap": "Gap Coverage",
+				"efficiency": "Efficiency Boost",
+				"repetition": "Spaced Repetition"
+			},
+			"startAction": "Start Training",
+			"docsAction": "View Support Docs"
+		},
+		"difficulty": {
+			"title": "Calibrate AI Difficulty",
+			"subtitle": "Adjust the challenge level for future AI exercises.",
+			"badge": "ADAPTIVE MODE ON",
+			"zones": {
+				"comfort": "Comfort Zone",
+				"growth": "Growth Zone",
+				"danger": "Danger Zone"
+			},
+			"analysis": "AI Analysis for Intensity: {{val}}%",
+			"message": "At this difficulty, AI will select exercises with an average completion rate of <strong>45-60%</strong> from the community, focusing on improving logic processing speed under time pressure."
+		},
+		"sidebar": {
+			"priorityGaps": "Priority Gaps",
+			"strength": "Strength",
+			"viewMore": "View Deeper Analysis",
+			"gaps": {
+				"nestedLoops": "Nested Loops",
+				"recursionBasics": "Recursion Basics",
+				"arrayMethods": "Array Methods",
+				"timeComplexity": "Time Complexity"
+			},
+			"dailyGoal": {
+				"title": "Daily Goal",
+				"message": "Complete 1 more AI exercise to reach your Goal!"
+			}
+		},
+		"tip": {
+			"title": "AI Learning Tip",
+			"subtitle": "Spaced Repetition",
+			"message": "You haven't practiced <strong>Binary Search</strong> in the last 14 days. This may reduce your knowledge retention rate to below 40%.",
+			"plannerAction": "Schedule Review 📅"
+		}
+	},
+	"ai": {
+		"hero": {
+			"badge": "AI Insight Engine v2.0 Active",
+			"title": "Learning Roadmap",
+			"titleHighlight": "Personalized for you",
+			"subtitle": "LearnWell's AI has analyzed more than 400 submitted exercises and suggested the most optimal roadmap for you to reach the Senior Developer level.",
+			"startNow": "Start Now",
+			"viewAnalysis": "View Detailed Analysis"
+		},
+		"goals": {
+			"title": "This Week's Goal",
+			"dp": "Solve 5 DP problems",
+			"blog": "Read 2 Blog posts",
+			"contest": "Join 1 Contest"
+		},
+		"gaps": {
+			"title": "Knowledge Gaps",
+			"practiceNow": "Practice Now",
+			"status": {
+				"critical": "Critical",
+				"improving": "Improving",
+				"good": "Good"
+			}
+		},
+		"tips": {
+			"title": "AI Tips",
+			"message": "You tend to solve exercises in the evening with a 25% faster rate. Try focusing on Hard exercises between 20:00 - 22:00 for the best results."
+		},
+		"recommendations": {
+			"title": "Recommended for you",
+			"viewAll": "View All",
+			"details": "Details",
+			"mock": {
+				"r1": {
+					"title": "Hash Map Optimization",
+					"type": "Knowledge Gap",
+					"reason": "Based on your recent Time Limit Exceeded errors in Algorithms."
+				},
+				"r2": {
+					"title": "Building REST API with Node.js",
+					"type": "New Skill",
+					"reason": "You have successfully completed Frontend exercises, this is the next step to becoming Fullstack."
+				},
+				"r3": {
+					"title": "C++ 7-Day Challenge",
+					"type": "Maintain Momentum",
+					"reason": "You have a 12-day streak, continue with a new language challenge."
+				}
+			}
+		},
+		"progression": {
+			"title": "Career Progression Estimation",
+			"steps": {
+				"junior": "Junior Developer",
+				"mid": "Mid-Level Engineer",
+				"senior": "Senior Tech Lead"
+			},
+			"status": {
+				"completed": "Completed",
+				"inProgress": "In Progress",
+				"locked": "Locked"
+			}
+		}
+	},
+	"ai_editor": {
+		"no_results": "No Results Yet",
+		"no_results_desc": "Start coding to see AI insights",
+		"how_it_works": "How it works",
+		"tabs": {
+			"feedback": "Feedback",
+			"analysis": "Analysis"
+		},
+		"summary_title": "AI SUMMARY",
+		"hints_title": "Step-by-step Hints",
+		"performance": "Server Performance",
+		"performance_score": "Performance Score",
+		"clean_code": "Code Quality",
+		"clean_code_score": "Clean Code Score",
+		"engine_report": "Engine Report",
+		"execution": "Execution",
+		"tests": "Tests",
+		"re_analyze": "Re-analyze Code",
+		"pro_title": "AI Feedback Pro",
+		"active_intel": "Active Intelligence",
+		"passed": "Passed",
+		"naming_issue": "Ambiguous naming",
+		"line_length_issue": "Line too long",
+		"perf_desc": "Algorithm achieved O(n log n). Good!"
+	},
+	"blockly": {
+		"tabs": {
+			"blocks": "Blocks",
+			"js": "JavaScript",
+			"py": "Python"
+		},
+		"search_placeholder": "Find blocks...",
+		"simulator": "Device Simulator",
+		"battery": "Battery Status",
+		"accelerometer": "Accelerometer",
+		"start": "Start",
+		"stop": "Stop",
+		"brand": "Blockly PXT",
+		"hardware": "MICRO:BIT",
+		"generated_code": "// Generated Code",
+		"xyz_stats": "X: {{x}}, Y: {{y}}, Z: {{z}}",
+		"mock": {
+			"if_do": "if ... do",
+			"repeat": "repeat 10 times"
+		}
+	},
+	"peer": {
+		"header": {
+			"title": "Peer",
+			"subtitle": "\"The best learner is the one who knows how to learn from their own mistakes and the experiences of others.\"",
+			"reputationPoint": "Reputation Points",
+			"submitAction": "Submit Code Review"
+		},
+		"stats": {
+			"done": "Reviews Done",
+			"helpful": "Helpful",
+			"badges": "Badges Received",
+			"reputationEarned": "Reputation Earned"
+		},
+		"marketplace": {
+			"title": "Review Marketplace",
+			"filter": "Filter",
+			"tabs": {
+				"all": "All",
+				"open": "Open",
+				"completed": "Completed"
+			},
+			"author": "Author",
+			"reward": "Reward",
+			"comments": "{{count}} comments",
+			"reviewNow": "Review Now",
+			"moreRequests": "View more requests",
+			"mock": {
+				"r1": {
+					"title": "Optimizing runtime for DFS algorithm",
+					"author": "Minh Anh"
+				},
+				"r2": {
+					"title": "Need feedback on variable naming and code structure",
+					"author": "Duc Anh"
+				},
+				"r3": {
+					"title": "Help! Code exceeds memory limit (MLE)",
+					"author": "Tuan Kiet"
+				}
+			}
+		},
+		"leaderboard": {
+			"title": "Top Reviewers",
+			"reviewsDone": "{{count}} reviews completed",
+			"fullLeaderboard": "See Full Leaderboard",
+			"mock": {
+				"cohuong": "Ms. Huong",
+				"tuankiet": "Tuan Kiet",
+				"hamy": "Ha My"
+			}
+		},
+		"suggestions": {
+			"title": "Review Suggestions for you",
+			"description": "Based on your \"JavaScript\" and \"Data Structures\" skills, here are 2 problems needing an expert like you!",
+			"reward": "Reward: {{count}} LearnCoins"
+		}
+	},
+	"roles": {
+		"expert": "Expert",
+		"teacher": "Teacher",
+		"student": "Student",
+		"developer": "Developer"
+	},
+	"scratch": {
+		"title": "LearnWell Scratch",
+		"loading": "Initializing Scratch 3.0...",
+		"sprites_area": "Sprites & Backdrops",
+		"workspace_area": "Workspace Area",
+		"stage_size": "Stage: 480 x 360",
+		"tooltips": {
+			"save": "Save project to Dashboard",
+			"export": "Export .sb3 file",
+			"share": "Share project"
+		},
+		"blocks": {
+			"move": "move 10 steps",
+			"say": "say \"Hello!\" for 2 seconds",
+			"when_flag": "when 🚩 clicked",
+			"if_then": "if ... then"
+		},
+		"sprites": {
+			"cat": "Sprite 1",
+			"sprite2": "Sprite 2"
+		}
+	}
 }

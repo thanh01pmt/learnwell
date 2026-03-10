@@ -1,541 +1,609 @@
 {
-  "gallery": {
-    "title": "Code",
-    "titleHighlight": "Gallery",
-    "subtitle": "Khám phá và học hỏi từ những lời giải tối ưu nhất của cộng đồng.",
-    "weeklyTop": "Weekly Top",
-    "shareSolution": "Chia sẻ giải pháp",
-    "loginToShare": "Đăng nhập để chia sẻ",
-    "searchPlaceholder": "Tìm kiếm bài toán hoặc người dùng...",
-    "weeklySpotlight": "Tiêu điểm hàng tuần",
-    "viewNow": "XEM NGAY",
-    "allSolutions": "Tất cả giải pháp",
-    "latest": "Mới nhất",
-    "popular": "Phổ biến",
-    "forkAndRemix": "Fork & Remix",
-    "loginToFork": "Đăng nhập để Fork",
-    "viewDetails": "Xem chi tiết",
-    "loadMore": "Tải thêm giải pháp",
-    "breadcrumbs": "Code Gallery",
-    "points": "{{count}} điểm",
-    "reputation": "{{count}} rep",
-    "messages": {
-      "forkSuccess": "Đã Fork mã nguồn! Bạn có thể xem trong Playground."
-    },
-    "mock": {
-      "tuankiet": "Tuấn Kiệt",
-      "minhanh": "Minh Anh",
-      "hamy": "Hà My"
-    }
-  },
-  "blog": {
-    "title": "Tech",
-    "titleHighlight": "Blog",
-    "subtitle": "Chia sẻ kiến thức, kinh nghiệm và những xu hướng công nghệ mới nhất.",
-    "writePost": "Viết bài mới",
-    "featuredPosts": "Bài viết nổi bật",
-    "searchPlaceholder": "Tìm bài viết...",
-    "readMore": "ĐỌC TIẾP",
-    "hotTopics": "Chủ đề hot",
-    "topAuthors": "Tác giả hàng đầu",
-    "newsletter": {
-      "title": "Đừng bỏ lỡ bài viết nào!",
-      "description": "Đăng ký nhận thông báo về những bài viết chất lượng nhất mỗi tuần.",
-      "placeholder": "Email của bạn"
-    },
-    "footer": {
-      "about": "Về Tech Blog",
-      "guidelines": "Nguyên tắc cộng đồng",
-      "becomeAuthor": "Trở thành tác giả"
-    },
-    "followers": "{{val}} người theo dõi",
-    "followAction": "Theo dõi",
-    "breadcrumbs": "Tech Blog",
-    "tags": {
-      "algorithms": "Thuật toán",
-      "mobile": "Di động",
-      "ai": "Trí tuệ nhân tạo",
-      "backend": "Lập trình Backend",
-      "frontend": "Lập trình Frontend",
-      "career": "Sự nghiệp",
-      "devops": "DevOps",
-      "cybersecurity": "An ninh mạng",
-      "webdev": "Phát triển Web",
-      "react": "React",
-      "memory": "Quản lý bộ nhớ",
-      "junior": "Người mới"
-    },
-    "mock": {
-      "b1": {
-        "title": "Tối ưu hóa thuật toán Dynamic Programming: Từ O(N^2) xuống O(N)",
-        "summary": "Khám phá các kỹ thuật tối ưu hóa không gian và thời gian trong lập trình động qua các ví dụ thực tế.",
-        "author": "Thanh Pham"
-      },
-      "b2": {
-        "title": "Lộ trình học Web Development cho người mới bắt đầu năm 2026",
-        "summary": "Tại sao React vẫn giữ vững ngôi vương và bước đột phá của AI trong việc tạo giao diện người dùng.",
-        "author": "Alex Johnson"
-      },
-      "b3": {
-        "title": "Hiểu sâu về Con con trỏ trong C++: Cơn ác mộng hay công cụ mạnh mẽ?",
-        "summary": "Giải thích chi tiết về quản lý bộ nhớ, con trỏ thông minh và các lỗi thường gặp khi làm việc với memory.",
-        "author": "Maria Garcia"
-      }
-    }
-  },
-  "problems": {
-    "title": "Bài tập",
-    "titleHighlight": "thuật toán",
-    "subtitle": "Nâng cao kỹ năng lập trình và tư duy thuật toán mỗi ngày.",
-    "progress": "Tiến độ",
-    "solved": "đã giải",
-    "searchPlaceholder": "Tìm kiếm bài tập...",
-    "difficulty": "Độ khó",
-    "all": "Tất cả",
-    "easy": "Dễ",
-    "medium": "Trung bình",
-    "hard": "Khó",
-    "acceptanceRate": "Tỷ lệ hoàn thành",
-    "table": {
-      "rank": "#",
-      "title": "Tên bài tập",
-      "difficulty": "Độ khó",
-      "acceptance": "Tỷ lệ AC",
-      "action": "Hành động"
-    },
-    "tryNow": "Thử ngay",
-    "noProblems": "Không tìm thấy bài tập nào phù hợp.",
-    "learningPath": {
-      "aiSuggested": "Đề xuất bởi AI",
-      "dpPathTitle": "Lộ trình rèn luyện Quy hoạch động",
-      "dpPathDesc": "Bạn đã nắm vững Mảng, hãy tiếp tục với DP để giải quyết các bài toán tối ưu hóa phức tạp hơn.",
-      "startPath": "Bắt đầu lộ trình"
-    },
-    "premium": {
-      "title": "Premium Content",
-      "googleTitle": "Luyện tập theo bộ bài tập từ Google",
-      "googleDesc": "Tổng hợp các bài tập thường gặp nhất trong các vòng phỏng vấn thực tế.",
-      "unlock": "Nâng cấp để mở khóa"
-    },
-    "breadcrumbs": "Bài tập thuật toán",
-    "mock": {
-      "p1": {
-        "title": "Hai số tổng (Two Sum)",
-        "category": "Mảng"
-      },
-      "p2": {
-        "title": "Đảo ngược danh sách liên kết",
-        "category": "Danh sách liên kết"
-      },
-      "p3": {
-        "title": "Chu kỳ trong đồ thị",
-        "category": "Đồ thị"
-      },
-      "p4": {
-        "title": "Bậc thang leo",
-        "category": "Quy hoạch động"
-      },
-      "p5": {
-        "title": "Xâu đối xứng dài nhất",
-        "category": "Chuỗi"
-      },
-      "p6": {
-        "title": "Cây nhị phân tầng tự",
-        "category": "Cây"
-      }
-    }
-  },
-  "hub": {
-    "title": "Kho giải pháp",
-    "titleHighlight": "Cộng đồng",
-    "subtitle": "Chia sẻ, thảo luận và học hỏi kiến thức từ hàng nghìn lời giải đã được tối ưu hóa.",
-    "headerLabel": "Kho giải pháp",
-    "shareAction": "Chia sẻ lời giải",
-    "searchPlaceholder": "Tìm theo tên bài hoặc giải pháp...",
-    "languages": {
-      "all": "Tất cả"
-    },
-    "actions": {
-      "backToList": "Quay lại danh sách",
-      "helpful": "Hữu ích",
-      "save": "Lưu lại",
-      "askAuthor": "Hỏi tác giả",
-      "backToGallery": "Quay lại Gallery",
-      "discussions": "Thảo luận",
-      "comments": "Bình luận ({{count}})",
-      "sendComment": "Gửi bình luận",
-      "viewProfile": "Xem hồ sơ cá nhân",
-      "copySuccess": "Đã sao chép mã nguồn vào clipboard!",
-      "isInitializing": "Đang khởi tạo Playground với mã nguồn này..."
-    },
-    "details": {
-      "sourceCode": "Mã nguồn",
-      "algorithmExplanation": "Giải thích giải thuật",
-      "complexity": "Độ phức tạp",
-      "communityFeedback": "Phản hồi cộng đồng",
-      "views": "Lượt xem",
-      "forks": "Forks",
-      "bestApproach": "Cách tiếp cận tốt nhất",
-      "reputation": "Danh tiếng",
-      "feedbackPlaceholder": "Giải thuật rất hay và tối ưu, cảm ơn tác giả!",
-      "commentPlaceholder": "Viết bình luận của bạn...",
-      "aiTip": "Bạn có thể cải thiện giải pháp này bằng cách sử dụng **WeakMap** nếu muốn tối ưu việc thu gom rác (garbage collection).",
-      "aiTipLabel": "Gợi ý học tập AI",
-      "detailedSolution": "Lời giải chi tiết",
-      "likes": "Lượt thích",
-      "solutions": "Lời giải",
-      "topics": "Chủ đề",
-      "acceptance": "Tỷ lệ AC"
-    },
-    "noSolutions": "Không tìm thấy giải pháp nào phù hợp.",
-    "mock": {
-      "s1": {
-        "title": "Tối ưu hóa Hash Map cho Two Sum",
-        "problemTitle": "Hai số tổng",
-        "explanation": "Sử dụng Hash Map để lưu trữ các giá trị đã duyệt giúp chúng ta tìm kiếm 'phần bù' (target - current_val) trong thời gian không đổi O(1)."
-      },
-      "s2": {
-        "title": "Cách tiếp cận One-pass trực quan nhất",
-        "problemTitle": "Hai số tổng",
-        "explanation": "Tương tự như Python, Map trong JS cực kỳ mạnh mẽ cho bài toán này."
-      },
-      "s3": {
-        "title": "Sử dụng mảng thay vì Hash Map (Optimization)",
-        "problemTitle": "Hai số tổng",
-        "explanation": "Nếu mảng đã được sắp xếp, chúng ta có thể sử dụng giải thuật Two Pointers để giảm không gian bộ nhớ xuống O(1)."
-      }
-    }
-  },
-  "ide": {
-    "header": {
-      "help": "Trợ giúp",
-      "points": "pts"
-    },
-    "tabs": {
-      "description": "Mô tả",
-      "solutions": "Giải pháp",
-      "history": "Lịch sử",
-      "hints": "Gợi ý"
-    },
-    "content": {
-      "examples": "Ví dụ minh họa",
-      "constraints": "Ràng buộc",
-      "solutionsEmpty": "Gợi ý và giải pháp mẫu sẽ hiện ra sau khi bạn hoàn thành bài tập.",
-      "historyEmpty": "Lịch sử nộp bài của bạn sẽ được lưu tại đây."
-    },
-    "terminal": {
-      "running": "Đang biên dịch...",
-      "success": "Output:\n[0, 1]\n\nChạy thành công trong 12ms.",
-      "placeholder": "Nhấn \"Run Code\" để xem kết quả biên dịch.",
-      "submitting": "Chờ duyệt..."
-    },
-    "mock": {
-      "p1": {
-        "title": "Hai số tổng (Two Sum)",
-        "category": "Mảng & Hash",
-        "description": "Cho một mảng các số nguyên `nums` và một số nguyên `target`, hãy trả về chỉ số của hai số sao cho tổng của chúng cộng lại bằng `target`.\n\nBạn có thể giả định rằng mỗi đầu vào sẽ có đúng một giải pháp và bạn không được sử dụng cùng một phần tử hai lần.\n\nBạn có thể trả lời theo bất kỳ thứ tự nào.",
-        "explanation1": "Vì nums[0] + nums[1] == 9, chúng ta trả về [0, 1].",
-        "constraints": "Chỉ có một câu trả lời hợp lệ.",
-        "starter": "Viết mã của bạn ở đây"
-      }
-    },
-    "tutor": {
-      "context": "Context: {{problem}} ({{lang}})",
-      "typing": "AI Tutor đang suy nghĩ...",
-      "actions": {
-        "hint": "Gợi ý hướng giải",
-        "explain": "Giải thích Code",
-        "quiz": "Tạo Quiz nhanh"
-      },
-      "inputPlaceholder": "Hỏi AI bất kỳ điều gì...",
-      "disclaimer": "AI Tutor có thể mắc sai sót. Hãy kiểm tra lại thông tin quan trọng.",
-      "mock": {
-        "welcome": "Xin chào! Tôi là AI Tutor của LearnWell. Tôi thấy bạn đang làm bài '{{problem}}'. Bạn có cần tôi gợi ý hướng tiếp cận hay giải thích phần nào không?",
-        "suggestion": "Một cách tiếp cận tối ưu cho bài này là sử dụng Hash Map để lưu trữ các giá trị đã duyệt qua. Bạn có muốn tôi giải thích chi tiết hơn về cách dùng Hash Map trong bài này không?"
-      }
-    },
-    "hints": {
-      "header": {
-        "title": "Gợi ý thông minh (AI)",
-        "ready": "{{count}} gợi ý sẵn sàng"
-      },
-      "levels": {
-        "level": "Cấp độ {{count}}",
-        "free": "Miễn phí",
-        "penalty": "-{{count}} Hình phạt XP",
-        "subtle": "Gợi ý nhẹ nhàng",
-        "specific": "Gợi ý chi tiết",
-        "code": "Mẫu mã"
-      },
-      "actions": {
-        "unlock": "Mở khóa Gợi ý {{count}}",
-        "unlockPenalty": "Mở khóa Gợi ý {{count}} (Phạt XP)",
-        "placeholder": "Nội dung gợi ý {{count}}...",
-        "analyzing": "Đang phân tích Code...",
-        "checkAction": "Chấm Code với AI (5 Gems)"
-      },
-      "badges": {
-        "notUsed": "Học tập không dùng gợi ý sẽ nhận được Huy hiệu \"Tự lực Cánh sinh\" 🎖️"
-      },
-      "review": {
-        "title": "Kết quả AI Code Review",
-        "excellent": "Xuất sắc!",
-        "description": "Code của bạn chạy đúng logic bài toán. Tuy nhiên, có thể tối ưu thêm về mặt bộ nhớ.",
-        "correctness": "Độ chính xác",
-        "efficiency": "Hiệu suất",
-        "style": "Phong cách",
-        "tipHighlight": "Tối ưu gợi ý:",
-        "tip": "Thay vì dùng O(n²) lồng nhau, hãy thử dùng Hash Map để đạt O(n).",
-        "close": "Đóng",
-        "viewSolution": "Xem Solution tối ưu"
-      },
-      "mock": {
-        "h1": "Bạn đã xem xét trường hợp mảng đầu vào rỗng hoặc chỉ có 1 phần tử chưa? Thử suy nghĩ về điều kiện dừng của vòng lặp nhé.",
-        "h2": "Bạn có thể sử dụng một Hash Map để lưu trữ phần bù (target - current_value). Điều này giúp tìm kiếm phần tử còn lại trong O(1).",
-        "h3": "if complement in hash_map:\n    return [hash_map[complement], i]\nhash_map[num] = i"
-      }
-    }
-  },
-  "profile": {
-    "header": {
-      "share": "Chia sẻ",
-      "settings": "Cài đặt",
-      "joined": "Tham gia {{date}}",
-      "streak": "Chuỗi {{count}} ngày",
-      "rank": "Hạng #{{count}}",
-      "contributions": "Đóng góp"
-    },
-    "analysis": {
-      "title": "Phân tích Kỹ năng",
-      "languages": "Ngôn ngữ ưu tiên"
-    },
-    "activity": {
-      "title": "Hoạt động giải bài",
-      "summary": "Tổng cộng {{count}} bài tập đã giải trong năm qua.",
-      "less": "Ít hơn",
-      "more": "Nhiều hơn"
-    },
-    "stats": {
-      "solved": "Bài đã giải",
-      "elo": "Elo Rating",
-      "awards": "Giải thưởng",
-      "badges": "Huy hiệu",
-      "eloHistory": "Lịch sử tăng trưởng Elo"
-    },
-    "achievements": {
-      "title": "Danh hiệu & Huy hiệu",
-      "mock": {
-        "titan": {
-          "name": "Code Titan",
-          "desc": "100 bài Hard"
-        },
-        "learner": {
-          "name": "Fast Learner",
-          "desc": "Chuỗi 30 ngày"
-        },
-        "hunter": {
-          "name": "Bug Hunter",
-          "desc": "Tìm 5 lỗi hệ thống"
-        },
-        "star": {
-          "name": "Social Star",
-          "desc": "1000 Likes blog"
-        },
-        "contender": {
-          "name": "Top Contender",
-          "desc": "Rank 1 Arena"
-        }
-      }
-    }
-  },
-  "adaptive": {
-    "header": {
-      "personalized": "Cá nhân hóa theo AI",
-      "title": "Trung tâm Luyện tập Thông minh",
-      "subtitle": "AI đã chuẩn bị 3 bài tập mục tiêu dựa trên lỗ hổng kiến thức của bạn.",
-      "history": "Lịch sử ôn tập",
-      "analysis": "Phân tích kĩ năng",
-      "historyToast": "Tính năng Lịch sử ôn tập sẽ sớm ra mắt!"
-    },
-    "recommendation": {
-      "badge": "Bài tập AI đề xuất",
-      "priority": "Ưu tiên ghi nhớ cao",
-      "title": "Cấu trúc dữ liệu: Phối hợp Array & Map",
-      "description": "Dựa trên 85% lỗi sai gần đây của bạn ở chủ đề <strong>Nested Data</strong>, bài tập này sẽ giúp bạn tối ưu hóa thời gian tìm kiếm từ O(n) xuống O(1).",
-      "stats": {
-        "match": "Độ khớp AI",
-        "difficulty": "Độ khó",
-        "currency": "Tiền tệ",
-        "time": "Thời gian dự kiến"
-      },
-      "tags": {
-        "optimal": "Luyện tập tối ưu",
-        "gap": "Bù đắp lỗ hổng",
-        "efficiency": "Tăng cường hiệu quả",
-        "repetition": "Lặp lại ngắt quãng"
-      },
-      "startAction": "Bắt đầu rèn luyện",
-      "docsAction": "Xem tài liệu hỗ trợ"
-    },
-    "difficulty": {
-      "title": "Điều chỉnh mức độ thử thách AI",
-      "subtitle": "Điều chỉnh mức độ thử thách cho các bài tập AI tiếp theo.",
-      "badge": "CHẾ ĐỘ TỰ THÍCH NGHI ĐANG BẬT",
-      "zones": {
-        "comfort": "Vùng an toàn",
-        "growth": "Vùng phát triển",
-        "danger": "Vùng nguy hiểm"
-      },
-      "analysis": "Phân tích AI cho cường độ: {{val}}%",
-      "message": "Ở độ khó này, AI sẽ chọn các bài tập có tỉ lệ hoàn thành trung bình là <strong>45-60%</strong> từ cộng đồng, tập trung vào việc cải thiện tốc độ xử lý logic dưới áp lực thời gian."
-    },
-    "sidebar": {
-      "priorityGaps": "Lỗ hổng ưu tiên",
-      "strength": "Sức mạnh",
-      "viewMore": "Xem phân tích sâu hơn",
-      "gaps": {
-        "nestedLoops": "Vòng lặp lồng nhau",
-        "recursionBasics": "Cơ bản Đệ quy",
-        "arrayMethods": "Phương thức Mảng",
-        "timeComplexity": "Độ phức tạp thời gian"
-      },
-      "dailyGoal": {
-        "title": "Mục tiêu hàng ngày",
-        "message": "Hoàn thành 1 bài AI nữa để đạt Goal!"
-      }
-    },
-    "tip": {
-      "title": "Mẹo học tập từ AI",
-      "subtitle": "Lặp lại ngắt quãng",
-      "message": "Bạn đã không rèn luyện kỹ thuật <strong>Binary Search</strong> trong 14 ngày qua. Việc này có thể làm giảm tỉ lệ nhớ kiến thức của bạn xuống dưới 40%.",
-      "plannerAction": "Lên lịch ôn tập 📅"
-    }
-  },
-  "ai": {
-    "hero": {
-      "badge": "AI Insight Engine v2.0 Đang hoạt động",
-      "title": "Lộ trình học tập",
-      "titleHighlight": "Cá nhân hóa cho bạn",
-      "subtitle": "AI của LearnWell đã phân tích hơn 400 bài tập bạn đã nộp và đề xuất lộ trình tối ưu nhất để bạn đạt đến trình độ Senior Developer.",
-      "startNow": "Bắt đầu ngay",
-      "viewAnalysis": "Xem phân tích chi tiết"
-    },
-    "goals": {
-      "title": "Mục tiêu tuần này",
-      "dp": "Giải 5 bài DP",
-      "blog": "Đọc 2 bài Blog",
-      "contest": "Tham gia 1 Contest"
-    },
-    "gaps": {
-      "title": "Lỗ hổng kiến thức",
-      "practiceNow": "Luyện tập ngay",
-      "status": {
-        "critical": "Critical",
-        "improving": "Improving",
-        "good": "Good"
-      }
-    },
-    "tips": {
-      "title": "Mẹo từ AI",
-      "message": "Bạn có xu hướng giải bài tập vào buổi tối với tốc độ nhanh hơn 25%. Hãy thử tập trung vào các bài tập Hard vào khung giờ từ 20:00 - 22:00 để đạt hiệu quả cao nhất."
-    },
-    "recommendations": {
-      "title": "Đề xuất cho bạn",
-      "viewAll": "Xem tất cả",
-      "details": "Chi tiết",
-      "mock": {
-        "r1": {
-          "title": "Tối ưu hóa Hash Map",
-          "type": "Lỗ hổng kiến thức",
-          "reason": "Dựa trên các lỗi Time Limit Exceeded gần đây của bạn ở mảng Algorithms."
-        },
-        "r2": {
-          "title": "Xây dựng REST API với Node.js",
-          "type": "Kỹ năng mới",
-          "reason": "Bạn đã hoàn thành xuất sắc các bài tập Frontend, đây là bước tiếp theo để trở thành Fullstack."
-        },
-        "r3": {
-          "title": "Thách thức 7 ngày C++",
-          "type": "Duy trì phong độ",
-          "reason": "Bạn đang có chuỗi 12 ngày học tập, hãy tiếp tục với thử thách ngôn ngữ mới."
-        }
-      }
-    },
-    "progression": {
-      "title": "Ước tính tiến trình nghề nghiệp",
-      "steps": {
-        "junior": "Junior Developer",
-        "mid": "Mid-Level Engineer",
-        "senior": "Senior Tech Lead"
-      },
-      "status": {
-        "completed": "Hoàn thành",
-        "inProgress": "Đang thực hiện",
-        "locked": "Đã khóa"
-      }
-    }
-  },
-  "peer": {
-    "header": {
-      "title": "Peer",
-      "subtitle": "\"Người giỏi nhất là người biết học từ sai lầm của chính mình và kinh nghiệm của người khác.\"",
-      "reputationPoint": "Điểm uy tín",
-      "submitAction": "Gửi code Review"
-    },
-    "stats": {
-      "done": "Reviews đã làm",
-      "helpful": "Hữu ích",
-      "badges": "Badges nhận được",
-      "reputationEarned": "Reputation kiếm được"
-    },
-    "marketplace": {
-      "title": "Chợ Review",
-      "filter": "Lọc",
-      "tabs": {
-        "all": "Tất cả",
-        "open": "Đang mở",
-        "completed": "Hoàn thành"
-      },
-      "author": "Tác giả",
-      "reward": "Phần thưởng",
-      "comments": "{{count}} bình luận",
-      "reviewNow": "Review ngay",
-      "moreRequests": "Xem thêm yêu cầu",
-      "mock": {
-        "r1": {
-          "title": "Tối ưu hóa thời gian chạy cho giải thuật DFS",
-          "author": "Minh Anh"
-        },
-        "r2": {
-          "title": "Cần góp ý về cách đặt tên biến và cấu trúc code",
-          "author": "Đức Anh"
-        },
-        "r3": {
-          "title": "Help! Code bị vượt quá giới hạn bộ nhớ (MLE)",
-          "author": "Tuấn Kiệt"
-        }
-      }
-    },
-    "leaderboard": {
-      "title": "Top Reviewers",
-      "reviewsDone": "{{count}} reviews completed",
-      "fullLeaderboard": "See Full Leaderboard",
-      "mock": {
-        "cohuong": "Cô Hương",
-        "tuankiet": "Tuấn Kiệt",
-        "hamy": "Hà My"
-      }
-    },
-    "suggestions": {
-      "title": "Review Suggestions for you",
-      "description": "Dựa trên kĩ năng \"JavaScript\" và \"Data Structures\" của bạn, đây là 2 bài toán cần người giỏi như bạn hỗ trợ!",
-      "reward": "Thưởng: {{count}} LearnCoins"
-    }
-  },
-  "roles": {
-    "expert": "Chuyên gia",
-    "teacher": "Giáo viên",
-    "student": "Học sinh",
-    "developer": "Nhân viên phát triển"
-  }
+	"gallery": {
+		"title": "Code",
+		"titleHighlight": "Gallery",
+		"subtitle": "Khám phá và học hỏi từ những lời giải tối ưu nhất của cộng đồng.",
+		"weeklyTop": "Weekly Top",
+		"shareSolution": "Chia sẻ giải pháp",
+		"loginToShare": "Đăng nhập để chia sẻ",
+		"searchPlaceholder": "Tìm kiếm bài toán hoặc người dùng...",
+		"weeklySpotlight": "Tiêu điểm hàng tuần",
+		"viewNow": "XEM NGAY",
+		"allSolutions": "Tất cả giải pháp",
+		"latest": "Mới nhất",
+		"popular": "Phổ biến",
+		"forkAndRemix": "Fork & Remix",
+		"loginToFork": "Đăng nhập để Fork",
+		"viewDetails": "Xem chi tiết",
+		"loadMore": "Tải thêm giải pháp",
+		"breadcrumbs": "Code Gallery",
+		"points": "{{count}} điểm",
+		"reputation": "{{count}} rep",
+		"messages": {
+			"forkSuccess": "Đã Fork mã nguồn! Bạn có thể xem trong Playground."
+		},
+		"mock": {
+			"tuankiet": "Tuấn Kiệt",
+			"minhanh": "Minh Anh",
+			"hamy": "Hà My"
+		}
+	},
+	"blog": {
+		"title": "Tech",
+		"titleHighlight": "Blog",
+		"subtitle": "Chia sẻ kiến thức, kinh nghiệm và những xu hướng công nghệ mới nhất.",
+		"writePost": "Viết bài mới",
+		"featuredPosts": "Bài viết nổi bật",
+		"searchPlaceholder": "Tìm bài viết...",
+		"readMore": "ĐỌC TIẾP",
+		"hotTopics": "Chủ đề hot",
+		"topAuthors": "Tác giả hàng đầu",
+		"newsletter": {
+			"title": "Đừng bỏ lỡ bài viết nào!",
+			"description": "Đăng ký nhận thông báo về những bài viết chất lượng nhất mỗi tuần.",
+			"placeholder": "Email của bạn"
+		},
+		"footer": {
+			"about": "Về Tech Blog",
+			"guidelines": "Nguyên tắc cộng đồng",
+			"becomeAuthor": "Trở thành tác giả"
+		},
+		"followers": "{{val}} người theo dõi",
+		"followAction": "Theo dõi",
+		"breadcrumbs": "Tech Blog",
+		"tags": {
+			"algorithms": "Thuật toán",
+			"mobile": "Di động",
+			"ai": "Trí tuệ nhân tạo",
+			"backend": "Lập trình Backend",
+			"frontend": "Lập trình Frontend",
+			"career": "Sự nghiệp",
+			"devops": "DevOps",
+			"cybersecurity": "An ninh mạng",
+			"webdev": "Phát triển Web",
+			"react": "React",
+			"memory": "Quản lý bộ nhớ",
+			"junior": "Người mới"
+		},
+		"mock": {
+			"b1": {
+				"title": "Tối ưu hóa thuật toán Dynamic Programming: Từ O(N^2) xuống O(N)",
+				"summary": "Khám phá các kỹ thuật tối ưu hóa không gian và thời gian trong lập trình động qua các ví dụ thực tế.",
+				"author": "Thanh Pham"
+			},
+			"b2": {
+				"title": "Lộ trình học Web Development cho người mới bắt đầu năm 2026",
+				"summary": "Tại sao React vẫn giữ vững ngôi vương và bước đột phá của AI trong việc tạo giao diện người dùng.",
+				"author": "Alex Johnson"
+			},
+			"b3": {
+				"title": "Hiểu sâu về Con con trỏ trong C++: Cơn ác mộng hay công cụ mạnh mẽ?",
+				"summary": "Giải thích chi tiết về quản lý bộ nhớ, con trỏ thông minh và các lỗi thường gặp khi làm việc với memory.",
+				"author": "Maria Garcia"
+			}
+		}
+	},
+	"problems": {
+		"title": "Bài tập",
+		"titleHighlight": "thuật toán",
+		"subtitle": "Nâng cao kỹ năng lập trình và tư duy thuật toán mỗi ngày.",
+		"progress": "Tiến độ",
+		"solved": "đã giải",
+		"searchPlaceholder": "Tìm kiếm bài tập...",
+		"difficulty": "Độ khó",
+		"all": "Tất cả",
+		"easy": "Dễ",
+		"medium": "Trung bình",
+		"hard": "Khó",
+		"acceptanceRate": "Tỷ lệ hoàn thành",
+		"table": {
+			"rank": "#",
+			"title": "Tên bài tập",
+			"difficulty": "Độ khó",
+			"acceptance": "Tỷ lệ AC",
+			"action": "Hành động"
+		},
+		"tryNow": "Thử ngay",
+		"noProblems": "Không tìm thấy bài tập nào phù hợp.",
+		"learningPath": {
+			"aiSuggested": "Đề xuất bởi AI",
+			"dpPathTitle": "Lộ trình rèn luyện Quy hoạch động",
+			"dpPathDesc": "Bạn đã nắm vững Mảng, hãy tiếp tục với DP để giải quyết các bài toán tối ưu hóa phức tạp hơn.",
+			"startPath": "Bắt đầu lộ trình"
+		},
+		"premium": {
+			"title": "Premium Content",
+			"googleTitle": "Luyện tập theo bộ bài tập từ Google",
+			"googleDesc": "Tổng hợp các bài tập thường gặp nhất trong các vòng phỏng vấn thực tế.",
+			"unlock": "Nâng cấp để mở khóa"
+		},
+		"breadcrumbs": "Bài tập thuật toán",
+		"mock": {
+			"p1": {
+				"title": "Hai số tổng (Two Sum)",
+				"category": "Mảng"
+			},
+			"p2": {
+				"title": "Đảo ngược danh sách liên kết",
+				"category": "Danh sách liên kết"
+			},
+			"p3": {
+				"title": "Chu kỳ trong đồ thị",
+				"category": "Đồ thị"
+			},
+			"p4": {
+				"title": "Bậc thang leo",
+				"category": "Quy hoạch động"
+			},
+			"p5": {
+				"title": "Xâu đối xứng dài nhất",
+				"category": "Chuỗi"
+			},
+			"p6": {
+				"title": "Cây nhị phân tầng tự",
+				"category": "Cây"
+			}
+		}
+	},
+	"hub": {
+		"title": "Kho giải pháp",
+		"titleHighlight": "Cộng đồng",
+		"subtitle": "Chia sẻ, thảo luận và học hỏi kiến thức từ hàng nghìn lời giải đã được tối ưu hóa.",
+		"headerLabel": "Kho giải pháp",
+		"shareAction": "Chia sẻ lời giải",
+		"searchPlaceholder": "Tìm theo tên bài hoặc giải pháp...",
+		"languages": {
+			"all": "Tất cả"
+		},
+		"actions": {
+			"backToList": "Quay lại danh sách",
+			"helpful": "Hữu ích",
+			"save": "Lưu lại",
+			"askAuthor": "Hỏi tác giả",
+			"backToGallery": "Quay lại Gallery",
+			"discussions": "Thảo luận",
+			"comments": "Bình luận ({{count}})",
+			"sendComment": "Gửi bình luận",
+			"viewProfile": "Xem hồ sơ cá nhân",
+			"copySuccess": "Đã sao chép mã nguồn vào clipboard!",
+			"isInitializing": "Đang khởi tạo Playground với mã nguồn này..."
+		},
+		"details": {
+			"sourceCode": "Mã nguồn",
+			"algorithmExplanation": "Giải thích giải thuật",
+			"complexity": "Độ phức tạp",
+			"communityFeedback": "Phản hồi cộng đồng",
+			"views": "Lượt xem",
+			"forks": "Forks",
+			"bestApproach": "Cách tiếp cận tốt nhất",
+			"reputation": "Danh tiếng",
+			"feedbackPlaceholder": "Giải thuật rất hay và tối ưu, cảm ơn tác giả!",
+			"commentPlaceholder": "Viết bình luận của bạn...",
+			"aiTip": "Bạn có thể cải thiện giải pháp này bằng cách sử dụng **WeakMap** nếu muốn tối ưu việc thu gom rác (garbage collection).",
+			"aiTipLabel": "Gợi ý học tập AI",
+			"detailedSolution": "Lời giải chi tiết",
+			"likes": "Lượt thích",
+			"solutions": "Lời giải",
+			"topics": "Chủ đề",
+			"acceptance": "Tỷ lệ AC"
+		},
+		"noSolutions": "Không tìm thấy giải pháp nào phù hợp.",
+		"mock": {
+			"s1": {
+				"title": "Tối ưu hóa Hash Map cho Two Sum",
+				"problemTitle": "Hai số tổng",
+				"explanation": "Sử dụng Hash Map để lưu trữ các giá trị đã duyệt giúp chúng ta tìm kiếm 'phần bù' (target - current_val) trong thời gian không đổi O(1)."
+			},
+			"s2": {
+				"title": "Cách tiếp cận One-pass trực quan nhất",
+				"problemTitle": "Hai số tổng",
+				"explanation": "Tương tự như Python, Map trong JS cực kỳ mạnh mẽ cho bài toán này."
+			},
+			"s3": {
+				"title": "Sử dụng mảng thay vì Hash Map (Optimization)",
+				"problemTitle": "Hai số tổng",
+				"explanation": "Nếu mảng đã được sắp xếp, chúng ta có thể sử dụng giải thuật Two Pointers để giảm không gian bộ nhớ xuống O(1)."
+			}
+		}
+	},
+	"ide": {
+		"header": {
+			"help": "Trợ giúp",
+			"points": "pts"
+		},
+		"tabs": {
+			"description": "Mô tả",
+			"solutions": "Giải pháp",
+			"history": "Lịch sử",
+			"hints": "Gợi ý"
+		},
+		"content": {
+			"examples": "Ví dụ minh họa",
+			"constraints": "Ràng buộc",
+			"solutionsEmpty": "Gợi ý và giải pháp mẫu sẽ hiện ra sau khi bạn hoàn thành bài tập.",
+			"historyEmpty": "Lịch sử nộp bài của bạn sẽ được lưu tại đây."
+		},
+		"terminal": {
+			"running": "Đang biên dịch...",
+			"success": "Output:\n[0, 1]\n\nChạy thành công trong 12ms.",
+			"placeholder": "Nhấn \"Run Code\" để xem kết quả biên dịch.",
+			"submitting": "Chờ duyệt..."
+		},
+		"mock": {
+			"p1": {
+				"title": "Hai số tổng (Two Sum)",
+				"category": "Mảng & Hash",
+				"description": "Cho một mảng các số nguyên `nums` và một số nguyên `target`, hãy trả về chỉ số của hai số sao cho tổng của chúng cộng lại bằng `target`.\n\nBạn có thể giả định rằng mỗi đầu vào sẽ có đúng một giải pháp và bạn không được sử dụng cùng một phần tử hai lần.\n\nBạn có thể trả lời theo bất kỳ thứ tự nào.",
+				"explanation1": "Vì nums[0] + nums[1] == 9, chúng ta trả về [0, 1].",
+				"constraints": "Chỉ có một câu trả lời hợp lệ.",
+				"starter": "Viết mã của bạn ở đây"
+			}
+		},
+		"tutor": {
+			"context": "Context: {{problem}} ({{lang}})",
+			"typing": "AI Tutor đang suy nghĩ...",
+			"actions": {
+				"hint": "Gợi ý hướng giải",
+				"explain": "Giải thích Code",
+				"quiz": "Tạo Quiz nhanh"
+			},
+			"inputPlaceholder": "Hỏi AI bất kỳ điều gì...",
+			"disclaimer": "AI Tutor có thể mắc sai sót. Hãy kiểm tra lại thông tin quan trọng.",
+			"mock": {
+				"welcome": "Xin chào! Tôi là AI Tutor của LearnWell. Tôi thấy bạn đang làm bài '{{problem}}'. Bạn có cần tôi gợi ý hướng tiếp cận hay giải thích phần nào không?",
+				"suggestion": "Một cách tiếp cận tối ưu cho bài này là sử dụng Hash Map để lưu trữ các giá trị đã duyệt qua. Bạn có muốn tôi giải thích chi tiết hơn về cách dùng Hash Map trong bài này không?"
+			}
+		},
+		"hints": {
+			"header": {
+				"title": "Gợi ý thông minh (AI)",
+				"ready": "{{count}} gợi ý sẵn sàng"
+			},
+			"levels": {
+				"level": "Cấp độ {{count}}",
+				"free": "Miễn phí",
+				"penalty": "-{{count}} Hình phạt XP",
+				"subtle": "Gợi ý nhẹ nhàng",
+				"specific": "Gợi ý chi tiết",
+				"code": "Mẫu mã"
+			},
+			"actions": {
+				"unlock": "Mở khóa Gợi ý {{count}}",
+				"unlockPenalty": "Mở khóa Gợi ý {{count}} (Phạt XP)",
+				"placeholder": "Nội dung gợi ý {{count}}...",
+				"analyzing": "Đang phân tích Code...",
+				"checkAction": "Chấm Code với AI (5 Gems)"
+			},
+			"badges": {
+				"notUsed": "Học tập không dùng gợi ý sẽ nhận được Huy hiệu \"Tự lực Cánh sinh\" 🎖️"
+			},
+			"review": {
+				"title": "Kết quả AI Code Review",
+				"excellent": "Xuất sắc!",
+				"description": "Code của bạn chạy đúng logic bài toán. Tuy nhiên, có thể tối ưu thêm về mặt bộ nhớ.",
+				"correctness": "Độ chính xác",
+				"efficiency": "Hiệu suất",
+				"style": "Phong cách",
+				"tipHighlight": "Tối ưu gợi ý:",
+				"tip": "Thay vì dùng O(n²) lồng nhau, hãy thử dùng Hash Map để đạt O(n).",
+				"close": "Đóng",
+				"viewSolution": "Xem Solution tối ưu"
+			},
+			"mock": {
+				"h1": "Bạn đã xem xét trường hợp mảng đầu vào rỗng hoặc chỉ có 1 phần tử chưa? Thử suy nghĩ về điều kiện dừng của vòng lặp nhé.",
+				"h2": "Bạn có thể sử dụng một Hash Map để lưu trữ phần bù (target - current_value). Điều này giúp tìm kiếm phần tử còn lại trong O(1).",
+				"h3": "if complement in hash_map:\n    return [hash_map[complement], i]\nhash_map[num] = i"
+			}
+		}
+	},
+	"profile": {
+		"header": {
+			"share": "Chia sẻ",
+			"settings": "Cài đặt",
+			"joined": "Tham gia {{date}}",
+			"streak": "Chuỗi {{count}} ngày",
+			"rank": "Hạng #{{count}}",
+			"contributions": "Đóng góp"
+		},
+		"analysis": {
+			"title": "Phân tích Kỹ năng",
+			"languages": "Ngôn ngữ ưu tiên"
+		},
+		"activity": {
+			"title": "Hoạt động giải bài",
+			"summary": "Tổng cộng {{count}} bài tập đã giải trong năm qua.",
+			"less": "Ít hơn",
+			"more": "Nhiều hơn"
+		},
+		"stats": {
+			"solved": "Bài đã giải",
+			"elo": "Elo Rating",
+			"awards": "Giải thưởng",
+			"badges": "Huy hiệu",
+			"eloHistory": "Lịch sử tăng trưởng Elo"
+		},
+		"achievements": {
+			"title": "Danh hiệu & Huy hiệu",
+			"mock": {
+				"titan": {
+					"name": "Code Titan",
+					"desc": "100 bài Hard"
+				},
+				"learner": {
+					"name": "Fast Learner",
+					"desc": "Chuỗi 30 ngày"
+				},
+				"hunter": {
+					"name": "Bug Hunter",
+					"desc": "Tìm 5 lỗi hệ thống"
+				},
+				"star": {
+					"name": "Social Star",
+					"desc": "1000 Likes blog"
+				},
+				"contender": {
+					"name": "Top Contender",
+					"desc": "Rank 1 Arena"
+				}
+			}
+		}
+	},
+	"adaptive": {
+		"header": {
+			"personalized": "Cá nhân hóa theo AI",
+			"title": "Trung tâm Luyện tập Thông minh",
+			"subtitle": "AI đã chuẩn bị 3 bài tập mục tiêu dựa trên lỗ hổng kiến thức của bạn.",
+			"history": "Lịch sử ôn tập",
+			"analysis": "Phân tích kĩ năng",
+			"historyToast": "Tính năng Lịch sử ôn tập sẽ sớm ra mắt!"
+		},
+		"recommendation": {
+			"badge": "Bài tập AI đề xuất",
+			"priority": "Ưu tiên ghi nhớ cao",
+			"title": "Cấu trúc dữ liệu: Phối hợp Array & Map",
+			"description": "Dựa trên 85% lỗi sai gần đây của bạn ở chủ đề <strong>Nested Data</strong>, bài tập này sẽ giúp bạn tối ưu hóa thời gian tìm kiếm từ O(n) xuống O(1).",
+			"stats": {
+				"match": "Độ khớp AI",
+				"difficulty": "Độ khó",
+				"currency": "Tiền tệ",
+				"time": "Thời gian dự kiến"
+			},
+			"tags": {
+				"optimal": "Luyện tập tối ưu",
+				"gap": "Bù đắp lỗ hổng",
+				"efficiency": "Tăng cường hiệu quả",
+				"repetition": "Lặp lại ngắt quãng"
+			},
+			"startAction": "Bắt đầu rèn luyện",
+			"docsAction": "Xem tài liệu hỗ trợ"
+		},
+		"difficulty": {
+			"title": "Điều chỉnh mức độ thử thách AI",
+			"subtitle": "Điều chỉnh mức độ thử thách cho các bài tập AI tiếp theo.",
+			"badge": "CHẾ ĐỘ TỰ THÍCH NGHI ĐANG BẬT",
+			"zones": {
+				"comfort": "Vùng an toàn",
+				"growth": "Vùng phát triển",
+				"danger": "Vùng nguy hiểm"
+			},
+			"analysis": "Phân tích AI cho cường độ: {{val}}%",
+			"message": "Ở độ khó này, AI sẽ chọn các bài tập có tỉ lệ hoàn thành trung bình là <strong>45-60%</strong> từ cộng đồng, tập trung vào việc cải thiện tốc độ xử lý logic dưới áp lực thời gian."
+		},
+		"sidebar": {
+			"priorityGaps": "Lỗ hổng ưu tiên",
+			"strength": "Sức mạnh",
+			"viewMore": "Xem phân tích sâu hơn",
+			"gaps": {
+				"nestedLoops": "Vòng lặp lồng nhau",
+				"recursionBasics": "Cơ bản Đệ quy",
+				"arrayMethods": "Phương thức Mảng",
+				"timeComplexity": "Độ phức tạp thời gian"
+			},
+			"dailyGoal": {
+				"title": "Mục tiêu hàng ngày",
+				"message": "Hoàn thành 1 bài AI nữa để đạt Goal!"
+			}
+		},
+		"tip": {
+			"title": "Mẹo học tập từ AI",
+			"subtitle": "Lặp lại ngắt quãng",
+			"message": "Bạn đã không rèn luyện kỹ thuật <strong>Binary Search</strong> trong 14 ngày qua. Việc này có thể làm giảm tỉ lệ nhớ kiến thức của bạn xuống dưới 40%.",
+			"plannerAction": "Lên lịch ôn tập 📅"
+		}
+	},
+	"ai": {
+		"hero": {
+			"badge": "AI Insight Engine v2.0 Đang hoạt động",
+			"title": "Lộ trình học tập",
+			"titleHighlight": "Cá nhân hóa cho bạn",
+			"subtitle": "AI của LearnWell đã phân tích hơn 400 bài tập bạn đã nộp và đề xuất lộ trình tối ưu nhất để bạn đạt đến trình độ Senior Developer.",
+			"startNow": "Bắt đầu ngay",
+			"viewAnalysis": "Xem phân tích chi tiết"
+		},
+		"goals": {
+			"title": "Mục tiêu tuần này",
+			"dp": "Giải 5 bài DP",
+			"blog": "Đọc 2 bài Blog",
+			"contest": "Tham gia 1 Contest"
+		},
+		"gaps": {
+			"title": "Lỗ hổng kiến thức",
+			"practiceNow": "Luyện tập ngay",
+			"status": {
+				"critical": "Critical",
+				"improving": "Improving",
+				"good": "Good"
+			}
+		},
+		"tips": {
+			"title": "Mẹo từ AI",
+			"message": "Bạn có xu hướng giải bài tập vào buổi tối với tốc độ nhanh hơn 25%. Hãy thử tập trung vào các bài tập Hard vào khung giờ từ 20:00 - 22:00 để đạt hiệu quả cao nhất."
+		},
+		"recommendations": {
+			"title": "Đề xuất cho bạn",
+			"viewAll": "Xem tất cả",
+			"details": "Chi tiết",
+			"mock": {
+				"r1": {
+					"title": "Tối ưu hóa Hash Map",
+					"type": "Lỗ hổng kiến thức",
+					"reason": "Dựa trên các lỗi Time Limit Exceeded gần đây của bạn ở mảng Algorithms."
+				},
+				"r2": {
+					"title": "Xây dựng REST API với Node.js",
+					"type": "Kỹ năng mới",
+					"reason": "Bạn đã hoàn thành xuất sắc các bài tập Frontend, đây là bước tiếp theo để trở thành Fullstack."
+				},
+				"r3": {
+					"title": "Thách thức 7 ngày C++",
+					"type": "Duy trì phong độ",
+					"reason": "Bạn đang có chuỗi 12 ngày học tập, hãy tiếp tục với thử thách ngôn ngữ mới."
+				}
+			}
+		},
+		"progression": {
+			"title": "Ước tính tiến trình nghề nghiệp",
+			"steps": {
+				"junior": "Junior Developer",
+				"mid": "Mid-Level Engineer",
+				"senior": "Senior Tech Lead"
+			},
+			"status": {
+				"completed": "Hoàn thành",
+				"inProgress": "Đang thực hiện",
+				"locked": "Đã khóa"
+			}
+		}
+	},
+	"ai_editor": {
+		"no_results": "Chưa có kết quả",
+		"no_results_desc": "Bắt đầu lập trình để xem phân tích từ AI",
+		"how_it_works": "Cách hoạt động",
+		"tabs": {
+			"feedback": "Phản hồi",
+			"analysis": "Phân tích"
+		},
+		"summary_title": "TỔNG HỢP AI",
+		"hints_title": "Gợi ý từng bước",
+		"performance": "Hiệu năng máy chủ",
+		"performance_score": "Điểm hiệu năng",
+		"clean_code": "Chất lượng mã",
+		"clean_code_score": "Điểm chất lượng mã",
+		"engine_report": "Báo cáo hệ thống",
+		"execution": "Thực thi",
+		"tests": "Kiểm thử",
+		"re_analyze": "Phân tích lại mã",
+		"pro_title": "AI Feedback Pro",
+		"active_intel": "Trình thông minh đang hoạt động",
+		"passed": "Đã đạt",
+		"naming_issue": "Đặt tên mập mờ",
+		"line_length_issue": "Dòng mã quá dài",
+		"perf_desc": "Thuật toán đạt độ phức tạp thời gian O(n log n). Tốt!"
+	},
+	"blockly": {
+		"tabs": {
+			"blocks": "Khối",
+			"js": "JavaScript",
+			"py": "Python"
+		},
+		"search_placeholder": "Tìm khối...",
+		"simulator": "Mô phỏng thiết bị",
+		"battery": "Trạng thái pin",
+		"accelerometer": "Gia tốc kế",
+		"start": "Bắt đầu",
+		"stop": "Dừng",
+		"brand": "Blockly PXT",
+		"hardware": "MICRO:BIT",
+		"generated_code": "// Mã được tạo tự động",
+		"xyz_stats": "X: {{x}}, Y: {{y}}, Z: {{z}}",
+		"mock": {
+			"if_do": "nếu ... thực hiện",
+			"repeat": "lặp lại 10 lần"
+		}
+	},
+	"peer": {
+		"header": {
+			"title": "Peer",
+			"subtitle": "\"Người giỏi nhất là người biết học từ sai lầm của chính mình và kinh nghiệm của người khác.\"",
+			"reputationPoint": "Điểm uy tín",
+			"submitAction": "Gửi code Review"
+		},
+		"stats": {
+			"done": "Reviews đã làm",
+			"helpful": "Hữu ích",
+			"badges": "Badges nhận được",
+			"reputationEarned": "Reputation kiếm được"
+		},
+		"marketplace": {
+			"title": "Chợ Review",
+			"filter": "Lọc",
+			"tabs": {
+				"all": "Tất cả",
+				"open": "Đang mở",
+				"completed": "Hoàn thành"
+			},
+			"author": "Tác giả",
+			"reward": "Phần thưởng",
+			"comments": "{{count}} bình luận",
+			"reviewNow": "Review ngay",
+			"moreRequests": "Xem thêm yêu cầu",
+			"mock": {
+				"r1": {
+					"title": "Tối ưu hóa thời gian chạy cho giải thuật DFS",
+					"author": "Minh Anh"
+				},
+				"r2": {
+					"title": "Cần góp ý về cách đặt tên biến và cấu trúc code",
+					"author": "Đức Anh"
+				},
+				"r3": {
+					"title": "Help! Code bị vượt quá giới hạn bộ nhớ (MLE)",
+					"author": "Tuấn Kiệt"
+				}
+			}
+		},
+		"leaderboard": {
+			"title": "Top Reviewers",
+			"reviewsDone": "{{count}} reviews completed",
+			"fullLeaderboard": "See Full Leaderboard",
+			"mock": {
+				"cohuong": "Cô Hương",
+				"tuankiet": "Tuấn Kiệt",
+				"hamy": "Hà My"
+			}
+		},
+		"suggestions": {
+			"title": "Review Suggestions for you",
+			"description": "Dựa trên kĩ năng \"JavaScript\" và \"Data Structures\" của bạn, đây là 2 bài toán cần người giỏi như bạn hỗ trợ!",
+			"reward": "Thưởng: {{count}} LearnCoins"
+		}
+	},
+	"roles": {
+		"expert": "Chuyên gia",
+		"teacher": "Giáo viên",
+		"student": "Học sinh",
+		"developer": "Nhân viên phát triển"
+	},
+	"scratch": {
+		"title": "LearnWell Scratch",
+		"loading": "Đang khởi tạo công cụ Scratch 3.0...",
+		"sprites_area": "Nhân vật & Phông nền",
+		"workspace_area": "Khu vực soạn thảo",
+		"stage_size": "Sân khấu: 480 x 360",
+		"tooltips": {
+			"save": "Lưu dự án vào Dashboard",
+			"export": "Xuất file .sb3",
+			"share": "Chia sẻ dự án"
+		},
+		"blocks": {
+			"move": "di chuyển 10 bước",
+			"say": "nói \"Xin chào!\" trong 2 giây",
+			"when_flag": "khi nhấn vào 🚩",
+			"if_then": "nếu ... thì"
+		},
+		"sprites": {
+			"cat": "Nhân vật 1",
+			"sprite2": "Sprite 2"
+		}
+	}
 }

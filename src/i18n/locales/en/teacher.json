@@ -1,878 +1,918 @@
 {
-  "dashboard": {
-    "teacherTony": "Teacher Tony",
-    "greeting": "Hello, {{name}}",
-    "todayDate": "Today is {{date}}",
-    "quickActions": {
-      "title": "Quick Actions",
-      "createClass": "Create Class",
-      "createClassDesc": "Create a new classroom",
-      "createExam": "Create Exam",
-      "createExamDesc": "Create test questions",
-      "addStudent": "Add Student",
-      "addStudentDesc": "Invite students to class",
-      "createLesson": "Create Lesson",
-      "createLessonDesc": "Draft new content",
-      "exitTickets": "Exit Tickets",
-      "exitTicketsDesc": "Evaluate session",
-      "pathTemplates": "Path Templates",
-      "pathTemplatesDesc": "Standard path templates",
-      "manageIEP": "Manage IEP",
-      "manageIEPDesc": "Support students",
-      "skillGrouping": "Skill Grouping",
-      "skillGroupingDesc": "Personalize teaching",
-      "attendance": "Attendance",
-      "createAssignment": "Create Assignment"
-    },
-    "stats": {
-      "totalStudents": "Total Students",
-      "totalClasses": "Total Classes",
-      "gradingPending": "Grading Pending",
-      "urgentRequests": "Urgent Requests",
-      "absentToday": "Absent Today",
-      "avgGrade": "Average Grade",
-      "pendingAssignments": "Pending Assignments"
-    },
-    "actions": {
-      "seeAll": "See All",
-      "filter": "Filter",
-      "createNew": "Create New",
-      "approveAll": "Approve All"
-    },
-    "sections": {
-      "myClasses": "My Classes",
-      "recentActivity": "Recent Activity",
-      "notifications": "Notifications",
-      "newStudents": "New Student Requests"
-    },
-    "activity": {
-      "title": "Recent Activity",
-      "submitted": "{{name}} submitted an assignment",
-      "late": "{{name}} is late for class",
-      "noActivity": "No recent activity"
-    }
-  },
-  "iepManager": {
-    "title": "IEP Manager",
-    "subtitle": "Digitize and manage Individualized Education Programs to best support special students.",
-    "actions": {
-      "summaryReport": "Summary Report",
-      "create": "Create New IEP",
-      "history": "History",
-      "update": "Update"
-    },
-    "filters": {
-      "searchPlaceholder": "Search students by name, ID...",
-      "sortBy": "Sort by",
-      "lastReview": "Last review date"
-    },
-    "tabs": {
-      "overview": "Overview",
-      "goals": "Goals",
-      "accommodations": "Accommodations",
-      "meetings": "Meetings"
-    },
-    "stats": {
-      "progress": "IEP Progress",
-      "nextReview": "Next Review",
-      "interventions": "Interventions this month",
-      "criticalObservation": "Critical Observation"
-    },
-    "labels": {
-      "generalInfo": "General Information",
-      "diagnosis": "Diagnosis",
-      "startDate": "Start Date",
-      "assignedTeacher": "Assigned Teacher",
-      "mainMetrics": "Key Metrics",
-      "teamSupport": "Team Support",
-      "interventionResults": "Intervention Results",
-      "skillGrowth": "Skill Growth",
-      "lastMonth": "Last Month",
-      "detail": "Detail",
-      "need": "Need"
-    },
-    "mock": {
-      "caseManager": "Case Manager",
-      "iepTeamDesc": "Includes: School Psychologist, Special Education Teacher, Parents, and 2 Consultants.",
-      "strategyNote": "Student responds very well to visual materials (infographics). Priority should be given to converting written exercises to diagrams in this stage.",
-      "accommodations": {
-        "extraTime": "Extra time during exams",
-        "speechToText": "Speech-to-text software",
-        "quietRoom": "Quiet testing room",
-        "frequentBreaks": "Frequent breaks",
-        "visualSchedule": "Visual schedule",
-        "preferentialSeating": "Preferential seating"
-      },
-      "meetingTypes": {
-        "annualReview": "Annual Review",
-        "quarterlyUpdate": "Quarterly Update"
-      },
-      "priorities": {
-        "high": "High",
-        "medium": "Medium",
-        "low": "Low"
-      }
-    }
-  },
-  "skillGrouping": {
-    "title": "Skill Grouping",
-    "subtitle": "Automatically group students based on actual performance to optimize differentiated instruction.",
-    "actions": {
-      "configure": "Configure Groups",
-      "reassign": "Auto Re-group",
-      "assignMaterial": "Assign Now",
-      "createSession": "Create Group Support Session"
-    },
-    "stats": {
-      "overallProgress": "Overall Progress",
-      "needSupport": "Urgent Support Needed",
-      "improvementRate": "Improvement Rate",
-      "groupProgress": "Group Progress",
-      "aiProjection": "AI Projection",
-      "trend": "Trend",
-      "improvingSlowly": "Improving slowly"
-    },
-    "labels": {
-      "detail": "Detail",
-      "basedOn": "Based on data from",
-      "strategies": "Suggested Intervention Strategies",
-      "materials": "Recommended Supplementary Materials",
-      "prediction": "Academic Outcome Prediction",
-      "studentList": "Students in this group",
-      "weeklyGoal": "Week {{week}} Goal",
-      "targetProgress": "Target Progress",
-      "newAnalysis": "New Student Analysis",
-      "interventionPlan": "Direct Intervention Plan"
-    }
-  },
-  "rubricBuilder": {
-    "title": "Rubric Builder",
-    "subtitle": "Design professional grading criteria",
-    "actions": {
-      "useTemplate": "Use Template",
-      "save": "Save Rubric",
-      "addCriterion": "Add New Criterion",
-      "preview": "Preview Rubric"
-    },
-    "labels": {
-      "rubricName": "Rubric Name",
-      "totalWeight": "Total Weight",
-      "weight": "Weight (%)",
-      "criterionName": "Criterion Name",
-      "description": "Description",
-      "previewTitle": "Grading Table Preview",
-      "previewDesc": "This rubric will be applied to the Essay assignment."
-    },
-    "levels": {
-      "excellent": "Excellent",
-      "good": "Good",
-      "average": "Average",
-      "poor": "Poor"
-    },
-    "messages": {
-      "saveSuccess": "Rubric saved successfully",
-      "weightError": "Total weight must equal 100%"
-    },
-    "mock": {
-      "presentationSkill": "Presentation Skills",
-      "descLevel4": "Perfect layout, polished language, no spelling errors.",
-      "descLevel3": "Clear layout, good expression, few small errors.",
-      "descLevel2": "Okay layout, expression still clunky in some places.",
-      "descLevel1": "Messy layout, many spelling and grammar errors.",
-      "newCriterion": "New Criterion",
-      "essayTitle": "Literature Essay Rubric",
-      "contentQuality": "Content Quality",
-      "contentLevel4": "Deep analysis, tight arguments, and highly creative.",
-      "contentLevel3": "Clear understanding, solid arguments but lacks breakthrough.",
-      "contentLevel2": "Basic content, still missing some key aspects.",
-      "contentLevel1": "Misunderstood topic, superficial or off-topic content."
-    }
-  },
-  "attendance": {
-    "title": "Attendance Management",
-    "subtitle": "Track and manage student attendance",
-    "takeAttendance": "Take Attendance",
-    "qrManual": "Manual / QR Code",
-    "statLabels": {
-      "onTime": "On Time",
-      "late": "Late",
-      "absent": "Absent",
-      "total": "Total"
-    },
-    "table": {
-      "studentName": "Student Name",
-      "id": "ID",
-      "status": "Status",
-      "checkIn": "Check-in Time",
-      "notes": "Notes",
-      "action": "Action",
-      "student": "Student Name",
-      "time": "Time",
-      "note": "Note"
-    },
-    "status": {
-      "present": "Present",
-      "late": "Late",
-      "absent": "Absent",
-      "excused": "Excused"
-    },
-    "chart": {
-      "title": "Attendance Rate",
-      "week": "This Week"
-    },
-    "sections": {
-      "list": "Attendance List",
-      "listDesc": "Manage and track daily student attendance",
-      "weeklyTrend": "Weekly Attendance Trend",
-      "history": "Attendance History",
-      "historyDesc": "Daily attendance heatmap (last 28 days)",
-      "weeklyTrendShort": "Weekly Trend"
-    },
-    "skillGrouping": {
-      "mock": {
-        "anonymousStudent": "Anonymous Student",
-        "supportGoal": "Bring the <b>Support</b> group to a <b>65%</b> comprehension level before the periodic test.",
-        "regressionTitle": "Signs of regression",
-        "regressionDesc": "Students A & B decreased interaction by 15% last week. Add to intervention group?",
-        "actNow": "Act Now",
-        "tutoring10A1": "Tutoring 10A1",
-        "workshopAdvanced": "Advanced Workshop",
-        "ecosystemNote": "The grouping system connects directly with <b>IEP Manager</b> and <b>Differentiated Materials</b> to create a seamless learning experience.",
-        "ecosystemDetail": "Ecosystem Details",
-        "groupRemedial": "Support Group (Remedial)",
-        "categoryKnowledgeGap": "Knowledge Gap",
-        "reasonLoops": "Below 60% on Loops test",
-        "groupCore": "Core Group",
-        "categoryStandard": "Standard Level",
-        "reasonCore": "Reached 60-85% of lesson goals",
-        "groupEnrichment": "Enrichment Group",
-        "categoryTalent": "Talent Development",
-        "reasonEnrichment": "Completed early, above 90%",
-        "examMidtermCS": "Midterm CS 10 Exam",
-        "assignSpecial": "Assign Special Task",
-        "logicStrategy": "This group is struggling with 'Nested Logic'. Use visual materials and real-world examples like 'Auto Shop' to explain before returning to code.",
-        "ecosystemLink": "Ecosystem Link",
-        "materials": {
-          "videoLoops": "Video: For loops basics",
-          "whileGame": "Interactive: While loop game",
-          "codeArrays": "Code challenge: Advanced arrays",
-          "logicQuiz": "Quiz: Logic flow",
-          "erpProject": "Industry project: Mini ERP system",
-          "mentorSession": "Mentor session"
-        }
-      }
-    },
-    "stats": {
-      "totalStudents": "Total Students",
-      "present": "Present Today",
-      "absent": "Absent Today",
-      "late": "Late Today",
-      "avgRate": "Average Attendance Rate"
-    },
-    "filters": {
-      "all": "All",
-      "present": "Present",
-      "absent": "Absent",
-      "late": "Late"
-    },
-    "actions": {
-      "qrScan": "QR Scan",
-      "export": "Export Excel",
-      "search": "Search student...",
-      "contactParent": "Contact Parent"
-    },
-    "legend": {
-      "low": "Low",
-      "high": "High"
-    },
-    "alerts": {
-      "absenteeismTitle": "High Absenteeism Alert",
-      "absenteeismDesc": "{{name}} has been absent {{count}} times this month."
-    }
-  },
-  "analytics": {
-    "title": "Grade Analytics",
-    "subtitle": "Detailed analysis of class academic performance",
-    "sections": {
-      "performanceTrend": "Overall Performance Trend",
-      "performanceTrendDesc": "Academic average across active classes",
-      "scoreDistribution": "Grade Distribution",
-      "scoreDistributionDesc": "Percentage of students by grade range",
-      "competency": "Subject Competencies",
-      "competencyDesc": "Average performance by main subject category",
-      "atRisk": "At-Risk Students",
-      "atRiskDesc": "Students requiring immediate academic support"
-    },
-    "charts": {
-      "classAvg": "Class Average",
-      "topGroup": "Top Group (10%)",
-      "average": "Regional Average",
-      "gradeDistribution": "Grade Distribution",
-      "performanceTrend": "Performance Trend",
-      "subjectComparison": "Subject Comparison"
-    },
-    "atRisk": {
-      "attendance": "Att.",
-      "score": "Score",
-      "statusDown": "Declining",
-      "statusStable": "Stable",
-      "action": "Detail",
-      "viewAll": "View Analysis"
-    },
-    "actions": {
-      "semester": "Semester {{term}}",
-      "viewAllAtRisk": "View Detailed Report"
-    },
-    "statLabels": {
-      "highest": "Highest",
-      "average": "Average",
-      "lowest": "Lowest",
-      "passRate": "Pass Rate"
-    },
-    "mock": {
-      "studentX": "Alex Gia An",
-      "studentY": "Maria Thanh Binh",
-      "studentZ": "Kevin Manh Cuong"
-    }
-  },
-  "exitTickets": {
-    "title": "Exit Tickets",
-    "subtitle": "Instant understanding assessment to adjust teaching in real-time.",
-    "actions": {
-      "history": "History",
-      "create": "Create New Exit Ticket",
-      "close": "Close Ticket",
-      "viewResponses": "View All Responses",
-      "search": "Search tickets...",
-      "viewAISuggestion": "View AI Suggestions"
-    },
-    "stats": {
-      "responding": "Responding",
-      "understandingRate": "Understanding Rate",
-      "needSupport": "Need Support",
-      "completion": "Completion"
-    },
-    "tabs": {
-      "active": "Active",
-      "completed": "Completed"
-    },
-    "list": {
-      "responses": "Responses",
-      "students": "students",
-      "emptyCompleted": "Review previous Exit Tickets in the archive."
-    },
-    "summary": {
-      "confident": "Confident",
-      "okay": "Okay",
-      "confused": "Confused",
-      "latestResponses": "Latest Responses"
-    },
-    "aiTips": {
-      "title": "Quick Intervention Tips",
-      "prefix": "There are {{count}} students confused about \"{{topic}}\". You can:",
-      "tip1": "Organize a small support group after class",
-      "tip2": "Send a review video"
-    }
-  },
-  "gradebook": {
-    "title": "Advanced Gradebook",
-    "subtitle": "Class {{class}} • {{term}} • AY {{year}}",
-    "actions": {
-      "simulating": "Simulating",
-      "simulate": "Simulate Grades (What-if)",
-      "save": "Save Changes",
-      "customize": "Customize",
-      "export": "Export PDF",
-      "filter": "Filter Categories",
-      "viewDetail": "View Individual Detail",
-      "editHistory": "Change History",
-      "markViolation": "Mark Violation",
-      "search": "Search students by name..."
-    },
-    "stats": {
-      "weight": "Weight"
-    },
-    "categories": {
-      "homework": "Homework",
-      "quiz": "Quiz",
-      "exam": "Semester Exam"
-    },
-    "filters": {
-      "all": "All",
-      "show": "Show",
-      "onlyHomework": "Only Homework",
-      "onlyQuiz": "Only Quizzes",
-      "onlyExam": "Only Exams"
-    },
-    "table": {
-      "student": "Student",
-      "average": "Avg Grade",
-      "max": "Max",
-      "type": "Type"
-    },
-    "insights": {
-      "prediction": "Semester Prediction",
-      "predictionDesc": "Based on current scores and weights of remaining exams.",
-      "targetDiff": "{{diff}} vs target",
-      "editLog": "Edit Log",
-      "lastUpdate": "Last Updated",
-      "performer": "Performed By",
-      "viewFullHistory": "View Full Change History"
-    },
-    "messages": {
-      "updateSuccess": "Gradebook updated"
-    },
-    "mock": {
-      "teacherB": "Ms. B"
-    }
-  },
-  "seatingChart": {
-    "title": "Seating Chart",
-    "subtitle": "Interactive classroom seating management • Class {{class}}",
-    "actions": {
-      "autoArrange": "Auto Arrange",
-      "saveLayout": "Save Layout",
-      "search": "Search student...",
-      "unassign": "Unassign seat",
-      "info": "Student Info"
-    },
-    "grid": {
-      "label": "Grid",
-      "podium": "TEACHER PODIUM / BOARD",
-      "empty": "EMPTY"
-    },
-    "legend": {
-      "present": "Present",
-      "absent": "Absent",
-      "late": "Late"
-    },
-    "list": {
-      "unassigned": "Unassigned List",
-      "allAssigned": "All students are seated!",
-      "noStudents": "No students found"
-    },
-    "stats": {
-      "totalSeats": "Total Seats",
-      "assigned": "Assigned",
-      "empty": "Empty"
-    },
-    "templates": {
-      "title": "Layout Templates",
-      "default": "Default (6x4)",
-      "vertical": "Vertical (4x6)"
-    },
-    "messages": {
-      "assignSuccess": "Seat assigned successfully",
-      "unassignSuccess": "Student removed from seat",
-      "updateSuccess": "Seating chart updated successfully"
-    },
-    "mock": {
-      "teacherB": "Teacher Ben"
-    }
-  },
-  "dashboardWidgets": {
-    "title": "Customize Dashboard",
-    "subtitle": "Personalize your workspace",
-    "actions": {
-      "addWidget": "Add Widget",
-      "arrange": "Arrange",
-      "finish": "Finish"
-    },
-    "dropdown": {
-      "selectType": "Select widget type"
-    },
-    "types": {
-      "stats": "Quick Stats",
-      "chart": "Performance Chart",
-      "todo": "To-Do List",
-      "calendar": "Schedule",
-      "chat": "Recent Messages",
-      "alerts": "Learning Alerts"
-    },
-    "widgetActions": {
-      "edit": "Edit",
-      "maximize": "Maximize",
-      "remove": "Remove"
-    },
-    "placeholders": {
-      "addNode": "Click to add new widget"
-    },
-    "templates": {
-      "title": "Use Template Layout",
-      "subtitle": "Choose between optimized Dashboard configurations for each teaching goal.",
-      "homeroom": "For Homeroom Teachers",
-      "subject": "For Subject Teachers",
-      "viewAll": "View All"
-    },
-    "content": {
-      "updating": "Content is being updated..."
-    },
-    "mock": {
-      "physics10B2": "Physics 10B2",
-      "labA": "Lab A",
-      "average10A1": "Avg. Class 10A1",
-      "essayGrading": "Grading Essays T10",
-      "midtermDraft": "Drafting Midterm Exam",
-      "math12A1": "Math 12A1",
-      "scoreDiff": "+{{count}} pts"
-    }
-  },
-  "formativeAssessment": {
-    "title": "Formative Assessment",
-    "subtitle": "Fast assessment tools and instant classroom feedback collection.",
-    "tabs": {
-      "live": "Live Response",
-      "builder": "Quiz Builder",
-      "insights": "Insights"
-    },
-    "actions": {
-      "settings": "Settings",
-      "startLive": "Start Live",
-      "stopLive": "Stop Live",
-      "editSend": "Edit / Send"
-    },
-    "builder": {
-      "createNew": "Create New",
-      "exitTicket": "Exit Ticket",
-      "exitTicketDesc": "Quickly create an exit ticket to check understanding.",
-      "questionsCount": "{{count}} questions",
-      "editSend": "Edit / Send"
-    },
-    "live": {
-      "confidenceTitle": "Real-time Confidence",
-      "confidenceDesc": "Self-assessed understanding levels (Green/Yellow/Red)",
-      "liveNow": "LIVE NOW",
-      "muddyPoints": "Muddy Points",
-      "muddyPointsDesc": "What students find most confusing",
-      "aiSuggestions": "AI explanation suggestions",
-      "detailedFeedback": "Detailed Feedback",
-      "responding": "Respond",
-      "justNow": "Just now",
-      "confidence": {
-        "confident": "Confident",
-        "okay": "Okay",
-        "confused": "Confused"
-      }
-    },
-    "insights": {
-      "loUnderstanding": "Understanding by Learning Objective (LO)",
-      "loDesc": "Analysis of correct/incorrect response rates by concept",
-      "aiSuggestions": "AI Suggestions",
-      "aiAnalysis": "Based on live data, {{percent}}% of students are struggling with the concept <strong>\"{{concept}}\"</strong>.",
-      "solutionTitle": "Suggested Actions:",
-      "solutionItem1": "Use \"{{example}}\" example to illustrate {{concept}}.",
-      "solutionItem2": "Assign a 10-minute visual practice exercise.",
-      "peerTutoring": "Peer Tutoring Groups",
-      "peerTutoringDesc": "Automatically group students to support each other (Peer Tutoring).",
-      "createGroup": "Create Group"
-    },
-    "mock": {
-      "concept": {
-        "types": "Variables & Types",
-        "loops": "For Loops",
-        "functions": "Functions & Params",
-        "arrays": "Arrays"
-      },
-      "points": {
-        "nestedLoops": "Nested Loops",
-        "functions": "Function Params",
-        "scope": "Variable Scope",
-        "boolean": "Boolean Logic",
-        "ifElse": "IF/ELSE Logic",
-        "arrays": "Multi-dimensional Arrays"
-      },
-      "conceptConfidence": "Function Confidence",
-      "conceptQuestion": "\"Question: How confident are you on a scale of 1-10 about function parameters?\"",
-      "arrayConcept": "Multi-dimensional Arrays",
-      "arrayExample": "Seating Grid",
-      "confident": "Confident",
-      "uncertain": "Uncertain",
-      "confused": "Confused",
-      "feedback1": "I understand how to declare variables.",
-      "feedback2": "I need more examples of functions with return values.",
-      "feedback3": "The nested loop part is still unclear to me.",
-      "loopQuiz": "For Loop Quiz",
-      "loopQuestion": "\"Question: What is the output of a loop from i=1 to 5?\"",
-      "logicTag": "Programming Logic",
-      "group1": "Group 1 ({{s1}} + {{s2}})",
-      "group2": "Group 2 ({{s1}} + {{s2}})"
-    },
-    "messages": {
-      "liveStarted": "Live assessment session started!",
-      "liveEnded": "Assessment session ended."
-    },
-    "peerTutoringDesc": "Automatically group students to support each other (Peer Tutoring).",
-    "tagPrefix": "Tag:",
-    "conceptPoll": "Concept Poll"
-  },
-  "intervention": {
-    "title": "Intervention Dashboard",
-    "subtitle": "Early warning system and intervention management for students needing support.",
-    "actions": {
-      "history": "Support History",
-      "aiInsights": "AI Insights"
-    },
-    "stats": {
-      "critical": "Urgent Intervention Needed",
-      "monitoring": "Monitoring",
-      "resolved": "Resolved this week"
-    },
-    "search": {
-      "placeholder": "Search students or classes..."
-    },
-    "filters": {
-      "all": "All",
-      "critical": "Critical",
-      "highRisk": "High Risk",
-      "monitoring": "Monitoring",
-      "resolved": "Resolved"
-    },
-    "alerts": {
-      "lastActivity": "Last Activity",
-      "actions": {
-        "schedule1on1": "Schedule 1-on-1 Meeting",
-        "parentNotify": "Notify Parents",
-        "supplementalExercise": "Assign Supplemental Exercise",
-        "ignore": "Ignore Alert",
-        "markResolved": "Mark as Resolved",
-        "mainAction": "Action"
-      },
-      "tooltips": {
-        "schedule": "Schedule meeting",
-        "mail": "Send mail/SMS to parents",
-        "exercise": "Assign supplemental exercise"
-      }
-    },
-    "messages": {
-      "initiated": "Initiated: {{action}} for {{name}}"
-    },
-    "empty": {
-      "title": "No matching alerts found",
-      "desc": "Try changing filters or search terms."
-    },
-    "mock": {
-      "iepTeamDesc": "Includes: School Psychologist, Special Education Teacher, Parents, and 2 Consultants.",
-      "goal1": "Fill in 10-number table independently",
-      "goal2": "Identify 80% of digraphs",
-      "goal3": "Write simple sentences without spelling errors",
-      "goal4": "Complete 3/5 homework assignments independently",
-      "goal5": "Do not interrupt class > 1 time/lesson",
-      "caseManager": "Ms. Hoai Thu",
-      "strategyNote": "Student responds very well to visual materials (infographics). Priority should be given to converting written exercises to diagrams in this stage.",
-      "dyslexia": "Dyslexia",
-      "riskFactor1": "Missed 3 consecutive assignments",
-      "riskFactor2": "Quiz scores dropped 40%",
-      "riskFactor3": "Absent last 2 sessions",
-      "riskFactor4": "Low self-study time (< 15m/day)",
-      "riskFactor5": "Failed 2 code challenges",
-      "riskFactor6": "Has not met weekly goals",
-      "riskFactor7": "Negative feedback in self-reflection",
-      "riskFactor8": "Low interaction on class forum",
-      "daysAgo": "{{count}} days ago",
-      "hoursAgo": "{{count}} hours ago",
-      "math6A": "Math 6A",
-      "pythonB1": "Python Programming B1",
-      "literature7B": "Literature 7B"
-    }
-  },
-  "learningPath": {
-    "title": "Learning Path Templates",
-    "subtitle": "Use standardized path templates to quickly design personalized teaching plans.",
-    "actions": {
-      "organize": "Organize Library",
-      "createNew": "Create New Template",
-      "useTemplate": "Use Template"
-    },
-    "search": {
-      "placeholder": "Search templates by subject, tags..."
-    },
-    "filters": {
-      "math": "Mathematics",
-      "cs": "Computer Science",
-      "popular": "Most Popular",
-      "all": "All"
-    },
-    "template": {
-      "aiPattern": "AI Pattern",
-      "modulesCount": "{{count}} Modules",
-      "addCustom": "Add New Template",
-      "importFile": "Or import from .LP file",
-      "detailsTitle": "Template Details",
-      "structure": "Path Structure",
-      "targetGroup": "Suitable for student group",
-      "useTemplate": "Use this template",
-      "share": "Share",
-      "edit": "Edit",
-      "structureTitle": "Path Structure",
-      "suitableForTitle": "Suitable for student group",
-      "suitableFor": {
-        "visualKinesthetic": "Visual/kinesthetic learning style students.",
-        "math11Background": "Completed Math 11 fundamental knowledge.",
-        "flexibleTime": "Needs flexible time during the week."
-      }
-    },
-    "aiSuggestion": {
-      "title": "AI Suggestion",
-      "viewAnalysis": "View AI Analysis",
-      "description": "Based on {{subject}} data this week, we recommend updating the {{topic}} template to include new Integral knowledge."
-    },
-    "collections": {
-      "title": "Your Collection",
-      "math10": "Math 10 Path",
-      "codingProjects": "Coding Projects",
-      "academicEnglish": "Academic English"
-    },
-    "mock": {
-      "title": {
-        "math12": "Math 12: University Exam Strategy",
-        "python": "Getting Started with Python",
-        "english": "English for Academic Purposes (EAP)"
-      },
-      "desc": {
-        "python": "Comprehensive path for beginners, from basic syntax to building simple game logic.",
-        "math12": "Focus on key problem types, fast solving techniques, and realistic exam simulations.",
-        "english": "Building academic vocabulary and essay writing skills for international environments."
-      },
-      "tags": {
-        "basic": "Basic",
-        "thinking": "Thinking",
-        "exam": "Exam Prep",
-        "math12": "Math 12",
-        "intensive": "Intensive",
-        "ielts": "IELTS",
-        "academic": "Academic",
-        "writing": "Writing"
-      },
-      "phases": {
-        "intro": "Introduction & Setup",
-        "concepts": "Core Concepts Phase 1",
-        "projects": "Challenge Projects"
-      }
-    }
-  },
-  "autoGrading": {
-    "title": "AI Auto-Grading",
-    "desc": "Use AI to analyze and suggest scores for essay assignments.",
-    "analyzing": "Analyzing student work...",
-    "aiComparing": "AI comparing with sample answer and rubric criteria...",
-    "approveResults": "Approve & Save Grades"
-  },
-  "parentFeedback": {
-    "title": "Title"
-  },
-  "role": {
-    "primary": "Primary",
-    "subject": "Subject"
-  },
-  "roles": {
-    "teacher": "Teacher"
-  },
-  "reports": {
-    "title": "Reports & Analytics",
-    "subtitle": "Track performance and learning progress",
-    "actions": {
-      "export": "Export report",
-      "selectTime": "Select timeframe"
-    },
-    "filters": {
-      "week": "This week",
-      "month": "This month",
-      "quarter": "This quarter",
-      "year": "This year"
-    },
-    "stats": {
-      "avgScore": "Average Score",
-      "totalStudents": "Total Students",
-      "submissions": "Submissions",
-      "completionRate": "Completion Rate",
-      "vsLastMonth": "{{percent}}% vs last month"
-    },
-    "tabs": {
-      "overview": "Overview",
-      "performance": "Performance",
-      "competency": "Competency",
-      "engagement": "Engagement",
-      "cohorts": "Cohorts",
-      "activity": "Activity"
-    },
-    "charts": {
-      "scoreTrend": "Score Trend",
-      "scoreTrendDesc": "Average score by month",
-      "avgScoreShort": "Avg Score",
-      "gradeDist": "Grade Distribution",
-      "gradeDistDesc": "Student ratio by grade classification",
-      "gradeScale": "Ratio",
-      "classComp": "Class Comparison",
-      "classCompDesc": "Average score by class",
-      "subAttendance": "Submissions & Attendance",
-      "subAttendanceDesc": "Track monthly activity",
-      "attendPercent": "Attendance (%)",
-      "competencyMap": "Competency Map",
-      "competencyMapDesc": "Assessment by topic",
-      "competencyDetail": "Competency Details",
-      "competencyDetailDesc": "Score by each field",
-      "weeklyActivity": "Weekly Activity",
-      "weeklyActivityDesc": "Lessons, exercises, and exams by day",
-      "lessons": "Lessons",
-      "exercises": "Exercises",
-      "exams": "Exams",
-      "contentEff": "Content Effectiveness",
-      "contentEffDesc": "Metrics by chapter",
-      "engagementUnit": "{{percent}}% engagement",
-      "completionUnit": "{{percent}}% completion",
-      "avgTimeUnit": "{{count}} min Avg",
-      "correlation": "Correlation: Time vs Score",
-      "correlationDesc": "Relationship between learning effort and results",
-      "timeLabel": "Study Minutes",
-      "scoreLabel": "Score",
-      "studentLabel": "Student",
-      "analysis": "Analysis",
-      "correlationAnalysis": "There is a strong positive correlation between study time and scores. Students spending over 80 minutes typically score above 9.0.",
-      "heatmap": "Interaction Density (Heatmap)",
-      "heatmapDesc": "Learning frequency by hour per week",
-      "low": "Low",
-      "high": "High",
-      "interactions": "{{count}} interactions",
-      "cohortAnalysis": "Cohort Analysis",
-      "cohortAnalysisDesc": "Compare learning progress between school years",
-      "cohortGrowth": "{{name}} Growth Rate"
-    },
-    "mock": {
-      "months": {
-        "t1": "Jan", "t2": "Feb", "t3": "Mar", "t4": "Apr", "t5": "May", "t6": "Jun"
-      },
-      "days": {
-        "mon": "Mon", "tue": "Tue", "wed": "Wed", "thu": "Thu", "fri": "Fri", "sat": "Sat", "sun": "Sun"
-      },
-      "grades": {
-        "excellent": "Excellent (9-10)",
-        "good": "Good (8-9)",
-        "fair": "Fair (6.5-8)",
-        "average": "Average (5-6.5)",
-        "poor": "Poor (<5)"
-      },
-      "classes": {
-        "math6a": "Math 6A",
-        "math7b": "Math 7B",
-        "math8a": "Math 8A",
-        "math9c": "Math 9C",
-        "math6b": "Math 6B"
-      },
-      "competencies": {
-        "arithmetic": "Arithmetic",
-        "algebra": "Algebra",
-        "geometry": "Geometry",
-        "statistics": "Statistics",
-        "probability": "Probability",
-        "trigonometry": "Trigonometry"
-      },
-      "chapters": {
-        "rationalNumbers": "Chapter 1: Rational Numbers",
-        "realNumbers": "Chapter 2: Real Numbers",
-        "planeGeometry": "Chapter 3: Plane Geometry",
-        "statistics": "Chapter 4: Statistics",
-        "midtermReview": "Midterm Review"
-      }
-    }
-  }
+	"dashboard": {
+		"teacherTony": "Teacher Tony",
+		"greeting": "Hello, {{name}}",
+		"todayDate": "Today is {{date}}",
+		"quickActions": {
+			"title": "Quick Actions",
+			"createClass": "Create Class",
+			"createClassDesc": "Create a new classroom",
+			"createExam": "Create Exam",
+			"createExamDesc": "Create test questions",
+			"addStudent": "Add Student",
+			"addStudentDesc": "Invite students to class",
+			"createLesson": "Create Lesson",
+			"createLessonDesc": "Draft new content",
+			"exitTickets": "Exit Tickets",
+			"exitTicketsDesc": "Evaluate session",
+			"pathTemplates": "Path Templates",
+			"pathTemplatesDesc": "Standard path templates",
+			"manageIEP": "Manage IEP",
+			"manageIEPDesc": "Support students",
+			"skillGrouping": "Skill Grouping",
+			"skillGroupingDesc": "Personalize teaching",
+			"attendance": "Attendance",
+			"createAssignment": "Create Assignment"
+		},
+		"stats": {
+			"totalStudents": "Total Students",
+			"totalClasses": "Total Classes",
+			"gradingPending": "Grading Pending",
+			"urgentRequests": "Urgent Requests",
+			"absentToday": "Absent Today",
+			"avgGrade": "Average Grade",
+			"pendingAssignments": "Pending Assignments"
+		},
+		"actions": {
+			"seeAll": "See All",
+			"filter": "Filter",
+			"createNew": "Create New",
+			"approveAll": "Approve All"
+		},
+		"sections": {
+			"myClasses": "My Classes",
+			"recentActivity": "Recent Activity",
+			"notifications": "Notifications",
+			"newStudents": "New Student Requests"
+		},
+		"activity": {
+			"title": "Recent Activity",
+			"submitted": "{{name}} submitted an assignment",
+			"late": "{{name}} is late for class",
+			"noActivity": "No recent activity"
+		}
+	},
+	"iepManager": {
+		"title": "IEP Manager",
+		"subtitle": "Digitize and manage Individualized Education Programs to best support special students.",
+		"actions": {
+			"summaryReport": "Summary Report",
+			"create": "Create New IEP",
+			"history": "History",
+			"update": "Update"
+		},
+		"filters": {
+			"searchPlaceholder": "Search students by name, ID...",
+			"sortBy": "Sort by",
+			"lastReview": "Last review date"
+		},
+		"tabs": {
+			"overview": "Overview",
+			"goals": "Goals",
+			"accommodations": "Accommodations",
+			"meetings": "Meetings"
+		},
+		"stats": {
+			"progress": "IEP Progress",
+			"nextReview": "Next Review",
+			"interventions": "Interventions this month",
+			"criticalObservation": "Critical Observation"
+		},
+		"labels": {
+			"generalInfo": "General Information",
+			"diagnosis": "Diagnosis",
+			"startDate": "Start Date",
+			"assignedTeacher": "Assigned Teacher",
+			"mainMetrics": "Key Metrics",
+			"teamSupport": "Team Support",
+			"interventionResults": "Intervention Results",
+			"skillGrowth": "Skill Growth",
+			"lastMonth": "Last Month",
+			"detail": "Detail",
+			"need": "Need"
+		},
+		"mock": {
+			"caseManager": "Case Manager",
+			"iepTeamDesc": "Includes: School Psychologist, Special Education Teacher, Parents, and 2 Consultants.",
+			"strategyNote": "Student responds very well to visual materials (infographics). Priority should be given to converting written exercises to diagrams in this stage.",
+			"accommodations": {
+				"extraTime": "Extra time during exams",
+				"speechToText": "Speech-to-text software",
+				"quietRoom": "Quiet testing room",
+				"frequentBreaks": "Frequent breaks",
+				"visualSchedule": "Visual schedule",
+				"preferentialSeating": "Preferential seating"
+			},
+			"meetingTypes": {
+				"annualReview": "Annual Review",
+				"quarterlyUpdate": "Quarterly Update"
+			},
+			"priorities": {
+				"high": "High",
+				"medium": "Medium",
+				"low": "Low"
+			}
+		}
+	},
+	"skillGrouping": {
+		"title": "Skill Grouping",
+		"subtitle": "Automatically group students based on actual performance to optimize differentiated instruction.",
+		"actions": {
+			"configure": "Configure Groups",
+			"reassign": "Auto Re-group",
+			"assignMaterial": "Assign Now",
+			"createSession": "Create Group Support Session"
+		},
+		"stats": {
+			"overallProgress": "Overall Progress",
+			"needSupport": "Urgent Support Needed",
+			"improvementRate": "Improvement Rate",
+			"groupProgress": "Group Progress",
+			"aiProjection": "AI Projection",
+			"trend": "Trend",
+			"improvingSlowly": "Improving slowly"
+		},
+		"labels": {
+			"detail": "Detail",
+			"basedOn": "Based on data from",
+			"strategies": "Suggested Intervention Strategies",
+			"materials": "Recommended Supplementary Materials",
+			"prediction": "Academic Outcome Prediction",
+			"studentList": "Students in this group",
+			"weeklyGoal": "Week {{week}} Goal",
+			"targetProgress": "Target Progress",
+			"newAnalysis": "New Student Analysis",
+			"interventionPlan": "Direct Intervention Plan"
+		}
+	},
+	"rubricBuilder": {
+		"title": "Rubric Builder",
+		"subtitle": "Design professional grading criteria",
+		"actions": {
+			"useTemplate": "Use Template",
+			"save": "Save Rubric",
+			"addCriterion": "Add New Criterion",
+			"preview": "Preview Rubric"
+		},
+		"labels": {
+			"rubricName": "Rubric Name",
+			"totalWeight": "Total Weight",
+			"weight": "Weight (%)",
+			"criterionName": "Criterion Name",
+			"description": "Description",
+			"previewTitle": "Grading Table Preview",
+			"previewDesc": "This rubric will be applied to the Essay assignment."
+		},
+		"levels": {
+			"excellent": "Excellent",
+			"good": "Good",
+			"average": "Average",
+			"poor": "Poor"
+		},
+		"messages": {
+			"saveSuccess": "Rubric saved successfully",
+			"weightError": "Total weight must equal 100%"
+		},
+		"mock": {
+			"presentationSkill": "Presentation Skills",
+			"descLevel4": "Perfect layout, polished language, no spelling errors.",
+			"descLevel3": "Clear layout, good expression, few small errors.",
+			"descLevel2": "Okay layout, expression still clunky in some places.",
+			"descLevel1": "Messy layout, many spelling and grammar errors.",
+			"newCriterion": "New Criterion",
+			"essayTitle": "Literature Essay Rubric",
+			"contentQuality": "Content Quality",
+			"contentLevel4": "Deep analysis, tight arguments, and highly creative.",
+			"contentLevel3": "Clear understanding, solid arguments but lacks breakthrough.",
+			"contentLevel2": "Basic content, still missing some key aspects.",
+			"contentLevel1": "Misunderstood topic, superficial or off-topic content."
+		}
+	},
+	"attendance": {
+		"title": "Attendance Management",
+		"subtitle": "Track and manage student attendance",
+		"takeAttendance": "Take Attendance",
+		"qrManual": "Manual / QR Code",
+		"statLabels": {
+			"onTime": "On Time",
+			"late": "Late",
+			"absent": "Absent",
+			"total": "Total"
+		},
+		"table": {
+			"studentName": "Student Name",
+			"id": "ID",
+			"status": "Status",
+			"checkIn": "Check-in Time",
+			"notes": "Notes",
+			"action": "Action",
+			"student": "Student Name",
+			"time": "Time",
+			"note": "Note"
+		},
+		"status": {
+			"present": "Present",
+			"late": "Late",
+			"absent": "Absent",
+			"excused": "Excused"
+		},
+		"chart": {
+			"title": "Attendance Rate",
+			"week": "This Week"
+		},
+		"sections": {
+			"list": "Attendance List",
+			"listDesc": "Manage and track daily student attendance",
+			"weeklyTrend": "Weekly Attendance Trend",
+			"history": "Attendance History",
+			"historyDesc": "Daily attendance heatmap (last 28 days)",
+			"weeklyTrendShort": "Weekly Trend"
+		},
+		"skillGrouping": {
+			"mock": {
+				"anonymousStudent": "Anonymous Student",
+				"supportGoal": "Bring the <b>Support</b> group to a <b>65%</b> comprehension level before the periodic test.",
+				"regressionTitle": "Signs of regression",
+				"regressionDesc": "Students A & B decreased interaction by 15% last week. Add to intervention group?",
+				"actNow": "Act Now",
+				"tutoring10A1": "Tutoring 10A1",
+				"workshopAdvanced": "Advanced Workshop",
+				"ecosystemNote": "The grouping system connects directly with <b>IEP Manager</b> and <b>Differentiated Materials</b> to create a seamless learning experience.",
+				"ecosystemDetail": "Ecosystem Details",
+				"groupRemedial": "Support Group (Remedial)",
+				"categoryKnowledgeGap": "Knowledge Gap",
+				"reasonLoops": "Below 60% on Loops test",
+				"groupCore": "Core Group",
+				"categoryStandard": "Standard Level",
+				"reasonCore": "Reached 60-85% of lesson goals",
+				"groupEnrichment": "Enrichment Group",
+				"categoryTalent": "Talent Development",
+				"reasonEnrichment": "Completed early, above 90%",
+				"examMidtermCS": "Midterm CS 10 Exam",
+				"assignSpecial": "Assign Special Task",
+				"logicStrategy": "This group is struggling with 'Nested Logic'. Use visual materials and real-world examples like 'Auto Shop' to explain before returning to code.",
+				"ecosystemLink": "Ecosystem Link",
+				"materials": {
+					"videoLoops": "Video: For loops basics",
+					"whileGame": "Interactive: While loop game",
+					"codeArrays": "Code challenge: Advanced arrays",
+					"logicQuiz": "Quiz: Logic flow",
+					"erpProject": "Industry project: Mini ERP system",
+					"mentorSession": "Mentor session"
+				}
+			}
+		},
+		"stats": {
+			"totalStudents": "Total Students",
+			"present": "Present Today",
+			"absent": "Absent Today",
+			"late": "Late Today",
+			"avgRate": "Average Attendance Rate"
+		},
+		"filters": {
+			"all": "All",
+			"present": "Present",
+			"absent": "Absent",
+			"late": "Late"
+		},
+		"actions": {
+			"qrScan": "QR Scan",
+			"export": "Export Excel",
+			"search": "Search student...",
+			"contactParent": "Contact Parent"
+		},
+		"legend": {
+			"low": "Low",
+			"high": "High"
+		},
+		"alerts": {
+			"absenteeismTitle": "High Absenteeism Alert",
+			"absenteeismDesc": "{{name}} has been absent {{count}} times this month."
+		}
+	},
+	"analytics": {
+		"title": "Grade Analytics",
+		"subtitle": "Detailed analysis of class academic performance",
+		"sections": {
+			"performanceTrend": "Overall Performance Trend",
+			"performanceTrendDesc": "Academic average across active classes",
+			"scoreDistribution": "Grade Distribution",
+			"scoreDistributionDesc": "Percentage of students by grade range",
+			"competency": "Subject Competencies",
+			"competencyDesc": "Average performance by main subject category",
+			"atRisk": "At-Risk Students",
+			"atRiskDesc": "Students requiring immediate academic support"
+		},
+		"charts": {
+			"classAvg": "Class Average",
+			"topGroup": "Top Group (10%)",
+			"average": "Regional Average",
+			"gradeDistribution": "Grade Distribution",
+			"performanceTrend": "Performance Trend",
+			"subjectComparison": "Subject Comparison"
+		},
+		"atRisk": {
+			"attendance": "Att.",
+			"score": "Score",
+			"statusDown": "Declining",
+			"statusStable": "Stable",
+			"action": "Detail",
+			"viewAll": "View Analysis"
+		},
+		"actions": {
+			"semester": "Semester {{term}}",
+			"viewAllAtRisk": "View Detailed Report"
+		},
+		"statLabels": {
+			"highest": "Highest",
+			"average": "Average",
+			"lowest": "Lowest",
+			"passRate": "Pass Rate"
+		},
+		"mock": {
+			"studentX": "Alex Gia An",
+			"studentY": "Maria Thanh Binh",
+			"studentZ": "Kevin Manh Cuong"
+		}
+	},
+	"exitTickets": {
+		"title": "Exit Tickets",
+		"subtitle": "Instant understanding assessment to adjust teaching in real-time.",
+		"actions": {
+			"history": "History",
+			"create": "Create New Exit Ticket",
+			"close": "Close Ticket",
+			"viewResponses": "View All Responses",
+			"search": "Search tickets...",
+			"viewAISuggestion": "View AI Suggestions"
+		},
+		"stats": {
+			"responding": "Responding",
+			"understandingRate": "Understanding Rate",
+			"needSupport": "Need Support",
+			"completion": "Completion"
+		},
+		"tabs": {
+			"active": "Active",
+			"completed": "Completed"
+		},
+		"list": {
+			"responses": "Responses",
+			"students": "students",
+			"emptyCompleted": "Review previous Exit Tickets in the archive."
+		},
+		"summary": {
+			"confident": "Confident",
+			"okay": "Okay",
+			"confused": "Confused",
+			"latestResponses": "Latest Responses"
+		},
+		"aiTips": {
+			"title": "Quick Intervention Tips",
+			"prefix": "There are {{count}} students confused about \"{{topic}}\". You can:",
+			"tip1": "Organize a small support group after class",
+			"tip2": "Send a review video"
+		}
+	},
+	"gradebook": {
+		"title": "Advanced Gradebook",
+		"subtitle": "Class {{class}} • {{term}} • AY {{year}}",
+		"actions": {
+			"simulating": "Simulating",
+			"simulate": "Simulate Grades (What-if)",
+			"save": "Save Changes",
+			"customize": "Customize",
+			"export": "Export PDF",
+			"filter": "Filter Categories",
+			"viewDetail": "View Individual Detail",
+			"editHistory": "Change History",
+			"markViolation": "Mark Violation",
+			"search": "Search students by name..."
+		},
+		"stats": {
+			"weight": "Weight"
+		},
+		"categories": {
+			"homework": "Homework",
+			"quiz": "Quiz",
+			"exam": "Semester Exam"
+		},
+		"filters": {
+			"all": "All",
+			"show": "Show",
+			"onlyHomework": "Only Homework",
+			"onlyQuiz": "Only Quizzes",
+			"onlyExam": "Only Exams"
+		},
+		"table": {
+			"student": "Student",
+			"average": "Avg Grade",
+			"max": "Max",
+			"type": "Type"
+		},
+		"insights": {
+			"prediction": "Semester Prediction",
+			"predictionDesc": "Based on current scores and weights of remaining exams.",
+			"targetDiff": "{{diff}} vs target",
+			"editLog": "Edit Log",
+			"lastUpdate": "Last Updated",
+			"performer": "Performed By",
+			"viewFullHistory": "View Full Change History"
+		},
+		"messages": {
+			"updateSuccess": "Gradebook updated"
+		},
+		"mock": {
+			"teacherB": "Ms. B"
+		}
+	},
+	"seatingChart": {
+		"title": "Seating Chart",
+		"subtitle": "Interactive classroom seating management • Class {{class}}",
+		"actions": {
+			"autoArrange": "Auto Arrange",
+			"saveLayout": "Save Layout",
+			"search": "Search student...",
+			"unassign": "Unassign seat",
+			"info": "Student Info"
+		},
+		"grid": {
+			"label": "Grid",
+			"podium": "TEACHER PODIUM / BOARD",
+			"empty": "EMPTY"
+		},
+		"legend": {
+			"present": "Present",
+			"absent": "Absent",
+			"late": "Late"
+		},
+		"list": {
+			"unassigned": "Unassigned List",
+			"allAssigned": "All students are seated!",
+			"noStudents": "No students found"
+		},
+		"stats": {
+			"totalSeats": "Total Seats",
+			"assigned": "Assigned",
+			"empty": "Empty"
+		},
+		"templates": {
+			"title": "Layout Templates",
+			"default": "Default (6x4)",
+			"vertical": "Vertical (4x6)"
+		},
+		"messages": {
+			"assignSuccess": "Seat assigned successfully",
+			"unassignSuccess": "Student removed from seat",
+			"updateSuccess": "Seating chart updated successfully"
+		},
+		"mock": {
+			"teacherB": "Teacher Ben"
+		}
+	},
+	"dashboardWidgets": {
+		"title": "Customize Dashboard",
+		"subtitle": "Personalize your workspace",
+		"actions": {
+			"addWidget": "Add Widget",
+			"arrange": "Arrange",
+			"finish": "Finish"
+		},
+		"dropdown": {
+			"selectType": "Select widget type"
+		},
+		"types": {
+			"stats": "Quick Stats",
+			"chart": "Performance Chart",
+			"todo": "To-Do List",
+			"calendar": "Schedule",
+			"chat": "Recent Messages",
+			"alerts": "Learning Alerts"
+		},
+		"widgetActions": {
+			"edit": "Edit",
+			"maximize": "Maximize",
+			"remove": "Remove"
+		},
+		"placeholders": {
+			"addNode": "Click to add new widget"
+		},
+		"templates": {
+			"title": "Use Template Layout",
+			"subtitle": "Choose between optimized Dashboard configurations for each teaching goal.",
+			"homeroom": "For Homeroom Teachers",
+			"subject": "For Subject Teachers",
+			"viewAll": "View All"
+		},
+		"content": {
+			"updating": "Content is being updated..."
+		},
+		"mock": {
+			"physics10B2": "Physics 10B2",
+			"labA": "Lab A",
+			"average10A1": "Avg. Class 10A1",
+			"essayGrading": "Grading Essays T10",
+			"midtermDraft": "Drafting Midterm Exam",
+			"math12A1": "Math 12A1",
+			"scoreDiff": "+{{count}} pts"
+		}
+	},
+	"formativeAssessment": {
+		"title": "Formative Assessment",
+		"subtitle": "Fast assessment tools and instant classroom feedback collection.",
+		"tabs": {
+			"live": "Live Response",
+			"builder": "Quiz Builder",
+			"insights": "Insights"
+		},
+		"actions": {
+			"settings": "Settings",
+			"startLive": "Start Live",
+			"stopLive": "Stop Live",
+			"editSend": "Edit / Send"
+		},
+		"builder": {
+			"createNew": "Create New",
+			"exitTicket": "Exit Ticket",
+			"exitTicketDesc": "Quickly create an exit ticket to check understanding.",
+			"questionsCount": "{{count}} questions",
+			"editSend": "Edit / Send"
+		},
+		"live": {
+			"confidenceTitle": "Real-time Confidence",
+			"confidenceDesc": "Self-assessed understanding levels (Green/Yellow/Red)",
+			"liveNow": "LIVE NOW",
+			"muddyPoints": "Muddy Points",
+			"muddyPointsDesc": "What students find most confusing",
+			"aiSuggestions": "AI explanation suggestions",
+			"detailedFeedback": "Detailed Feedback",
+			"responding": "Respond",
+			"justNow": "Just now",
+			"confidence": {
+				"confident": "Confident",
+				"okay": "Okay",
+				"confused": "Confused"
+			}
+		},
+		"insights": {
+			"loUnderstanding": "Understanding by Learning Objective (LO)",
+			"loDesc": "Analysis of correct/incorrect response rates by concept",
+			"aiSuggestions": "AI Suggestions",
+			"aiAnalysis": "Based on live data, {{percent}}% of students are struggling with the concept <strong>\"{{concept}}\"</strong>.",
+			"solutionTitle": "Suggested Actions:",
+			"solutionItem1": "Use \"{{example}}\" example to illustrate {{concept}}.",
+			"solutionItem2": "Assign a 10-minute visual practice exercise.",
+			"peerTutoring": "Peer Tutoring Groups",
+			"peerTutoringDesc": "Automatically group students to support each other (Peer Tutoring).",
+			"createGroup": "Create Group"
+		},
+		"mock": {
+			"concept": {
+				"types": "Variables & Types",
+				"loops": "For Loops",
+				"functions": "Functions & Params",
+				"arrays": "Arrays"
+			},
+			"points": {
+				"nestedLoops": "Nested Loops",
+				"functions": "Function Params",
+				"scope": "Variable Scope",
+				"boolean": "Boolean Logic",
+				"ifElse": "IF/ELSE Logic",
+				"arrays": "Multi-dimensional Arrays"
+			},
+			"conceptConfidence": "Function Confidence",
+			"conceptQuestion": "\"Question: How confident are you on a scale of 1-10 about function parameters?\"",
+			"arrayConcept": "Multi-dimensional Arrays",
+			"arrayExample": "Seating Grid",
+			"confident": "Confident",
+			"uncertain": "Uncertain",
+			"confused": "Confused",
+			"feedback1": "I understand how to declare variables.",
+			"feedback2": "I need more examples of functions with return values.",
+			"feedback3": "The nested loop part is still unclear to me.",
+			"loopQuiz": "For Loop Quiz",
+			"loopQuestion": "\"Question: What is the output of a loop from i=1 to 5?\"",
+			"logicTag": "Programming Logic",
+			"group1": "Group 1 ({{s1}} + {{s2}})",
+			"group2": "Group 2 ({{s1}} + {{s2}})"
+		},
+		"messages": {
+			"liveStarted": "Live assessment session started!",
+			"liveEnded": "Assessment session ended."
+		},
+		"peerTutoringDesc": "Automatically group students to support each other (Peer Tutoring).",
+		"tagPrefix": "Tag:",
+		"conceptPoll": "Concept Poll"
+	},
+	"intervention": {
+		"title": "Intervention Dashboard",
+		"subtitle": "Early warning system and intervention management for students needing support.",
+		"actions": {
+			"history": "Support History",
+			"aiInsights": "AI Insights"
+		},
+		"stats": {
+			"critical": "Urgent Intervention Needed",
+			"monitoring": "Monitoring",
+			"resolved": "Resolved this week"
+		},
+		"search": {
+			"placeholder": "Search students or classes..."
+		},
+		"filters": {
+			"all": "All",
+			"critical": "Critical",
+			"highRisk": "High Risk",
+			"monitoring": "Monitoring",
+			"resolved": "Resolved"
+		},
+		"alerts": {
+			"lastActivity": "Last Activity",
+			"actions": {
+				"schedule1on1": "Schedule 1-on-1 Meeting",
+				"parentNotify": "Notify Parents",
+				"supplementalExercise": "Assign Supplemental Exercise",
+				"ignore": "Ignore Alert",
+				"markResolved": "Mark as Resolved",
+				"mainAction": "Action"
+			},
+			"tooltips": {
+				"schedule": "Schedule meeting",
+				"mail": "Send mail/SMS to parents",
+				"exercise": "Assign supplemental exercise"
+			}
+		},
+		"messages": {
+			"initiated": "Initiated: {{action}} for {{name}}"
+		},
+		"empty": {
+			"title": "No matching alerts found",
+			"desc": "Try changing filters or search terms."
+		},
+		"mock": {
+			"iepTeamDesc": "Includes: School Psychologist, Special Education Teacher, Parents, and 2 Consultants.",
+			"goal1": "Fill in 10-number table independently",
+			"goal2": "Identify 80% of digraphs",
+			"goal3": "Write simple sentences without spelling errors",
+			"goal4": "Complete 3/5 homework assignments independently",
+			"goal5": "Do not interrupt class > 1 time/lesson",
+			"caseManager": "Ms. Hoai Thu",
+			"strategyNote": "Student responds very well to visual materials (infographics). Priority should be given to converting written exercises to diagrams in this stage.",
+			"dyslexia": "Dyslexia",
+			"riskFactor1": "Missed 3 consecutive assignments",
+			"riskFactor2": "Quiz scores dropped 40%",
+			"riskFactor3": "Absent last 2 sessions",
+			"riskFactor4": "Low self-study time (< 15m/day)",
+			"riskFactor5": "Failed 2 code challenges",
+			"riskFactor6": "Has not met weekly goals",
+			"riskFactor7": "Negative feedback in self-reflection",
+			"riskFactor8": "Low interaction on class forum",
+			"daysAgo": "{{count}} days ago",
+			"hoursAgo": "{{count}} hours ago",
+			"math6A": "Math 6A",
+			"pythonB1": "Python Programming B1",
+			"literature7B": "Literature 7B"
+		}
+	},
+	"learningPath": {
+		"title": "Learning Path Templates",
+		"subtitle": "Use standardized path templates to quickly design personalized teaching plans.",
+		"actions": {
+			"organize": "Organize Library",
+			"createNew": "Create New Template",
+			"useTemplate": "Use Template"
+		},
+		"search": {
+			"placeholder": "Search templates by subject, tags..."
+		},
+		"filters": {
+			"math": "Mathematics",
+			"cs": "Computer Science",
+			"popular": "Most Popular",
+			"all": "All"
+		},
+		"template": {
+			"aiPattern": "AI Pattern",
+			"modulesCount": "{{count}} Modules",
+			"addCustom": "Add New Template",
+			"importFile": "Or import from .LP file",
+			"detailsTitle": "Template Details",
+			"structure": "Path Structure",
+			"targetGroup": "Suitable for student group",
+			"useTemplate": "Use this template",
+			"share": "Share",
+			"edit": "Edit",
+			"structureTitle": "Path Structure",
+			"suitableForTitle": "Suitable for student group",
+			"suitableFor": {
+				"visualKinesthetic": "Visual/kinesthetic learning style students.",
+				"math11Background": "Completed Math 11 fundamental knowledge.",
+				"flexibleTime": "Needs flexible time during the week."
+			}
+		},
+		"aiSuggestion": {
+			"title": "AI Suggestion",
+			"viewAnalysis": "View AI Analysis",
+			"description": "Based on {{subject}} data this week, we recommend updating the {{topic}} template to include new Integral knowledge."
+		},
+		"collections": {
+			"title": "Your Collection",
+			"math10": "Math 10 Path",
+			"codingProjects": "Coding Projects",
+			"academicEnglish": "Academic English"
+		},
+		"mock": {
+			"title": {
+				"math12": "Math 12: University Exam Strategy",
+				"python": "Getting Started with Python",
+				"english": "English for Academic Purposes (EAP)"
+			},
+			"desc": {
+				"python": "Comprehensive path for beginners, from basic syntax to building simple game logic.",
+				"math12": "Focus on key problem types, fast solving techniques, and realistic exam simulations.",
+				"english": "Building academic vocabulary and essay writing skills for international environments."
+			},
+			"tags": {
+				"basic": "Basic",
+				"thinking": "Thinking",
+				"exam": "Exam Prep",
+				"math12": "Math 12",
+				"intensive": "Intensive",
+				"ielts": "IELTS",
+				"academic": "Academic",
+				"writing": "Writing"
+			},
+			"phases": {
+				"intro": "Introduction & Setup",
+				"concepts": "Core Concepts Phase 1",
+				"projects": "Challenge Projects"
+			}
+		}
+	},
+	"autoGrading": {
+		"title": "AI Auto-Grading",
+		"desc": "Use AI to analyze and suggest scores for essay assignments.",
+		"analyzing": "Analyzing student work...",
+		"aiComparing": "AI comparing with sample answer and rubric criteria...",
+		"approveResults": "Approve & Save Grades"
+	},
+	"parentFeedback": {
+		"title": "Title"
+	},
+	"role": {
+		"primary": "Primary",
+		"subject": "Subject"
+	},
+	"roles": {
+		"teacher": "Teacher"
+	},
+	"reports": {
+		"title": "Reports & Analytics",
+		"subtitle": "Track performance and learning progress",
+		"actions": {
+			"export": "Export report",
+			"selectTime": "Select timeframe"
+		},
+		"filters": {
+			"week": "This week",
+			"month": "This month",
+			"quarter": "This quarter",
+			"year": "This year"
+		},
+		"stats": {
+			"avgScore": "Average Score",
+			"totalStudents": "Total Students",
+			"submissions": "Submissions",
+			"completionRate": "Completion Rate",
+			"vsLastMonth": "{{percent}}% vs last month"
+		},
+		"tabs": {
+			"overview": "Overview",
+			"performance": "Performance",
+			"competency": "Competency",
+			"engagement": "Engagement",
+			"cohorts": "Cohorts",
+			"activity": "Activity"
+		},
+		"charts": {
+			"scoreTrend": "Score Trend",
+			"scoreTrendDesc": "Average score by month",
+			"avgScoreShort": "Avg Score",
+			"gradeDist": "Grade Distribution",
+			"gradeDistDesc": "Student ratio by grade classification",
+			"gradeScale": "Ratio",
+			"classComp": "Class Comparison",
+			"classCompDesc": "Average score by class",
+			"subAttendance": "Submissions & Attendance",
+			"subAttendanceDesc": "Track monthly activity",
+			"attendPercent": "Attendance (%)",
+			"competencyMap": "Competency Map",
+			"competencyMapDesc": "Assessment by topic",
+			"competencyDetail": "Competency Details",
+			"competencyDetailDesc": "Score by each field",
+			"weeklyActivity": "Weekly Activity",
+			"weeklyActivityDesc": "Lessons, exercises, and exams by day",
+			"lessons": "Lessons",
+			"exercises": "Exercises",
+			"exams": "Exams",
+			"contentEff": "Content Effectiveness",
+			"contentEffDesc": "Metrics by chapter",
+			"engagementUnit": "{{percent}}% engagement",
+			"completionUnit": "{{percent}}% completion",
+			"avgTimeUnit": "{{count}} min Avg",
+			"correlation": "Correlation: Time vs Score",
+			"correlationDesc": "Relationship between learning effort and results",
+			"timeLabel": "Study Minutes",
+			"scoreLabel": "Score",
+			"studentLabel": "Student",
+			"analysis": "Analysis",
+			"correlationAnalysis": "There is a strong positive correlation between study time and scores. Students spending over 80 minutes typically score above 9.0.",
+			"heatmap": "Interaction Density (Heatmap)",
+			"heatmapDesc": "Learning frequency by hour per week",
+			"low": "Low",
+			"high": "High",
+			"interactions": "{{count}} interactions",
+			"cohortAnalysis": "Cohort Analysis",
+			"cohortAnalysisDesc": "Compare learning progress between school years",
+			"cohortGrowth": "{{name}} Growth Rate"
+		},
+		"mock": {
+			"months": {
+				"t1": "Jan",
+				"t2": "Feb",
+				"t3": "Mar",
+				"t4": "Apr",
+				"t5": "May",
+				"t6": "Jun"
+			},
+			"days": {
+				"mon": "Mon",
+				"tue": "Tue",
+				"wed": "Wed",
+				"thu": "Thu",
+				"fri": "Fri",
+				"sat": "Sat",
+				"sun": "Sun"
+			},
+			"grades": {
+				"excellent": "Excellent (9-10)",
+				"good": "Good (8-9)",
+				"fair": "Fair (6.5-8)",
+				"average": "Average (5-6.5)",
+				"poor": "Poor (<5)"
+			},
+			"classes": {
+				"math6a": "Math 6A",
+				"math7b": "Math 7B",
+				"math8a": "Math 8A",
+				"math9c": "Math 9C",
+				"math6b": "Math 6B"
+			},
+			"competencies": {
+				"arithmetic": "Arithmetic",
+				"algebra": "Algebra",
+				"geometry": "Geometry",
+				"statistics": "Statistics",
+				"probability": "Probability",
+				"trigonometry": "Trigonometry"
+			},
+			"chapters": {
+				"rationalNumbers": "Chapter 1: Rational Numbers",
+				"realNumbers": "Chapter 2: Real Numbers",
+				"planeGeometry": "Chapter 3: Plane Geometry",
+				"statistics": "Chapter 4: Statistics",
+				"midtermReview": "Midterm Review"
+			}
+		},
+		"submissionAnalytics": {
+			"funnel": {
+				"ids": "IDs",
+				"highRetention": "High Retention",
+				"passed": "Passed"
+			},
+			"timeline": {
+				"loadMore": "Load More History"
+			},
+			"metadata": {
+				"payloadId": "Payload ID: {{id}}",
+				"tabs": {
+					"summary": "Summary",
+					"ast": "AST Tree",
+					"stats": "Stats"
+				},
+				"logicalStructure": "Logical Structure",
+				"complexity": "Complexity",
+				"tokenCount": "Token Count",
+				"dependencies": "Dependencies",
+				"cpuUtilization": "CPU Utilization",
+				"memoryPeak": "Memory Peak",
+				"pythonEngine": "Python Engine",
+				"astVerified": "AST Verified",
+				"clickToInspect": "Click to inspect",
+				"cpuValue": "{{value}}ms",
+				"memoryValue": "{{value}}KB"
+			}
+		}
+	}
 }
