@@ -1,0 +1,642 @@
+// =============================================================================
+// LearnWell Prisma Schema
+// =============================================================================
+// Based on: src/types/database.ts + src/types/models/*
+// Run: pnpm --filter @learnwell/db generate
+// =============================================================================
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// =============================================================================
+// Enums
+// =============================================================================
+
+enum UserRole {
+  student
+  teacher
+  admin
+  parent
+  instructional_designer
+  assessor
+}
+
+enum Locale {
+  en
+  vi
+}
+
+enum CourseStatus {
+  draft
+  published
+  archived
+}
+
+enum LessonType {
+  video
+  reading
+  interactive
+  quiz
+  assignment
+}
+
+enum AssignmentType {
+  homework
+  project
+  essay
+  presentation
+  lab
+}
+
+enum SubmissionStatus {
+  draft
+  submitted
+  graded
+  returned
+}
+
+enum ProblemDifficulty {
+  easy
+  medium
+  hard
+}
+
+enum ContestType {
+  individual
+  team
+  one_v_one
+  relay
+}
+
+enum ContestStatus {
+  upcoming
+  ongoing
+  finished
+}
+
+enum AchievementCategory {
+  learning
+  coding
+  social
+  streak
+  milestone
+  special
+}
+
+enum AchievementRarity {
+  common
+  rare
+  epic
+  legendary
+}
+
+enum NotificationType {
+  grade
+  assignment
+  message
+  announcement
+  reminder
+  achievement
+  contest
+  system
+}
+
+enum NotificationPriority {
+  low
+  medium
+  high
+  urgent
+}
+
+enum ContactMethod {
+  email
+  phone
+  app
+}
+
+enum ProjectStatus {
+  active
+  completed
+  archived
+}
+
+enum CodingLanguage {
+  javascript
+  typescript
+  python
+  java
+  cpp
+  c
+  lua
+  swift
+  html
+  css
+  scratch
+  blockly
+}
+
+enum ForumCategory {
+  general
+  help
+  showcase
+  tutorial
+  bug_report
+}
+
+enum ShopItemCategory {
+  avatar_frame
+  profile_theme
+  double_xp
+  streak_freeze
+  special
+}
+
+// =============================================================================
+// Users & Profiles
+// =============================================================================
+
+model User {
+  id        String   @id @default(uuid())
+  email     String   @unique
+  fullName  String   @map("full_name")
+  avatarUrl String?  @map("avatar_url")
+  role      UserRole
+  locale    Locale   @default(vi)
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  studentProfile StudentProfile?
+  teacherProfile TeacherProfile?
+  parentProfile  ParentProfile?
+
+  // Relations
+  submissions     Submission[]
+  notifications   Notification[]
+  achievements    UserAchievement[]
+  codeSubmissions CodeSubmission[]
+  projects        Project[]
+  forumPosts      ForumPost[]
+  forumComments   ForumComment[]
+  blogPosts       BlogPost[]
+  teamMemberships TeamMember[]
+  inventory       UserInventory[]
+  contestsCreated Contest[]        @relation("ContestCreator")
+
+  @@map("users")
+}
+
+model StudentProfile {
+  id             String   @id @default(uuid())
+  userId         String   @unique @map("user_id")
+  classId        String   @map("class_id")
+  gradeLevel     Int      @map("grade_level")
+  parentId       String?  @map("parent_id")
+  enrollmentDate DateTime @default(now()) @map("enrollment_date")
+  xp             Int      @default(0)
+  level          Int      @default(1)
+  learnCoins     Int      @default(0) @map("learn_coins")
+  gems           Int      @default(0)
+  streakDays     Int      @default(0) @map("streak_days")
+  lastActiveAt   DateTime @default(now()) @map("last_active_at")
+  gpa            Float?
+  rank           Int?
+
+  user   User  @relation(fields: [userId], references: [id], onDelete: Cascade)
+  class  Class @relation(fields: [classId], references: [id])
+
+  @@map("student_profiles")
+}
+
+model TeacherProfile {
+  id         String   @id @default(uuid())
+  userId     String   @unique @map("user_id")
+  subjects   String[]
+  department String?
+  employeeId String?  @map("employee_id")
+  hireDate   DateTime @default(now()) @map("hire_date")
+
+  user    User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+  classes Class[]
+
+  @@map("teacher_profiles")
+}
+
+model ParentProfile {
+  id                     String        @id @default(uuid())
+  userId                 String        @unique @map("user_id")
+  preferredContactMethod ContactMethod @default(app) @map("preferred_contact_method")
+  phone                  String?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("parent_profiles")
+}
+
+// =============================================================================
+// Classes
+// =============================================================================
+
+model Class {
+  id           String @id @default(uuid())
+  name         String
+  gradeLevel   Int    @map("grade_level")
+  academicYear String @map("academic_year")
+  semester     Int    @default(1)
+  teacherId    String @map("teacher_id")
+  studentCount Int    @default(0) @map("student_count")
+  createdAt    DateTime @default(now()) @map("created_at")
+
+  teacher  TeacherProfile   @relation(fields: [teacherId], references: [id])
+  students StudentProfile[]
+
+  @@map("classes")
+}
+
+// =============================================================================
+// Courses & Lessons
+// =============================================================================
+
+model Course {
+  id           String       @id @default(uuid())
+  title        String
+  description  String
+  subject      String
+  gradeLevel   Int          @map("grade_level")
+  teacherId    String       @map("teacher_id")
+  thumbnailUrl String?      @map("thumbnail_url")
+  status       CourseStatus @default(draft)
+  createdAt    DateTime     @default(now()) @map("created_at")
+  updatedAt    DateTime     @updatedAt @map("updated_at")
+
+  lessons     Lesson[]
+  assignments Assignment[]
+
+  @@map("courses")
+}
+
+model Lesson {
+  id              String     @id @default(uuid())
+  courseId         String     @map("course_id")
+  title           String
+  description     String?
+  type            LessonType
+  order           Int        @default(0)
+  durationMinutes Int?       @map("duration_minutes")
+  contentUrl      String?    @map("content_url")
+  content         String?
+  isRequired      Boolean    @default(true) @map("is_required")
+  createdAt       DateTime   @default(now()) @map("created_at")
+  updatedAt       DateTime   @updatedAt @map("updated_at")
+
+  course Course @relation(fields: [courseId], references: [id], onDelete: Cascade)
+
+  @@map("lessons")
+}
+
+// =============================================================================
+// Assignments & Submissions
+// =============================================================================
+
+model Assignment {
+  id                  String         @id @default(uuid())
+  courseId             String         @map("course_id")
+  lessonId            String?        @map("lesson_id")
+  title               String
+  description         String
+  type                AssignmentType
+  dueDate             DateTime       @map("due_date")
+  maxScore            Int            @default(100) @map("max_score")
+  weight              Float          @default(1.0)
+  attachments         String[]
+  rubricId            String?        @map("rubric_id")
+  allowLateSubmission Boolean        @default(false) @map("allow_late_submission")
+  latePenaltyPercent  Float?         @map("late_penalty_percent")
+  createdAt           DateTime       @default(now()) @map("created_at")
+  updatedAt           DateTime       @updatedAt @map("updated_at")
+
+  course      Course       @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  submissions Submission[]
+
+  @@map("assignments")
+}
+
+model Submission {
+  id           String           @id @default(uuid())
+  assignmentId String           @map("assignment_id")
+  studentId    String           @map("student_id")
+  content      String?
+  attachments  String[]
+  status       SubmissionStatus @default(draft)
+  submittedAt  DateTime?        @map("submitted_at")
+  score        Float?
+  feedback     String?
+  gradedBy     String?          @map("graded_by")
+  gradedAt     DateTime?        @map("graded_at")
+  isLate       Boolean          @default(false) @map("is_late")
+  createdAt    DateTime         @default(now()) @map("created_at")
+  updatedAt    DateTime         @updatedAt @map("updated_at")
+
+  assignment Assignment @relation(fields: [assignmentId], references: [id], onDelete: Cascade)
+  student    User       @relation(fields: [studentId], references: [id])
+
+  @@map("submissions")
+}
+
+// =============================================================================
+// Contests & Problems
+// =============================================================================
+
+model Problem {
+  id             String            @id @default(uuid())
+  title          String
+  slug           String            @unique
+  description    String
+  difficulty     ProblemDifficulty
+  tags           String[]
+  constraints    String
+  inputFormat    String            @map("input_format")
+  outputFormat   String            @map("output_format")
+  sampleInputs   String[]         @map("sample_inputs")
+  sampleOutputs  String[]         @map("sample_outputs")
+  timeLimitMs    Int              @default(1000) @map("time_limit_ms")
+  memoryLimitMb  Int              @default(256) @map("memory_limit_mb")
+  solvedCount    Int              @default(0) @map("solved_count")
+  acceptanceRate Float            @default(0) @map("acceptance_rate")
+  createdAt      DateTime         @default(now()) @map("created_at")
+
+  codeSubmissions CodeSubmission[]
+
+  @@map("problems")
+}
+
+model Contest {
+  id               String        @id @default(uuid())
+  title            String
+  description      String
+  type             ContestType   @default(individual)
+  status           ContestStatus @default(upcoming)
+  startTime        DateTime      @map("start_time")
+  endTime          DateTime      @map("end_time")
+  durationMinutes  Int           @map("duration_minutes")
+  problemIds       String[]      @map("problem_ids")
+  rules            String        @default("")
+  prizes           String[]
+  maxParticipants  Int?          @map("max_participants")
+  registeredCount  Int           @default(0) @map("registered_count")
+  bannerUrl        String?       @map("banner_url")
+  createdBy        String        @map("created_by")
+  createdAt        DateTime      @default(now()) @map("created_at")
+
+  creator User @relation("ContestCreator", fields: [createdBy], references: [id])
+
+  @@map("contests")
+}
+
+model CodeSubmission {
+  id        String         @id @default(uuid())
+  userId    String         @map("user_id")
+  problemId String         @map("problem_id")
+  language  CodingLanguage
+  code      String
+  status    String         @default("pending") // pending, running, accepted, wrong_answer, tle, mle, rte
+  runtime   Int?           // in milliseconds
+  memory    Int?           // in KB
+  testsPassed Int          @default(0) @map("tests_passed")
+  testsTotal  Int          @default(0) @map("tests_total")
+  createdAt DateTime       @default(now()) @map("created_at")
+
+  user    User    @relation(fields: [userId], references: [id])
+  problem Problem @relation(fields: [problemId], references: [id])
+
+  @@map("code_submissions")
+}
+
+// =============================================================================
+// Gamification
+// =============================================================================
+
+model Achievement {
+  id          String              @id @default(uuid())
+  name        String
+  description String
+  category    AchievementCategory
+  iconUrl     String              @map("icon_url")
+  rarity      AchievementRarity   @default(common)
+  xpReward    Int                 @default(0) @map("xp_reward")
+  coinReward  Int?                @map("coin_reward")
+  gemReward   Int?                @map("gem_reward")
+  criteria    Json
+  isHidden    Boolean             @default(false) @map("is_hidden")
+
+  users UserAchievement[]
+
+  @@map("achievements")
+}
+
+model UserAchievement {
+  id            String   @id @default(uuid())
+  userId        String   @map("user_id")
+  achievementId String   @map("achievement_id")
+  unlockedAt    DateTime @default(now()) @map("unlocked_at")
+  progress      Float    @default(0)
+
+  user        User        @relation(fields: [userId], references: [id], onDelete: Cascade)
+  achievement Achievement @relation(fields: [achievementId], references: [id])
+
+  @@unique([userId, achievementId])
+  @@map("user_achievements")
+}
+
+model ShopItem {
+  id          String           @id @default(uuid())
+  name        String
+  description String
+  category    ShopItemCategory
+  price       Int              // in LearnCoins
+  gemPrice    Int?             @map("gem_price")
+  iconUrl     String           @map("icon_url")
+  isLimited   Boolean          @default(false) @map("is_limited")
+  stock       Int?
+  createdAt   DateTime         @default(now()) @map("created_at")
+
+  inventory UserInventory[]
+
+  @@map("shop_items")
+}
+
+model UserInventory {
+  id         String   @id @default(uuid())
+  userId     String   @map("user_id")
+  itemId     String   @map("item_id")
+  purchasedAt DateTime @default(now()) @map("purchased_at")
+  isActive   Boolean  @default(false) @map("is_active")
+
+  user User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  item ShopItem @relation(fields: [itemId], references: [id])
+
+  @@unique([userId, itemId])
+  @@map("user_inventory")
+}
+
+// =============================================================================
+// Teams & Clans
+// =============================================================================
+
+model Team {
+  id          String   @id @default(uuid())
+  name        String   @unique
+  description String?
+  avatarUrl   String?  @map("avatar_url")
+  leaderId    String   @map("leader_id")
+  totalXp     Int      @default(0) @map("total_xp")
+  totalElo    Int      @default(0) @map("total_elo")
+  createdAt   DateTime @default(now()) @map("created_at")
+
+  members TeamMember[]
+
+  @@map("teams")
+}
+
+model TeamMember {
+  id       String   @id @default(uuid())
+  teamId   String   @map("team_id")
+  userId   String   @map("user_id")
+  role     String   @default("member") // leader, officer, member
+  joinedAt DateTime @default(now()) @map("joined_at")
+
+  team Team @relation(fields: [teamId], references: [id], onDelete: Cascade)
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([teamId, userId])
+  @@map("team_members")
+}
+
+// =============================================================================
+// Projects (Hub)
+// =============================================================================
+
+model Project {
+  id          String        @id @default(uuid())
+  userId      String        @map("user_id")
+  title       String
+  description String?
+  language    CodingLanguage
+  templateId  String?       @map("template_id")
+  code        String        @default("")
+  status      ProjectStatus @default(active)
+  isPublic    Boolean       @default(false) @map("is_public")
+  createdAt   DateTime      @default(now()) @map("created_at")
+  updatedAt   DateTime      @updatedAt @map("updated_at")
+
+  user     User             @relation(fields: [userId], references: [id], onDelete: Cascade)
+  template ProjectTemplate? @relation(fields: [templateId], references: [id])
+
+  @@map("projects")
+}
+
+model ProjectTemplate {
+  id          String         @id @default(uuid())
+  title       String
+  description String
+  language    CodingLanguage
+  starterCode String         @map("starter_code")
+  difficulty  String         @default("beginner") // beginner, intermediate, advanced
+  tags        String[]
+  iconUrl     String?        @map("icon_url")
+  isOfficial  Boolean        @default(true) @map("is_official")
+  createdAt   DateTime       @default(now()) @map("created_at")
+
+  projects Project[]
+
+  @@map("project_templates")
+}
+
+// =============================================================================
+// Community (Forum & Blog)
+// =============================================================================
+
+model ForumPost {
+  id        String        @id @default(uuid())
+  authorId  String        @map("author_id")
+  title     String
+  content   String
+  category  ForumCategory @default(general)
+  tags      String[]
+  upvotes   Int           @default(0)
+  downvotes Int           @default(0)
+  isPinned  Boolean       @default(false) @map("is_pinned")
+  isClosed  Boolean       @default(false) @map("is_closed")
+  createdAt DateTime      @default(now()) @map("created_at")
+  updatedAt DateTime      @updatedAt @map("updated_at")
+
+  author   User           @relation(fields: [authorId], references: [id])
+  comments ForumComment[]
+
+  @@map("forum_posts")
+}
+
+model ForumComment {
+  id        String   @id @default(uuid())
+  postId    String   @map("post_id")
+  authorId  String   @map("author_id")
+  content   String
+  upvotes   Int      @default(0)
+  isAccepted Boolean @default(false) @map("is_accepted")
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  post   ForumPost @relation(fields: [postId], references: [id], onDelete: Cascade)
+  author User      @relation(fields: [authorId], references: [id])
+
+  @@map("forum_comments")
+}
+
+model BlogPost {
+  id           String   @id @default(uuid())
+  authorId     String   @map("author_id")
+  title        String
+  slug         String   @unique
+  content      String
+  excerpt      String?
+  thumbnailUrl String?  @map("thumbnail_url")
+  tags         String[]
+  isPublished  Boolean  @default(false) @map("is_published")
+  publishedAt  DateTime? @map("published_at")
+  views        Int      @default(0)
+  likes        Int      @default(0)
+  createdAt    DateTime @default(now()) @map("created_at")
+  updatedAt    DateTime @updatedAt @map("updated_at")
+
+  author User @relation(fields: [authorId], references: [id])
+
+  @@map("blog_posts")
+}
+
+// =============================================================================
+// Notifications
+// =============================================================================
+
+model Notification {
+  id        String               @id @default(uuid())
+  userId    String               @map("user_id")
+  type      NotificationType
+  priority  NotificationPriority @default(low)
+  title     String
+  message   String
+  data      Json?
+  actionUrl String?              @map("action_url")
+  isRead    Boolean              @default(false) @map("is_read")
+  readAt    DateTime?            @map("read_at")
+  createdAt DateTime             @default(now()) @map("created_at")
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, isRead])
+  @@map("notifications")
+}

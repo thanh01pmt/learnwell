@@ -12,6 +12,14 @@ dist
 dist-ssr
 *.local
 
+# Turbo
+.turbo
+
+# Environment
+.env
+.env.local
+.env.*.local
+
 # Editor directories and files
 .vscode/
 .idea
