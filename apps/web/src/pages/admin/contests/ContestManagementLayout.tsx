@@ -3,11 +3,14 @@ import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Outlet, useNavigate, useLocation, useParams } from "react-router-dom";
 import { Layout, Edit, Trophy, Users, Activity, Megaphone, ChevronRight, Layers, Group, Brain } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { useTranslation } from "react-i18next";
 
 export default function ContestManagementLayout() {
     const navigate = useNavigate();
     const location = useLocation();
     const { id } = useParams();
+    const { t: tNav } = useTranslation('navigation');
+    const { t: tContest } = useTranslation('contests');
 
     const getActiveTab = () => {
         if (location.pathname.endsWith('/edit')) return 'edit';
@@ -35,18 +38,13 @@ export default function ContestManagementLayout() {
                         </div>
                         <div>
                             <div className="flex items-center gap-2 text-sm text-muted-foreground">
-                                <span className="cursor-pointer hover:text-foreground" onClick={() => navigate('/admin')}>Admin</span>
+                                <span className="cursor-pointer hover:text-foreground" onClick={() => navigate('/admin')}>{tNav('admin')}</span>
                                 <ChevronRight className="h-4 w-4" />
-                                <span className="cursor-pointer hover:text-foreground" onClick={() => navigate('/admin/contests')}>Contests</span>
+                                <span className="cursor-pointer hover:text-foreground" onClick={() => navigate('/admin/contests')}>{tNav('contests')}</span>
                             </div>
-                            <h1 className="text-2xl font-bold tracking-tight">Quản lý Cuộc thi</h1>
+                            <h1 className="text-2xl font-bold tracking-tight">{tNav('contestManagement')}</h1>
                         </div>
                     </div>
-                    {!id && (
-                        <Button onClick={() => navigate('/admin/contests')} className="gap-2">
-                            Tạo cuộc thi mới
-                        </Button>
-                    )}
                 </div>
 
                 {id && (
@@ -54,35 +52,35 @@ export default function ContestManagementLayout() {
                         <TabsList className="inline-flex h-10 items-center justify-center rounded-md bg-muted p-1 text-muted-foreground min-w-max">
                             <TabsTrigger value="list" className="gap-2">
                                 <Layout className="h-4 w-4" />
-                                <span className="hidden lg:inline">Danh sách</span>
+                                <span className="hidden lg:inline">{tContest('management.tabs.list')}</span>
                             </TabsTrigger>
                             <TabsTrigger value="edit" className="gap-2">
                                 <Edit className="h-4 w-4" />
-                                <span className="hidden lg:inline">Thông tin</span>
+                                <span className="hidden lg:inline">{tContest('management.tabs.info')}</span>
                             </TabsTrigger>
                             <TabsTrigger value="rounds" className="gap-2">
                                 <Layers className="h-4 w-4" />
-                                <span className="hidden lg:inline">Vòng thi</span>
+                                <span className="hidden lg:inline">{tContest('management.tabs.rounds')}</span>
                             </TabsTrigger>
                             <TabsTrigger value="boards" className="gap-2">
                                 <Group className="h-4 w-4" />
-                                <span className="hidden lg:inline">Cụm thi</span>
+                                <span className="hidden lg:inline">{tContest('management.tabs.boards')}</span>
                             </TabsTrigger>
                             <TabsTrigger value="challenges" className="gap-2">
                                 <Brain className="h-4 w-4" />
-                                <span className="hidden lg:inline">Thử thách</span>
+                                <span className="hidden lg:inline">{tContest('management.tabs.challenges')}</span>
                             </TabsTrigger>
                             <TabsTrigger value="accounts" className="gap-2">
                                 <Users className="h-4 w-4" />
-                                <span className="hidden lg:inline">Tài khoản</span>
+                                <span className="hidden lg:inline">{tContest('management.tabs.accounts')}</span>
                             </TabsTrigger>
                             <TabsTrigger value="live" className="gap-2">
                                 <Activity className="h-4 w-4" />
-                                <span className="hidden lg:inline">Live</span>
+                                <span className="hidden lg:inline">{tContest('management.tabs.live')}</span>
                             </TabsTrigger>
                             <TabsTrigger value="promotion" className="gap-2">
                                 <Megaphone className="h-4 w-4" />
-                                <span className="hidden lg:inline">Quảng bá</span>
+                                <span className="hidden lg:inline">{tContest('management.tabs.promotion')}</span>
                             </TabsTrigger>
                         </TabsList>
                     </Tabs>
