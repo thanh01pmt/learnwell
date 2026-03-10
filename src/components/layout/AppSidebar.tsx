@@ -206,6 +206,56 @@ const parentNavItems: NavItem[] = [
   { title: "settings", icon: Settings, href: "/settings" },
 ];
 
+const instructionalDesignerNavItems: NavItem[] = [
+  { title: "dashboard", icon: LayoutDashboard, href: "/dashboard" },
+  {
+    title: "authoring",
+    icon: FolderOpen,
+    href: "/authoring",
+    children: [
+      { title: "tutorialBuilder", href: "/authoring/tutorial-builder" },
+      { title: "curriculum", href: "/authoring/curriculum" },
+      { title: "questionBank", href: "/authoring/questions" },
+      { title: "exams", href: "/authoring/exams" },
+      { title: "projectHub", href: "/hub" },
+    ],
+  },
+  { title: "forum", icon: Library, href: "/forum" },
+  { title: "messages", icon: Send, href: "/messages" },
+  { title: "resources", icon: Library, href: "/resources" },
+  { title: "profile", icon: User, href: "/profile" },
+  { title: "settings", icon: Settings, href: "/settings" },
+];
+
+const assessorNavItems: NavItem[] = [
+  { title: "dashboard", icon: LayoutDashboard, href: "/dashboard" },
+  {
+    title: "authoring",
+    icon: FolderOpen,
+    href: "/authoring",
+    children: [
+      { title: "gradingConfig", href: "/authoring/grading-config" },
+      { title: "questionBank", href: "/authoring/questions" },
+      { title: "exams", href: "/authoring/exams" },
+    ],
+  },
+  {
+    title: "grading",
+    icon: FileText,
+    href: "/grading",
+    children: [
+      { title: "waitGrading", href: "/grading" },
+      { title: "gradebook", href: "/gradebook" },
+      { title: "reportsGrades", href: "/gradebook-advanced" },
+      { title: "rubricBuilder", href: "/rubric-builder" },
+    ],
+  },
+  { title: "forum", icon: Library, href: "/forum" },
+  { title: "messages", icon: Send, href: "/messages" },
+  { title: "profile", icon: User, href: "/profile" },
+  { title: "settings", icon: Settings, href: "/settings" },
+];
+
 const getNavItems = (role: UserRole): NavItem[] => {
   switch (role) {
     case "student":
@@ -216,6 +266,10 @@ const getNavItems = (role: UserRole): NavItem[] => {
       return adminNavItems;
     case "parent":
       return parentNavItems;
+    case "instructional_designer":
+      return instructionalDesignerNavItems;
+    case "assessor":
+      return assessorNavItems;
     default:
       return studentNavItems;
   }

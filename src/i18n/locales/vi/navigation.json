@@ -13,6 +13,8 @@
 	"messages": "Tin nhắn",
 	"announcements": "Thông báo chung",
 	"officeHours": "Office Hours",
+	"tutorialBuilder": "Soạn bài hướng dẫn",
+	"gradingConfig": "Cấu hình chấm điểm",
 	"search": "Tìm kiếm...",
 	"impersonation": {
 		"viewingAs": "Đang xem với tư cách: {{name}}",
@@ -22,7 +24,9 @@
 		"teacher_system": "Giáo viên (Hệ thống)",
 		"student_demo": "Học sinh (Demo)",
 		"parent_demo": "Phụ huynh (Demo)",
-		"admin": "Quản trị viên"
+		"admin": "Quản trị viên",
+		"instructional_designer": "Người soạn giảng",
+		"assessor": "Kỹ sư chuyên môn"
 	},
 	"header": {
 		"menuLabel": "Menu ứng dụng",

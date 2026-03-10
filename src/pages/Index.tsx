@@ -17,6 +17,10 @@ export default function Index() {
       return <ParentDashboard />;
     case "admin":
       return <AdminDashboard />;
+    case "instructional_designer":
+      return <TeacherDashboard />; // Fallback to teacher dashboard for core stats
+    case "assessor":
+      return <TeacherDashboard />; // Fallback to teacher dashboard for core stats
     default:
       return <StudentDashboard />;
   }

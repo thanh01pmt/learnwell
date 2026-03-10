@@ -68,6 +68,8 @@
 		"teacher": "Giáo viên",
 		"admin": "Quản trị viên",
 		"parent": "Phụ huynh",
+		"instructional_designer": "Người soạn giảng",
+		"assessor": "Kỹ sư chuyên môn",
 		"subjects": {
 			"math": "Toán học",
 			"math_intensive": "Ôn thi Đại học",

@@ -113,7 +113,7 @@ import AttendanceTracker from "./pages/parent/AttendanceTracker";
 import TeacherContact from "./pages/parent/TeacherContact";
 import Schedule from "./pages/parent/Schedule";
 
-import { FeatureFlagProvider } from "@/contexts/FeatureFlagContext";
+import { FeatureFlagProvider } from "@/contexts/FeatureFlagProvider";
 import FeatureManagement from "@/pages/admin/FeatureManagement";
 import { FeatureRoute } from "@/components/auth/FeatureRoute";
 import { lazy, Suspense } from "react";

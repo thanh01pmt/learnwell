@@ -13,6 +13,8 @@
 	"messages": "Messages",
 	"announcements": "Announcements",
 	"officeHours": "Office Hours",
+	"tutorialBuilder": "Tutorial Builder",
+	"gradingConfig": "Grading Config",
 	"search": "Search...",
 	"impersonation": {
 		"viewingAs": "Viewing as: {{name}}",
@@ -22,7 +24,9 @@
 		"teacher_system": "Teacher (System)",
 		"student_demo": "Student (Demo)",
 		"parent_demo": "Parent (Demo)",
-		"admin": "Administrator"
+		"admin": "Administrator",
+		"instructional_designer": "Instructional Designer",
+		"assessor": "Assessor"
 	},
 	"header": {
 		"menuLabel": "App Menu",

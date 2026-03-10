@@ -1,6 +1,6 @@
 import { UserRole, useRole } from "@/contexts/RoleContext";
 import { cn } from "@/lib/utils";
-import { GraduationCap, Users, Shield, Heart, LogOut } from "lucide-react";
+import { GraduationCap, Users, Shield, Heart, LogOut, PenTool, Scale } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { useAuth } from "@/contexts/AuthContext";
@@ -10,6 +10,8 @@ const roles: { value: UserRole; labelKey: string; icon: React.ElementType; color
   { value: "student", labelKey: "common:roles.student", icon: GraduationCap, color: "bg-blue-500" },
   { value: "teacher", labelKey: "common:roles.teacher", icon: Users, color: "bg-emerald-500" },
   { value: "parent", labelKey: "common:roles.parent", icon: Heart, color: "bg-rose-500" },
+  { value: "instructional_designer", labelKey: "common:roles.instructional_designer", icon: PenTool, color: "bg-indigo-500" },
+  { value: "assessor", labelKey: "common:roles.assessor", icon: Scale, color: "bg-orange-500" },
   { value: "admin", labelKey: "common:roles.admin", icon: Shield, color: "bg-purple-500" },
 ];
 
@@ -27,6 +29,10 @@ const getDashboardPath = (role: UserRole): string => {
       return "/admin";
     case "parent":
       return "/parent";
+    case "instructional_designer":
+      return "/authoring/tutorial-builder";
+    case "assessor":
+      return "/authoring/grading-config";
     default:
       return "/";
   }
@@ -64,7 +70,7 @@ export function RoleSwitcher({ collapsed = false }: RoleSwitcherProps) {
                   ? "bg-primary text-primary-foreground shadow-md"
                   : "hover:bg-muted text-muted-foreground"
               )}
-              title={t(r.labelKey as any)}
+              title={t(r.labelKey as string)}
             >
               <Icon className="h-4 w-4" />
             </button>
@@ -110,7 +116,7 @@ export function RoleSwitcher({ collapsed = false }: RoleSwitcherProps) {
               >
                 <Icon className="h-3.5 w-3.5 text-white" />
               </div>
-              <span>{t(r.labelKey as any)}</span>
+              <span>{t(r.labelKey as string)}</span>
             </button>
           );
         })}

@@ -68,6 +68,8 @@
 		"teacher": "Teacher",
 		"admin": "Admin",
 		"parent": "Parent",
+		"instructional_designer": "Instructional Designer",
+		"assessor": "Assessor",
 		"subjects": {
 			"math": "Mathematics",
 			"math_intensive": "Intensive Math",

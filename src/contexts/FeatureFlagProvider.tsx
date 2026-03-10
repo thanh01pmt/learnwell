@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import {
     PermissionConfig,
     UserRole,
@@ -8,6 +8,7 @@ import {
 } from "../types/features";
 import { FEATURE_REGISTRY } from "../utils/featureRegistry";
 import { toast } from "sonner";
+import { FeatureFlagContext } from "./FeatureFlagContext";
 
 const STORAGE_KEY = "learnwell_feature_config";
 
@@ -21,7 +22,9 @@ const getDefaultConfig = (): PermissionConfig => {
                 admin: true, // Admin always has access
                 teacher: route.defaultRoles.includes("teacher"),
                 student: route.defaultRoles.includes("student"),
-                parent: route.defaultRoles.includes("parent")
+                parent: route.defaultRoles.includes("parent"),
+                instructional_designer: route.defaultRoles.includes("instructional_designer"),
+                assessor: route.defaultRoles.includes("assessor")
             };
             routePermissions[route.path] = perms;
         });
@@ -59,19 +62,52 @@ const getDefaultConfig = (): PermissionConfig => {
     };
 };
 
-const FeatureFlagContext = createContext<FeatureFlagContextType | undefined>(undefined);
 
 export const FeatureFlagProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
     const [config, setConfig] = useState<PermissionConfig>(() => {
         const stored = localStorage.getItem(STORAGE_KEY);
-        return stored ? JSON.parse(stored) : getDefaultConfig();
+        if (!stored) return getDefaultConfig();
+
+        try {
+            const parsed: PermissionConfig = JSON.parse(stored);
+            const defaultConfig = getDefaultConfig();
+            let hasChanges = false;
+
+            // Sync missing features from registry
+            Object.keys(defaultConfig.features).forEach(featureId => {
+                if (!parsed.features[featureId]) {
+                    parsed.features[featureId] = defaultConfig.features[featureId];
+                    hasChanges = true;
+                } else {
+                    // Sync missing routes within existing features
+                    const defaultRoutes = defaultConfig.features[featureId].routes;
+                    const parsedRoutes = parsed.features[featureId].routes;
+                    Object.keys(defaultRoutes).forEach(routePath => {
+                        if (!parsedRoutes[routePath]) {
+                            parsedRoutes[routePath] = defaultRoutes[routePath];
+                            hasChanges = true;
+                        }
+                    });
+                }
+            });
+
+            if (hasChanges) {
+                parsed.lastModified = new Date().toISOString();
+                parsed.modifiedBy = "System (Sync)";
+            }
+
+            return parsed;
+        } catch (e) {
+            console.error("Error parsing stored feature config:", e);
+            return getDefaultConfig();
+        }
     });
 
     useEffect(() => {
         localStorage.setItem(STORAGE_KEY, JSON.stringify(config));
     }, [config]);
 
-    const hasAccess = (path: string, role: UserRole, context?: any): boolean => {
+    const hasAccess = (path: string, role: UserRole, context?: Record<string, unknown>): boolean => {
         // 1. Find the feature and route
         let featureId = "";
         let routePath = "";
@@ -194,12 +230,4 @@ export const FeatureFlagProvider: React.FC<{ children: React.ReactNode }> = ({ c
             {children}
         </FeatureFlagContext.Provider>
     );
-};
-
-export const useFeatureFlag = () => {
-    const context = useContext(FeatureFlagContext);
-    if (context === undefined) {
-        throw new Error("useFeatureFlag must be used within a FeatureFlagProvider");
-    }
-    return context;
 };

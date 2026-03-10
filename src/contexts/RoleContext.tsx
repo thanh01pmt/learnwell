@@ -1,7 +1,7 @@
 import { createContext, useContext, useState, ReactNode, useEffect } from "react";
 import { useAuth } from "./AuthContext";
 
-export type UserRole = "student" | "teacher" | "admin" | "parent";
+export type UserRole = "student" | "teacher" | "admin" | "parent" | "instructional_designer" | "assessor";
 
 interface RoleContextType {
   role: UserRole;
