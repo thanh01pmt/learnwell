@@ -85,6 +85,7 @@ const studentNavItems: NavItem[] = [
       { title: "leaderboardELO", href: "/contests/leaderboard/elo" },
       { title: "solutions", href: "/solutions" },
       { title: "projectLibrary", href: "/project-library" },
+      { title: "launcher", href: "/code/launcher" },
       { title: "projectHub", href: "/hub" },
       { title: "codingProfile", href: "/profile/coding" },
       { title: "teams", href: "/teams" },
@@ -141,6 +142,7 @@ const teacherNavItems: NavItem[] = [
     children: [
       { title: "curriculum", href: "/authoring/curriculum" },
       { title: "questionBank", href: "/authoring/questions" },
+      { title: "launcher", href: "/code/launcher" },
       { title: "projectHub", href: "/hub" },
       { title: "exams", href: "/authoring/exams" },
     ],
