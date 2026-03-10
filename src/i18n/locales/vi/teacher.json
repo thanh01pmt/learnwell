@@ -892,12 +892,32 @@
 			}
 		},
 		"submissionAnalytics": {
+			"header": {
+				"last7Days": "7 ngày qua",
+				"exportReport": "Xuất báo cáo"
+			},
 			"funnel": {
+				"title": "Báo cáo Phễu Submissions",
+				"description": "Trực quan hóa tỷ lệ rớt (drop-off) qua các giai đoạn.",
 				"ids": "IDs",
 				"highRetention": "Tỉ lệ giữ chân cao",
 				"passed": "Đã đạt"
 			},
+			"aiInsights": {
+				"title": "Phản hồi AI gần đây",
+				"studentIssue": "Học sinh #12{{id}} gặp lỗi Logic",
+				"mockFeedback": "\"Bạn nên kiểm tra biến x...\"",
+				"viewAll": "Xem tất cả"
+			},
+			"performance": {
+				"title": "Target Performance",
+				"goalDescription": "Đặt mục tiêu tỷ lệ Pass cho lớp này đạt 80% trong tuần tới.",
+				"setGoal": "Cài đặt mục tiêu"
+			},
 			"timeline": {
+				"title": "Dòng thời gian nộp bài chi tiết",
+				"searchPlaceholder": "Tìm học sinh...",
+				"filter": "Bộ lọc",
 				"loadMore": "Tải thêm lịch sử"
 			},
 			"metadata": {

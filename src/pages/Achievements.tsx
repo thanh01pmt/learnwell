@@ -207,7 +207,7 @@ const Achievements = () => {
                       </div>
                       <div className="text-right">
                         <p className="font-bold text-lg">{user.points.toLocaleString()}</p>
-                        <p className="text-sm text-muted-foreground text-primary">{t("leaderboard:xp")}</p>
+                        <p className="text-sm text-muted-foreground">{t("leaderboard:xp")}</p>
                       </div>
                     </div>
                   ))}

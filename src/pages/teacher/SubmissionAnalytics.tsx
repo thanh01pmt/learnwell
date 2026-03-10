@@ -19,8 +19,8 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Input } from "@/components/ui/input";
 import { Badge } from "@/components/ui/badge";
-import FunnelChart from "@/components/dashboard/FunnelChart";
-import SubmissionTimeline from "@/components/grading/SubmissionTimeline";
+import FunnelChart from "../../components/dashboard/FunnelChart";
+import SubmissionTimeline from "../../components/grading/SubmissionTimeline";
 
 const SubmissionAnalytics = () => {
     const { t } = useTranslation(["teacher", "common"]);
@@ -35,11 +35,11 @@ const SubmissionAnalytics = () => {
                 <div className="flex gap-3 w-full md:w-auto">
                     <Button variant="outline" className="gap-2">
                         <Calendar className="w-4 h-4" />
-                        7 ngày qua
+                        {t('teacher:submissionAnalytics.header.last7Days')}
                     </Button>
                     <Button variant="outline" className="gap-2">
                         <Download className="w-4 h-4" />
-                        Xuất báo cáo
+                        {t('teacher:submissionAnalytics.header.exportReport')}
                     </Button>
                 </div>
             </div>
@@ -80,8 +80,8 @@ const SubmissionAnalytics = () => {
                 <Card className="lg:col-span-2 shadow-sm border-2 border-primary/5">
                     <CardHeader className="flex flex-row items-center justify-between space-y-0">
                         <div className="space-y-1">
-                            <CardTitle>Báo cáo Phễu Submissions</CardTitle>
-                            <CardDescription>Trực quan hóa tỷ lệ rớt (drop-off) qua các giai đoạn.</CardDescription>
+                            <CardTitle>{t('teacher:submissionAnalytics.funnel.title')}</CardTitle>
+                            <CardDescription>{t('teacher:submissionAnalytics.funnel.description')}</CardDescription>
                         </div>
                         <Button variant="ghost" size="icon"><MoreVertical className="w-4 h-4" /></Button>
                     </CardHeader>
@@ -103,7 +103,7 @@ const SubmissionAnalytics = () => {
                 <div className="space-y-6">
                     <Card>
                         <CardHeader className="pb-3">
-                            <CardTitle className="text-sm">Phản hồi AI gần đây</CardTitle>
+                            <CardTitle className="text-sm">{t('teacher:submissionAnalytics.aiInsights.title')}</CardTitle>
                         </CardHeader>
                         <CardContent className="space-y-4">
                             {[1, 2, 3].map(i => (
@@ -112,13 +112,13 @@ const SubmissionAnalytics = () => {
                                         <Users className="w-4 h-4 text-indigo-600" />
                                     </div>
                                     <div className="space-y-1 overflow-hidden">
-                                        <div className="text-[11px] font-bold truncate">Học sinh #12{i} gặp lỗi Logic</div>
-                                        <div className="text-[10px] text-muted-foreground">"Bạn nên kiểm tra biến x..."</div>
+                                        <div className="text-[11px] font-bold truncate">{t('teacher:submissionAnalytics.aiInsights.studentIssue', { id: i })}</div>
+                                        <div className="text-[10px] text-muted-foreground">{t('teacher:submissionAnalytics.aiInsights.mockFeedback')}</div>
                                     </div>
                                     <ChevronRight className="w-3 h-3 ml-auto self-center opacity-40" />
                                 </div>
                             ))}
-                            <Button variant="link" className="w-full text-[11px] text-primary p-0 h-auto">Xem tất cả</Button>
+                            <Button variant="link" className="w-full text-[11px] text-primary p-0 h-auto">{t('teacher:submissionAnalytics.aiInsights.viewAll')}</Button>
                         </CardContent>
                     </Card>
 
@@ -127,9 +127,9 @@ const SubmissionAnalytics = () => {
                             <div className="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center mx-auto">
                                 <Users className="w-5 h-5 text-primary" />
                             </div>
-                            <h4 className="font-bold text-sm">Target Performance</h4>
-                            <p className="text-xs text-muted-foreground italic">Đặt mục tiêu tỷ lệ Pass cho lớp này đạt 80% trong tuần tới.</p>
-                            <Button size="sm" className="w-full text-xs">Cài đặt mục tiêu</Button>
+                            <h4 className="font-bold text-sm">{t('teacher:submissionAnalytics.performance.title')}</h4>
+                            <p className="text-xs text-muted-foreground italic">{t('teacher:submissionAnalytics.performance.goalDescription')}</p>
+                            <Button size="sm" className="w-full text-xs">{t('teacher:submissionAnalytics.performance.setGoal')}</Button>
                         </CardContent>
                     </Card>
                 </div>
@@ -140,14 +140,14 @@ const SubmissionAnalytics = () => {
                 <div className="flex items-center justify-between">
                     <h3 className="text-xl font-bold flex items-center gap-2">
                         <Activity className="w-5 h-5 text-primary" />
-                        Dòng thời gian nộp bài chi tiết
+                        {t('teacher:submissionAnalytics.timeline.title')}
                     </h3>
                     <div className="flex gap-2">
                         <div className="relative w-64">
                             <Search className="absolute left-2.5 top-2.5 h-4 w-4 text-muted-foreground" />
-                            <Input placeholder="Tìm học sinh..." className="pl-9 h-9" />
+                            <Input placeholder={t('teacher:submissionAnalytics.timeline.searchPlaceholder')} className="pl-9 h-9" />
                         </div>
-                        <Button variant="outline" size="sm"><Filter className="w-4 h-4 mr-2" /> Bộ lọc</Button>
+                        <Button variant="outline" size="sm"><Filter className="w-4 h-4 mr-2" /> {t('teacher:submissionAnalytics.timeline.filter')}</Button>
                     </div>
                 </div>
 

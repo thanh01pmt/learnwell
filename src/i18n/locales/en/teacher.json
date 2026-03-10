@@ -886,12 +886,32 @@
 			}
 		},
 		"submissionAnalytics": {
+			"header": {
+				"last7Days": "Last 7 days",
+				"exportReport": "Export Report"
+			},
 			"funnel": {
+				"title": "Submissions Funnel Report",
+				"description": "Visualize drop-off rates across stages.",
 				"ids": "IDs",
 				"highRetention": "High Retention",
 				"passed": "Passed"
 			},
+			"aiInsights": {
+				"title": "Recent AI Feedback",
+				"studentIssue": "Student #12{{id}} encountered Logic error",
+				"mockFeedback": "\"You should check variable x...\"",
+				"viewAll": "View All"
+			},
+			"performance": {
+				"title": "Target Performance",
+				"goalDescription": "Set Pass rate goal for this class to 80% next week.",
+				"setGoal": "Set Goal"
+			},
 			"timeline": {
+				"title": "Detailed Submission Timeline",
+				"searchPlaceholder": "Search students...",
+				"filter": "Filter",
 				"loadMore": "Load More History"
 			},
 			"metadata": {
