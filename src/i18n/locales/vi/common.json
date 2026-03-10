@@ -216,7 +216,14 @@
 		"delete": "Xóa",
 		"save": "Lưu",
 		"saveChanges": "Lưu thay đổi",
-		"submit": "Gửi"
+		"submit": "Gửi",
+		"start_now": "Bắt đầu ngay",
+		"publish": "Xuất bản",
+		"dry_run": "Chạy thử",
+		"save_all": "Lưu tất cả"
+	},
+	"breadcrumb": {
+		"curriculum": "Chương trình học"
 	},
 	"status": {
 		"noData": "Không có dữ liệu",

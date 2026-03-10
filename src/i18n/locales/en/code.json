@@ -605,5 +605,47 @@
 			"cat": "Sprite 1",
 			"sprite2": "Sprite 2"
 		}
+	},
+	"launcher": {
+		"badge": "Beta Launcher",
+		"title": "Choose Your Platform",
+		"description": "Select the ideal environment for your coding journey, from visual blocks to professional text-based IDEs.",
+		"ai_path_title": "AI-Powered Learning Path",
+		"ai_path_description": "Our intelligent system guides you through the most suitable platforms based on your current level and goals.",
+		"view_path": "View My Path",
+		"learn_more": "Learn More",
+		"hardware": "Hardware",
+		"microbit_support": "Micro:bit Support",
+		"connectivity": "Connectivity",
+		"web_api_support": "Web API Support",
+		"platforms": {
+			"scratch": {
+				"title": "Scratch 3",
+				"description": "Create games and animations with intuitive drag-and-drop blocks. Perfect for beginners.",
+				"features": {
+					"drag_drop": "Drag & Drop",
+					"audio_visual": "Audio & Visuals",
+					"community": "Large Community"
+				}
+			},
+			"blockly": {
+				"title": "Blockly - PXT",
+				"description": "Advanced block programming, easily convertible to Python/Javascript source code.",
+				"features": {
+					"hardware": "Hardware integration",
+					"preview": "Code preview",
+					"logic": "Logical thinking"
+				}
+			},
+			"webide": {
+				"title": "Web IDE (Text-based)",
+				"description": "Professional programming environment supporting Python, Javascript, C++ and more.",
+				"features": {
+					"intellisense": "Full IntelliSense",
+					"multi_lang": "Multi-language",
+					"pro_tools": "Professional tools"
+				}
+			}
+		}
 	}
 }

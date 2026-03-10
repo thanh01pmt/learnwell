@@ -11,6 +11,7 @@ import ContactPage from "./pages/public/ContactPage";
 import PrivacyPage from "./pages/public/PrivacyPage";
 import TermsPage from "./pages/public/TermsPage";
 import TeacherDashboard from "./pages/teacher/TeacherDashboard";
+import SubmissionAnalytics from "./pages/teacher/SubmissionAnalytics";
 import { PublicLayout } from "./components/layout/PublicLayout";
 import Reports from "./pages/Reports";
 import Classes from "./pages/Classes";
@@ -33,6 +34,8 @@ import OfficeHours from "./pages/OfficeHours";
 import QuestionBank from "./pages/authoring/QuestionBank";
 import Curriculum from "./pages/authoring/Curriculum";
 import Exams from "./pages/authoring/Exams";
+import TutorialBuilder from "./pages/authoring/TutorialBuilder";
+import GradingConfigBuilder from "./pages/authoring/GradingConfigBuilder";
 import Practice from "./pages/Practice";
 import Competency from "./pages/Competency";
 import Progress from "./pages/Progress";
@@ -51,6 +54,7 @@ import ForumPost from "./pages/ForumPost";
 import Notifications from "./pages/Notifications";
 import ProblemLibrary from "./pages/code/ProblemLibrary";
 import CodeIDE from "./pages/code/CodeIDE";
+import PlatformLauncher from "./pages/code/PlatformLauncher";
 import ContestList from "./pages/contests/ContestList";
 import ContestDetail from "./pages/contests/ContestDetail";
 import ContestArena from "./pages/contests/ContestArena";
@@ -195,6 +199,7 @@ function App() {
                   <Route path="/teacher/path-templates" element={<FeatureRoute path="/teacher/path-templates"><LearningPathTemplates /></FeatureRoute>} />
                   <Route path="/teacher/iep" element={<FeatureRoute path="/teacher/iep"><IEPManager /></FeatureRoute>} />
                   <Route path="/teacher/skill-groups" element={<FeatureRoute path="/teacher/skill-groups"><SkillGrouping /></FeatureRoute>} />
+                  <Route path="/teacher/submission-analytics" element={<FeatureRoute path="/teacher/submission-analytics"><SubmissionAnalytics /></FeatureRoute>} />
 
                   {/* Communications & Shared */}
                   <Route path="/messages" element={<FeatureRoute path="/messages"><DirectMessages /></FeatureRoute>} />
@@ -212,11 +217,14 @@ function App() {
                   <Route path="/authoring/questions" element={<FeatureRoute path="/authoring/questions"><QuestionBank /></FeatureRoute>} />
                   <Route path="/authoring/curriculum" element={<FeatureRoute path="/authoring/curriculum"><Curriculum /></FeatureRoute>} />
                   <Route path="/authoring/exams" element={<FeatureRoute path="/authoring/exams"><Exams /></FeatureRoute>} />
+                  <Route path="/authoring/tutorial-builder" element={<FeatureRoute path="/authoring/tutorial-builder"><TutorialBuilder /></FeatureRoute>} />
+                  <Route path="/authoring/grading-config" element={<FeatureRoute path="/authoring/grading-config"><GradingConfigBuilder /></FeatureRoute>} />
 
                   {/* Code & Tech */}
                   <Route path="/playground" element={<FeatureRoute path="/playground"><CodePlayground /></FeatureRoute>} />
                   <Route path="/problems" element={<FeatureRoute path="/problems"><ProblemLibrary /></FeatureRoute>} />
                   <Route path="/problems/:id/solve" element={<FeatureRoute path="/problems/:id/solve"><CodeIDE /></FeatureRoute>} />
+                  <Route path="/code/launcher" element={<FeatureRoute path="/code/launcher"><PlatformLauncher /></FeatureRoute>} />
                   <Route path="/profile/coding" element={<CodingProfile />} />
                   <Route path="/recommendations" element={<AIRecommendations />} />
                   <Route path="/student/adaptive-practice" element={<AdaptivePractice />} />

@@ -1,149 +1,252 @@
 {
-  "questionBank": {
-    "title": "Question Bank",
-    "subtitle": "Manage and organize questions for tests",
-    "actions": {
-      "addQuestion": "Add Question",
-      "deleteQuestion": "Delete Question"
-    },
-    "stats": {
-      "totalQuestions": "Total Questions",
-      "multipleChoice": "Multiple Choice",
-      "essay": "Essay",
-      "fillBlank": "Fill in the Blank"
-    },
-    "filters": {
-      "placeholder": "Search questions...",
-      "allSubjects": "All Subjects",
-      "allDifficulties": "All Difficulties"
-    },
-    "table": {
-      "content": "Question Content",
-      "type": "Type",
-      "topic": "Topic",
-      "difficulty": "Difficulty",
-      "used": "Used",
-      "times": "{{count}} times"
-    },
-    "types": {
-      "multiple_choice": "Multiple Choice",
-      "fill_blank": "Fill Blank",
-      "essay": "Essay"
-    },
-    "difficulties": {
-      "easy": "Easy",
-      "medium": "Medium",
-      "hard": "Hard"
-    }
-  },
-  "exams": {
-    "title": "Exam Management",
-    "subtitle": "Create and manage tests and assignments",
-    "actions": {
-      "createExam": "Create Exam",
-      "viewDetails": "View Details",
-      "edit": "Edit",
-      "duplicate": "Duplicate",
-      "delete": "Delete",
-      "preview": "Preview",
-      "publish": "Publish"
-    },
-    "stats": {
-      "total": "Total Exams",
-      "active": "Active",
-      "scheduled": "Scheduled",
-      "draft": "Draft",
-      "completed": "Completed"
-    },
-    "tabs": {
-      "all": "All",
-      "active": "Active",
-      "scheduled": "Scheduled",
-      "draft": "Draft"
-    },
-    "placeholders": {
-      "search": "Search exams..."
-    },
-    "card": {
-      "classLabel": "Class {{class}}",
-      "duration": "{{count}} mins",
-      "questions": "{{count}} questions",
-      "submissions": "{{current}}/{{total}}"
-    },
-    "empty": {
-      "title": "No exams found",
-      "description": "Create your first exam"
-    }
-  },
-  "curriculum": {
-    "title": "Curriculum",
-    "subtitle": "Build and manage lecture content",
-    "actions": {
-      "addChapter": "Add Chapter",
-      "addLesson": "Add Lesson",
-      "preview": "Preview",
-      "edit": "Edit",
-      "deleteLesson": "Delete Lesson"
-    },
-    "stats": {
-      "totalChapters": "Total Chapters",
-      "totalLessons": "Total Lessons",
-      "duration": "Duration",
-      "avgProgress": "Avg. Progress"
-    },
-    "filters": {
-      "placeholder": "Search lessons..."
-    },
-    "lessonTypes": {
-      "reading": "Reading",
-      "video": "Video",
-      "quiz": "Quiz"
-    }
-  },
-  "mock": {
-    "subjects": {
-      "math": "Mathematics",
-      "literature": "Literature",
-      "english": "English",
-      "physics": "Physics"
-    },
-    "topics": {
-      "algebra": "Algebra",
-      "modernLit": "Modern Literature",
-      "grammarTenses": "Grammar - Tenses",
-      "equations": "Equations",
-      "mechanics": "Mechanics"
-    },
-    "questions": {
-      "calcValue": "Calculate the value of: 2x + 3y when x = 5 and y = 2",
-      "analyzeLaoHac": "Analyze the art of character portrayal in 'Lao Hạc'",
-      "newtonLaws": "State Newton's laws and provide examples",
-      "quadraticEquation": "Solve the quadratic equation: x² - 5x + 6 = 0",
-      "englishGrammar": "Choose the correct answer: She _____ to school every day."
-    },
-    "exams": {
-      "quizCh3": "15-minute Quiz - Chapter 3",
-      "midterm": "Midterm Exam",
-      "homeworkUnit5": "Homework - Unit 5",
-      "reviewElectricity": "Chapter Review - Electricity"
-    },
-    "chapters": {
-      "arithmetic": "Chapter 1: Arithmetic",
-      "fractions": "Chapter 2: Fractions",
-      "geometry": "Chapter 3: Geometry"
-    },
-    "lessons": {
-      "arithmetic": "Natural numbers and operations",
-      "factors": "Factors and Multiples",
-      "primes": "Prime Numbers",
-      "quizCh1": "Chapter 1 Quiz",
-      "fractions": "Concept of Fractions",
-      "simplifying": "Simplifying Fractions",
-      "comparing": "Comparing Fractions",
-      "arithmeticFractions": "Fraction Arithmetic",
-      "geometryBasic": "Points, Lines, Segments",
-      "angles": "Angles and Types of Angles",
-      "triangles": "Triangles"
-    }
-  }
+	"questionBank": {
+		"title": "Question Bank",
+		"subtitle": "Manage and organize questions for tests",
+		"actions": {
+			"addQuestion": "Add Question",
+			"deleteQuestion": "Delete Question"
+		},
+		"stats": {
+			"totalQuestions": "Total Questions",
+			"multipleChoice": "Multiple Choice",
+			"essay": "Essay",
+			"fillBlank": "Fill in the Blank"
+		},
+		"filters": {
+			"placeholder": "Search questions...",
+			"allSubjects": "All Subjects",
+			"allDifficulties": "All Difficulties"
+		},
+		"table": {
+			"content": "Question Content",
+			"type": "Type",
+			"topic": "Topic",
+			"difficulty": "Difficulty",
+			"used": "Used",
+			"times": "{{count}} times"
+		},
+		"types": {
+			"multiple_choice": "Multiple Choice",
+			"fill_blank": "Fill Blank",
+			"essay": "Essay"
+		},
+		"difficulties": {
+			"easy": "Easy",
+			"medium": "Medium",
+			"hard": "Hard"
+		}
+	},
+	"exams": {
+		"title": "Exam Management",
+		"subtitle": "Create and manage tests and assignments",
+		"actions": {
+			"createExam": "Create Exam",
+			"viewDetails": "View Details",
+			"edit": "Edit",
+			"duplicate": "Duplicate",
+			"delete": "Delete",
+			"preview": "Preview",
+			"publish": "Publish"
+		},
+		"stats": {
+			"total": "Total Exams",
+			"active": "Active",
+			"scheduled": "Scheduled",
+			"draft": "Draft",
+			"completed": "Completed"
+		},
+		"tabs": {
+			"all": "All",
+			"active": "Active",
+			"scheduled": "Scheduled",
+			"draft": "Draft"
+		},
+		"placeholders": {
+			"search": "Search exams..."
+		},
+		"card": {
+			"classLabel": "Class {{class}}",
+			"duration": "{{count}} mins",
+			"questions": "{{count}} questions",
+			"submissions": "{{current}}/{{total}}"
+		},
+		"empty": {
+			"title": "No exams found",
+			"description": "Create your first exam"
+		}
+	},
+	"curriculum": {
+		"title": "Curriculum",
+		"subtitle": "Build and manage lecture content",
+		"actions": {
+			"addChapter": "Add Chapter",
+			"addLesson": "Add Lesson",
+			"preview": "Preview",
+			"edit": "Edit",
+			"deleteLesson": "Delete Lesson"
+		},
+		"stats": {
+			"totalChapters": "Total Chapters",
+			"totalLessons": "Total Lessons",
+			"duration": "Duration",
+			"avgProgress": "Avg. Progress"
+		},
+		"filters": {
+			"placeholder": "Search lessons..."
+		},
+		"lessonTypes": {
+			"reading": "Reading",
+			"video": "Video",
+			"quiz": "Quiz"
+		}
+	},
+	"mock": {
+		"subjects": {
+			"math": "Mathematics",
+			"literature": "Literature",
+			"english": "English",
+			"physics": "Physics"
+		},
+		"topics": {
+			"algebra": "Algebra",
+			"modernLit": "Modern Literature",
+			"grammarTenses": "Grammar - Tenses",
+			"equations": "Equations",
+			"mechanics": "Mechanics"
+		},
+		"questions": {
+			"calcValue": "Calculate the value of: 2x + 3y when x = 5 and y = 2",
+			"analyzeLaoHac": "Analyze the art of character portrayal in 'Lao Hạc'",
+			"newtonLaws": "State Newton's laws and provide examples",
+			"quadraticEquation": "Solve the quadratic equation: x² - 5x + 6 = 0",
+			"englishGrammar": "Choose the correct answer: She _____ to school every day."
+		},
+		"exams": {
+			"quizCh3": "15-minute Quiz - Chapter 3",
+			"midterm": "Midterm Exam",
+			"homeworkUnit5": "Homework - Unit 5",
+			"reviewElectricity": "Chapter Review - Electricity"
+		},
+		"chapters": {
+			"arithmetic": "Chapter 1: Arithmetic",
+			"fractions": "Chapter 2: Fractions",
+			"geometry": "Chapter 3: Geometry"
+		},
+		"lessons": {
+			"arithmetic": "Natural numbers and operations",
+			"factors": "Factors and Multiples",
+			"primes": "Prime Numbers",
+			"quizCh1": "Chapter 1 Quiz",
+			"fractions": "Concept of Fractions",
+			"simplifying": "Simplifying Fractions",
+			"comparing": "Comparing Fractions",
+			"arithmeticFractions": "Fraction Arithmetic",
+			"geometryBasic": "Points, Lines, Segments",
+			"angles": "Angles and Types of Angles",
+			"triangles": "Triangles"
+		}
+	},
+	"tutorials": {
+		"badge": "Builder",
+		"builder_title": "Tutorial Builder",
+		"builder_subtitle": "Design interactive learning experiences with step-by-step guidance",
+		"config_root": "Config Root",
+		"step_title": "Step Title",
+		"step_title_placeholder": "Enter step title...",
+		"steps_list": "Steps List",
+		"add_step": "Add Tutorial Step",
+		"editor_title": "Editing Content: {{title}}",
+		"preview_step": "Preview this step",
+		"template_link": "Link Template Project",
+		"video_intro": "Build Video Intro",
+		"content_type": "Content Type",
+		"types": {
+			"video": "Video",
+			"theory": "Theory",
+			"practice": "Practice"
+		},
+		"media_url": "Video / Media URL",
+		"auto_thumbnail": "Auto Thumbnail",
+		"auto_thumbnail_desc": "Fetch from YouTube API...",
+		"detailed_content": "Detailed Instruction Content",
+		"ai_rewrite": "AI Rewrite",
+		"markdown_placeholder": "Enter Markdown content or instructions here...",
+		"markdown_supported": "Markdown Supported",
+		"tasks_list": "Task Checklist (Tasks)",
+		"tasks_desc": "Students must check all these items to proceed to the next step.",
+		"add_task": "Add Item",
+		"tip": "Tip",
+		"tip_desc": "Use <code>[instruction]...[/instruction]</code> to create highlighted text blocks in the student view."
+	},
+	"grading": {
+		"project_p123": "Project P123",
+		"grading_setup": "Grading Setup",
+		"builder_title": "Grading Configuration",
+		"standard_schema": "Standard Schema",
+		"title": "Automated Grading",
+		"description": "Configure the evaluation engine, resource limits, and scoring rules for this project.",
+		"tabs": {
+			"params": "Parameters",
+			"testcases": "Test Cases",
+			"rubric": "AI Rubric"
+		},
+		"engine": {
+			"static": {
+				"title": "Static Analysis",
+				"desc": "Check syntax, patterns, and style without executing the code."
+			},
+			"diff": {
+				"title": "Output Diff",
+				"desc": "Compare program output against expected results using test cases."
+			},
+			"dynamic": {
+				"title": "Dynamic Sandbox",
+				"desc": "Run code in a secure VM to measure performance and logic."
+			}
+		},
+		"performance_limits": "Performance Limits",
+		"time_limit": "Execution Time (ms)",
+		"ms_unit": "ms",
+		"memory_limit": "Max Memory (KB)",
+		"rules": "Evaluation Rules",
+		"scoring_mode": "Scoring Mode",
+		"modes": {
+			"weighted": "Weighted Scoring",
+			"all_or_nothing": "All or Nothing",
+			"progressive": "Progressive Mastery"
+		},
+		"max_attempts": "Max Attempts",
+		"attempts_unit": "times",
+		"partial_credit": "Partial Credit",
+		"partial_credit_desc": "Allow students to receive partial points for passing some test cases.",
+		"privacy": "Hide Test Cases (Privacy)",
+		"privacy_desc": "Students cannot see the input content of secret test cases.",
+		"doc_link": "Grading Documentation",
+		"preview_json": "Preview JSON",
+		"save_config": "Save Configuration",
+		"ai_suggestion": "AI Suggestion",
+		"ai_suggestion_desc": "Based on this problem, a \"Weighted\" configuration with 2000ms is optimal to avoid infinite loops while ensuring fairness.",
+		"empty_testcases": "No Test Cases yet",
+		"empty_testcases_desc": "Upload test data (.json/ .csv) or manually add Input/Output pairs to start grading.",
+		"add_first_testcase": "Add first Test Case",
+		"ai_rubric_title": "AI Grading Criteria",
+		"ai_rubric_desc": "Define how the AI will comment and score code quality (readability, performance, logic).",
+		"criteria": {
+			"cleanliness": {
+				"title": "Code Cleanliness",
+				"desc": "Variable naming, indentation, PEP8/ESLint compliance."
+			},
+			"efficiency": {
+				"title": "Algorithm Efficiency",
+				"desc": "Evaluate O(n) complexity and edge case handling."
+			}
+		},
+		"add_criterion": "Add new criterion",
+		"summary": "Configuration Summary",
+		"assignment_type": "Assignment Type",
+		"platform": "Platform",
+		"mechanism": "Mechanism",
+		"important_note": "Important Note",
+		"important_note_desc": "Changes in \"Performance Limits\" will apply immediately to all new submissions. For pending submissions, the system will use the old cache."
+	}
 }

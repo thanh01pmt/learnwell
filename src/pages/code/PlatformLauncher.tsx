@@ -18,48 +18,60 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { Badge } from "@/components/ui/badge";
 import { cn } from "@/lib/utils";
 
-const platforms = [
-    {
-        id: "scratch",
-        title: "Scratch 3",
-        description: "Sáng tạo trò chơi và hoạt hình bằng các khối lệnh kéo thả trực quan. Phù hợp cho người bắt đầu.",
-        icon: MousePointer2,
-        color: "bg-orange-500",
-        lightColor: "bg-orange-50",
-        borderColor: "border-orange-200",
-        textColor: "text-orange-700",
-        features: ["Kéo thả khối", "Âm thanh & Hình ảnh", "Cộng đồng lớn"],
-        path: "/code/scratch"
-    },
-    {
-        id: "blockly",
-        title: "Blockly - PXT",
-        description: "Lập trình khối lệnh nâng cao, dễ dàng chuyển đổi sang mã nguồn Python/Javascript.",
-        icon: Blocks,
-        color: "bg-blue-500",
-        lightColor: "bg-blue-50",
-        borderColor: "border-blue-200",
-        textColor: "text-blue-700",
-        features: ["Hardware integration", "Code preview", "Logical thinking"],
-        path: "/code/blockly"
-    },
-    {
-        id: "webide",
-        title: "Web IDE (Text-based)",
-        description: "Môi trường lập trình chuyên nghiệp hỗ trợ Python, Javascript, C++ và nhiều ngôn ngữ khác.",
-        icon: Code2,
-        color: "bg-indigo-600",
-        lightColor: "bg-indigo-50",
-        borderColor: "border-indigo-200",
-        textColor: "text-indigo-700",
-        features: ["Full IntelliSense", "Multi-language", "Professional tools"],
-        path: "/code/ide"
-    }
-];
-
 const PlatformLauncher = () => {
     const { t } = useTranslation(["code", "common"]);
     const navigate = useNavigate();
+
+    const platforms = [
+        {
+            id: "scratch",
+            title: t('code:launcher.platforms.scratch.title'),
+            description: t('code:launcher.platforms.scratch.description'),
+            icon: MousePointer2,
+            color: "bg-orange-500",
+            lightColor: "bg-orange-50",
+            borderColor: "border-orange-200",
+            textColor: "text-orange-700",
+            features: [
+                t('code:launcher.platforms.scratch.features.drag_drop'),
+                t('code:launcher.platforms.scratch.features.audio_visual'),
+                t('code:launcher.platforms.scratch.features.community')
+            ],
+            path: "/code/scratch"
+        },
+        {
+            id: "blockly",
+            title: t('code:launcher.platforms.blockly.title'),
+            description: t('code:launcher.platforms.blockly.description'),
+            icon: Blocks,
+            color: "bg-blue-500",
+            lightColor: "bg-blue-50",
+            borderColor: "border-blue-200",
+            textColor: "text-blue-700",
+            features: [
+                t('code:launcher.platforms.blockly.features.hardware'),
+                t('code:launcher.platforms.blockly.features.preview'),
+                t('code:launcher.platforms.blockly.features.logic')
+            ],
+            path: "/code/blockly"
+        },
+        {
+            id: "webide",
+            title: t('code:launcher.platforms.webide.title'),
+            description: t('code:launcher.platforms.webide.description'),
+            icon: Code2,
+            color: "bg-indigo-600",
+            lightColor: "bg-indigo-50",
+            borderColor: "border-indigo-200",
+            textColor: "text-indigo-700",
+            features: [
+                t('code:launcher.platforms.webide.features.intellisense'),
+                t('code:launcher.platforms.webide.features.multi_lang'),
+                t('code:launcher.platforms.webide.features.pro_tools')
+            ],
+            path: "/code/ide"
+        }
+    ];
 
     return (
         <div className="container max-w-6xl py-12 space-y-12">

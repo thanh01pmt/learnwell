@@ -216,7 +216,14 @@
 		"delete": "Delete",
 		"save": "Save",
 		"saveChanges": "Save Changes",
-		"submit": "Submit"
+		"submit": "Submit",
+		"start_now": "Start Now",
+		"publish": "Publish",
+		"dry_run": "Dry Run",
+		"save_all": "Save All"
+	},
+	"breadcrumb": {
+		"curriculum": "Curriculum"
 	},
 	"status": {
 		"noData": "No data",

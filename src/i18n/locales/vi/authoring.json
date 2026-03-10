@@ -1,149 +1,252 @@
 {
-  "questionBank": {
-    "title": "Ngân hàng câu hỏi",
-    "subtitle": "Quản lý và tổ chức câu hỏi cho các bài kiểm tra",
-    "actions": {
-      "addQuestion": "Thêm câu hỏi",
-      "deleteQuestion": "Xóa câu hỏi"
-    },
-    "stats": {
-      "totalQuestions": "Tổng câu hỏi",
-      "multipleChoice": "Trắc nghiệm",
-      "essay": "Tự luận",
-      "fillBlank": "Điền khuyết"
-    },
-    "filters": {
-      "placeholder": "Tìm kiếm câu hỏi...",
-      "allSubjects": "Tất cả môn",
-      "allDifficulties": "Tất cả mức độ"
-    },
-    "table": {
-      "content": "Nội dung câu hỏi",
-      "type": "Loại",
-      "topic": "Chủ đề",
-      "difficulty": "Độ khó",
-      "used": "Đã dùng",
-      "times": "{{count}} lần"
-    },
-    "types": {
-      "multiple_choice": "Trắc nghiệm",
-      "fill_blank": "Điền khuyết",
-      "essay": "Tự luận"
-    },
-    "difficulties": {
-      "easy": "Dễ",
-      "medium": "Trung bình",
-      "hard": "Khó"
-    }
-  },
-  "exams": {
-    "title": "Quản lý bài kiểm tra",
-    "subtitle": "Tạo và quản lý các bài kiểm tra, bài tập",
-    "actions": {
-      "createExam": "Tạo bài kiểm tra",
-      "viewDetails": "Xem chi tiết",
-      "edit": "Chỉnh sửa",
-      "duplicate": "Nhân bản",
-      "delete": "Xóa",
-      "preview": "Xem trước",
-      "publish": "Xuất bản"
-    },
-    "stats": {
-      "total": "Tổng bài kiểm tra",
-      "active": "Đang diễn ra",
-      "scheduled": "Đã lên lịch",
-      "draft": "Bản nháp",
-      "completed": "Hoàn thành"
-    },
-    "tabs": {
-      "all": "Tất cả",
-      "active": "Đang diễn ra",
-      "scheduled": "Đã lên lịch",
-      "draft": "Bản nháp"
-    },
-    "placeholders": {
-      "search": "Tìm kiếm bài kiểm tra..."
-    },
-    "card": {
-      "classLabel": "Lớp {{class}}",
-      "duration": "{{count}} phút",
-      "questions": "{{count}} câu",
-      "submissions": "{{current}}/{{total}}"
-    },
-    "empty": {
-      "title": "Không có bài kiểm tra nào",
-      "description": "Tạo bài kiểm tra đầu tiên của bạn"
-    }
-  },
-  "curriculum": {
-    "title": "Chương trình giảng dạy",
-    "subtitle": "Xây dựng và quản lý nội dung bài giảng",
-    "actions": {
-      "addChapter": "Thêm chương",
-      "addLesson": "Thêm bài học",
-      "preview": "Xem trước",
-      "edit": "Chỉnh sửa",
-      "deleteLesson": "Xóa bài học"
-    },
-    "stats": {
-      "totalChapters": "Tổng chương",
-      "totalLessons": "Tổng bài học",
-      "duration": "Thời lượng",
-      "avgProgress": "Tiến độ TB"
-    },
-    "filters": {
-      "placeholder": "Tìm kiếm bài học..."
-    },
-    "lessonTypes": {
-      "reading": "Bài đọc",
-      "video": "Video",
-      "quiz": "Bài kiểm tra"
-    }
-  },
-  "mock": {
-    "subjects": {
-      "math": "Toán học",
-      "literature": "Ngữ văn",
-      "english": "Tiếng Anh",
-      "physics": "Vật lý"
-    },
-    "topics": {
-      "algebra": "Đại số",
-      "modernLit": "Văn học hiện đại",
-      "grammarTenses": "Grammar - Tenses",
-      "equations": "Phương trình",
-      "mechanics": "Cơ học"
-    },
-    "questions": {
-      "calcValue": "Tính giá trị của biểu thức: 2x + 3y khi x = 5 và y = 2",
-      "analyzeLaoHac": "Phân tích nghệ thuật miêu tả nhân vật trong đoạn trích 'Lão Hạc'",
-      "newtonLaws": "Nêu các định luật Newton và cho ví dụ minh họa",
-      "quadraticEquation": "Giải phương trình bậc hai: x² - 5x + 6 = 0",
-      "englishGrammar": "Chọn đáp án đúng: She _____ to school every day."
-    },
-    "exams": {
-      "quizCh3": "Kiểm tra 15 phút - Chương 3",
-      "midterm": "Kiểm tra giữa kỳ",
-      "homeworkUnit5": "Bài tập về nhà - Unit 5",
-      "reviewElectricity": "Ôn tập cuối chương - Điện học"
-    },
-    "chapters": {
-      "arithmetic": "Chương 1: Số học",
-      "fractions": "Chương 2: Phân số",
-      "geometry": "Chương 3: Hình học"
-    },
-    "lessons": {
-      "arithmetic": "Số tự nhiên và các phép tính",
-      "factors": "Ước và bội",
-      "primes": "Số nguyên tố",
-      "quizCh1": "Bài kiểm tra chương 1",
-      "fractions": "Khái niệm phân số",
-      "simplifying": "Rút gọn phân số",
-      "comparing": "So sánh phân số",
-      "arithmeticFractions": "Phép cộng trừ phân số",
-      "geometryBasic": "Điểm, đường thẳng, đoạn thẳng",
-      "angles": "Góc và các loại góc",
-      "triangles": "Tam giác"
-    }
-  }
+	"questionBank": {
+		"title": "Ngân hàng câu hỏi",
+		"subtitle": "Quản lý và tổ chức câu hỏi cho các bài kiểm tra",
+		"actions": {
+			"addQuestion": "Thêm câu hỏi",
+			"deleteQuestion": "Xóa câu hỏi"
+		},
+		"stats": {
+			"totalQuestions": "Tổng câu hỏi",
+			"multipleChoice": "Trắc nghiệm",
+			"essay": "Tự luận",
+			"fillBlank": "Điền khuyết"
+		},
+		"filters": {
+			"placeholder": "Tìm kiếm câu hỏi...",
+			"allSubjects": "Tất cả môn",
+			"allDifficulties": "Tất cả mức độ"
+		},
+		"table": {
+			"content": "Nội dung câu hỏi",
+			"type": "Loại",
+			"topic": "Chủ đề",
+			"difficulty": "Độ khó",
+			"used": "Đã dùng",
+			"times": "{{count}} lần"
+		},
+		"types": {
+			"multiple_choice": "Trắc nghiệm",
+			"fill_blank": "Điền khuyết",
+			"essay": "Tự luận"
+		},
+		"difficulties": {
+			"easy": "Dễ",
+			"medium": "Trung bình",
+			"hard": "Khó"
+		}
+	},
+	"exams": {
+		"title": "Quản lý bài kiểm tra",
+		"subtitle": "Tạo và quản lý các bài kiểm tra, bài tập",
+		"actions": {
+			"createExam": "Tạo bài kiểm tra",
+			"viewDetails": "Xem chi tiết",
+			"edit": "Chỉnh sửa",
+			"duplicate": "Nhân bản",
+			"delete": "Xóa",
+			"preview": "Xem trước",
+			"publish": "Xuất bản"
+		},
+		"stats": {
+			"total": "Tổng bài kiểm tra",
+			"active": "Đang diễn ra",
+			"scheduled": "Đã lên lịch",
+			"draft": "Bản nháp",
+			"completed": "Hoàn thành"
+		},
+		"tabs": {
+			"all": "Tất cả",
+			"active": "Đang diễn ra",
+			"scheduled": "Đã lên lịch",
+			"draft": "Bản nháp"
+		},
+		"placeholders": {
+			"search": "Tìm kiếm bài kiểm tra..."
+		},
+		"card": {
+			"classLabel": "Lớp {{class}}",
+			"duration": "{{count}} phút",
+			"questions": "{{count}} câu",
+			"submissions": "{{current}}/{{total}}"
+		},
+		"empty": {
+			"title": "Không có bài kiểm tra nào",
+			"description": "Tạo bài kiểm tra đầu tiên của bạn"
+		}
+	},
+	"curriculum": {
+		"title": "Chương trình giảng dạy",
+		"subtitle": "Xây dựng và quản lý nội dung bài giảng",
+		"actions": {
+			"addChapter": "Thêm chương",
+			"addLesson": "Thêm bài học",
+			"preview": "Xem trước",
+			"edit": "Chỉnh sửa",
+			"deleteLesson": "Xóa bài học"
+		},
+		"stats": {
+			"totalChapters": "Tổng chương",
+			"totalLessons": "Tổng bài học",
+			"duration": "Thời lượng",
+			"avgProgress": "Tiến độ TB"
+		},
+		"filters": {
+			"placeholder": "Tìm kiếm bài học..."
+		},
+		"lessonTypes": {
+			"reading": "Bài đọc",
+			"video": "Video",
+			"quiz": "Bài kiểm tra"
+		}
+	},
+	"mock": {
+		"subjects": {
+			"math": "Toán học",
+			"literature": "Ngữ văn",
+			"english": "Tiếng Anh",
+			"physics": "Vật lý"
+		},
+		"topics": {
+			"algebra": "Đại số",
+			"modernLit": "Văn học hiện đại",
+			"grammarTenses": "Grammar - Tenses",
+			"equations": "Phương trình",
+			"mechanics": "Cơ học"
+		},
+		"questions": {
+			"calcValue": "Tính giá trị của biểu thức: 2x + 3y khi x = 5 và y = 2",
+			"analyzeLaoHac": "Phân tích nghệ thuật miêu tả nhân vật trong đoạn trích 'Lão Hạc'",
+			"newtonLaws": "Nêu các định luật Newton và cho ví dụ minh họa",
+			"quadraticEquation": "Giải phương trình bậc hai: x² - 5x + 6 = 0",
+			"englishGrammar": "Chọn đáp án đúng: She _____ to school every day."
+		},
+		"exams": {
+			"quizCh3": "Kiểm tra 15 phút - Chương 3",
+			"midterm": "Kiểm tra giữa kỳ",
+			"homeworkUnit5": "Bài tập về nhà - Unit 5",
+			"reviewElectricity": "Ôn tập cuối chương - Điện học"
+		},
+		"chapters": {
+			"arithmetic": "Chương 1: Số học",
+			"fractions": "Chương 2: Phân số",
+			"geometry": "Chương 3: Hình học"
+		},
+		"lessons": {
+			"arithmetic": "Số tự nhiên và các phép tính",
+			"factors": "Ước và bội",
+			"primes": "Số nguyên tố",
+			"quizCh1": "Bài kiểm tra chương 1",
+			"fractions": "Khái niệm phân số",
+			"simplifying": "Rút gọn phân số",
+			"comparing": "So sánh phân số",
+			"arithmeticFractions": "Phép cộng trừ phân số",
+			"geometryBasic": "Điểm, đường thẳng, đoạn thẳng",
+			"angles": "Góc và các loại góc",
+			"triangles": "Tam giác"
+		}
+	},
+	"tutorials": {
+		"badge": "Trình tạo",
+		"builder_title": "Trình tạo bài học",
+		"builder_subtitle": "Thiết kế trải nghiệm học tập tương tác với hướng dẫn từng bước",
+		"config_root": "Cấu hình gốc",
+		"step_title": "Tiêu đề bước",
+		"step_title_placeholder": "Nhập tiêu đề bước...",
+		"steps_list": "Danh sách các bước",
+		"add_step": "Thêm bước học tập",
+		"editor_title": "Soạn thảo nội dung: {{title}}",
+		"preview_step": "Xem trước bước này",
+		"template_link": "Liên kết Template Project",
+		"video_intro": "Xây dựng Video Intro",
+		"content_type": "Loại nội dung",
+		"types": {
+			"video": "Video",
+			"theory": "Lý thuyết",
+			"practice": "Thực hành"
+		},
+		"media_url": "URL Video / Media",
+		"auto_thumbnail": "Thumbnail tự động",
+		"auto_thumbnail_desc": "Lấy từ link API YouTube...",
+		"detailed_content": "Nội dung hướng dẫn chi tiết",
+		"ai_rewrite": "AI Rewrite",
+		"markdown_placeholder": "Nhập nội dung Markdown hoặc văn bản hướng dẫn tại đây...",
+		"markdown_supported": "Hỗ trợ Markdown",
+		"tasks_list": "Danh sách kiểm tra nhiệm vụ (Tasks)",
+		"tasks_desc": "Học sinh cần tick hết các mục này để qua bước kế tiếp.",
+		"add_task": "Thêm mục",
+		"tip": "Mẹo",
+		"tip_desc": "Sử dụng <code>[instruction]...[/instruction]</code> để tạo khối văn bản nổi bật trong ứng dụng xem của học sinh."
+	},
+	"grading": {
+		"project_p123": "Dự án P123",
+		"grading_setup": "Thiết lập chấm điểm",
+		"builder_title": "Cấu hình chấm điểm",
+		"standard_schema": "Cấu hình chuẩn",
+		"title": "Chấm điểm tự động",
+		"description": "Cấu hình bộ máy đánh giá, giới hạn tài nguyên và quy tắc tính điểm cho dự án này.",
+		"tabs": {
+			"params": "Tham số",
+			"testcases": "Test Cases",
+			"rubric": "AI Rubric"
+		},
+		"engine": {
+			"static": {
+				"title": "Phân tích tĩnh",
+				"desc": "Kiểm tra cú pháp, mẫu mã và phong cách mà không cần thực thi mã."
+			},
+			"diff": {
+				"title": "Output Diff",
+				"desc": "So sánh đầu ra chương trình với kết quả mong đợi bằng các bộ test."
+			},
+			"dynamic": {
+				"title": "Dynamic Sandbox",
+				"desc": "Chạy mã trong VM bảo mật để đo lường hiệu năng và logic."
+			}
+		},
+		"performance_limits": "Giới hạn hiệu năng",
+		"time_limit": "Thời gian thực thi (ms)",
+		"ms_unit": "ms",
+		"memory_limit": "Bộ nhớ tối đa (KB)",
+		"rules": "Quy tắc đánh giá",
+		"scoring_mode": "Chế độ tính điểm",
+		"modes": {
+			"weighted": "Tính điểm theo trọng số",
+			"all_or_nothing": "Tất cả hoặc không",
+			"progressive": "Lũy tiến theo bước"
+		},
+		"max_attempts": "Số lần thử tối đa",
+		"attempts_unit": "lần",
+		"partial_credit": "Tính điểm từng phần",
+		"partial_credit_desc": "Cho phép học sinh nhận điểm lẻ nếu đạt một số test case.",
+		"privacy": "Ẩn Test Case (Privacy)",
+		"privacy_desc": "Học sinh không nhìn thấy nội dung đầu vào của test case bí mật.",
+		"doc_link": "Tài liệu hướng dẫn chấm điểm",
+		"preview_json": "Xem trước JSON",
+		"save_config": "Lưu cấu hình",
+		"ai_suggestion": "Gợi ý từ AI",
+		"ai_suggestion_desc": "Dựa trên bài toán này, cấu hình \"Weighted\" với 2000ms là tối ưu nhất để tránh các vòng lặp vô hạn mà vẫn đảm bảo tính công bằng.",
+		"empty_testcases": "Chưa có Test Case nào",
+		"empty_testcases_desc": "Tải lên file dữ liệu test (.json/ .csv) hoặc thêm thủ công các cặp Input/Output để hệ thống bắt đầu chấm điểm.",
+		"add_first_testcase": "Thêm Test Case đầu tiên",
+		"ai_rubric_title": "Tiêu chí chấm điểm bằng AI",
+		"ai_rubric_desc": "Định nghĩa cách AI sẽ nhận xét và cho điểm về chất lượng mã nguồn (readability, performance, logic).",
+		"criteria": {
+			"cleanliness": {
+				"title": "Độ sạch của mã",
+				"desc": "Đặt tên biến, thụt lề, comment chuẩn PEP8/ESLint."
+			},
+			"efficiency": {
+				"title": "Tính thuật toán",
+				"desc": "Đánh giá độ phức tạp O(n) và cách xử lý trường hợp biên."
+			}
+		},
+		"add_criterion": "Thêm tiêu chí mới",
+		"summary": "Tóm tắt cấu hình",
+		"assignment_type": "Loại bài tập",
+		"platform": "Nền tảng",
+		"mechanism": "Cơ chế chấm",
+		"important_note": "Lưu ý quan trọng",
+		"important_note_desc": "Các thay đổi trong phần \"Giới hạn hiệu năng\" sẽ áp dụng ngay lập tức cho tất cả bài nộp mới. Đối với các bài đang chấm dở, hệ thống sẽ sử dụng cache cũ."
+	}
 }

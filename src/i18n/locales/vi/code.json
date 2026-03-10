@@ -605,5 +605,47 @@
 			"cat": "Nhân vật 1",
 			"sprite2": "Sprite 2"
 		}
+	},
+	"launcher": {
+		"badge": "Bản thử nghiệm",
+		"title": "Chọn nền tảng của bạn",
+		"description": "Chọn môi trường lý tưởng cho hành trình lập trình của bạn, từ các khối hình ảnh đến IDE chuyên nghiệp.",
+		"ai_path_title": "Lộ trình học tập AI",
+		"ai_path_description": "Hệ thống thông minh của chúng tôi hướng dẫn bạn qua các nền tảng phù hợp nhất dựa trên cấp độ và mục tiêu của bạn.",
+		"view_path": "Xem lộ trình của tôi",
+		"learn_more": "Tìm hiểu thêm",
+		"hardware": "Phần cứng",
+		"microbit_support": "Hỗ trợ Micro:bit",
+		"connectivity": "Kết nối",
+		"web_api_support": "Hỗ trợ Web API",
+		"platforms": {
+			"scratch": {
+				"title": "Scratch 3",
+				"description": "Sáng tạo trò chơi và hoạt hình với các khối kéo thả trực quan. Hoàn hảo cho người mới bắt đầu.",
+				"features": {
+					"drag_drop": "Kéo & Thả",
+					"audio_visual": "Âm thanh & Hình ảnh",
+					"community": "Cộng đồng lớn"
+				}
+			},
+			"blockly": {
+				"title": "Blockly - PXT",
+				"description": "Lập trình khối nâng cao, dễ dàng chuyển đổi sang mã nguồn Python/Javascript.",
+				"features": {
+					"hardware": "Tích hợp phần cứng",
+					"preview": "Xem trước mã",
+					"logic": "Tư duy logic"
+				}
+			},
+			"webide": {
+				"title": "Web IDE (Dạng văn bản)",
+				"description": "Môi trường lập trình chuyên nghiệp hỗ trợ Python, Javascript, C++ và nhiều ngôn ngữ khác.",
+				"features": {
+					"intellisense": "Full IntelliSense",
+					"multi_lang": "Đa ngôn ngữ",
+					"pro_tools": "Công cụ chuyên nghiệp"
+				}
+			}
+		}
 	}
 }

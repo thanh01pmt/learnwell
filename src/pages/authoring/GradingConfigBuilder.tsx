@@ -84,10 +84,10 @@ const GradingConfigBuilder = () => {
                                     <FileCode className="w-10 h-10 text-muted-foreground" />
                                 </div>
                                 <div className="space-y-2">
-                                    <h3 className="text-lg font-bold">Chưa có Test Case nào</h3>
-                                    <p className="text-sm text-muted-foreground max-w-sm">Tải lên file dữ liệu test (.json/ .csv) hoặc thêm thủ công các cặp Input/Output để hệ thống bắt đầu chấm điểm.</p>
+                                    <h3 className="text-lg font-bold">{t('authoring:grading.empty_testcases')}</h3>
+                                    <p className="text-sm text-muted-foreground max-w-sm">{t('authoring:grading.empty_testcases_desc')}</p>
                                 </div>
-                                <Button className="gap-2">Thêm Test Case đầu tiên</Button>
+                                <Button className="gap-2">{t('authoring:grading.add_first_testcase')}</Button>
                             </div>
                         </TabsContent>
 
@@ -99,30 +99,30 @@ const GradingConfigBuilder = () => {
                                         <Sparkles className="w-5 h-5 text-white" />
                                     </div>
                                     <div>
-                                        <h3 className="font-bold">Tiêu chí chấm điểm bằng AI</h3>
-                                        <p className="text-xs text-muted-foreground">Định nghĩa cách AI sẽ nhận xét và cho điểm về chất lượng mã nguồn ( readability, performance, logic ).</p>
+                                        <h3 className="font-bold">{t('authoring:grading.ai_rubric_title')}</h3>
+                                        <p className="text-xs text-muted-foreground">{t('authoring:grading.ai_rubric_desc')}</p>
                                     </div>
                                 </div>
 
                                 <div className="space-y-4">
                                     <div className="bg-background/80 p-4 rounded-lg border flex items-center justify-between group hover:border-primary transition-colors cursor-pointer">
                                         <div className="space-y-1">
-                                            <div className="font-bold text-sm">Độ sạch của mã (Code Cleanliness)</div>
-                                            <div className="text-xs text-muted-foreground">Đặt tên biến, thụt lề, comment chuẩn PEP8/ESLint.</div>
+                                            <div className="font-bold text-sm">{t('authoring:grading.criteria.cleanliness.title')}</div>
+                                            <div className="text-xs text-muted-foreground">{t('authoring:grading.criteria.cleanliness.desc')}</div>
                                         </div>
                                         <ChevronRight className="w-4 h-4 text-muted-foreground group-hover:text-primary transition-transform group-hover:translate-x-1" />
                                     </div>
                                     <div className="bg-background/80 p-4 rounded-lg border flex items-center justify-between group hover:border-primary transition-colors cursor-pointer">
                                         <div className="space-y-1">
-                                            <div className="font-bold text-sm">Tính thuật toán (Algorithm Efficiency)</div>
-                                            <div className="text-xs text-muted-foreground">Đánh giá độ phức tạp O(n) và cách xử lý trường hợp biên.</div>
+                                            <div className="font-bold text-sm">{t('authoring:grading.criteria.efficiency.title')}</div>
+                                            <div className="text-xs text-muted-foreground">{t('authoring:grading.criteria.efficiency.desc')}</div>
                                         </div>
                                         <ChevronRight className="w-4 h-4 text-muted-foreground group-hover:text-primary transition-transform group-hover:translate-x-1" />
                                     </div>
                                 </div>
 
                                 <Button variant="outline" className="w-full border-dashed gap-2">
-                                    Thêm tiêu chí mới
+                                    {t('authoring:grading.add_criterion')}
                                 </Button>
                             </div>
                         </TabsContent>
@@ -133,29 +133,29 @@ const GradingConfigBuilder = () => {
                 <div className="space-y-6">
                     <Card className="bg-muted/40 border-none shadow-none">
                         <CardHeader className="pb-3">
-                            <CardTitle className="text-sm font-black uppercase text-muted-foreground tracking-tighter">Tóm tắt cấu hình</CardTitle>
+                            <CardTitle className="text-sm font-black uppercase text-muted-foreground tracking-tighter">{t('authoring:grading.summary')}</CardTitle>
                         </CardHeader>
                         <CardContent className="space-y-4">
                             <div className="flex justify-between text-xs">
-                                <span className="font-medium">Loại bài tập</span>
-                                <Badge variant="secondary" className="h-5">Coding Project</Badge>
+                                <span className="font-medium">{t('authoring:grading.assignment_type')}</span>
+                                <Badge variant="secondary" className="h-5">{"Coding Project"}</Badge>
                             </div>
                             <div className="flex justify-between text-xs">
-                                <span className="font-medium">Nền tảng</span>
-                                <Badge variant="outline" className="h-5">Web IDE (Python)</Badge>
+                                <span className="font-medium">{t('authoring:grading.platform')}</span>
+                                <Badge variant="outline" className="h-5">{"Web IDE (Python)"}</Badge>
                             </div>
                             <div className="flex justify-between text-xs">
-                                <span className="font-medium">Cơ chế chấm</span>
-                                <span className="font-bold text-primary">Dynamic VM</span>
+                                <span className="font-medium">{t('authoring:grading.mechanism')}</span>
+                                <span className="font-bold text-primary">{"Dynamic VM"}</span>
                             </div>
                         </CardContent>
                     </Card>
 
                     <Alert className="border-warning/30 bg-warning/5">
                         <Settings className="h-4 w-4 text-warning" />
-                        <AlertTitle className="text-xs font-bold uppercase text-warning">Lưu ý quan trọng</AlertTitle>
+                        <AlertTitle className="text-xs font-bold uppercase text-warning">{t('authoring:grading.important_note')}</AlertTitle>
                         <AlertDescription className="text-[11px] leading-relaxed text-foreground/80">
-                            Các thay đổi trong phần <strong>"Giới hạn hiệu năng"</strong> sẽ áp dụng ngay lập tức cho tất cả bài nộp mới. Đối với các bài đang chấm dở, hệ thống sẽ sử dụng cache cũ.
+                            {t('authoring:grading.important_note_desc')}
                         </AlertDescription>
                     </Alert>
                 </div>

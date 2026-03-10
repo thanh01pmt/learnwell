@@ -79,7 +79,7 @@ const GradingConfigForm = () => {
                         </div>
                         <Badge variant="outline" className="h-6 gap-1 bg-yellow-500/5 text-yellow-600 border-yellow-200">
                             <Zap className="w-3 h-3" />
-                            Standard Schema
+                            {t('authoring:grading.standard_schema', { defaultValue: 'Standard Schema' })}
                         </Badge>
                     </div>
                 </CardHeader>
@@ -115,7 +115,7 @@ const GradingConfigForm = () => {
                         <div className="space-y-6">
                             <div className="flex items-center gap-2">
                                 <div className="w-1.5 h-6 bg-primary rounded-full" />
-                                <h3 className="font-bold text-sm uppercase tracking-wider">Giới hạn hiệu năng</h3>
+                                <h3 className="font-bold text-sm uppercase tracking-wider">{t('authoring:grading.performance_limits')}</h3>
                             </div>
 
                             <div className="space-y-4">
@@ -123,9 +123,9 @@ const GradingConfigForm = () => {
                                     <div className="flex items-center justify-between">
                                         <Label className="flex items-center gap-2 text-xs font-bold text-muted-foreground uppercase">
                                             <Clock className="w-3.5 h-3.5" />
-                                            Thời gian thực thi (ms)
+                                            {t('authoring:grading.time_limit')}
                                         </Label>
-                                        <span className="text-sm font-black text-primary font-mono">{config.time_limit_ms}ms</span>
+                                        <span className="text-sm font-black text-primary font-mono">{config.time_limit_ms}{t('authoring:grading.ms_unit')}</span>
                                     </div>
                                     <Slider
                                         value={[config.time_limit_ms]}
@@ -140,7 +140,7 @@ const GradingConfigForm = () => {
                                     <div className="flex items-center justify-between">
                                         <Label className="flex items-center gap-2 text-xs font-bold text-muted-foreground uppercase">
                                             <Cpu className="w-3.5 h-3.5" />
-                                            Bộ nhớ tối đa (KB)
+                                            {t('authoring:grading.memory_limit')}
                                         </Label>
                                         <span className="text-sm font-black text-primary font-mono">{config.memory_limit_kb.toLocaleString()} KB</span>
                                     </div>
@@ -159,7 +159,7 @@ const GradingConfigForm = () => {
                         <div className="space-y-6">
                             <div className="flex items-center gap-2">
                                 <div className="w-1.5 h-6 bg-amber-500 rounded-full" />
-                                <h3 className="font-bold text-sm uppercase tracking-wider">Quy tắc đánh giá</h3>
+                                <h3 className="font-bold text-sm uppercase tracking-wider">{t('authoring:grading.rules')}</h3>
                             </div>
 
                             <div className="grid grid-cols-2 gap-4">
@@ -177,7 +177,7 @@ const GradingConfigForm = () => {
                                     </Select>
                                 </div>
                                 <div className="space-y-2">
-                                    <Label className="text-[10px] font-black uppercase text-muted-foreground">Max Attempts</Label>
+                                    <Label className="text-[10px] font-black uppercase text-muted-foreground">{t('authoring:grading.max_attempts')}</Label>
                                     <div className="flex items-center gap-2">
                                         <Input
                                             type="number"
@@ -185,7 +185,7 @@ const GradingConfigForm = () => {
                                             onChange={(e) => setConfig({ ...config, max_attempts: parseInt(e.target.value) })}
                                             className="h-9 font-mono"
                                         />
-                                        <span className="text-xs text-muted-foreground italic">lần</span>
+                                        <span className="text-xs text-muted-foreground italic">{t('authoring:grading.attempts_unit')}</span>
                                     </div>
                                 </div>
                             </div>
@@ -193,16 +193,16 @@ const GradingConfigForm = () => {
                             <div className="space-y-4 pt-2">
                                 <div className="flex items-center justify-between p-3 rounded-lg bg-muted/30 border">
                                     <div className="flex flex-col gap-0.5">
-                                        <span className="text-xs font-bold">Tính điểm từng phần (Partial Credit)</span>
-                                        <span className="text-[11px] text-muted-foreground">Cho phép học sinh nhận điểm lẻ nếu đạt một số test case.</span>
+                                        <span className="text-xs font-bold">{t('authoring:grading.partial_credit')}</span>
+                                        <span className="text-[11px] text-muted-foreground">{t('authoring:grading.partial_credit_desc')}</span>
                                     </div>
                                     <Switch checked={config.partial_credit} onCheckedChange={(v) => setConfig({ ...config, partial_credit: v })} />
                                 </div>
 
                                 <div className="flex items-center justify-between p-3 rounded-lg bg-muted/30 border">
                                     <div className="flex flex-col gap-0.5">
-                                        <span className="text-xs font-bold">Ẩn Test Case (Privacy)</span>
-                                        <span className="text-[11px] text-muted-foreground">Học sinh không nhìn thấy nội dung đầu vào của test case bí mật.</span>
+                                        <span className="text-xs font-bold">{t('authoring:grading.privacy')}</span>
+                                        <span className="text-[11px] text-muted-foreground">{t('authoring:grading.privacy_desc')}</span>
                                     </div>
                                     <Switch checked={config.hide_test_cases} onCheckedChange={(v) => setConfig({ ...config, hide_test_cases: v })} />
                                 </div>
@@ -213,16 +213,16 @@ const GradingConfigForm = () => {
                 <CardFooter className="bg-muted/50 border-t p-4 flex justify-between items-center">
                     <div className="flex items-center gap-2 text-primary font-bold text-xs uppercase cursor-pointer hover:underline">
                         <HelpCircle className="w-3.5 h-3.5" />
-                        Tài liệu hướng dẫn chấm điểm
+                        {t('authoring:grading.doc_link')}
                     </div>
                     <div className="flex gap-3">
                         <Button variant="outline" className="gap-2">
                             <Eye className="w-4 h-4" />
-                            Xem trước JSON
+                            {t('authoring:grading.preview_json')}
                         </Button>
                         <Button className="gap-2 min-w-[120px]">
                             <Save className="w-4 h-4" />
-                            Lưu cấu hình
+                            {t('authoring:grading.save_config')}
                         </Button>
                     </div>
                 </CardFooter>
@@ -230,9 +230,9 @@ const GradingConfigForm = () => {
 
             <Alert className="bg-indigo-50 border-indigo-200">
                 <Wand2 className="h-4 w-4 text-indigo-600" />
-                <AlertTitle className="text-indigo-800 font-bold">Gợi ý từ AI</AlertTitle>
+                <AlertTitle className="text-indigo-800 font-bold">{t('authoring:grading.ai_suggestion')}</AlertTitle>
                 <AlertDescription className="text-indigo-700 text-sm">
-                    Dựa trên bài toán này, cấu hình <strong>"Weighted"</strong> với <strong>2000ms</strong> là tối ưu nhất để tránh các vòng lặp vô hạn mà vẫn đảm bảo tính công bằng.
+                    {t('authoring:grading.ai_suggestion_desc')}
                 </AlertDescription>
             </Alert>
         </div>

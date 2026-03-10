@@ -20,7 +20,7 @@ import { Label } from "@/components/ui/label";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { useTranslation } from "react-i18next";
-import TutorialStepEditor from "@/components/authoring/TutorialStepEditor";
+import TutorialStepEditor from "../../components/authoring/TutorialStepEditor";
 
 const TutorialBuilder = () => {
     const { t } = useTranslation(["authoring", "common"]);
@@ -47,7 +47,7 @@ const TutorialBuilder = () => {
                 {/* Steps Sidebar */}
                 <div className="space-y-4">
                     <h3 className="text-sm font-black uppercase tracking-widest text-muted-foreground flex items-center justify-between">
-                        Danh sách các bước
+                        {t('authoring:tutorials.steps_list')}
                         <Badge variant="secondary" className="h-5">{steps.length}</Badge>
                     </h3>
 
@@ -70,9 +70,9 @@ const TutorialBuilder = () => {
                         ))}
                     </Reorder.Group>
 
-                    <Button variant="outline" className="w-full border-dashed gap-2 py-6 text-muted-foreground hover:text-primary transition-colors" onClick={() => setSteps([...steps, { id: Date.now().toString(), title: "Bước mới", type: "lab" }])}>
+                    <Button variant="outline" className="w-full border-dashed gap-2 py-6 text-muted-foreground hover:text-primary transition-colors" onClick={() => setSteps([...steps, { id: Date.now().toString(), title: t('authoring:tutorials.add_step'), type: "lab" }])}>
                         <Plus className="w-4 h-4" />
-                        Thêm bước học tập
+                        {t('authoring:tutorials.add_step')}
                     </Button>
                 </div>
 
@@ -80,9 +80,9 @@ const TutorialBuilder = () => {
                 <div className="lg:col-span-3 space-y-6">
                     <Card className="border-2 border-primary/5 shadow-md">
                         <CardHeader className="bg-muted/10 border-b flex flex-row items-center justify-between">
-                            <CardTitle className="text-lg">Soạn thảo nội dung: {steps[0]?.title}</CardTitle>
+                            <CardTitle className="text-lg">{t('authoring:tutorials.editor_title', { title: steps[0]?.title })}</CardTitle>
                             <div className="flex gap-2">
-                                <Button size="sm" variant="ghost"><Play className="w-3.5 h-3.5 mr-2" /> Xem trước bước này</Button>
+                                <Button size="sm" variant="ghost"><Play className="w-3.5 h-3.5 mr-2" /> {t('authoring:tutorials.preview_step')}</Button>
                             </div>
                         </CardHeader>
                         <CardContent className="p-6">
@@ -96,8 +96,8 @@ const TutorialBuilder = () => {
                                 <LinkIcon className="w-5 h-5" />
                             </div>
                             <div className="space-y-1">
-                                <h4 className="font-bold text-sm">Liên kết Template Project</h4>
-                                <p className="text-xs text-muted-foreground italic truncate">pj_8291_starter_kit_python</p>
+                                <h4 className="font-bold text-sm">{t('authoring:tutorials.template_link')}</h4>
+                                <p className="text-xs text-muted-foreground italic truncate">{"pj_8291_starter_kit_python"}</p>
                             </div>
                         </Card>
                         <Card className="bg-emerald-50/30 border-emerald-100 flex flex-col justify-center p-6 space-y-3 cursor-pointer hover:bg-emerald-50 transition-colors border-2">
@@ -105,8 +105,8 @@ const TutorialBuilder = () => {
                                 <Play className="w-5 h-5" />
                             </div>
                             <div className="space-y-1">
-                                <h4 className="font-bold text-sm">Xây dựng Video Intro</h4>
-                                <p className="text-xs text-muted-foreground italic">https://youtu.be/v282_tutorial</p>
+                                <h4 className="font-bold text-sm">{t('authoring:tutorials.video_intro')}</h4>
+                                <p className="text-xs text-muted-foreground italic">{"https://youtu.be/v282_tutorial"}</p>
                             </div>
                         </Card>
                     </div>
